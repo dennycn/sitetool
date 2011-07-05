@@ -29,3 +29,16 @@ function copyToClipboard(txt) {
           clip.setData(trans,null,clipid.kGlobalClipboard);
      }   
 }
+
+// copy
+function oCopy(obj) {
+    if (navigator.appVersion.match(/\bMSIE\b/)) {
+        obj.select();
+        js = obj.createTextRange();
+        js.execCommand("Copy");
+        alert('复制成功');
+    } else {
+        obj.select();
+        alert('您使用的firefox浏览器暂不支持自动复制，请您手工复制');
+    }
+}

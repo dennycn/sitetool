@@ -89,14 +89,7 @@ a.lan,a.lan:visited{color:#999;}
 </tr></table>
 </div>
 
-<div class="w950">
-<div class="knr"><div class="xdh">
-<ul id="ful">
-<script language="javascript" type="text/javascript" src="/js1/yule.js"></script>
-</ul></div></div>
-<div class="head3"></div></div>
 
-<script language="javascript" type="text/javascript" src="/js1/ad.js"></script>
 <div style='height:5px;'></div>
 <div class="w950">
   <div class="head4">
@@ -124,9 +117,6 @@ if($naojin!=""){
 ?>
 </div>
 </div>
-  <div class="head3"></div>
-<script language="javascript" type="text/javascript" src="/js1/footer_nei.js"></script>
-<div style="display:none"><script type="text/javascript" src="/js1/tongji.js"></script></div>
 </body>
 </html>
 
