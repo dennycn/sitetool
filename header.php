@@ -169,61 +169,60 @@ window.onerror = killErrors;
 <div style="RIGHT: 3px; POSITION: absolute; TOP: 5px">
 </div>
   </div>
-  <div class="menu"> <a href="http://my.unix-center.net/~great_denny/sitetool/" class="select">站长工具</a> 
+  <div class="menu"> <a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/"?> class="select">站长工具</a> 
    <a onmouseover="mouseover(this, 3)" onmouseout="mouseout()" style="cursor:pointer;">网站信息查询</a> 
    <a onmouseover="mouseover(this, 4)" onmouseout="mouseout()" style="cursor:pointer;">SEO信息查询</a> 
    <a onmouseover="mouseover(this, 5)" onmouseout="mouseout()" style="cursor:pointer;">域名/IP类查询</a> 
    <a onmouseover="mouseover(this, 6)" onmouseout="mouseout()" style="cursor:pointer;">代码转换工具</a> 
    <a onmouseover="mouseover(this, 7)" onmouseout="mouseout()" style="cursor:pointer;">其他工具</a>
-	
   </div>
   <!--sub menu-->
   <div id="menu3" class="menu-list" onmouseover="_mouseover()" onmouseout="_mouseout()">
     <ul>
-    <li><a href="http://my.unix-center.net/~great_denny/sitetool/webs/webs.php" >站内链接分析</a></li>
-    <li><a href="http://my.unix-center.net/~great_denny/sitetool/density.php">关键词密度检测</a></li>
-    <li><a href="http://my.unix-center.net/~great_denny/sitetool/meta.php">META信息检测</a></li>
-    <li><a href="http://my.unix-center.net/~great_denny/sitetool/pr/outpr.php">PR输出值查询</a></li>
-    <li><a href="http://my.unix-center.net/~great_denny/sitetool/yuan.php">查看网页源代码</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/webs/webs.php"?>>站内链接分析</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/density.php"?>>关键词密度检测</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/meta.php"?>>META信息检测</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/pr/outpr.php"?>>PR输出值查询</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/yuan.php"?>>查看网页源代码</a></li>
     </ul>
-</div>
+  </div>
   <div id="menu4" class="menu-list" onmouseover="_mouseover()" onmouseout="_mouseout()">
     <ul>
-    <li><a href="http://my.unix-center.net/~great_denny/sitetool/friends/friends.php">友情链接检测</a></li>
-    <li><a href="http://my.unix-center.net/~great_denny/sitetool/keys/keys.php">关键词排名查询</a></li>
-    <li><a href="http://my.unix-center.net/~great_denny/sitetool/baidu/baidu.php">百度近日收录</a></li>
-    <li><a href="http://my.unix-center.net/~great_denny/sitetool/google/google.php">Google收录</a></li>
-    <li><a href="http://my.unix-center.net/~great_denny/sitetool/ssyqsl/ssyqsl.php">网站收录查询</a></li>
-    <li><a href="http://my.unix-center.net/~great_denny/sitetool/ssyqfl/ssyqfl.php">反向链接查询</a></li>
-    <li><a href="http://my.unix-center.net/~great_denny/sitetool/pr/pr.php">PR查询</a></li>
-    <li><a href="http://my.unix-center.net/~great_denny/sitetool/esearch.php">机器人模拟</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/friends/friends.php"?>>友情链接检测</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/keys/keys.php"?>>关键词排名查询</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/baidu/baidu.php"?>>百度近日收录</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/google/google.php"?>>Google收录</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/ssyqsl/ssyqsl.php"?>>网站收录查询</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/ssyqfl/ssyqfl.php"?>>反向链接查询</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/pr/pr.php"?>>PR查询</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/esearch.php"?>>机器人模拟</a></li>
     </ul>
   </div>
   <div id="menu5" class="menu-list" onmouseover="_mouseover()" onmouseout="_mouseout()">
     <ul>
-    <li><a href="http://my.unix-center.net/~great_denny/sitetool/dels/dels.php">域名删除时间</a></li>
-    <li><a href="http://my.unix-center.net/~great_denny/sitetool/ip/">IP查询</a></li>
-    <li><a href="http://my.unix-center.net/~great_denny/sitetool/whois/">WHOIS查询</a></li>
-    <li><a href="http://my.unix-center.net/~great_denny/sitetool/friendlink/friendlink.php">友情链接IP查询</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/dels/dels.php"?>>域名删除时间</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/ip/"?>>IP查询</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/whois/"?>>WHOIS查询</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/friendlink/friendlink.php"?>>友情链接IP查询</a></li>
     </ul>
-</div>
+  </div>
    <div id="menu6" class="menu-list" onmouseover="_mouseover()" onmouseout="_mouseout()">
      <ul>
-      <li><a href="http://my.unix-center.net/~great_denny/sitetool/mds.php?mds=md5">MD5加密</a></li>
-      <li><a href="http://my.unix-center.net/~great_denny/sitetool/js.php">JS加密/解密</a></li>
-      <li><a href="http://my.unix-center.net/~great_denny/sitetool/htmljs.php">HTML/JS互转</a></li>
-      <li><a href="http://my.unix-center.net/~great_denny/sitetool/unicode.php">Unicode转换</a></li>
-      <li><a href="http://my.unix-center.net/~great_denny/sitetool/utf.php">Utf-8编码转换</a></li>
-      <li><a href="http://my.unix-center.net/~great_denny/sitetool/htmlubb.php">HTML/UBB互转</a></li>
-      <li><a href="http://my.unix-center.net/~great_denny/sitetool/unix.php">Unix时间戳转换</a></li>
-      <li><a href="http://my.unix-center.net/~great_denny/sitetool/urlencode.php">URL编码/解码</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/mds.php"?>>MD5加密</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/js.php"?>>JS加密/解密</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/htmljs.php"?>>HTML/JS互转</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/unicode.php"?>>Unicode转换</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/utf.php"?>>Utf-8编码转换</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/htmlubb.php"?>>HTML/UBB互转</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/unix.php"?>>Unix时间戳转换</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/urlencode.php"?>>URL编码/解码</a></li>
     </ul>
    </div>
     <div id="menu7" class="menu-list" onmouseover="_mouseover()" onmouseout="_mouseout()">
      <ul>
-      <li><a href="http://my.unix-center.net/~great_denny/sitetool/ids.php">身份证号码查询</a></li>
-      <li><a href="http://my.unix-center.net/~great_denny/sitetool/shouji/index.php">手机号码归属地</a></li>
-      <li><a href="http://my.unix-center.net/~great_denny/sitetool/yb/yb.php">邮编区号查询</a></li>
-      <li><a href="http://my.unix-center.net/~great_denny/sitetool/countryym.php">国家域名查找</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/ids.php"?>>身份证号码查询</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/shouji/index.php"?>>手机号码归属地</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/yb/yb.php"?>>邮编区号查询</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/countryym.php"?>>国家域名查找</a></li>
      </ul>
    </div>
