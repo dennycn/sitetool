@@ -1,0 +1,1303 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+Array	images/globals.js	/^Array.prototype.foreach = function(func) {$/;"	c
+Array	images/globals2.js	/^Array.prototype.foreach = function(func) {$/;"	c
+Array.foreach	images/globals.js	/^Array.prototype.foreach = function(func) {$/;"	m
+Array.foreach	images/globals2.js	/^Array.prototype.foreach = function(func) {$/;"	m
+AsciiToUnicode	js/Unicode.js	/^function AsciiToUnicode() {$/;"	f
+BoxHide	images/globals3.js	/^function BoxHide() {$/;"	f
+CHSUTF8toU	friends/require/chinese.php	/^	function CHSUTF8toU($c) {$/;"	f
+CHSUTF8toU	require/chinese.php	/^	function CHSUTF8toU($c) {$/;"	f
+CHSUTF8toU	seo/require/chinese.php	/^	function CHSUTF8toU($c) {$/;"	f
+CHSUTF8toU	ssyqfl/require/chinese.php	/^	function CHSUTF8toU($c) {$/;"	f
+CHSUTF8toU	ssyqsl/require/chinese.php	/^	function CHSUTF8toU($c) {$/;"	f
+CHSUTF8toU	webs/require/chinese.php	/^	function CHSUTF8toU($c) {$/;"	f
+CHSUtoUTF8	friends/require/chinese.php	/^	function CHSUtoUTF8($c) {$/;"	f
+CHSUtoUTF8	require/chinese.php	/^	function CHSUtoUTF8($c) {$/;"	f
+CHSUtoUTF8	seo/require/chinese.php	/^	function CHSUtoUTF8($c) {$/;"	f
+CHSUtoUTF8	ssyqfl/require/chinese.php	/^	function CHSUtoUTF8($c) {$/;"	f
+CHSUtoUTF8	ssyqsl/require/chinese.php	/^	function CHSUtoUTF8($c) {$/;"	f
+CHSUtoUTF8	webs/require/chinese.php	/^	function CHSUtoUTF8($c) {$/;"	f
+CHStoUNICODE	friends/require/chinese.php	/^	function CHStoUNICODE() {$/;"	f
+CHStoUNICODE	require/chinese.php	/^	function CHStoUNICODE() {$/;"	f
+CHStoUNICODE	seo/require/chinese.php	/^	function CHStoUNICODE() {$/;"	f
+CHStoUNICODE	ssyqfl/require/chinese.php	/^	function CHStoUNICODE() {$/;"	f
+CHStoUNICODE	ssyqsl/require/chinese.php	/^	function CHStoUNICODE() {$/;"	f
+CHStoUNICODE	webs/require/chinese.php	/^	function CHStoUNICODE() {$/;"	f
+CHStoUTF8	friends/require/chinese.php	/^	function CHStoUTF8() {$/;"	f
+CHStoUTF8	require/chinese.php	/^	function CHStoUTF8() {$/;"	f
+CHStoUTF8	seo/require/chinese.php	/^	function CHStoUTF8() {$/;"	f
+CHStoUTF8	ssyqfl/require/chinese.php	/^	function CHStoUTF8() {$/;"	f
+CHStoUTF8	ssyqsl/require/chinese.php	/^	function CHStoUTF8() {$/;"	f
+CHStoUTF8	webs/require/chinese.php	/^	function CHStoUTF8() {$/;"	f
+CheckAll	ssyqfl/ssyqfl.php	/^function CheckAll(form){$/;"	f
+Checker	ids.php	/^	$Checker = explode(",","1,9,8,7,6,5,4,3,2,1,1");$/;"	v
+Chinese	friends/require/chinese.php	/^	function Chinese($SourceLang,$TargetLang) {$/;"	f
+Chinese	friends/require/chinese.php	/^class Chinese {$/;"	c
+Chinese	require/chinese.php	/^	function Chinese($SourceLang,$TargetLang) {$/;"	f
+Chinese	require/chinese.php	/^class Chinese {$/;"	c
+Chinese	seo/require/chinese.php	/^	function Chinese($SourceLang,$TargetLang) {$/;"	f
+Chinese	seo/require/chinese.php	/^class Chinese {$/;"	c
+Chinese	ssyqfl/require/chinese.php	/^	function Chinese($SourceLang,$TargetLang) {$/;"	f
+Chinese	ssyqfl/require/chinese.php	/^class Chinese {$/;"	c
+Chinese	ssyqsl/require/chinese.php	/^	function Chinese($SourceLang,$TargetLang) {$/;"	f
+Chinese	ssyqsl/require/chinese.php	/^class Chinese {$/;"	c
+Chinese	webs/require/chinese.php	/^	function Chinese($SourceLang,$TargetLang) {$/;"	f
+Chinese	webs/require/chinese.php	/^class Chinese {$/;"	c
+ConvUtf	utf.php	/^function ConvUtf(obj,btn){$/;"	f
+Convert	friends/require/chinese.php	/^	function Convert($SourceString) {$/;"	f
+Convert	require/chinese.php	/^	function Convert($SourceString) {$/;"	f
+Convert	seo/require/chinese.php	/^	function Convert($SourceString) {$/;"	f
+Convert	ssyqfl/require/chinese.php	/^	function Convert($SourceString) {$/;"	f
+Convert	ssyqsl/require/chinese.php	/^	function Convert($SourceString) {$/;"	f
+Convert	webs/require/chinese.php	/^	function Convert($SourceString) {$/;"	f
+Cookie	images/globals.js	/^function Cookie() { }$/;"	f
+Cookie	images/globals2.js	/^function Cookie() { }$/;"	f
+Cookie.Del	images/globals.js	/^Cookie.Del = function(n) {$/;"	f
+Cookie.Del	images/globals2.js	/^Cookie.Del = function(n) {$/;"	f
+Cookie.Get.BoxHide	images/globals.js	/^function BoxHide() {$/;"	f
+Cookie.Get.BoxHide	images/globals2.js	/^function BoxHide() {$/;"	f
+Cookie.Get.BoxShow	images/globals.js	/^function BoxShow(e) {$/;"	f
+Cookie.Get.BoxShow	images/globals2.js	/^function BoxShow(e) {$/;"	f
+Cookie.Get.BoxShowUrls	images/globals.js	/^function BoxShowUrls(e) {$/;"	f
+Cookie.Get.BoxShowUrls	images/globals2.js	/^function BoxShowUrls(e) {$/;"	f
+Cookie.Get.Getfocus	images/globals.js	/^function Getfocus() {$/;"	f
+Cookie.Get.Getfocus	images/globals2.js	/^function Getfocus() {$/;"	f
+Cookie.Get.Init	images/globals.js	/^function Init() {$/;"	f
+Cookie.Get.Init	images/globals2.js	/^function Init() {$/;"	f
+Cookie.Get.InputMouseOver	images/globals.js	/^function InputMouseOver(e){$/;"	f
+Cookie.Get.InputMouseOver	images/globals2.js	/^function InputMouseOver(e){$/;"	f
+Cookie.Get.InputSetValue	images/globals.js	/^function InputSetValue(val) {$/;"	f
+Cookie.Get.InputSetValue	images/globals2.js	/^function InputSetValue(val) {$/;"	f
+Cookie.Get.SetDisabled	images/globals.js	/^function SetDisabled(items) {$/;"	f
+Cookie.Get.SetDisabled	images/globals2.js	/^function SetDisabled(items) {$/;"	f
+Cookie.Get._mouseout	images/globals.js	/^function _mouseout() {$/;"	f
+Cookie.Get._mouseout	images/globals2.js	/^function _mouseout() {$/;"	f
+Cookie.Get._mouseover	images/globals.js	/^function _mouseover() {$/;"	f
+Cookie.Get._mouseover	images/globals2.js	/^function _mouseover() {$/;"	f
+Cookie.Get.addInput	images/globals.js	/^function addInput(e) {$/;"	f
+Cookie.Get.addInput	images/globals2.js	/^function addInput(e) {$/;"	f
+Cookie.Get.attach	images/globals.js	/^function attach(o, e, f) {$/;"	f
+Cookie.Get.attach	images/globals2.js	/^function attach(o, e, f) {$/;"	f
+Cookie.Get.displayMenu	images/globals.js	/^function displayMenu(display) {$/;"	f
+Cookie.Get.displayMenu	images/globals2.js	/^function displayMenu(display) {$/;"	f
+Cookie.Get.getOffsetLeft	images/globals.js	/^function getOffsetLeft(el, p) {$/;"	f
+Cookie.Get.getOffsetLeft	images/globals2.js	/^function getOffsetLeft(el, p) {$/;"	f
+Cookie.Get.getOffsetTop	images/globals.js	/^function getOffsetTop(el, p) {$/;"	f
+Cookie.Get.getOffsetTop	images/globals2.js	/^function getOffsetTop(el, p) {$/;"	f
+Cookie.Get.getcookie	images/globals.js	/^function getcookie(name) {$/;"	f
+Cookie.Get.getcookie	images/globals2.js	/^function getcookie(name) {$/;"	f
+Cookie.Get.gotourl	images/globals.js	/^function gotourl(url, isopen) {$/;"	f
+Cookie.Get.gotourl	images/globals2.js	/^function gotourl(url, isopen) {$/;"	f
+Cookie.Get.mouseout	images/globals.js	/^function mouseout() {$/;"	f
+Cookie.Get.mouseout	images/globals2.js	/^function mouseout() {$/;"	f
+Cookie.Get.mouseover	images/globals.js	/^function mouseover(th, menu) {$/;"	f
+Cookie.Get.mouseover	images/globals2.js	/^function mouseover(th, menu) {$/;"	f
+Cookie.Get.onget	images/globals.js	/^function onget(newargid, argid,newargid2,argid2) {$/;"	f
+Cookie.Get.onget	images/globals2.js	/^function onget(newargid, argid,newargid2,argid2) {$/;"	f
+Cookie.Get.setcookie	images/globals.js	/^function setcookie(cookieName, cookieValue) {$/;"	f
+Cookie.Get.setcookie	images/globals2.js	/^function setcookie(cookieName, cookieValue) {$/;"	f
+Cookie.Save	images/globals.js	/^Cookie.Save = function(n, v, mins, dn, path) {$/;"	f
+Cookie.Save	images/globals2.js	/^Cookie.Save = function(n, v, mins, dn, path) {$/;"	f
+Country	friendlink/qqwry.php	/^	var $Country='';$/;"	v
+CountryFlag	friendlink/qqwry.php	/^	var $CountryFlag=0;$/;"	v
+EndIP	friendlink/qqwry.php	/^	var $EndIP=0;$/;"	v
+EndIpOff	friendlink/qqwry.php	/^	var $EndIpOff=0 ;$/;"	v
+FirstStartIp	friendlink/qqwry.php	/^	var $FirstStartIp=0;$/;"	v
+GetIP	friendlink/qqwry.php	/^function GetIP(){$/;"	f
+GetPR	pr/prfunction.php	/^function GetPR($url){	$/;"	f
+GetWhoisURL	images/home.js	/^function GetWhoisURL()$/;"	f
+HashURL	pr/prfunction.php	/^function HashURL($url){$/;"	f
+IDCheck	ids.php	/^function IDCheck($e){$/;"	f
+IN_SEO	baidu/seo.php	/^define('IN_SEO', TRUE);$/;"	d
+IN_SEO	friendlink/friendlink.php	/^define('IN_SEO', TRUE);$/;"	d
+IN_SEO	friendlink/shows.php	/^define('IN_SEO','IN_SEO');$/;"	d
+IN_SEO	google/seo.php	/^define('IN_SEO', TRUE);$/;"	d
+IN_SEO	keys/keys.php	/^define('IN_SEO', TRUE);$/;"	d
+IN_SEO	pr/outpr.php	/^define('IN_SEO','IN_SEO');$/;"	d
+IN_SEO	seo/ajax.php	/^define('IN_SEO','IN_SEO');$/;"	d
+IN_SEO	ssyqfl/seo.php	/^define('IN_SEO', TRUE);$/;"	d
+IN_SEO	ssyqsl/seo.php	/^define('IN_SEO', TRUE);$/;"	d
+IN_SEO	webs/testlink.php	/^define('IN_SEO','IN_SEO');$/;"	d
+Init	images/globals3.js	/^function Init() {$/;"	f
+InputMouseOver	images/globals3.js	/^function InputMouseOver(e){$/;"	f
+Int	friendlink/qqwry.php	/^		$Int=($array[0] * 256*256*256) + ($array[1]*256*256) + ($array[2]*256) + $array[3];$/;"	v
+IpToInt	friendlink/qqwry.php	/^	function IpToInt($Ip) {$/;"	f
+LastStartIp	friendlink/qqwry.php	/^	var $LastStartIp=0;$/;"	v
+Local	friendlink/qqwry.php	/^	var $Local='';$/;"	v
+OpenTable	friends/require/chinese.php	/^	function OpenTable() {$/;"	f
+OpenTable	require/chinese.php	/^	function OpenTable() {$/;"	f
+OpenTable	seo/require/chinese.php	/^	function OpenTable() {$/;"	f
+OpenTable	ssyqfl/require/chinese.php	/^	function OpenTable() {$/;"	f
+OpenTable	ssyqsl/require/chinese.php	/^	function OpenTable() {$/;"	f
+OpenTable	webs/require/chinese.php	/^	function OpenTable() {$/;"	f
+PR	seo/alls.php	/^$PR = '<img src="..\/images\/pagerank'.GetPR($domain).'.gif" align="absmiddle" \/> '.$domain;$/;"	v
+QQWry	friendlink/qqwry.php	/^class QQWry{$/;"	c
+QQWry	friendlink/shows.php	/^$QQWry  = new QQWry;$/;"	v
+QQWry	ip/ip.php	/^$QQWry = new QQWry;$/;"	v
+QQWry	tool/ip/ip.php	/^$QQWry = new QQWry;$/;"	v
+ROOT_PATH	esearch.php	/^define('ROOT_PATH',$__file__ ? dirname($__file__).'\/' : '.\/');$/;"	d
+ROOT_PATH	friends/friends.php	/^define('ROOT_PATH',$__file__ ? dirname($__file__).'\/' : '.\/');$/;"	d
+ROOT_PATH	friends/shows.php	/^define('ROOT_PATH',$__file__ ? dirname($__file__).'\/' : '.\/');$/;"	d
+ROOT_PATH	meta.php	/^define('ROOT_PATH',$__file__ ? dirname($__file__).'\/' : '.\/');$/;"	d
+ROOT_PATH	seo/ajax.php	/^		define('ROOT_PATH',$__file__ ? dirname($__file__).'\/' : '.\/');		$/;"	d
+ROOT_PATH	seo/ajax.php	/^		define('ROOT_PATH',$__file__ ? dirname($__file__).'\/' : '.\/');$/;"	d
+ROOT_PATH	seo/alls.php	/^define('ROOT_PATH',$__file__ ? dirname($__file__).'\/' : '.\/');$/;"	d
+ROOT_PATH	ssyqfl/function.php	/^		define('ROOT_PATH',$__file__ ? dirname($__file__).'\/' : '.\/');$/;"	d
+ROOT_PATH	ssyqsl/function.php	/^			define('ROOT_PATH',$__file__ ? dirname($__file__).'\/' : '.\/');$/;"	d
+ROOT_PATH	webs/texts.php	/^define('ROOT_PATH',$__file__ ? dirname($__file__).'\/' : '.\/');$/;"	d
+RangB	friendlink/qqwry.php	/^				$RangB=$RecNo ;$/;"	v
+RangB	friendlink/qqwry.php	/^			$RangB= $RecNo;$/;"	v
+RangB	friendlink/qqwry.php	/^		$RangB= 0;$/;"	v
+RangE	friendlink/qqwry.php	/^			$RangE= $RecNo;$/;"	v
+RangE	friendlink/qqwry.php	/^		$RangE= $RecordCount;$/;"	v
+RecNo	friendlink/qqwry.php	/^			$RecNo= floor(($RangB + $RangE) \/ 2);$/;"	v
+RecordCount	friendlink/qqwry.php	/^		$RecordCount= floor( ( $this->LastStartIp - $this->FirstStartIp ) \/ 7);$/;"	v
+ResChinese	utf.php	/^function ResChinese(obj,btn)$/;"	f
+Result	pr/prfunction.php	/^        $Result  = (($Result >> 23) & 0x1FF) | $Result << 9;$/;"	v
+Result	pr/prfunction.php	/^    $Result = 0x01020345;$/;"	v
+SEED	pr/prfunction.php	/^	$SEED   = "Mining PageRank is AGAINST GOOGLE'S TERMS OF SERVICE. Yes, I'm talking to you, scammer.";$/;"	v
+SourceText	friends/require/chinese.php	/^	var $SourceText = "";$/;"	v
+SourceText	require/chinese.php	/^	var $SourceText = "";$/;"	v
+SourceText	seo/require/chinese.php	/^	var $SourceText = "";$/;"	v
+SourceText	ssyqfl/require/chinese.php	/^	var $SourceText = "";$/;"	v
+SourceText	ssyqsl/require/chinese.php	/^	var $SourceText = "";$/;"	v
+SourceText	webs/require/chinese.php	/^	var $SourceText = "";$/;"	v
+StartIP	friendlink/qqwry.php	/^	var $StartIP=0;$/;"	v
+String	images/globals.js	/^String.prototype.startWith = function(s) {$/;"	c
+String	images/globals2.js	/^String.prototype.startWith = function(s) {$/;"	c
+String.format	images/globals.js	/^String.format = function() {$/;"	f
+String.format	images/globals2.js	/^String.format = function() {$/;"	f
+String.startWith	images/globals.js	/^String.prototype.startWith = function(s) {$/;"	m
+String.startWith	images/globals2.js	/^String.prototype.startWith = function(s) {$/;"	m
+String.trim	images/globals.js	/^String.prototype.trim = function() {$/;"	m
+String.trim	images/globals2.js	/^String.prototype.trim = function() {$/;"	m
+UnicodeToAscii	js/Unicode.js	/^function UnicodeToAscii() { $/;"	f
+Wi	ids.php	/^	$Wi = explode(",","7,9,10,5,8,4,2,1,6,3,7,9,10,5,8,4,2");$/;"	v
+__QQWRY__	friendlink/qqwry.php	/^define('__QQWRY__' , dirname(__FILE__)."\/QQWry.Dat");$/;"	d
+__getIE	images/globals.js	/^function __getIE() {$/;"	f
+__getIE	images/globals2.js	/^function __getIE() {$/;"	f
+_hex2bin	friends/require/chinese.php	/^	function _hex2bin( $hexdata ) {$/;"	f
+_hex2bin	require/chinese.php	/^	function _hex2bin( $hexdata ) {$/;"	f
+_hex2bin	seo/require/chinese.php	/^	function _hex2bin( $hexdata ) {$/;"	f
+_hex2bin	ssyqfl/require/chinese.php	/^	function _hex2bin( $hexdata ) {$/;"	f
+_hex2bin	ssyqsl/require/chinese.php	/^	function _hex2bin( $hexdata ) {$/;"	f
+_hex2bin	webs/require/chinese.php	/^	function _hex2bin( $hexdata ) {$/;"	f
+_mouseout	images/menu.js	/^function _mouseout () {$/;"	f
+_mouseover	images/menu.js	/^function _mouseover () {$/;"	f
+a	density.php	/^	$a     = preg_replace(array("\/\\s\/","<br\/>"),array("",),$a);$/;"	v
+a	density.php	/^	$a = '';$/;"	v
+a	ssyqfl/function.php	/^	$a = '<table border=1 width=100% bordercolordark=#FFFFFF cellspacing=0 cellpadding=0 bordercolorlight=#BBD7E6>	<tr bgcolor=#D8F0FC><td colspan=9>网址<a href=http:\/\/'.$domain.' target=_blank>http:\/\/'.$domain.'<\/a>在各大搜索引擎的反向链接查询结果<\/td><\/tr><tr><td>搜索引擎<\/td>';$/;"	v
+a	ssyqsl/function.php	/^	$a = '<table border=1 width=100% bordercolordark=#FFFFFF cellspacing=0 cellpadding=0 bordercolorlight=#BBD7E6>	<tr bgcolor=#D8F0FC><td colspan=9>网址<a href=http:\/\/'.$domain.' target=_blank>http:\/\/'.$domain.'<\/a>在各大搜索引擎的收录查询结果<\/td><\/tr><tr><td>搜索引擎<\/td>';$/;"	v
+a1	density.php	/^	$a1 = mb_strlen($a,'gbk');$/;"	v
+a1	seo/alls.php	/^		$a1 = mb_strlen($body2,'gbk');$/;"	v
+a2	density.php	/^	$a2 = mb_strlen($keys,'gbk');$/;"	v
+a2	seo/alls.php	/^		$a2 = mb_strlen($keys[$t],'gbk');$/;"	v
+a3	density.php	/^	$a3 = sizeof($densti[0]);$/;"	v
+a3	seo/alls.php	/^		$a3 = sizeof($densti[0]);$/;"	v
+a4	density.php	/^	$a4 = $a2*$a3;$/;"	v
+a4	seo/alls.php	/^		$a4 = $a2*$a3;$/;"	v
+a5	density.php	/^	$a5 = @(round($a4\/$a1*100,1)."%");$/;"	v
+a5	seo/alls.php	/^		$a5 = @(round($a4\/$a1*100,1)."%");$/;"	v
+action	friendlink/shows.php	/^$action = $_GET['action'];$/;"	v
+action	friends/shows.php	/^$action = $_GET['action'];$/;"	v
+action	seo/ajax.php	/^$action = $_GET['action'];$/;"	v
+addInput	images/globals3.js	/^function addInput(e) {$/;"	f
+ai	ids.php	/^		$ai = $e;$/;"	v
+ai	ids.php	/^		$ai = substr($ai, 0,6) & "19" & substr($ai, 6, 9);$/;"	v
+ai	ids.php	/^		$ai = substr($e, 0, 17);$/;"	v
+ali	friendlink/friendlink.php	/^$ali = array_unique($ali);$/;"	v
+ali	friends/friends.php	/^	$ali = array_unique($ali);$/;"	v
+ali	pr/outpr.php	/^$ali = array_unique($ali);$/;"	v
+ara	keys/keys.php	/^$ara    = array();$/;"	v
+arr10	friendlink/friendlink.php	/^      $arr10 = explode('\/',$arr[1][0]);$/;"	v
+arr10	friends/friends.php	/^	       $arr10 = explode('\/',$arr[1][0]);$/;"	v
+arr10	pr/outpr.php	/^	$arr10 = explode('\/',$arr[1][0]);$/;"	v
+arrVerifyCode	ids.php	/^	$arrVerifyCode = explode(",","1,0,x,9,8,7,6,5,4,3,2");$/;"	v
+array	friendlink/qqwry.php	/^		$array=explode('.',$Ip);$/;"	v
+arrays00	dels/dels.php	/^	$arrays00 = $arrays[0][0]?$arrays[0][0]:$arrays1[0][0];$/;"	v
+arrays00	tool/dels/dels.php	/^	$arrays00 = $arrays[0][0]?$arrays[0][0]:$arrays1[0][0];$/;"	v
+arrays01	dels/dels.php	/^	$arrays01 =$arrays[0][1]?$arrays[0][1]:$arrays1[0][1];$/;"	v
+arrays01	tool/dels/dels.php	/^	$arrays01 =$arrays[0][1]?$arrays[0][1]:$arrays1[0][1];$/;"	v
+attach	images/globals3.js	/^function attach(o, e, f) {$/;"	f
+b	dels/dels.php	/^	$b  = "\/\\d{1,2}-\\d{1,2}-\\d{4}\/";$/;"	v
+b	tool/dels/dels.php	/^	$b  = "\/\\d{1,2}-\\d{1,2}-\\d{4}\/";$/;"	v
+b1	dels/dels.php	/^	$b1 = "\/\\d{4}-\\d{1,2}-\\d{1,2}\/";$/;"	v
+b1	tool/dels/dels.php	/^	$b1 = "\/\\d{4}-\\d{1,2}-\\d{1,2}\/";$/;"	v
+backFun	js/ajax.js	/^function backFun(req,id,vType){	$/;"	f
+baids	friends/friends.php	/^	$baids    = "\/<font color=\\"#008000\\">(.*)<\\\/font> - <a href=\\"(.*)\\"  target=\\"_blank\\"  class=\\"m\\">百度快照<\\\/a>\/Usi";$/;"	v
+baids	friends/shows.php	/^	$baids   = "\/<font color=\\"#008000\\">(.*)<\\\/font> - <a href=\\"(.*)\\"  target=\\"_blank\\"  class=\\"m\\">百度快照<\\\/a>\/Usi";$/;"	v
+baids	seo/ajax.php	/^	$baids = "\/<font color=\\"#008000\\">(.*)<\\\/font> - <a href=\\"(.*)\\"  target=\\"_blank\\"  class=\\"m\\">百度快照<\\\/a>\/Usi";$/;"	v
+baidu	friends/friends.php	/^	$baidu = "http:\/\/www.baidu.com\/s?wd=";$/;"	v
+bday	ids.php	/^		$bday   = substr($idc,10,2);$/;"	v
+bday	ids.php	/^		$bday   = substr($idc,12,2);$/;"	v
+bmonth	ids.php	/^		$bmonth = substr($idc,10,2);$/;"	v
+bmonth	ids.php	/^		$bmonth = substr($idc,8,2);$/;"	v
+bods	density.php	/^	$bods    = "\/<body>(.*)<\\\/body>\/is";$/;"	v
+bods	esearch.php	/^	$bods = "\/<body>(.*)<\\\/body>\/is";$/;"	v
+bods	seo/alls.php	/^$bods = "\/<body>(.*)<\\\/body>\/is";$/;"	v
+body	esearch.php	/^	$body = "";$/;"	v
+body	seo/alls.php	/^$body = "";$/;"	v
+body	seo/alls.php	/^$body = strlen($body)>800 ? substr($body,0,800).'…………' : $body;$/;"	v
+body2	seo/alls.php	/^	$body2 = preg_replace(array("\/\\s\/","<br\/>"),array("",),$body2);$/;"	v
+body2	seo/alls.php	/^$body2 = "";$/;"	v
+bs2	friends/shows.php	/^	$bs2= $bs2[0]?$bs2[0]:'无百度快照';$/;"	v
+buf	friendlink/qqwry.php	/^				$buf=fread ($this->fp , 3 ) ;$/;"	v
+buf	friendlink/qqwry.php	/^		$buf=fread ( $this->fp , 5 ) ;$/;"	v
+buf	friendlink/qqwry.php	/^		$buf=fread ( $this->fp , 8 ) ;$/;"	v
+buf	friendlink/qqwry.php	/^		$buf=fread($this->fp ,7) ;$/;"	v
+byear	ids.php	/^   		$byear  = substr($idc,6,2);$/;"	v
+byear	ids.php	/^   		$byear  = substr($idc,6,4);$/;"	v
+c	friendlink/qqwry.php	/^			$c=fgetc ( $this->fp ) ;$/;"	v
+c	friends/require/chinese.php	/^				$c = ord( substr( $this->SourceText, $i++, 1 ));$/;"	v
+c	require/chinese.php	/^				$c = ord( substr( $this->SourceText, $i++, 1 ));$/;"	v
+c	seo/require/chinese.php	/^				$c = ord( substr( $this->SourceText, $i++, 1 ));$/;"	v
+c	ssyqfl/require/chinese.php	/^				$c = ord( substr( $this->SourceText, $i++, 1 ));$/;"	v
+c	ssyqsl/require/chinese.php	/^				$c = ord( substr( $this->SourceText, $i++, 1 ));$/;"	v
+c	webs/require/chinese.php	/^				$c = ord( substr( $this->SourceText, $i++, 1 ));$/;"	v
+c1	keys/function.php	/^		$c1 = "\/<li class=g(.*)?>(.*)<\\\/div>\/Uis";$/;"	v
+c1	keys/function.php	/^		$c1 = "\/<table (border=\\"0\\")?(\\s)?cellpadding=\\"0\\" cellspacing=\\"0\\" id=\\"(.*)\\">(.*)<\\\/table><br>\/Uis";$/;"	v
+c2	keys/function.php	/^		$c2 = "\/<font color=\\"#008000\\">(.*)<\\\/font>\/Uis";$/;"	v
+c2	keys/function.php	/^		$c2 = "\/<span class=f><cite>(.*)<\\\/cite>\/Uis";$/;"	v
+ceshi	webs/webs.php	/^function ceshi(i){$/;"	f
+ch	ssyqfl/function.php	/^	$ch  = array_combine($che,$che);$/;"	v
+ch	ssyqsl/function.php	/^	$ch  = array_combine($che,$che);$/;"	v
+char2	friends/require/chinese.php	/^						$char2 = ord( substr( $this->SourceText, $i++, 1 ) );$/;"	v
+char2	require/chinese.php	/^						$char2 = ord( substr( $this->SourceText, $i++, 1 ) );$/;"	v
+char2	seo/require/chinese.php	/^						$char2 = ord( substr( $this->SourceText, $i++, 1 ) );$/;"	v
+char2	ssyqfl/require/chinese.php	/^						$char2 = ord( substr( $this->SourceText, $i++, 1 ) );$/;"	v
+char2	ssyqsl/require/chinese.php	/^						$char2 = ord( substr( $this->SourceText, $i++, 1 ) );$/;"	v
+char2	webs/require/chinese.php	/^						$char2 = ord( substr( $this->SourceText, $i++, 1 ) );$/;"	v
+char3	friends/require/chinese.php	/^						$char3 = $this->unicode_table[(($c & 0x1F) << 6) | ($char2 & 0x3F)];$/;"	v
+char3	friends/require/chinese.php	/^						$char3 = ord( substr( $this->SourceText, $i++, 1 ) );$/;"	v
+char3	require/chinese.php	/^						$char3 = $this->unicode_table[(($c & 0x1F) << 6) | ($char2 & 0x3F)];$/;"	v
+char3	require/chinese.php	/^						$char3 = ord( substr( $this->SourceText, $i++, 1 ) );$/;"	v
+char3	seo/require/chinese.php	/^						$char3 = $this->unicode_table[(($c & 0x1F) << 6) | ($char2 & 0x3F)];$/;"	v
+char3	seo/require/chinese.php	/^						$char3 = ord( substr( $this->SourceText, $i++, 1 ) );$/;"	v
+char3	ssyqfl/require/chinese.php	/^						$char3 = $this->unicode_table[(($c & 0x1F) << 6) | ($char2 & 0x3F)];$/;"	v
+char3	ssyqfl/require/chinese.php	/^						$char3 = ord( substr( $this->SourceText, $i++, 1 ) );$/;"	v
+char3	ssyqsl/require/chinese.php	/^						$char3 = $this->unicode_table[(($c & 0x1F) << 6) | ($char2 & 0x3F)];$/;"	v
+char3	ssyqsl/require/chinese.php	/^						$char3 = ord( substr( $this->SourceText, $i++, 1 ) );$/;"	v
+char3	webs/require/chinese.php	/^						$char3 = $this->unicode_table[(($c & 0x1F) << 6) | ($char2 & 0x3F)];$/;"	v
+char3	webs/require/chinese.php	/^						$char3 = ord( substr( $this->SourceText, $i++, 1 ) );$/;"	v
+char4	friends/require/chinese.php	/^						$char4 = $this->unicode_table[(($c & 0x0F) << 12) | (($char2 & 0x3F) << 6) | (($char3 & 0x3F) << 0)];$/;"	v
+char4	require/chinese.php	/^						$char4 = $this->unicode_table[(($c & 0x0F) << 12) | (($char2 & 0x3F) << 6) | (($char3 & 0x3F) << 0)];$/;"	v
+char4	seo/require/chinese.php	/^						$char4 = $this->unicode_table[(($c & 0x0F) << 12) | (($char2 & 0x3F) << 6) | (($char3 & 0x3F) << 0)];$/;"	v
+char4	ssyqfl/require/chinese.php	/^						$char4 = $this->unicode_table[(($c & 0x0F) << 12) | (($char2 & 0x3F) << 6) | (($char3 & 0x3F) << 0)];$/;"	v
+char4	ssyqsl/require/chinese.php	/^						$char4 = $this->unicode_table[(($c & 0x0F) << 12) | (($char2 & 0x3F) << 6) | (($char3 & 0x3F) << 0)];$/;"	v
+char4	webs/require/chinese.php	/^						$char4 = $this->unicode_table[(($c & 0x0F) << 12) | (($char2 & 0x3F) << 6) | (($char3 & 0x3F) << 0)];$/;"	v
+charset	esearch.php	/^	$charset = "\/charset=(.*)\/";$/;"	v
+charset	friends/friends.php	/^	$charset = "\/charset=(.*)\/";$/;"	v
+charset	friends/shows.php	/^	$charset  = "\/charset=(.*)\/";$/;"	v
+charset	meta.php	/^	$charset  = "\/charset=(.*)\/";$/;"	v
+charset	seo/alls.php	/^$charset = "\/charset=(.*)\/";$/;"	v
+charset	webs/texts.php	/^$charset = "\/charset=(.*)\/";$/;"	v
+charset2	esearch.php	/^	$charset2 = strtolower(substr($charsetarr[1],0,2));$/;"	v
+charset2	friends/friends.php	/^	$charset2 = strtolower(substr($charsetarr[1],0,2));$/;"	v
+charset2	friends/shows.php	/^	$charset2 = strtolower(substr($charsetarr[1],0,2));$/;"	v
+charset2	meta.php	/^	$charset2 = strtolower(substr($charsetarr[1],0,2));$/;"	v
+charset2	seo/alls.php	/^$charset2 = strtolower(substr($charsetarr[1],0,2));$/;"	v
+charset2	webs/texts.php	/^$charset2 = strtolower(substr($charsetarr[1],0,2));$/;"	v
+che	ssyqfl/function.php	/^	$che = explode(',',$che);$/;"	v
+che	ssyqsl/function.php	/^	$che = explode(',',$che);$/;"	v
+chec	index.php	/^ function chec(){$/;"	f
+checkEngines	index.php	/^ function checkEngines(zt) {$/;"	f
+checkEngines	ssyqsl/ssyqsl.php	/^ function checkEngines(zt) {$/;"	f
+checkEngines2	index.php	/^ function checkEngines2(zt) {$/;"	f
+checkEngines2	ssyqfl/ssyqfl.php	/^ function checkEngines2(zt) {$/;"	f
+checs	index.php	/^ function checs(){$/;"	f
+chkbirthday	ids.php	/^function  chkbirthday($idc){$/;"	f
+chksex	ids.php	/^function  chksex($idc){$/;"	f
+chs	esearch.php	/^		$chs = new Chinese('utf-8','GB2312');$/;"	v
+chs	friends/friends.php	/^		$chs  = new Chinese('utf-8','GB2312');$/;"	v
+chs	friends/shows.php	/^		$chs     = new Chinese('utf-8','GB2312');$/;"	v
+chs	meta.php	/^		$chs     = new Chinese('utf-8','GB2312');$/;"	v
+chs	seo/ajax.php	/^			$chs = new Chinese('utf-8','GB2312');$/;"	v
+chs	seo/alls.php	/^	$chs     = new Chinese('utf-8','GB2312');$/;"	v
+chs	ssyqfl/function.php	/^			$chs = new Chinese('utf-8','GB2312');$/;"	v
+chs	ssyqsl/function.php	/^				$chs = new Chinese('utf-8','GB2312');$/;"	v
+chs	webs/texts.php	/^	$chs  = new Chinese('utf-8','GB2312');$/;"	v
+clear	unix.php	/^    clear: function (target) {$/;"	j
+clicks	friends/friends.php	/^function clicks(id){$/;"	f
+cnt	friends/friends.php	/^	$cnt=0;$/;"	v
+cnt	friends/shows.php	/^	$cnt=0;$/;"	v
+cnt	global.php	/^	    $cnt=0;$/;"	v
+cnt	pr/donow.php	/^				$cnt=0;$/;"	v
+cnt	seo/ajax.php	/^		$cnt=0;$/;"	v
+cnt	seo/ajax.php	/^	$cnt=0;$/;"	v
+cnt	seo/ajax.php	/^$cnt=0;$/;"	v
+cnt2	friends/friends.php	/^	$cnt2=0;$/;"	v
+cnt2	friends/shows.php	/^	$cnt2=0;$/;"	v
+cnt3	friends/friends.php	/^	$cnt3=0;$/;"	v
+cnt3	friends/shows.php	/^	$cnt3=0;$/;"	v
+co	baidu/function.php	/^	   $co  = get_content($ROBOT['site_url'].$domain."&pn=".$count);$/;"	v
+code	friendlink/friendlink.php	/^$code   = @file_get_contents( 'http:\/\/'.$domain);$/;"	v
+code	friends/friends.php	/^		$code = $chs->Convert($code);$/;"	v
+code	pr/outpr.php	/^$code   = @file_get_contents( 'http:\/\/'.$domain);$/;"	v
+code	webs/texts.php	/^	$code = $chs->Convert($code);$/;"	v
+code	webs/texts.php	/^$code    = @file_get_contents($url);$/;"	v
+con	baidu/function.php	/^	$con = $arr[0];$/;"	v
+con	google/function.php	/^	$con = $arr[0];$/;"	v
+con	webs/testlink.php	/^	$con = @file_get_contents($testlink);$/;"	v
+con1	keys/function.php	/^		$con1 = $arr1[0];$/;"	v
+con1	keys/function.php	/^		$con1 = $arr1[2];$/;"	v
+con2	keys/function.php	/^		$con2 = $arr2[1];$/;"	v
+con2	keys/function.php	/^		$con2 = $sm;		$/;"	v
+con3	baidu/function.php	/^	   $con3 = page_slice((max($www[0])+20),($pn\/10+1),10,'baidu.php?domain='.$domain);$/;"	v
+con3	google/function.php	/^	   $con3 = "<a href=google.php?domain=".$domain."&start=0>[1]<\/a>&nbsp;&nbsp;<a href=google.php?domain=".$domain."&start=10>[2]<\/a>&nbsp;&nbsp;<a href=google.php?domain=".$domain."&start=20>[3]<\/a>&nbsp;&nbsp;<a href=google.php?domain=".$domain."&start=30>[4]<\/a>&nbsp;&nbsp;<a href=google.php?domain=".$domain."&start=40>[5]<\/a>&nbsp;&nbsp;<a href=google.php?domain=".$domain."&start=50>[6]<\/a>&nbsp;&nbsp;<a href=google.php?domain=".$domain."&start=60>[7]<\/a>&nbsp;&nbsp;<a href=google.php?domain=".$domain."&start=70>[8]<\/a>&nbsp;&nbsp;<a href=google.php?domain=".$domain."&start=80>[9]<\/a>&nbsp;&nbsp;<a href=google.php?domain=".$domain."&start=90>[10]<\/a>";$/;"	v
+config	friends/require/chinese.php	/^	var $config = array($/;"	v
+config	require/chinese.php	/^	var $config = array($/;"	v
+config	seo/require/chinese.php	/^	var $config = array($/;"	v
+config	ssyqfl/require/chinese.php	/^	var $config = array($/;"	v
+config	ssyqsl/require/chinese.php	/^	var $config = array($/;"	v
+config	webs/require/chinese.php	/^	var $config = array($/;"	v
+cons	keys/function.php	/^	$cons = "排名：<a href=".$domain1."&pn=0>1-".$rn."<\/a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*1).">".(($rn*1)+1)."-".($rn*2)."<\/a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*2).">".(($rn*2)+1)."-".($rn*3)."<\/a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*3).">".(($rn*3)+1)."-".($rn*4)."<\/a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*4).">".(($rn*4)+1)."-".($rn*5)."<\/a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*5).">".(($rn*5)+1)."-".($rn*6)."<\/a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*6).">".(($rn*6)+1)."-".($rn*7)."<\/a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*7).">".(($rn*7)+1)."-".($rn*8)."<\/a>";$/;"	v
+content	baidu/function.php	/^	$content   = '';$/;"	v
+content	density.php	/^	$content = @file_get_contents("http:\/\/".$domain);$/;"	v
+content	esearch.php	/^		$content = $chs->Convert($content);$/;"	v
+content	esearch.php	/^	$content = @file_get_contents($url);$/;"	v
+content	friends/shows.php	/^		$content = $chs->Convert($content);$/;"	v
+content	global.php	/^			$content = 'Can Not Open Socket...';$/;"	v
+content	global.php	/^		$content = '';$/;"	v
+content	global.php	/^		$content = curl_exec($handle);$/;"	v
+content	global.php	/^	$content = '';$/;"	v
+content	global.php	/^	if(empty($content)) $content = '无法打开该链接！';$/;"	v
+content	keys/function.php	/^	$content   = '';$/;"	v
+content	meta.php	/^		$content = $chs->Convert($content);$/;"	v
+content	meta.php	/^	$content  = @file_get_contents($url);$/;"	v
+content	seo/alls.php	/^	$content = $chs->Convert($content);$/;"	v
+content	seo/alls.php	/^$content = @file_get_contents($url);$/;"	v
+content	ssyqfl/function.php	/^	$content   = '';$/;"	v
+content	ssyqsl/function.php	/^	$content   = '';$/;"	v
+content	yuan.php	/^	$content = @file_get_contents("http:\/\/".$domain);$/;"	v
+content1	baidu/function.php	/^	$content1  = get_content($ROBOT['site_url'].$domain."&pn=".$pn);$/;"	v
+content1	google/function.php	/^	$content1  = get_content($ROBOT['site_url'].$domain."&start=".$start);	$/;"	v
+content1	keys/function.php	/^	$content1  = get_content($ROBOT[$bot]['site_url']);$/;"	v
+copy	js/Unicode.js	/^function copy(obj)$/;"	f
+copyToClipboard	header.php	/^function copyToClipboard(txt) {   $/;"	f
+copyToClipboard	images/home.js	/^function  copyToClipboard(txt) {    $/;"	f
+copyToClipboard	seo/alls.php	/^function copyToClipboard(txt) {   $/;"	f
+copyToClipboard	tool/whois/index.php	/^function copyToClipboard(txt) {   $/;"	f
+copyToClipboard	whois/index.php	/^function copyToClipboard(txt) {   $/;"	f
+copyToClipboard	whois/whois_origin.php	/^function copyToClipboard(txt) {   $/;"	f
+count	baidu/function.php	/^	$count = '';$/;"	v
+count	friends/require/chinese.php	/^		$count  = count($filedb);$/;"	v
+count	google/function.php	/^	$count = '';	$/;"	v
+count	require/chinese.php	/^		$count  = count($filedb);$/;"	v
+count	seo/require/chinese.php	/^		$count  = count($filedb);$/;"	v
+count	ssyqfl/require/chinese.php	/^		$count  = count($filedb);$/;"	v
+count	ssyqsl/require/chinese.php	/^		$count  = count($filedb);$/;"	v
+count	webs/require/chinese.php	/^		$count  = count($filedb);$/;"	v
+count	yb/yb.php	/^		$count   = count($dreamdb);\/\/计算行数$/;"	v
+count	yb/yb.php	/^$count = count($sheng);$/;"	v
+counts	webs/texts.php	/^	$counts  = sizeof($outs);$/;"	v
+counts	webs/texts.php	/^	$counts  = sizeof($ulink);$/;"	v
+creatXMLHttpRequest	header.php	/^	function creatXMLHttpRequest() {$/;"	f
+creatXMLHttpRequest	seo/alls.php	/^	function creatXMLHttpRequest() {$/;"	f
+creatXMLHttpRequest	tool/whois/index.php	/^	function creatXMLHttpRequest() {$/;"	f
+creatXMLHttpRequest	whois/index.php	/^	function creatXMLHttpRequest() {$/;"	f
+creatXMLHttpRequest	whois/whois_origin.php	/^	function creatXMLHttpRequest() {$/;"	f
+create	dels/dels.php	/^	$create  = date('Y-m-d',$creates);$/;"	v
+create	tool/dels/dels.php	/^	$create  = date('Y-m-d',$creates);$/;"	v
+create	unix.php	/^    create: function (target, menucontents) {$/;"	j
+creates	dels/dels.php	/^	$creates = strtotime($arrays00);$/;"	v
+creates	tool/dels/dels.php	/^	$creates = strtotime($arrays00);$/;"	v
+curMenu	images/menu.js	/^var curMenu;$/;"	v
+currentInput	images/globals3.js	/^var currentInput = null;$/;"	v
+currentTime	js/unixtime.js	/^function currentTime() {$/;"	f
+currentTimeActive	js/unixtime.js	/^var currentTimeActive = 1;$/;"	v
+current_url	pr/prfunction.php	/^$current_url = $_SERVER['QUERY_STRING'];$/;"	v
+current_url	pr/prfunction.php	/^$current_url = str_replace("http:\/\/","",$current_url);$/;"	v
+current_url	pr/prfunction.php	/^$current_url = str_replace("https:\/\/","",$current_url);$/;"	v
+current_url	pr/prfunction.php	/^$current_url = trim($current_url);$/;"	v
+d	meta.php	/^	$d = $description?mb_strlen($description,'gbk'):'0';	$/;"	v
+d	seo/alls.php	/^$d = $description?mb_strlen($description,'gbk'):'0';$/;"	v
+day	dels/dels.php	/^	$day     = floor($dels2\/3600\/24);$/;"	v
+day	tool/dels/dels.php	/^	$day     = floor($dels2\/3600\/24);$/;"	v
+dbpath	shouji/function.php	/^	$dbpath = "befo\/";	$/;"	v
+dels	dels/dels.php	/^	$dels    = date('Y-m-d',$overs+(65*3600*100-$starts));$/;"	v
+dels	tool/dels/dels.php	/^	$dels    = date('Y-m-d',$overs+(65*3600*100-$starts));$/;"	v
+dels2	dels/dels.php	/^	$dels2   = $dels2-$day*3600*24;$/;"	v
+dels2	dels/dels.php	/^	$dels2   = $dels2-$hour*3600;$/;"	v
+dels2	dels/dels.php	/^	$dels2   = strtotime($dels) -$nows;$/;"	v
+dels2	tool/dels/dels.php	/^	$dels2   = $dels2-$day*3600*24;$/;"	v
+dels2	tool/dels/dels.php	/^	$dels2   = $dels2-$hour*3600;$/;"	v
+dels2	tool/dels/dels.php	/^	$dels2   = strtotime($dels) -$nows;$/;"	v
+dels22	dels/dels.php	/^	$dels22  = $day."天".$hour."小时".$minute."分".$second1."秒";$/;"	v
+dels22	tool/dels/dels.php	/^	$dels22  = $day."天".$hour."小时".$minute."分".$second1."秒";$/;"	v
+description	meta.php	/^	$description = $array3[1][0]?$array3[1][0]:$array5[1][0];$/;"	v
+description	seo/alls.php	/^$description = $array3[1][0]?$array3[1][0]:$array5[1][0];$/;"	v
+deta	keys/function.php	/^	$deta = "<font color=red>关键字<\/font> ".$keys." <font color=red>在网站<\/font> ".$domain." <font color=red>的<\/font> ".$bot." <font color=red>收录结果<\/font> ".($pn+1)."-".($pn+$rn)." <font color=red>名中有<\/font> ".sizeof($kw)." <font color=red>条记录<\/font>";$/;"	v
+detail	yb/yb.php	/^			$detail     = explode("\\t",$dreamdb[$i]);$/;"	v
+di	baidu/function.php	/^	   $di  = "\/<div class=\\"p\\">(.*)<\\\/div>\/Uis";$/;"	v
+dis	meta.php	/^window.onload = function dis(){$/;"	f
+displayMenu	images/menu.js	/^function displayMenu (display) {$/;"	f
+document.getElementsByClassName	images/globals.js	/^document.getElementsByClassName = function(name) {$/;"	f
+document.getElementsByClassName	images/globals2.js	/^document.getElementsByClassName = function(name) {$/;"	f
+domain	baidu/function.php	/^    $domain    = $domain."&lm=".$selects;$/;"	v
+domain	baidu/seo.php	/^$domain = $domain?$domain:'chinaccnet.com';$/;"	v
+domain	baidu/seo.php	/^$domain = strtolower($domain);$/;"	v
+domain	dels/dels.php	/^	$domain = str_replace("http:\/\/","",$domain);$/;"	v
+domain	dels/dels.php	/^	$domain = str_replace("www.","",$domain);$/;"	v
+domain	dels/dels.php	/^$domain = strtolower($domain);$/;"	v
+domain	dels/dels.php	/^$domain = trim($_POST['domain']?$_POST['domain']:$_GET['domain']);$/;"	v
+domain	density.php	/^$domain  = $_POST['domain']?$_POST['domain']:$_GET['url'];$/;"	v
+domain	esearch.php	/^$domain = $_POST['domain']?$_POST['domain']:$_GET['domain'];$/;"	v
+domain	friendlink/friendlink.php	/^$domain = $_POST['domain']?$_POST['domain']:trim($_GET['domain']);$/;"	v
+domain	friendlink/shows.php	/^$domain = $_GET['domain'];$/;"	v
+domain	friends/friends.php	/^$domain = $_POST['domain']?$_POST['domain']:trim($_GET['domain']);$/;"	v
+domain	friends/shows.php	/^$domain = $_GET['domain'];$/;"	v
+domain	google/function.php	/^    $domain    = $domain."&tbs=qdr:".$selects;   $/;"	v
+domain	google/seo.php	/^$domain = $domain?$domain:'chinaccnet.com';$/;"	v
+domain	google/seo.php	/^$domain = strtolower($domain);$/;"	v
+domain	keys/keys.php	/^$domain = $_POST['domain']?$_POST['domain']:$_GET['domain'];$/;"	v
+domain	keys/keys.php	/^$domain = strtolower($domain);$/;"	v
+domain	meta.php	/^$domain =  $_POST['domain']? $_POST['domain']:$_GET['domain'];$/;"	v
+domain	pr/donow.php	/^	$domain = explode(",",trim($url));$/;"	v
+domain	pr/outpr.php	/^$domain = $_POST['domain']?$_POST['domain']:$_GET['domain'];$/;"	v
+domain	seo/alls.php	/^$domain = $_POST['domain']?$_POST['domain']:$_GET['domain'];$/;"	v
+domain	seo/alls.php	/^$domain = $domain?$domain:'tool.zznet.cn';$/;"	v
+domain	seo/alls.php	/^$domain = strtolower($domain);$/;"	v
+domain	ssyqfl/seo.php	/^$domain = $domain?$domain:'chinaccnet.com';$/;"	v
+domain	ssyqfl/seo.php	/^$domain = strtolower($domain);$/;"	v
+domain	ssyqfl/ssyqfl.php	/^            <font color="green"><b>HTTP:\/\/<\/b><\/font><input name="domain" type="text" id="domain" class="input" size="40" url="true" value="<?php echo $domain = $_POST['dom1']?$_POST['dom1']:'chinaccnet.com';?>"\/>$/;"	v
+domain	ssyqsl/seo.php	/^$domain = $domain?$domain:'chinaccnet.com';$/;"	v
+domain	ssyqsl/seo.php	/^$domain = strtolower($domain);$/;"	v
+domain	ssyqsl/ssyqsl.php	/^            <font color="green"><b>HTTP:\/\/<\/b><\/font><input name="domain" type="text" id="domain" class="input" size="40" url="true" value="<?php echo $domain = $_POST['dom']?$_POST['dom']:'chinaccnet.com';?>"\/>$/;"	v
+domain	tool/dels/dels.php	/^	$domain = str_replace("http:\/\/","",$domain);$/;"	v
+domain	tool/dels/dels.php	/^	$domain = str_replace("www.","",$domain);$/;"	v
+domain	tool/dels/dels.php	/^$domain = strtolower($domain);$/;"	v
+domain	tool/dels/dels.php	/^$domain = trim($_POST['domain']?$_POST['domain']:$_GET['domain']);$/;"	v
+domain	tool/whois/index.php	/^	$domain = str_replace("http:\/\/","",$domain);$/;"	v
+domain	tool/whois/index.php	/^	$domain = str_replace("www.","",$domain);$/;"	v
+domain	tool/whois/index.php	/^	$domain = strtolower(trim($_GET['domain']));$/;"	v
+domain	tool/whois/index.php	/^$domain = $domain?$domain:'';$/;"	v
+domain	tool/whois/index.php	/^$domain = strtolower($domain);$/;"	v
+domain	tool/whois/index.php	/^$domain = trim($_POST['domain']);$/;"	v
+domain	webs/texts.php	/^$domain = strtolower($_POST['domain']);$/;"	v
+domain	whois/index.php	/^	$domain = str_replace("http:\/\/","",$domain);$/;"	v
+domain	whois/index.php	/^	$domain = str_replace("www.","",$domain);$/;"	v
+domain	whois/index.php	/^	$domain = strtolower(trim($_GET['domain']));$/;"	v
+domain	whois/index.php	/^$domain = $domain?$domain:'';$/;"	v
+domain	whois/index.php	/^$domain = strtolower($domain);$/;"	v
+domain	whois/index.php	/^$domain = trim($_POST['domain']);$/;"	v
+domain	whois/whois_origin.php	/^	$domain = str_replace("http:\/\/","",$domain);$/;"	v
+domain	whois/whois_origin.php	/^	$domain = str_replace("www.","",$domain);$/;"	v
+domain	whois/whois_origin.php	/^	$domain = strtolower(trim($_GET['domain']));$/;"	v
+domain	whois/whois_origin.php	/^$domain = $domain?$domain:'';$/;"	v
+domain	whois/whois_origin.php	/^$domain = strtolower($domain);$/;"	v
+domain	whois/whois_origin.php	/^$domain = trim($_POST['domain']);$/;"	v
+domain	yuan.php	/^$domain = $_POST['domain'];$/;"	v
+domain1	keys/function.php	/^	$domain1 = "keys.php?domain=".$domain."&keys=".$output."&val=".$v."&rn=".$rn;$/;"	v
+domain2	keys/function.php	/^	$domain2 = substr($domain, 0, 4) == 'www.'?substr($domain, 4):$domain;$/;"	v
+dreamcount	yb/yb.php	/^			$dreamcount = count($keyword);\/\/关键字个数$/;"	v
+dreamdb	yb/yb.php	/^		$dreamdb = file("pc.dat");\/\/读取区号文件$/;"	v
+dreamdb	yb/yb.php	/^		$dreamdb=file($keydb);$/;"	v
+eday	dels/dels.php	/^	$eday    = floor($exits\/3600\/24);$/;"	v
+eday	tool/dels/dels.php	/^	$eday    = floor($exits\/3600\/24);$/;"	v
+edels22	dels/dels.php	/^	$edels22 = $eyear."年".$emonth."月".$eday."天";$/;"	v
+edels22	tool/dels/dels.php	/^	$edels22 = $eyear."年".$emonth."月".$eday."天";$/;"	v
+emonth	dels/dels.php	/^	$emonth  = floor($exits\/3600\/24\/30);$/;"	v
+emonth	tool/dels/dels.php	/^	$emonth  = floor($exits\/3600\/24\/30);$/;"	v
+exec	pr/outpr.php	/^function exec() {$/;"	f
+exits	dels/dels.php	/^	$exits   = $exits-$emonth*30*24*3600;$/;"	v
+exits	dels/dels.php	/^	$exits   = $exits-$eyear*365*24*3600;$/;"	v
+exits	dels/dels.php	/^	$exits   = $nows - $creates;$/;"	v
+exits	tool/dels/dels.php	/^	$exits   = $exits-$emonth*30*24*3600;$/;"	v
+exits	tool/dels/dels.php	/^	$exits   = $exits-$eyear*365*24*3600;$/;"	v
+exits	tool/dels/dels.php	/^	$exits   = $nows - $creates;$/;"	v
+eyear	dels/dels.php	/^	$eyear   = floor($exits\/3600\/24\/365);$/;"	v
+eyear	tool/dels/dels.php	/^	$eyear   = floor($exits\/3600\/24\/365);$/;"	v
+filedata	friends/require/chinese.php	/^		$filedata = readover($filename);$/;"	v
+filedata	friends/require/chinese.php	/^		$filedata = str_replace("\\n","\\n<:wind:>",$filedata);$/;"	v
+filedata	friends/require/chinese.php	/^		$filedata=@fread($handle,filesize($filename));$/;"	v
+filedata	require/chinese.php	/^		$filedata = readover($filename);$/;"	v
+filedata	require/chinese.php	/^		$filedata = str_replace("\\n","\\n<:wind:>",$filedata);$/;"	v
+filedata	require/chinese.php	/^		$filedata=@fread($handle,filesize($filename));$/;"	v
+filedata	seo/require/chinese.php	/^			$filedata=@fread($handle,filesize($filename));$/;"	v
+filedata	seo/require/chinese.php	/^		$filedata = readover($filename);$/;"	v
+filedata	seo/require/chinese.php	/^		$filedata = str_replace("\\n","\\n<:wind:>",$filedata);$/;"	v
+filedata	shouji/function.php	/^		$filedata=@fread($handle,filesize($filename));$/;"	v
+filedata	ssyqfl/require/chinese.php	/^			$filedata=@fread($handle,filesize($filename));$/;"	v
+filedata	ssyqfl/require/chinese.php	/^		$filedata = readover($filename);$/;"	v
+filedata	ssyqfl/require/chinese.php	/^		$filedata = str_replace("\\n","\\n<:wind:>",$filedata);$/;"	v
+filedata	ssyqsl/require/chinese.php	/^			$filedata=@fread($handle,filesize($filename));$/;"	v
+filedata	ssyqsl/require/chinese.php	/^		$filedata = readover($filename);$/;"	v
+filedata	ssyqsl/require/chinese.php	/^		$filedata = str_replace("\\n","\\n<:wind:>",$filedata);$/;"	v
+filedata	webs/require/chinese.php	/^			$filedata=@fread($handle,filesize($filename));$/;"	v
+filedata	webs/require/chinese.php	/^		$filedata = readover($filename);$/;"	v
+filedata	webs/require/chinese.php	/^		$filedata = str_replace("\\n","\\n<:wind:>",$filedata);$/;"	v
+filedb	friends/require/chinese.php	/^		$filedb = explode("<:wind:>",$filedata);$/;"	v
+filedb	require/chinese.php	/^		$filedb = explode("<:wind:>",$filedata);$/;"	v
+filedb	seo/require/chinese.php	/^		$filedb = explode("<:wind:>",$filedata);$/;"	v
+filedb	ssyqfl/require/chinese.php	/^		$filedb = explode("<:wind:>",$filedata);$/;"	v
+filedb	ssyqsl/require/chinese.php	/^		$filedb = explode("<:wind:>",$filedata);$/;"	v
+filedb	webs/require/chinese.php	/^		$filedb = explode("<:wind:>",$filedata);$/;"	v
+filehave	cache.php	/^function filehave($urls,$url){$/;"	f
+fileno	cache.php	/^function fileno($url){$/;"	f
+firstpage	baidu/function.php	/^	$firstpage = 0;$/;"	v
+flag	friendlink/qqwry.php	/^			$flag=ord(fgetc($this->fp ) ) ;$/;"	v
+flag	friendlink/qqwry.php	/^			if ( $flag == 1 || $flag == 2 ) {$/;"	v
+flag	friendlink/qqwry.php	/^		$flag=0 ;$/;"	v
+fp	global.php	/^		$fp = fsockopen($host, 80, $errno, $errstr, 30);$/;"	v
+fp	yb/yb.php	/^		$fp = @fopen($keydb,"a");$/;"	v
+gcontent	pr/prfunction.php	/^	$gcontent = @file_get_contents($gurl);$/;"	v
+getCountry	friendlink/qqwry.php	/^	function getCountry(){$/;"	f
+getEndIp	friendlink/qqwry.php	/^	function getEndIp(){$/;"	f
+getFlagStr	friendlink/qqwry.php	/^	function getFlagStr ($offset){$/;"	f
+getOffsetLeft	images/menu.js	/^function getOffsetLeft (el, p) {$/;"	f
+getRequest	ajax2.js	/^function getRequest() {$/;"	f
+getRequest	baidu/ajax2.js	/^function getRequest() {$/;"	f
+getRequest	google/ajax2.js	/^function getRequest() {$/;"	f
+getRequest	ssyqfl/ajax2.js	/^function getRequest() {$/;"	f
+getRequest	ssyqsl/ajax2.js	/^function getRequest() {$/;"	f
+getRequest	webs/ajax2.js	/^function getRequest() {$/;"	f
+getStartIp	friendlink/qqwry.php	/^	function getStartIp($RecNo){$/;"	f
+getStr	friendlink/qqwry.php	/^	function getStr ( )	{$/;"	f
+get_content	global.php	/^function get_content($url){$/;"	f
+get_it	ids.php	/^				$get_it = 1;$/;"	v
+get_real_ip	friendlink/shows.php	/^function get_real_ip(){$/;"	f
+get_real_ip	ip/ip.php	/^function get_real_ip(){$/;"	f
+get_real_ip	tool/ip/ip.php	/^function get_real_ip(){$/;"	f
+get_seo_info	baidu/function.php	/^function get_seo_info($domain,$selects,$pn){	$/;"	f
+get_seo_info	google/function.php	/^function get_seo_info($domain,$selects,$start){$/;"	f
+get_seo_info	keys/function.php	/^function get_seo_info($domain,$bot,$pn,$keys,$v,$output,$rn){$/;"	f
+get_seo_info	ssyqfl/function.php	/^function get_seo_info($domain,$che){$/;"	f
+get_seo_info	ssyqsl/function.php	/^function get_seo_info($domain,$che){$/;"	f
+getby	images/globals.js	/^var getby = document.getElementsByClassName;$/;"	v
+getby	images/globals2.js	/^var getby = document.getElementsByClassName;$/;"	v
+getby	images/globals3.js	/^var getby = document.getElementsByClassName;$/;"	v
+getcode	friends/require/chinese.php	/^	function getcode($code) {$/;"	f
+getcode	require/chinese.php	/^	function getcode($code) {$/;"	f
+getcode	seo/require/chinese.php	/^	function getcode($code) {$/;"	f
+getcode	ssyqfl/require/chinese.php	/^	function getcode($code) {$/;"	f
+getcode	ssyqsl/require/chinese.php	/^	function getcode($code) {$/;"	f
+getcode	webs/require/chinese.php	/^	function getcode($code) {$/;"	f
+getid	images/globals.js	/^function getid(id) {$/;"	f
+getid	images/globals2.js	/^function getid(id) {$/;"	f
+getid	images/globals3.js	/^function getid(id) {$/;"	f
+getphone	shouji/function.php	/^function getphone($phone){$/;"	f
+gip	ip/ip.php	/^	$gip=$_SERVER['REMOTE_ADDR'];$/;"	v
+gip	ip/ip.php	/^$gip=get_real_ip();$/;"	v
+gip	tool/ip/ip.php	/^	$gip=$_SERVER['REMOTE_ADDR'];$/;"	v
+gip	tool/ip/ip.php	/^$gip=get_real_ip();$/;"	v
+gurl	pr/prfunction.php	/^	$gurl     = "http:\/\/www.google.com\/search?client=navclient-auto&features=Rank:&q=info:".$url.'&ch='.HashURL($url);$/;"	v
+handle	cache.php	/^	$handle=fopen($filename,$method);$/;"	v
+handle	global.php	/^		$handle = curl_init();$/;"	v
+handleStateChange	header.php	/^	function handleStateChange() {$/;"	f
+handleStateChange	seo/alls.php	/^	function handleStateChange() {$/;"	f
+handleStateChange	tool/whois/index.php	/^	function handleStateChange() {$/;"	f
+handleStateChange	whois/index.php	/^	function handleStateChange() {$/;"	f
+handleStateChange	whois/whois_origin.php	/^	function handleStateChange() {$/;"	f
+haves	seo/ajax.php	/^$haves  = "http:\/\/www.baidu.com\/s?wd=%22".$lurl."%22";$/;"	v
+hex	keys/keys.php	/^		  $hex    = dechex(ord($char));$/;"	v
+hex	seo/alls.php	/^		  $hex = dechex(ord($char));$/;"	v
+hex	seo/finds.php	/^  $hex = dechex(ord($char));$/;"	v
+host	global.php	/^		$host    = $urlinfo['host'];$/;"	v
+hour	dels/dels.php	/^	$hour    = floor($dels2\/3600);$/;"	v
+hour	tool/dels/dels.php	/^	$hour    = floor($dels2\/3600);$/;"	v
+hu	baidu/baidu.php	/^$hu = 'baidu';$/;"	v
+hu	countryym.php	/^$hu = 'countryym';$/;"	v
+hu	dels/dels.php	/^$hu = 'dels';$/;"	v
+hu	density.php	/^$hu      = 'density';$/;"	v
+hu	esearch.php	/^$hu = 'eseach';$/;"	v
+hu	friendlink/friendlink.php	/^$hu = 'friendlink';$/;"	v
+hu	friends/friends.php	/^$hu = 'friends';$/;"	v
+hu	google/google.php	/^$hu = 'google';$/;"	v
+hu	htmljs.php	/^$hu = 'htmljs';$/;"	v
+hu	htmlubb.php	/^$hu = 'htmlubb';$/;"	v
+hu	ids.php	/^$hu = 'ids';$/;"	v
+hu	ip/index.php	/^$hu = 'ip';$/;"	v
+hu	js.php	/^$hu = 'js';$/;"	v
+hu	keys/keys.php	/^$hu = 'keys';$/;"	v
+hu	mds.php	/^$hu   = 'mds';$/;"	v
+hu	meta.php	/^$hu = 'meta';$/;"	v
+hu	pr/outpr.php	/^$hu = 'outpr';$/;"	v
+hu	pr/pr.php	/^$hu = 'pr';$/;"	v
+hu	shouji/index.php	/^$hu = 'shouji';$/;"	v
+hu	ssyqfl/ssyqfl.php	/^$hu = 'ssyqfl';$/;"	v
+hu	ssyqsl/ssyqsl.php	/^$hu = 'ssyqsl';$/;"	v
+hu	tool/dels/dels.php	/^$hu = 'dels';$/;"	v
+hu	tool/ip/index.php	/^$hu = 'ip';$/;"	v
+hu	unicode.php	/^$hu = "unicode";$/;"	v
+hu	unix.php	/^$hu = 'unix';$/;"	v
+hu	urlencode.php	/^$hu = 'url';$/;"	v
+hu	utf.php	/^$hu = 'utf';$/;"	v
+hu	webs/webs.php	/^$hu = 'webs';$/;"	v
+hu	whois/index.php	/^$hu = 'whois';$/;"	v
+hu	yb/yb.php	/^$hu = 'yb';$/;"	v
+hu	yuan.php	/^$hu = 'yuan';$/;"	v
+human2unix	js/unixtime.js	/^function human2unix() {$/;"	f
+i	friends/require/chinese.php	/^			$i = 0;$/;"	v
+i	require/chinese.php	/^			$i = 0;$/;"	v
+i	seo/ajax.php	/^	    while($cnt < 5 && ($content2[$i]=@file_get_contents($ROBOT[$jobs[$i]]['site_url'].$lurl))===FALSE){$cnt++;}		        if($i == 2 || $i==4 || $i==5){$/;"	v
+i	seo/require/chinese.php	/^			$i = 0;$/;"	v
+i	ssyqfl/function.php	/^		if($i == 3 || $i==4){$/;"	v
+i	ssyqfl/require/chinese.php	/^			$i = 0;$/;"	v
+i	ssyqsl/function.php	/^			if($i==3 || $i==5 || $i==6){$/;"	v
+i	ssyqsl/require/chinese.php	/^			$i = 0;$/;"	v
+i	webs/require/chinese.php	/^			$i = 0;$/;"	v
+id	keys/keys.php	/^		foreach ($tab_text as $id=>$char){$/;"	v
+id	seo/alls.php	/^		foreach ($tab_text as $id=>$char){$/;"	v
+id	seo/finds.php	/^foreach ($tab_text as $id=>$char){$/;"	v
+idc	ids.php	/^		$idc = $_POST['idc'];$/;"	v
+idc	ids.php	/^		$idc = substr($idc, 0, 6);$/;"	v
+idc	ids.php	/^		$idc = substr(md5($idc), 8, 16);$/;"	v
+idclen	ids.php	/^	$idclen=strlen($idc);$/;"	v
+ifErr	friendlink/shows.php	/^	$ifErr=$QQWry->QQWry($ip);$/;"	v
+ifErr	ip/ip.php	/^	$ifErr=$QQWry->QQWry($gip);$/;"	v
+ifErr	ip/ip.php	/^	$ifErr=$QQWry->QQWry($ip);$/;"	v
+ifErr	tool/ip/ip.php	/^	$ifErr=$QQWry->QQWry($gip);$/;"	v
+ifErr	tool/ip/ip.php	/^	$ifErr=$QQWry->QQWry($ip);$/;"	v
+inslen	webs/texts.php	/^	$inslen  = $counts - $outslen;$/;"	v
+inslen	webs/texts.php	/^	$inslen  = '0';$/;"	v
+inslen	webs/texts.php	/^	$inslen  = sizeof($outs);$/;"	v
+ip	friendlink/qqwry.php	/^			if ( $ip == $this->StartIp ){$/;"	v
+ip	friendlink/qqwry.php	/^		$ip=$this->IpToInt ( $dotip );$/;"	v
+ip	friendlink/shows.php	/^				$ip = $ips[$i];$/;"	v
+ip	friendlink/shows.php	/^		$ip = $_SERVER["HTTP_CLIENT_IP"];$/;"	v
+ip	friendlink/shows.php	/^		if ($ip) { array_unshift($ips, $ip); $ip = FALSE; }$/;"	v
+ip	friendlink/shows.php	/^	$ip = explode(".", $str);$/;"	v
+ip	friendlink/shows.php	/^	$ip=false;$/;"	v
+ip	friendlink/shows.php	/^$ip=$inip=$_POST['ip']?$_POST['ip']:$lurl;$/;"	v
+ip	friendlink/shows.php	/^preg_match('\/((\\w|-)+\\.)+[a-z]{2,4}\/i',$ip) ? $ip=gethostbyname($ip) : $ip;$/;"	v
+ip	ip/ip.php	/^				$ip = $ips[$i];$/;"	v
+ip	ip/ip.php	/^		$ip = $_SERVER["HTTP_CLIENT_IP"];$/;"	v
+ip	ip/ip.php	/^		if ($ip) { array_unshift($ips, $ip); $ip = FALSE; }$/;"	v
+ip	ip/ip.php	/^	$ip = explode(".", $str);$/;"	v
+ip	ip/ip.php	/^	$ip=$_SERVER['REMOTE_ADDR'];$/;"	v
+ip	ip/ip.php	/^	$ip=false;$/;"	v
+ip	ip/ip.php	/^$ip=$inip=$_POST['ip']?$_POST['ip']:$_GET['domain'];$/;"	v
+ip	ip/ip.php	/^preg_match('\/((\\w|-)+\\.)+[a-z]{2,4}\/i',$ip) ? $ip=gethostbyname($ip) : $ip;$/;"	v
+ip	tool/ip/ip.php	/^				$ip = $ips[$i];$/;"	v
+ip	tool/ip/ip.php	/^		$ip = $_SERVER["HTTP_CLIENT_IP"];$/;"	v
+ip	tool/ip/ip.php	/^		if ($ip) { array_unshift($ips, $ip); $ip = FALSE; }$/;"	v
+ip	tool/ip/ip.php	/^	$ip = explode(".", $str);$/;"	v
+ip	tool/ip/ip.php	/^	$ip=$_SERVER['REMOTE_ADDR'];$/;"	v
+ip	tool/ip/ip.php	/^	$ip=false;$/;"	v
+ip	tool/ip/ip.php	/^$ip=$inip=$_POST['ip']?$_POST['ip']:$_GET['domain'];$/;"	v
+ip	tool/ip/ip.php	/^preg_match('\/((\\w|-)+\\.)+[a-z]{2,4}\/i',$ip) ? $ip=gethostbyname($ip) : $ip;$/;"	v
+ipp	ip/ip.php	/^	$ipp = "您的代理IP是".$gip."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;来自".$QQWry->Country.$QQWry->Local;$/;"	v
+ipp	ip/ip.php	/^	$ipp = "您的真实IP是".$gip."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;来自".$QQWry->Country.$QQWry->Local."<br\/>";$/;"	v
+ipp	tool/ip/ip.php	/^	$ipp = "您的代理IP是".$gip."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;来自".$QQWry->Country.$QQWry->Local;$/;"	v
+ipp	tool/ip/ip.php	/^	$ipp = "您的真实IP是".$gip."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;来自".$QQWry->Country.$QQWry->Local."<br\/>";$/;"	v
+ipp1	friendlink/shows.php	/^	$ipp1 = $ip;$/;"	v
+ipp1	ip/ip.php	/^	$ipp1 = $ip;$/;"	v
+ipp1	tool/ip/ip.php	/^	$ipp1 = $ip;$/;"	v
+ipp2	friendlink/shows.php	/^	$ipp2 = $QQWry->Country.$QQWry->Local;$/;"	v
+ipp2	ip/ip.php	/^	$ipp2 = "请输入正确的IP或域名.";$/;"	v
+ipp2	ip/ip.php	/^	$ipp2 = $QQWry->Country.$QQWry->Local;$/;"	v
+ipp2	tool/ip/ip.php	/^	$ipp2 = "请输入正确的IP或域名.";$/;"	v
+ipp2	tool/ip/ip.php	/^	$ipp2 = $QQWry->Country.$QQWry->Local;$/;"	v
+ips	friendlink/shows.php	/^		$ips = explode (", ", $_SERVER['HTTP_X_FORWARDED_FOR']);$/;"	v
+ips	ip/ip.php	/^		$ips = explode (", ", $_SERVER['HTTP_X_FORWARDED_FOR']);$/;"	v
+ips	ip/ip.php	/^	$ips = "您的IP是：".$ip."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;来自：".$QQWry->Country.$QQWry->Local;$/;"	v
+ips	tool/ip/ip.php	/^		$ips = explode (", ", $_SERVER['HTTP_X_FORWARDED_FOR']);$/;"	v
+ips	tool/ip/ip.php	/^	$ips = "您的IP是：".$ip."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;来自：".$QQWry->Country.$QQWry->Local;$/;"	v
+is_domain	global.php	/^function is_domain($domain){$/;"	f
+is_ip	friendlink/shows.php	/^function is_ip($str) {$/;"	f
+is_ip	ip/ip.php	/^function is_ip($str) {$/;"	f
+is_ip	tool/ip/ip.php	/^function is_ip($str) {$/;"	f
+iswords	images/globals3.js	/^var iswords = false;$/;"	v
+j	seo/ajax.php	/^		if($j == 2 || $j==4 || $j==5){$/;"	v
+job	keys/keys.php	/^  $job = "baidu";$/;"	v
+job	keys/keys.php	/^  $job = "google";$/;"	v
+jobs	seo/ajax.php	/^	$jobs = array();$/;"	v
+jobs	ssyqfl/function.php	/^	$jobs    = array();$/;"	v
+jobs	ssyqsl/function.php	/^	$jobs    = array();$/;"	v
+jsdecode	js.php	/^function jsdecode(obj) {$/;"	f
+jsencode	js.php	/^ function jsencode(obj) {$/;"	f
+k	meta.php	/^	$k        = $keywords?mb_strlen($keywords,'gbk'):'0';$/;"	v
+k	seo/alls.php	/^$k    = $keywords?mb_strlen($keywords,'gbk'):'0';$/;"	v
+key	baidu/baidu.php	/^foreach ($urls as $key=>$v){$/;"	v
+key	cache.php	/^		foreach ($input as $key => $value) {$/;"	v
+key	dels/dels.php	/^foreach ($urls as $key=>$v){$/;"	v
+key	density.php	/^foreach ($urls as $key=>$v){$/;"	v
+key	esearch.php	/^foreach ($urls as $key=>$v){$/;"	v
+key	friendlink/friendlink.php	/^foreach ($urls as $key=>$v){$/;"	v
+key	friendlink/friendlink.php	/^foreach($ali as $key=>$val){$/;"	v
+key	friends/friends.php	/^	foreach($ali as $key=>$val){$/;"	v
+key	friends/friends.php	/^foreach ($urls as $key=>$v){$/;"	v
+key	google/google.php	/^foreach ($urls as $key=>$v){$/;"	v
+key	keys/function.php	/^	foreach($kw as $key=>$val){$/;"	v
+key	keys/keys.php	/^foreach ($urls as $key=>$v){$/;"	v
+key	meta.php	/^foreach ($urls as $key=>$v){$/;"	v
+key	pr/outpr.php	/^foreach ($urls as $key=>$v){$/;"	v
+key	seo/alls.php	/^foreach ($urls as $key=>$v){$/;"	v
+key	ssyqfl/ssyqfl.php	/^foreach ($urls as $key=>$v){$/;"	v
+key	ssyqsl/ssyqsl.php	/^foreach ($urls as $key=>$v){$/;"	v
+key	tool/dels/dels.php	/^foreach ($urls as $key=>$v){$/;"	v
+key	tool/whois/index.php	/^foreach ($urls as $key=>$v){$/;"	v
+key	webs/webs.php	/^foreach ($urls as $key=>$v){$/;"	v
+key	whois/index.php	/^foreach ($urls as $key=>$v){$/;"	v
+key	whois/whois_origin.php	/^foreach ($urls as $key=>$v){$/;"	v
+key	yuan.php	/^foreach ($urls as $key=>$v){$/;"	v
+keys	density.php	/^	$keys  = preg_replace(array("\/\\s\/","<br\/>"),array("",),$keys);$/;"	v
+keys	density.php	/^$keys    = $_POST['keys']?$_POST['keys']:trim($_GET['keys']);$/;"	v
+keys	keys/keys.php	/^$keys   = $_POST['keys']?$_POST['keys']:$_GET['keys'];$/;"	v
+keys	seo/alls.php	/^$keys  = explode(',',$array2[1][0]);$/;"	v
+keys1	density.php	/^	$keys1 = "\/".$keys."\/";$/;"	v
+keys1	seo/alls.php	/^		$keys1 = "\/".$keys[$t]."\/";$/;"	v
+keysa	keys/keys.php	/^$keysa  = explode(" ",$keys);$/;"	v
+keyss	seo/alls.php	/^	$keyss = "<br\/><table border=1 width=100% bordercolordark=#FFFFFF cellspacing=0 cellpadding=0 bordercolorlight=#BBD7E6><tr bgcolor=#D8F0FC><td>关键词<\/td><td>出现频率<\/td><td>2%≦密度≦8%<\/td><td>百度排名<\/td><td>Google排名<\/td><\/tr>";$/;"	v
+keyword	yb/yb.php	/^			$keyword    = explode(" ",$q);\/\/拆分关键字$/;"	v
+keywords	meta.php	/^	$keywords = $array2[1][0]?$array2[1][0]:$array4[1][0];$/;"	v
+keywords	seo/alls.php	/^$keywords = $array2[1][0]?$array2[1][0]:$array4[1][0];$/;"	v
+killErrors	header.php	/^	function killErrors() {$/;"	f
+killErrors	seo/alls.php	/^function killErrors() {$/;"	f
+killErrors	tool/whois/index.php	/^function killErrors() {$/;"	f
+killErrors	whois/index.php	/^function killErrors() {$/;"	f
+killErrors	whois/whois_origin.php	/^function killErrors() {$/;"	f
+kw	keys/function.php	/^	$kw  = $sm = array();$/;"	v
+kws	keys/function.php	/^	$kws       = '';$/;"	v
+lastpage	baidu/function.php	/^	$lastpage  = (ceil($count\/10)-1)*10;$/;"	v
+len	friends/require/chinese.php	/^			$len = strlen($this->SourceText);$/;"	v
+len	require/chinese.php	/^			$len = strlen($this->SourceText);$/;"	v
+len	seo/require/chinese.php	/^			$len = strlen($this->SourceText);$/;"	v
+len	shouji/function.php	/^	$len    = strlen($phone);$/;"	v
+len	ssyqfl/require/chinese.php	/^			$len = strlen($this->SourceText);$/;"	v
+len	ssyqsl/require/chinese.php	/^			$len = strlen($this->SourceText);$/;"	v
+len	webs/require/chinese.php	/^			$len = strlen($this->SourceText);$/;"	v
+li	google/function.php	/^	$li  =  "\/<li class=g>(.*)<\\\/span><\\\/span><\\\/div>\/is";$/;"	v
+line_num	ids.php	/^		foreach ($lines as $line_num => $line) {$/;"	v
+lines	ids.php	/^		$lines = file ('info.txt');$/;"	v
+link_end	baidu/pageft.php	/^	$link_end = (($loop_end + $max_length) > $total_page) ? $total_page :$loop_end + $max_length;$/;"	v
+link_info	ssyqfl/function.php	/^	$link_info = '';$/;"	v
+link_info	ssyqsl/function.php	/^	$link_info = '';$/;"	v
+link_start	baidu/pageft.php	/^	$link_start = (($loop_start - $max_length) < 2) ? 2 :$loop_start - $max_length;$/;"	v
+loop_end	baidu/pageft.php	/^		$loop_end = $page + $max_length;$/;"	v
+loop_end	baidu/pageft.php	/^		$loop_end = $total_page-1;$/;"	v
+loop_end	baidu/pageft.php	/^		$loop_end = ($loop_end < $max_length * 2) ? $max_length * 2:$loop_end;$/;"	v
+loop_end	baidu/pageft.php	/^		$loop_end = ($loop_end > $total_page) ? $total_page-1 :$loop_end;$/;"	v
+loop_start	baidu/pageft.php	/^		$loop_start = $page - $max_length;$/;"	v
+loop_start	baidu/pageft.php	/^		$loop_start = ($loop_start <2) ? 2 :$loop_start;$/;"	v
+loop_start	baidu/pageft.php	/^		$loop_start = 2;$/;"	v
+lurl	friendlink/shows.php	/^$lurl   = $_GET['lurl'];$/;"	v
+lurl	friends/shows.php	/^$lurl   = $_GET['lurl'];$/;"	v
+lurl	seo/ajax.php	/^$lurl   = $_GET['lurl'];$/;"	v
+makeRequest	ajax2.js	/^function makeRequest(queryString) {$/;"	f
+makeRequest	baidu/ajax2.js	/^function makeRequest(queryString) {$/;"	f
+makeRequest	google/ajax2.js	/^function makeRequest(queryString) {$/;"	f
+makeRequest	ssyqfl/ajax2.js	/^function makeRequest(queryString) {$/;"	f
+makeRequest	ssyqsl/ajax2.js	/^function makeRequest(queryString) {$/;"	f
+makeRequest	webs/ajax2.js	/^function makeRequest(queryString) {	$/;"	f
+max_length	baidu/pageft.php	/^	$max_length = $max_length ? $max_length : 5 ;$/;"	v
+mds	mds.php	/^$mds  = $_POST['mds']?$_POST['mds']:$_GET['mds'];$/;"	v
+mds	mds.php	/^$mds  = $mds?$mds:"md5";$/;"	v
+mds1	mds.php	/^$mds1 = strtoupper(md5($mds));$/;"	v
+mds2	mds.php	/^$mds2 = strtolower($mds1);$/;"	v
+mds3	mds.php	/^$mds3 = substr($mds1,8,16);$/;"	v
+mds4	mds.php	/^$mds4 = strtolower($mds3);$/;"	v
+minute	dels/dels.php	/^	$minute  = floor($dels2\/60);$/;"	v
+minute	tool/dels/dels.php	/^	$minute  = floor($dels2\/60);$/;"	v
+modValue	ids.php	/^	$modValue = $TotalmulAiWi % 11;$/;"	v
+mouseout	images/menu.js	/^function mouseout () {$/;"	f
+mouseover	images/menu.js	/^function mouseover (th, menu) {$/;"	f
+n	friends/require/chinese.php	/^				$n = (ord($c[0]) & 0x0f) << 18;$/;"	v
+n	friends/require/chinese.php	/^				$n = (ord($c[0]) & 0x1f) << 12;$/;"	v
+n	friends/require/chinese.php	/^				$n = (ord($c[0]) & 0x3f) << 6;$/;"	v
+n	require/chinese.php	/^				$n = (ord($c[0]) & 0x0f) << 18;$/;"	v
+n	require/chinese.php	/^				$n = (ord($c[0]) & 0x1f) << 12;$/;"	v
+n	require/chinese.php	/^				$n = (ord($c[0]) & 0x3f) << 6;$/;"	v
+n	seo/require/chinese.php	/^				$n = (ord($c[0]) & 0x0f) << 18;$/;"	v
+n	seo/require/chinese.php	/^				$n = (ord($c[0]) & 0x1f) << 12;$/;"	v
+n	seo/require/chinese.php	/^				$n = (ord($c[0]) & 0x3f) << 6;$/;"	v
+n	ssyqfl/require/chinese.php	/^				$n = (ord($c[0]) & 0x0f) << 18;$/;"	v
+n	ssyqfl/require/chinese.php	/^				$n = (ord($c[0]) & 0x1f) << 12;$/;"	v
+n	ssyqfl/require/chinese.php	/^				$n = (ord($c[0]) & 0x3f) << 6;$/;"	v
+n	ssyqsl/require/chinese.php	/^				$n = (ord($c[0]) & 0x0f) << 18;$/;"	v
+n	ssyqsl/require/chinese.php	/^				$n = (ord($c[0]) & 0x1f) << 12;$/;"	v
+n	ssyqsl/require/chinese.php	/^				$n = (ord($c[0]) & 0x3f) << 6;$/;"	v
+n	webs/require/chinese.php	/^				$n = (ord($c[0]) & 0x0f) << 18;$/;"	v
+n	webs/require/chinese.php	/^				$n = (ord($c[0]) & 0x1f) << 12;$/;"	v
+n	webs/require/chinese.php	/^				$n = (ord($c[0]) & 0x3f) << 6;$/;"	v
+nRet	friendlink/qqwry.php	/^			$nRet=0 ;$/;"	v
+nRet	friendlink/qqwry.php	/^			$nRet=3 ;$/;"	v
+name	friends/shows.php	/^					$name = strlen($b[2])>8 ? substr($b[2],0,8).'……' : $b[2];$/;"	v
+newXMLHTTPRequest	js/ajax.js	/^function newXMLHTTPRequest(){$/;"	f
+nextpage	baidu/function.php	/^	$nextpage  = ($pn==$lastpage?$lastpage:$pn+10);$/;"	v
+nows	dels/dels.php	/^	$nows    = time();$/;"	v
+nows	tool/dels/dels.php	/^	$nows    = time();$/;"	v
+num	shouji/function.php	/^		$num    = ltrim(substr($phone,3,4),"0");$/;"	v
+offset	friendlink/qqwry.php	/^				$offset=ord($buf[0]) + (ord($buf[1])*256) + (ord($buf[2])* 256*256);$/;"	v
+offset	friendlink/qqwry.php	/^		$offset=$this->FirstStartIp+$RecNo * 7 ;$/;"	v
+openfile	friends/require/chinese.php	/^	function openfile($filename) {$/;"	f
+openfile	require/chinese.php	/^	function openfile($filename) {$/;"	f
+openfile	seo/require/chinese.php	/^	function openfile($filename) {$/;"	f
+openfile	ssyqfl/require/chinese.php	/^	function openfile($filename) {$/;"	f
+openfile	ssyqsl/require/chinese.php	/^	function openfile($filename) {$/;"	f
+openfile	webs/require/chinese.php	/^	function openfile($filename) {$/;"	f
+out	friends/require/chinese.php	/^			$out = "";$/;"	v
+out	global.php	/^			$out = "GET $uri   HTTP\/1.1\\r\\n";$/;"	v
+out	require/chinese.php	/^			$out = "";$/;"	v
+out	seo/require/chinese.php	/^			$out = "";$/;"	v
+out	ssyqfl/require/chinese.php	/^			$out = "";$/;"	v
+out	ssyqsl/require/chinese.php	/^			$out = "";$/;"	v
+out	webs/require/chinese.php	/^			$out = "";$/;"	v
+output	cache.php	/^	$output = '';$/;"	v
+output	keys/keys.php	/^		$output   = '';$/;"	v
+output	keys/keys.php	/^		$output = $keysa[$k];$/;"	v
+output	keys/keys.php	/^$output = '';$/;"	v
+output	keys/keys.php	/^$output = implode("+",$ara);$/;"	v
+output	seo/alls.php	/^		$output   = '';$/;"	v
+output	seo/finds.php	/^$output = '';$/;"	v
+outs	pr/outpr.php	/^$outs   = $ali = array();$/;"	v
+outslen	webs/texts.php	/^	$outslen = '0';$/;"	v
+outslen	webs/texts.php	/^	$outslen = sizeof($outs);$/;"	v
+over	dels/dels.php	/^	$over    = date('Y-m-d',$overs);$/;"	v
+over	tool/dels/dels.php	/^	$over    = date('Y-m-d',$overs);$/;"	v
+overs	dels/dels.php	/^	$overs   = strtotime($arrays01);$/;"	v
+overs	tool/dels/dels.php	/^	$overs   = strtotime($arrays01);$/;"	v
+p	yb/yb.php	/^			$p = ceil($r_num\/$p_num); \/\/结果实际页数$/;"	v
+p	yb/yb.php	/^		$p = ceil($r_num\/$p_num); \/\/结果实际页数$/;"	v
+p_num	yb/yb.php	/^$p_num   = 40; \/\/每页结果的数据条数$/;"	v
+page	baidu/pageft.php	/^	$page = ($page < 1) ? 1 : $page ;$/;"	v
+page	yb/yb.php	/^		if($page>$p) $page=$p;$/;"	v
+page	yb/yb.php	/^$page = intval($_GET['p']); \/\/页数$/;"	v
+page	yb/yb.php	/^if($page==0) $page = 1;$/;"	v
+page_size	baidu/pageft.php	/^	$page_size = $page_size ? $page_size : 10;$/;"	v
+page_slice	baidu/pageft.php	/^function page_slice($total,$page,$page_size = '',$url = '',$max_length = ''){$/;"	f
+page_table	baidu/pageft.php	/^	$page_table = '';$/;"	v
+page_table	baidu/pageft.php	/^	$page_table = '<table id="page_slice"><tr>';$/;"	v
+par	shouji/function.php	/^	$par = "[0-9]";$/;"	v
+pat	dels/dels.php	/^	$pat  = "\/Status:\\s+?(.*)<br\\\/>\/Usi";$/;"	v
+pat	density.php	/^	$pat = "\/>(.*)<\/Us";$/;"	v
+pat	tool/dels/dels.php	/^	$pat  = "\/Status:\\s+?(.*)<br\\\/>\/Usi";$/;"	v
+pat1	dels/dels.php	/^	$pat1 = "\/Creation Date:\\s+?(.*)<br\\\/>\/Usi";$/;"	v
+pat1	esearch.php	/^	$pat1 = "\/<title>(.*)<\\\/title>\/si";$/;"	v
+pat1	friendlink/friendlink.php	/^$pat1   = "\/<a(.*?)<\\\/a>\/i";$/;"	v
+pat1	friends/friends.php	/^	$pat1 = "\/<a(.*?)<\\\/a>\/i";$/;"	v
+pat1	friends/shows.php	/^		$pat1   = "\/<a(.*?)<\\\/a>\/i";$/;"	v
+pat1	meta.php	/^	$pat1  = "\/<title>(.*)<\\\/title>\/si";$/;"	v
+pat1	pr/outpr.php	/^$pat1   = "\/<a(.*?)<\\\/a>\/i";$/;"	v
+pat1	seo/alls.php	/^$pat1  = "\/<title>(.*)<\\\/title>\/si";$/;"	v
+pat1	tool/dels/dels.php	/^	$pat1 = "\/Creation Date:\\s+?(.*)<br\\\/>\/Usi";$/;"	v
+pat1	webs/texts.php	/^$pat1    = "\/<a(.*?)<\\\/a>\/i";$/;"	v
+pat11	dels/dels.php	/^	$pat11 = "\/Registration Date:\\s+?(.*)<br\\\/>\/Usi";$/;"	v
+pat11	tool/dels/dels.php	/^	$pat11 = "\/Registration Date:\\s+?(.*)<br\\\/>\/Usi";$/;"	v
+pat2	dels/dels.php	/^	$pat2 = "\/Expiration Date:\\s+?(.*)<br\\\/>\/Usi";$/;"	v
+pat2	esearch.php	/^	$pat2 = "\/meta content=\\"(.+)\\" name=\\"keywords\\"\/Ui";$/;"	v
+pat2	meta.php	/^	$pat2  = "\/meta content=\\"(.+)\\" name=\\"keywords\\"\/Ui";$/;"	v
+pat2	seo/alls.php	/^$pat2  = "\/meta content=\\"(.+)\\" name=\\"keywords\\"\/Ui";$/;"	v
+pat2	tool/dels/dels.php	/^	$pat2 = "\/Expiration Date:\\s+?(.*)<br\\\/>\/Usi";$/;"	v
+pat3	esearch.php	/^	$pat3 = "\/<meta content=\\"(.+)\\" name=\\"description\\"\/Usi";$/;"	v
+pat3	meta.php	/^	$pat3     = "\/<meta content=\\"(.+)\\" name=\\"description\\"\/Usi";$/;"	v
+pat3	seo/alls.php	/^$pat3 = "\/<meta content=\\"(.+)\\" name=\\"description\\"\/Ui";$/;"	v
+pat4	esearch.php	/^	$pat4 = "\/>(.*)<\/U";$/;"	v
+pat4	meta.php	/^	$pat4  = "\/meta name=\\"keywords\\" content=\\"(.+)\\"\/Ui";$/;"	v
+pat4	seo/alls.php	/^$pat4  = "\/meta name=\\"keywords\\" content=\\"(.+)\\"\/Ui";$/;"	v
+pat4	seo/alls.php	/^$pat4 = "\/>(.*)<\/U";$/;"	v
+pat44	seo/alls.php	/^$pat44 = "\/>(.*)<\/Us";$/;"	v
+pat5	meta.php	/^	$pat5     = "\/<meta name=\\"description\\" content=\\"(.+)\\"\/Usi";$/;"	v
+pat5	seo/alls.php	/^$pat5 = "\/<meta name=\\"description\\" content=\\"(.+)\\"\/Ui";$/;"	v
+pat8	esearch.php	/^	$pat8 = "\/<meta name=\\"description\\" content=\\"(.+)\\"\/Usi";$/;"	v
+pat9	esearch.php	/^	$pat9  = "\/meta name=\\"keywords\\" content=\\"(.+)\\"\/Ui";$/;"	v
+per	friendlink/friendlink.php	/^$per = "\/http:\\\/\\\/(.*)\/";$/;"	v
+per	friends/friends.php	/^	$per = "\/http:\\\/\\\/(.*)\/";$/;"	v
+per	pr/outpr.php	/^$per = "\/http:\\\/\\\/(.*)\/";$/;"	v
+phone	shouji/index.php	/^		$phone  = (isset($_POST["phone"]))?$_POST["phone"]:die ("请返回");$/;"	v
+pn	keys/keys.php	/^$pn     = intval($_GET['pn']);$/;"	v
+post_l	yb/yb.php	/^	$post_l = '<tr><td align="center" style="font-size:14px;padding:10px;" bgcolor="#F0F0F0">分页：'.$post_l.' (共计'.$r_num.'个，每页'.$p_num.'个)<\/td><\/tr>';$/;"	v
+pp	seo/ajax.php	/^$pp = "\/找到相关网页(.*)篇\/";$/;"	v
+pq	friendlink/friendlink.php	/^$pq = '\/ href=["\\']?([^>"\\' ]+)["\\']?\\s*[^>]*>(.*)<\\\/a>\/si';$/;"	v
+pq	friends/friends.php	/^	$pq = '\/ href=["\\']?([^>"\\' ]+)["\\']?\\s*[^>]*>(.*)<\\\/a>\/si';$/;"	v
+pq	friends/shows.php	/^			$pq = '\/ href=["\\']?([^>"\\' ]+)["\\']?\\s*[^>]*>(.*)<\\\/a>\/si';$/;"	v
+pq	pr/outpr.php	/^$pq = '\/ href=["\\']?([^>"\\' ]+)["\\']?\\s*[^>]*>(.*)<\\\/a>\/si';$/;"	v
+pq	webs/texts.php	/^		$pq = '\/ href=["\\']?([^>"\\' ]+)["\\']?\\s*[^>]*>(.*)<\\\/a>\/si';$/;"	v
+pr	pr/prfunction.php	/^	$pr = 0;$/;"	v
+pr	pr/prfunction.php	/^	$pr = GetPR($current_url);$/;"	v
+pr	webs/testlink.php	/^		$pr = GetPR($testlink);$/;"	v
+pregpage	baidu/function.php	/^	$pregpage  = ($pn ==$firstpage?0:$pn-10);$/;"	v
+preview	js/Unicode.js	/^function preview() {$/;"	f
+preview	utf.php	/^function preview() {$/;"	f
+prs	friends/friends.php	/^	$prs = '&nbsp;&nbsp;<img src="..\/images\/pagerank'.GetPR($domain).'.gif" align="absmiddle" \/> ';$/;"	v
+ptr	pr/donow.php	/^	$ptr = "<table width=100%><tr><td align=right>域名&nbsp;&nbsp;&nbsp;&nbsp;<\/td><td align=left>&nbsp;&nbsp;&nbsp;&nbsp;PR<\/td><tr\/>";$/;"	v
+ptr	pr/donow.php	/^	$ptr = "请先输入正确的域名！例如：chinaccnet.com,yundns.com";$/;"	v
+q	yb/yb.php	/^$q    = trim($_GET['q']); \/\/关键词$/;"	v
+qqwry	friendlink/qqwry.php	/^	function qqwry ($dotip='') {$/;"	f
+qw	yb/yb.php	/^		$qw = "村镇乡: ";break;$/;"	v
+qw	yb/yb.php	/^		$qw = "地区: ";	break;$/;"	v
+qw	yb/yb.php	/^		$qw = "区号: ";  break;$/;"	v
+qw	yb/yb.php	/^		$qw = "省份: ";	break;$/;"	v
+qw	yb/yb.php	/^		$qw = "市县: ";  break;$/;"	v
+qw	yb/yb.php	/^		$qw = "邮编: ";  break;$/;"	v
+r_num	yb/yb.php	/^		$r_num = trim($dreamdb[0],"\\n\\r");$/;"	v
+r_num	yb/yb.php	/^$r_num   = 0; \/\/结果个数$/;"	v
+radis	index.php	/^ function radis(){$/;"	f
+readover	friends/require/chinese.php	/^function readover($filename,$method="rb") {$/;"	f
+readover	require/chinese.php	/^function readover($filename,$method="rb") {$/;"	f
+readover	seo/require/chinese.php	/^	function readover($filename,$method="rb") {$/;"	f
+readover	shouji/function.php	/^function readover($filename,$method="rb") {	$/;"	f
+readover	ssyqfl/require/chinese.php	/^	function readover($filename,$method="rb") {$/;"	f
+readover	ssyqsl/require/chinese.php	/^	function readover($filename,$method="rb") {$/;"	f
+readover	webs/require/chinese.php	/^	function readover($filename,$method="rb") {$/;"	f
+resul2	tool/whois/index.php	/^	$resul2 = "访问此网站：<a href=http:\/\/".$domain.">http:\/\/".$domain."<\/a><br\/>".$result;$/;"	v
+resul2	whois/index.php	/^	$resul2 = "访问此网站：<a href=http:\/\/".$domain.">http:\/\/".$domain."<\/a><br\/>".$result;$/;"	v
+resul2	whois/whois_origin.php	/^	$resul2 = "访问此网站：<a href=http:\/\/".$domain.">http:\/\/".$domain."<\/a><br\/>".$result;$/;"	v
+result	baidu/seo.php	/^$result = get_seo_info($domain,$selects,$pn);$/;"	v
+result	dels/dels.php	/^		$result = '<font color=red><b>链接服务器失败！请检查域名是否正确！<\/b><\/font>';$/;"	v
+result	dels/dels.php	/^	$result  = $array[0][0];$/;"	v
+result	dels/dels.php	/^	$result  = $result."域名年龄：".$edels22."<br\/>域名创建时间 :".$create.'<br\/>域名到期时间 :'.$over."<br\/>域名删除时间：".$dels."<br\/>域名删除倒计时:".$dels22;$/;"	v
+result	dels/dels.php	/^	$result  = str_replace("Status","域名状态",$result);$/;"	v
+result	google/seo.php	/^$result = get_seo_info($domain,$selects,$start);$/;"	v
+result	ids.php	/^$result = '';$/;"	v
+result	keys/keys.php	/^	$result = get_seo_info($domain,$job,$pn,$keys,$val,$output,$rn);$/;"	v
+result	pr/outpr.php	/^$result = '&nbsp;&nbsp<img src="..\/images\/pagerank'.GetPR($domain).'.gif" align="absmiddle" \/> ';$/;"	v
+result	seo/ajax.php	/^	$result = "<table border=1 width=100% bordercolordark=#FFFFFF cellspacing=0 cellpadding=0 bordercolorlight=#BBD7E6>	<tr bgcolor=#D8F0FC><td colspan=9>网址<a href=http:\/\/".$lurl." target=_blank>http:\/\/".$lurl."<\/a>在各大搜索引擎的收录查询结果<\/td><\/tr><tr><td>搜索引擎<\/td><td>谷歌<\/td><td>百度<\/td><td>雅虎<\/td><td>搜狗<\/td><td>必应<\/td><td>有道<\/td><td>搜搜<\/td><\/tr><tr><td>收录数量<\/td>";$/;"	v
+result	shouji/function.php	/^		$result = substr($tmp,strpos($tmp,"=")+1,strlen($tmp)-strpos($tmp,"=")-2);$/;"	v
+result	shouji/index.php	/^		$result = "你查询的手机号码<font color=red>".$phone."<\/font>属于<font color=red>".getphone($phone)."<\/font>";$/;"	v
+result	ssyqfl/seo.php	/^ $result = get_seo_info($domain,$che);$/;"	v
+result	ssyqfl/seo.php	/^$result = '';$/;"	v
+result	ssyqsl/seo.php	/^ $result = get_seo_info($domain,$che);$/;"	v
+result	ssyqsl/seo.php	/^$result = '';$/;"	v
+result	tool/dels/dels.php	/^		$result = '<font color=red><b>链接服务器失败！请检查域名是否正确！<\/b><\/font>';$/;"	v
+result	tool/dels/dels.php	/^	$result  = $array[0][0];$/;"	v
+result	tool/dels/dels.php	/^	$result  = $result."域名年龄：".$edels22."<br\/>域名创建时间 :".$create.'<br\/>域名到期时间 :'.$over."<br\/>域名删除时间：".$dels."<br\/>域名删除倒计时:".$dels22;$/;"	v
+result	tool/dels/dels.php	/^	$result  = str_replace("Status","域名状态",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = $whois[0];$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("-apr","-4月",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("-aug","-8月",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("-dec","-12月",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("-feb","-2月",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("-jan","-1月",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("-jul","-7月",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("-jun","-6月",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("-mar","-3月",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("-may","-5月",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("-nov","-11月",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("-oct","-10月",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("-sep","-9月",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("Administrative Contact","管理人联系",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("Billing Contact","财务联系",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("Creation Date","创建时间",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("Expiration Date","过期时间",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("Name Server","DNS服务器",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("Referral URL","相关网站",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("Registrar:","注册商:",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("Status","状态",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("Technical Contact","技术联系",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("Updated Date","更新时间",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("Whois Server:","域名服务器:",$result);$/;"	v
+result	tool/whois/index.php	/^	$result = str_replace("no data found!"," ",$result);$/;"	v
+result	whois/index.php	/^	$result = $whois[0];$/;"	v
+result	whois/index.php	/^	$result = str_replace("-apr","-4月",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("-aug","-8月",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("-dec","-12月",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("-feb","-2月",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("-jan","-1月",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("-jul","-7月",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("-jun","-6月",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("-mar","-3月",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("-may","-5月",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("-nov","-11月",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("-oct","-10月",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("-sep","-9月",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("Administrative Contact","管理人联系",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("Billing Contact","财务联系",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("Creation Date","创建时间",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("Expiration Date","过期时间",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("Name Server","DNS服务器",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("Referral URL","相关网站",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("Registrar:","注册商:",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("Status","状态",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("Technical Contact","技术联系",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("Updated Date","更新时间",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("Whois Server:","域名服务器:",$result);$/;"	v
+result	whois/index.php	/^	$result = str_replace("no data found!"," ",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = $whois[0];$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("-apr","-4月",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("-aug","-8月",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("-dec","-12月",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("-feb","-2月",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("-jan","-1月",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("-jul","-7月",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("-jun","-6月",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("-mar","-3月",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("-may","-5月",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("-nov","-11月",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("-oct","-10月",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("-sep","-9月",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("Administrative Contact","管理人联系",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("Billing Contact","财务联系",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("Creation Date","创建时间",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("Expiration Date","过期时间",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("Name Server","DNS服务器",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("Referral URL","相关网站",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("Registrar:","注册商:",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("Status","状态",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("Technical Contact","技术联系",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("Updated Date","更新时间",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("Whois Server:","域名服务器:",$result);$/;"	v
+result	whois/whois_origin.php	/^	$result = str_replace("no data found!"," ",$result);$/;"	v
+result	yb/yb.php	/^		$result = $dreamdb[$page];$/;"	v
+result	yb/yb.php	/^	$result = '<table width="100%" cellpadding="2" cellspacing="0" style="border:1px solid #98A7B8;"><tr><td style="background:#F0F0F0;padding:0 5px;color:#014198;" height="26" valign="middle"><b>找到'.$r_num.'个与 <a href=".\/?q='.urlencode($q).'"><font color="#c60a00">'.$q.'<\/font><\/a> 相关的邮编区号<\/b><\/td><\/tr><tr><td><table cellpadding="4" cellspacing="4" width="100%" style="text-align:center"><tr style="text-align:center;font-weight:bold;" height="26" bgcolor="#efefef"><td width="80">省<\/td><td>地区<\/td><td>市县<\/td><td>乡镇村<\/td><td width="80">邮政编码<\/td><td width="60">电话区号<\/td><\/tr>'.$result.'<\/table><\/td><\/tr>'.$post_l.'<\/table>';$/;"	v
+result	yb/yb.php	/^$result  = "";$/;"	v
+result1	dels/dels.php	/^	$result1 = $array1[0][0]?$array1[0][0]:$array11[0][0];$/;"	v
+result1	dels/dels.php	/^	$result1 = $whois[0];$/;"	v
+result1	tool/dels/dels.php	/^	$result1 = $array1[0][0]?$array1[0][0]:$array11[0][0];$/;"	v
+result1	tool/dels/dels.php	/^	$result1 = $whois[0];$/;"	v
+result2	dels/dels.php	/^	$result2 = $array2[0][0];$/;"	v
+result2	tool/dels/dels.php	/^	$result2 = $array2[0][0];$/;"	v
+results	dels/dels.php	/^	$results = $result.$result1.$result2;$/;"	v
+results	dels/dels.php	/^	$results = str_replace("-apr","-4",$results);$/;"	v
+results	dels/dels.php	/^	$results = str_replace("-aug","-8",$results);$/;"	v
+results	dels/dels.php	/^	$results = str_replace("-dec","-12",$results);	$/;"	v
+results	dels/dels.php	/^	$results = str_replace("-feb","-2",$results);$/;"	v
+results	dels/dels.php	/^	$results = str_replace("-jan","-1",$results);$/;"	v
+results	dels/dels.php	/^	$results = str_replace("-jul","-7",$results);$/;"	v
+results	dels/dels.php	/^	$results = str_replace("-jun","-6",$results);$/;"	v
+results	dels/dels.php	/^	$results = str_replace("-mar","-3",$results);$/;"	v
+results	dels/dels.php	/^	$results = str_replace("-may","-5",$results);$/;"	v
+results	dels/dels.php	/^	$results = str_replace("-nov","-11",$results);$/;"	v
+results	dels/dels.php	/^	$results = str_replace("-oct","-10",$results);$/;"	v
+results	dels/dels.php	/^	$results = str_replace("-sep","-9",$results);$/;"	v
+results	esearch.php	/^	$results = "<br\/><b>Title: <\/b>".$array[1][0]."<br\/><b>KeyWords: <\/b>".$array2[1][0]."<br\/><b>Description: <\/b>".$array3[1][0]."<br\/><b>Body: <\/b>".$body;$/;"	v
+results	mds.php	/^	$results  = "加密后的结果：<input type=text class=input size=40 value=".$mds4.">";$/;"	v
+results	mds.php	/^	$results =  "加密后的结果：<input type=text class=input size=40 value=".$mds2.">";$/;"	v
+results	mds.php	/^	$results = "加密后的结果：<input type=text class=input size=40 value=".$mds1.">";$/;"	v
+results	mds.php	/^	$results = "加密后的结果：<input type=text class=input size=40 value=".$mds3.">";$/;"	v
+results	tool/dels/dels.php	/^	$results = $result.$result1.$result2;$/;"	v
+results	tool/dels/dels.php	/^	$results = str_replace("-apr","-4",$results);$/;"	v
+results	tool/dels/dels.php	/^	$results = str_replace("-aug","-8",$results);$/;"	v
+results	tool/dels/dels.php	/^	$results = str_replace("-dec","-12",$results);	$/;"	v
+results	tool/dels/dels.php	/^	$results = str_replace("-feb","-2",$results);$/;"	v
+results	tool/dels/dels.php	/^	$results = str_replace("-jan","-1",$results);$/;"	v
+results	tool/dels/dels.php	/^	$results = str_replace("-jul","-7",$results);$/;"	v
+results	tool/dels/dels.php	/^	$results = str_replace("-jun","-6",$results);$/;"	v
+results	tool/dels/dels.php	/^	$results = str_replace("-mar","-3",$results);$/;"	v
+results	tool/dels/dels.php	/^	$results = str_replace("-may","-5",$results);$/;"	v
+results	tool/dels/dels.php	/^	$results = str_replace("-nov","-11",$results);$/;"	v
+results	tool/dels/dels.php	/^	$results = str_replace("-oct","-10",$results);$/;"	v
+results	tool/dels/dels.php	/^	$results = str_replace("-sep","-9",$results);$/;"	v
+ret	friends/require/chinese.php	/^			$ret="";$/;"	v
+ret	require/chinese.php	/^			$ret="";$/;"	v
+ret	seo/require/chinese.php	/^			$ret="";$/;"	v
+ret	ssyqfl/require/chinese.php	/^			$ret="";$/;"	v
+ret	ssyqsl/require/chinese.php	/^			$ret="";$/;"	v
+ret	webs/require/chinese.php	/^			$ret="";$/;"	v
+rn	keys/keys.php	/^!$rn  && $rn=10;$/;"	v
+rn	keys/keys.php	/^$rn     = intval($_POST['rn']?$_POST['rn']:$_GET['rn']);$/;"	v
+s0	friends/friends.php	/^	$s0 = $site_url.$domain;$/;"	v
+s1	friends/friends.php	/^	$s1 = $s0.'&lm=1';$/;"	v
+s1	seo/ajax.php	/^	$s1 = 'http:\/\/www.baidu.com\/s?wd=site%3A'.$lurl.'&lm=1';$/;"	v
+s2	seo/ajax.php	/^	$s2 = 'http:\/\/www.baidu.com\/s?wd=site%3A'.$lurl.'&lm=7';$/;"	v
+s3	seo/ajax.php	/^	$s3 = 'http:\/\/www.baidu.com\/s?wd=site%3A'.$lurl.'&lm=30';	$/;"	v
+search	shouji/function.php	/^		$search = file($dbpath.$sub.".txt");		$/;"	v
+second1	dels/dels.php	/^	$second1 = $dels2-$minute*60;$/;"	v
+second1	tool/dels/dels.php	/^	$second1 = $dels2-$minute*60;$/;"	v
+sheng	yb/yb.php	/^$sheng = array('北京','天津','河北','山西','内蒙古','辽宁','吉林','黑龙江','上海','江苏','浙江','安徽','福建','江西','山东','湖南','湖北','河南','广东','广西','海南','重庆','四川','贵州','云南','西藏','陕西','甘肃','青海','宁夏','新疆','香港','澳门','台湾');$/;"	v
+shengpy	yb/yb.php	/^$shengpy = array('B','T','H','S','N','L','J','H','S','J','Z','A','F','J','S','H','H','H','G','G','H','C','S','G','Y','X','S','G','Q','N','X','X','A','T');$/;"	v
+site_info	baidu/function.php	/^	$site_info = '';	$/;"	v
+site_info	baidu/function.php	/^	if(preg_match($ROBOT['site_pattern'], $content1, $matches)) $site_info = $matches[1];	$/;"	v
+site_info	google/function.php	/^	$site_info = $site_info?$site_info:'0';$/;"	v
+site_info	google/function.php	/^	$site_info = '';$/;"	v
+site_info	google/function.php	/^	if(preg_match($ROBOT['site_pattern'], $content1, $matches)) $site_info = $matches[1];	$/;"	v
+site_info	keys/function.php	/^	$site_info = '';$/;"	v
+site_info	keys/function.php	/^	if(@preg_match($ROBOT[$bot]['site_pattern'], $content1, $matches)) $site_info = $matches[1];$/;"	v
+site_info	ssyqfl/function.php	/^	$site_info = '';$/;"	v
+site_info	ssyqsl/function.php	/^	$site_info = '';$/;"	v
+site_pattern	friends/friends.php	/^	$site_pattern = "\/找到相关网页(.*)篇\/";$/;"	v
+site_pattern	friends/shows.php	/^	$site_pattern = "\/找到相关网页(.*)篇\/";$/;"	v
+site_url	friends/friends.php	/^	$site_url = 'http:\/\/www.baidu.com\/s?wd=site%3A';$/;"	v
+ss	index.php	/^ function ss(){$/;"	f
+start	baidu/pageft.php	/^	$start = $page ? ($page - 1) * $page_size : 0;$/;"	v
+startRequest	header.php	/^	function startRequest() {$/;"	f
+startRequest	seo/alls.php	/^	function startRequest() {$/;"	f
+startRequest	tool/whois/index.php	/^	function startRequest() {$/;"	f
+startRequest	whois/index.php	/^	function startRequest() {$/;"	f
+startRequest	whois/whois_origin.php	/^	function startRequest() {$/;"	f
+startTimer	js/unixtime.js	/^function startTimer() {$/;"	f
+starts	dels/dels.php	/^	$starts  = strtotime('1970-7-1');$/;"	v
+starts	tool/dels/dels.php	/^	$starts  = strtotime('1970-7-1');$/;"	v
+stopTimer	js/unixtime.js	/^function stopTimer() {$/;"	f
+str	friendlink/qqwry.php	/^		$str='' ;$/;"	v
+str	friends/require/chinese.php	/^		$str="";$/;"	v
+str	global.php	/^		$str     = explode($host, $url);$/;"	v
+str	require/chinese.php	/^		$str="";$/;"	v
+str	seo/require/chinese.php	/^		$str="";$/;"	v
+str	ssyqfl/require/chinese.php	/^		$str="";$/;"	v
+str	ssyqsl/require/chinese.php	/^		$str="";$/;"	v
+str	webs/require/chinese.php	/^		$str="";$/;"	v
+strDay	ids.php	/^	$strDay   = substr($ai, 13, 2);$/;"	v
+strMonth	ids.php	/^	$strMonth = substr($ai, 11, 2);$/;"	v
+strVerifyCode	ids.php	/^	$strVerifyCode = $arrVerifyCode[$modValue];$/;"	v
+strYear	ids.php	/^	$strYear  = substr($ai, 7, 4);$/;"	v
+stripLeadingZeroes	js/unixtime.js	/^function stripLeadingZeroes(input) {$/;"	f
+sub	shouji/function.php	/^	$sub   = substr($phone,0,3);$/;"	v
+sunum	shouji/function.php	/^	$sunum = readover($dbpath.$sub.".txt");$/;"	v
+szLocal	friendlink/qqwry.php	/^			$szLocal= "OpenFileError";$/;"	v
+t	meta.php	/^	$t     = $title?mb_strlen($title,'gbk'):'0';$/;"	v
+t	webs/texts.php	/^$t = "共搜寻链接：".$counts." 个,站内链接：".$inslen."  个,出站链接：".$outslen."  个";$/;"	v
+tab_text	keys/keys.php	/^		$tab_text = str_split($keysa[$k]);$/;"	v
+tab_text	seo/alls.php	/^		$tab_text = str_split($text); $/;"	v
+tab_text	seo/finds.php	/^$tab_text = str_split($text); $/;"	v
+table	baidu/function.php	/^	$table   =  "\/<table border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" id=\\"(.*)\\">(.*)<\\\/table><br>\/is";$/;"	v
+talktoServer	js/ajax.js	/^function talktoServer(url,id,vType){	$/;"	f
+test	js.php	/^ function test() {$/;"	f
+testlink	webs/testlink.php	/^$testlink = $_GET['testlink'];$/;"	v
+text	density.php	/^	$text = $content?"页面文本总长度：".$a1."字符<br\/>关键字符长度：".$a2."字符<br\/>关键字出现频率：".$a3."次<br\/>关键字符总长度：".$a4."字符<br\/>密度结果计算：".$a5."<br\/>密度建议值：2%≦密度≦8%":"请先输入正确的域名和关键字再进行查询！";	$/;"	v
+text	friends/friends.php	/^	$text = sizeof($ali)-sizeof($pic);$/;"	v
+text	keys/function.php	/^	return $text = $cons."<br\/>".$deta."<br\/>".$kws;	$/;"	v
+text	seo/alls.php	/^		$text     = $keys[$t];$/;"	v
+text	seo/finds.php	/^$text   = $_GET['keys'];$/;"	v
+tianjia	images/home.js	/^function tianjia(obj)$/;"	f
+time	unix.php	/^						<td style="width:500px;"><span>先<\/span> my $time = <u>Unix timestamp<\/u> <span>然后<\/span>	my ($sec, $min, $hour, $day, $month, $year) = (localtime($time))[0,1,2,3,4,5,6]<\/td>$/;"	v
+time	unix.php	/^				<td style="width:500px;"><span>先<\/span> use Time::Local <span>然后<\/span>	my $time = timelocal($sec, $min, $hour, $day, $month, $year);<\/td>$/;"	v
+times	friends/friends.php	/^	$times = "\/\\d{4}-\\d{1,2}-\\d{1,2}\/";$/;"	v
+times	friends/shows.php	/^	$times   = "\/\\d{4}-\\d{1,2}-\\d{1,2}\/";$/;"	v
+times	seo/ajax.php	/^	$times = "\/\\d{4}-\\d{1,2}-\\d{1,2}\/";$/;"	v
+title	meta.php	/^	$title = $array[1][0];$/;"	v
+title	seo/alls.php	/^$title = $array[1][0];$/;"	v
+tmp	friends/require/chinese.php	/^				$tmp = $this->openfile(ROOT_PATH.$this->config['codetable_dir'].$this->config['BIG5toUnicode_table']);$/;"	v
+tmp	friends/require/chinese.php	/^				$tmp = $this->openfile(ROOT_PATH.$this->config['codetable_dir'].$this->config['GBtoUnicode_table']);$/;"	v
+tmp	require/chinese.php	/^				$tmp = $this->openfile(ROOT_PATH.$this->config['codetable_dir'].$this->config['BIG5toUnicode_table']);$/;"	v
+tmp	require/chinese.php	/^				$tmp = $this->openfile(ROOT_PATH.$this->config['codetable_dir'].$this->config['GBtoUnicode_table']);$/;"	v
+tmp	seo/require/chinese.php	/^				$tmp = $this->openfile(ROOT_PATH.$this->config['codetable_dir'].$this->config['BIG5toUnicode_table']);$/;"	v
+tmp	seo/require/chinese.php	/^				$tmp = $this->openfile(ROOT_PATH.$this->config['codetable_dir'].$this->config['GBtoUnicode_table']);$/;"	v
+tmp	shouji/function.php	/^		$tmp    = $search[$num];$/;"	v
+tmp	ssyqfl/require/chinese.php	/^				$tmp = $this->openfile(ROOT_PATH.$this->config['codetable_dir'].$this->config['BIG5toUnicode_table']);$/;"	v
+tmp	ssyqfl/require/chinese.php	/^				$tmp = $this->openfile(ROOT_PATH.$this->config['codetable_dir'].$this->config['GBtoUnicode_table']);$/;"	v
+tmp	ssyqsl/require/chinese.php	/^				$tmp = $this->openfile(ROOT_PATH.$this->config['codetable_dir'].$this->config['BIG5toUnicode_table']);$/;"	v
+tmp	ssyqsl/require/chinese.php	/^				$tmp = $this->openfile(ROOT_PATH.$this->config['codetable_dir'].$this->config['GBtoUnicode_table']);$/;"	v
+tmp	webs/require/chinese.php	/^				$tmp = $this->openfile(ROOT_PATH.$this->config['codetable_dir'].$this->config['BIG5toUnicode_table']);$/;"	v
+tmp	webs/require/chinese.php	/^				$tmp = $this->openfile(ROOT_PATH.$this->config['codetable_dir'].$this->config['GBtoUnicode_table']);$/;"	v
+total_page	baidu/pageft.php	/^	$total_page = ceil($total\/$page_size);$/;"	v
+tt	images/menu.js	/^var tt;$/;"	v
+tt	seo/alls.php	/^$tt    = $title?mb_strlen($title,'gbk'):'0';$/;"	v
+typ	mds.php	/^$typ  = $_POST['Md5Type'];$/;"	v
+ulink	friendlink/friendlink.php	/^$ulink  = $urlsname = $name = $outs = $ali = $pic = $ati = array();$/;"	v
+ulink	friends/friends.php	/^$ulink  = $urlsname = $name = $outs = $ali = $pic = $ati = array();$/;"	v
+unicode_table	friends/require/chinese.php	/^	var $unicode_table = array();$/;"	v
+unicode_table	require/chinese.php	/^	var $unicode_table = array();$/;"	v
+unicode_table	seo/require/chinese.php	/^	var $unicode_table = array();$/;"	v
+unicode_table	ssyqfl/require/chinese.php	/^	var $unicode_table = array();$/;"	v
+unicode_table	ssyqsl/require/chinese.php	/^	var $unicode_table = array();$/;"	v
+unicode_table	webs/require/chinese.php	/^	var $unicode_table = array();$/;"	v
+unix2human	js/unixtime.js	/^function unix2human() {$/;"	f
+unixTimer	js/unixtime.js	/^var unixTimer = 0;$/;"	v
+uri	global.php	/^		$uri     = $str[1];$/;"	v
+url	baidu/pageft.php	/^	$url = $url ? $url :$_SERVER['PHP_SELF'];$/;"	v
+url	esearch.php	/^	$url = 'http:\/\/'.trim($domain);$/;"	v
+url	friends/shows.php	/^	$url          = "http:\/\/www.baidu.com\/s?wd=site%3A".$lurl;	$/;"	v
+url	meta.php	/^	$url      = 'http:\/\/'.trim($domain);$/;"	v
+url	pr/donow.php	/^$url = $_GET['domain'];$/;"	v
+url	seo/alls.php	/^$url = 'http:\/\/'.trim($domain);$/;"	v
+url	webs/texts.php	/^$url     = 'http:\/\/'.trim($domain);$/;"	v
+urldecode	urlencode.php	/^function urldecode(obj) {$/;"	f
+urlencode	urlencode.php	/^function urlencode(obj) {$/;"	f
+urlinfo	global.php	/^		$urlinfo = parse_url($url);$/;"	v
+urls	baidu/seo.php	/^	$urls = fileno($domain);$/;"	v
+urls	baidu/seo.php	/^    $urls = filehave($urls,$domain);$/;"	v
+urls	cache.php	/^			$urls = array();$/;"	v
+urls	cache.php	/^		$urls = array();$/;"	v
+urls	cache.php	/^		$urls = array_unique($urls);$/;"	v
+urls	cache/cache.php	/^$urls=array($/;"	v
+urls	cache/seo.php	/^$urls=array($/;"	v
+urls	cache/whoischace.php	/^$urls=array($/;"	v
+urls	dels/dels.php	/^		$urls = filehave($urls,$domain);$/;"	v
+urls	dels/dels.php	/^	$urls = fileno($domain);$/;"	v
+urls	density.php	/^		$urls = filehave($urls,$domain);$/;"	v
+urls	density.php	/^	$urls = fileno($domain);$/;"	v
+urls	esearch.php	/^		$urls = filehave($urls,$domain);$/;"	v
+urls	esearch.php	/^	$urls = fileno($domain);$/;"	v
+urls	friendlink/friendlink.php	/^		$urls = filehave($urls,$domain);$/;"	v
+urls	friendlink/friendlink.php	/^	$urls = fileno($domain);$/;"	v
+urls	friends/friends.php	/^		$urls = filehave($urls,$domain);$/;"	v
+urls	friends/friends.php	/^	$urls = fileno($domain);$/;"	v
+urls	google/seo.php	/^		$urls = filehave($urls,$domain);$/;"	v
+urls	google/seo.php	/^	$urls = fileno($domain);$/;"	v
+urls	keys/keys.php	/^		$urls = filehave($urls,$domain);$/;"	v
+urls	keys/keys.php	/^	$urls = fileno($domain);$/;"	v
+urls	meta.php	/^		$urls = filehave($urls,$domain);$/;"	v
+urls	meta.php	/^	$urls = fileno($domain);$/;"	v
+urls	pr/outpr.php	/^		$urls = fileno($url);$/;"	v
+urls	pr/outpr.php	/^        $urls = filehave($urls,$url);$/;"	v
+urls	seo/alls.php	/^	$urls = fileno($domain);$/;"	v
+urls	seo/alls.php	/^    $urls = filehave($urls,$domain);$/;"	v
+urls	ssyqfl/seo.php	/^		$urls = filehave($urls,$domain);$/;"	v
+urls	ssyqfl/seo.php	/^	$urls = fileno($domain);$/;"	v
+urls	ssyqsl/seo.php	/^		$urls = filehave($urls,$domain);$/;"	v
+urls	ssyqsl/seo.php	/^	$urls = fileno($domain);$/;"	v
+urls	tool/dels/dels.php	/^		$urls = filehave($urls,$domain);$/;"	v
+urls	tool/dels/dels.php	/^	$urls = fileno($domain);$/;"	v
+urls	tool/whois/index.php	/^		$urls = filehave($urls,$domain);$/;"	v
+urls	tool/whois/index.php	/^	$urls = fileno($domain);$/;"	v
+urls	webs/texts.php	/^		$urls = filehave($urls,$domain);$/;"	v
+urls	webs/texts.php	/^	$urls = fileno($domain);$/;"	v
+urls	whois/index.php	/^		$urls = filehave($urls,$domain);$/;"	v
+urls	whois/index.php	/^	$urls = fileno($domain);$/;"	v
+urls	whois/whois_origin.php	/^		$urls = filehave($urls,$domain);$/;"	v
+urls	whois/whois_origin.php	/^	$urls = fileno($domain);$/;"	v
+urls	yuan.php	/^		$urls = filehave($urls,$domain);$/;"	v
+urls	yuan.php	/^		$urls = fileno($domain);$/;"	v
+urlsname	friendlink/friendlink.php	/^$urlsname = $array[0];$/;"	v
+urlsname	friends/friends.php	/^	$urlsname = $array[0];$/;"	v
+urlsname	friends/shows.php	/^		$urlsname = $array[0];$/;"	v
+urlsname	pr/outpr.php	/^$urlsname = $array[0];$/;"	v
+urlsname	webs/texts.php	/^$urlsname = $array[0];$/;"	v
+urlsname	webs/texts.php	/^$urlsname = $ulink = $name = $outs = array();$/;"	v
+utf	friends/require/chinese.php	/^		$utf = "";$/;"	v
+utf	require/chinese.php	/^		$utf = "";$/;"	v
+utf	seo/require/chinese.php	/^		$utf = "";$/;"	v
+utf	ssyqfl/require/chinese.php	/^		$utf = "";$/;"	v
+utf	ssyqsl/require/chinese.php	/^		$utf = "";$/;"	v
+utf	webs/require/chinese.php	/^		$utf = "";$/;"	v
+utf8	friends/require/chinese.php	/^						$utf8=$this->CHSUtoUTF8(hexdec($this->unicode_table[hexdec(bin2hex(substr($this->SourceText,0,2)))-0x8080]));$/;"	v
+utf8	friends/require/chinese.php	/^						$utf8=$this->CHSUtoUTF8(hexdec($this->unicode_table[hexdec(bin2hex(substr($this->SourceText,0,2)))]));$/;"	v
+utf8	require/chinese.php	/^						$utf8=$this->CHSUtoUTF8(hexdec($this->unicode_table[hexdec(bin2hex(substr($this->SourceText,0,2)))-0x8080]));$/;"	v
+utf8	require/chinese.php	/^						$utf8=$this->CHSUtoUTF8(hexdec($this->unicode_table[hexdec(bin2hex(substr($this->SourceText,0,2)))]));$/;"	v
+utf8	seo/require/chinese.php	/^						$utf8=$this->CHSUtoUTF8(hexdec($this->unicode_table[hexdec(bin2hex(substr($this->SourceText,0,2)))-0x8080]));$/;"	v
+utf8	seo/require/chinese.php	/^						$utf8=$this->CHSUtoUTF8(hexdec($this->unicode_table[hexdec(bin2hex(substr($this->SourceText,0,2)))]));$/;"	v
+utf8	ssyqfl/require/chinese.php	/^						$utf8=$this->CHSUtoUTF8(hexdec($this->unicode_table[hexdec(bin2hex(substr($this->SourceText,0,2)))-0x8080]));$/;"	v
+utf8	ssyqfl/require/chinese.php	/^						$utf8=$this->CHSUtoUTF8(hexdec($this->unicode_table[hexdec(bin2hex(substr($this->SourceText,0,2)))]));$/;"	v
+utf8	ssyqsl/require/chinese.php	/^						$utf8=$this->CHSUtoUTF8(hexdec($this->unicode_table[hexdec(bin2hex(substr($this->SourceText,0,2)))-0x8080]));$/;"	v
+utf8	ssyqsl/require/chinese.php	/^						$utf8=$this->CHSUtoUTF8(hexdec($this->unicode_table[hexdec(bin2hex(substr($this->SourceText,0,2)))]));$/;"	v
+utf8	webs/require/chinese.php	/^						$utf8=$this->CHSUtoUTF8(hexdec($this->unicode_table[hexdec(bin2hex(substr($this->SourceText,0,2)))-0x8080]));$/;"	v
+utf8	webs/require/chinese.php	/^						$utf8=$this->CHSUtoUTF8(hexdec($this->unicode_table[hexdec(bin2hex(substr($this->SourceText,0,2)))]));$/;"	v
+uu	header.php	/^ 	$uu = 'Google收录查询 - ';$/;"	v
+uu	header.php	/^ 	$uu = 'HTML\/JS互转 - ';$/;"	v
+uu	header.php	/^ 	$uu = 'HTML\/UBB代码转换工具 - ';$/;"	v
+uu	header.php	/^ 	$uu = 'IP查询 - ';$/;"	v
+uu	header.php	/^ 	$uu = 'JS加密\/解密 - ';$/;"	v
+uu	header.php	/^ 	$uu = 'MD5加密工具 - ';$/;"	v
+uu	header.php	/^ 	$uu = 'META信息检测 - ';$/;"	v
+uu	header.php	/^ 	$uu = 'PR输出值查询 - ';$/;"	v
+uu	header.php	/^ 	$uu = 'PR值查询 - ';$/;"	v
+uu	header.php	/^ 	$uu = 'SEO综合查询 - ';$/;"	v
+uu	header.php	/^ 	$uu = 'UTF-8编码转换工具 - ';$/;"	v
+uu	header.php	/^ 	$uu = 'Unicode编码转换工具 - ';$/;"	v
+uu	header.php	/^ 	$uu = 'Unix时间戳(Unix timestamp)转换工具 - ';$/;"	v
+uu	header.php	/^ 	$uu = '百度收录查询 - ';$/;"	v
+uu	header.php	/^ 	$uu = '查看网页源代码 - ';$/;"	v
+uu	header.php	/^ 	$uu = '查询手机号码归属地 - ';$/;"	v
+uu	header.php	/^ 	$uu = '关键词密度检测 - ';$/;"	v
+uu	header.php	/^ 	$uu = '关键词排名查询 - ';$/;"	v
+uu	header.php	/^ 	$uu = '国家域名查看 - ';$/;"	v
+uu	header.php	/^ 	$uu = '身份证号码值查询 - ';$/;"	v
+uu	header.php	/^ 	$uu = '死链接检测\/全站PR查询 - ';$/;"	v
+uu	header.php	/^ 	$uu = '搜索引擎反向链接 - ';$/;"	v
+uu	header.php	/^ 	$uu = '搜索引擎收录查询 - ';$/;"	v
+uu	header.php	/^ 	$uu = '搜索蜘蛛、机器人模拟工具 - ';$/;"	v
+uu	header.php	/^ 	$uu = '邮编区号查询 - ';$/;"	v
+uu	header.php	/^ 	$uu = '友情链接 - ';$/;"	v
+uu	header.php	/^ 	$uu = '友情链接IP查询工具 - ';$/;"	v
+uu	header.php	/^ 	$uu = '友情链接查询工具 - ';$/;"	v
+uu	header.php	/^ 	$uu = '域名Whois查询工具 - ';$/;"	v
+uu	header.php	/^ 	$uu = '域名删除查询 - ';$/;"	v
+val	keys/keys.php	/^!$val && $val=1;$/;"	v
+val	keys/keys.php	/^$val    = $_POST['val']?$_POST['val']:$_GET['val'];$/;"	v
+val	webs/texts.php	/^$val    = $_POST['val'];$/;"	v
+var.len	images/home.js	/^        var len = new Object();    $/;"	c
+var.str	images/home.js	/^        var str = new Object();    $/;"	c
+vvar_export	cache.php	/^function vvar_export($input,$t=null){$/;"	f
+writeover	cache.php	/^function writeover($filename,$data,$method="rb+",$iflock=1,$chmod=1) {$/;"	f
+xmlHttp	ajax2.js	/^var xmlHttp;$/;"	v
+xmlHttp	baidu/ajax2.js	/^var xmlHttp;$/;"	v
+xmlHttp	google/ajax2.js	/^var xmlHttp;$/;"	v
+xmlHttp	ssyqfl/ajax2.js	/^var xmlHttp;$/;"	v
+xmlHttp	ssyqsl/ajax2.js	/^var xmlHttp;$/;"	v
+xmlHttp	webs/ajax2.js	/^var xmlHttp;$/;"	v
