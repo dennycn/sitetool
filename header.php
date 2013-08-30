@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gbk" />
-<link href="http://my.unix-center.net/~great_denny/sitetool/images/toolsite.css" rel="stylesheet" type="text/css" />
-<script src="http://my.unix-center.net/~great_denny/sitetool/images/globals.js" type="text/javascript"></script>
-<script src="http://my.unix-center.net/~great_denny/sitetool/images/home.js" type="text/javascript"></script>
+<link href="/sitetool/images/toolsite.css" rel="stylesheet" type="text/css" />
+<script src="/sitetool/images/globals.js" type="text/javascript"></script>
+<script src="/sitetool/images/home.js" type="text/javascript"></script>
 <script type="text/javascript">
 
 <?php
