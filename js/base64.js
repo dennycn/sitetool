@@ -1,14 +1,14 @@
 
 
-/* base64.js文件 */
+/* base64.js鏂囦欢 */
 
 
 var keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
 
-/* 将Ansi编码的字符串进行Base64编码 */
+/* 灏咥nsi缂栫爜鐨勫瓧绗︿覆杩涜Base64缂栫爜 */
 function encode64(input)
 {
-    /* 处理中文问题 */
+    /* 澶勭悊涓枃闂 */
     input = strUnicode2Ansi(input);
     
     var output = "";
@@ -48,7 +48,7 @@ function encode64(input)
     return output;
 }
 
-/* 将Base64编码字符串转换成Ansi编码的字符串 */
+/* 灏咮ase64缂栫爜瀛楃涓茶浆鎹㈡垚Ansi缂栫爜鐨勫瓧绗︿覆 */
 function decode64(input)
 {
   var output = "";
@@ -93,7 +93,7 @@ function decode64(input)
   return strAnsi2Unicode(output);
 }
 
-/* ################## 为了解决中文问题 把Unicode转成Ansi和把Ansi转换成Unicode ########################### */
+/* ################## 涓轰簡瑙ｅ喅涓枃闂 鎶奤nicode杞垚Ansi鍜屾妸Ansi杞崲鎴怳nicode ########################### */
 
 function UnicodeChr()
 {
@@ -131,7 +131,7 @@ function AnsiToUnicode(chrCode)
     return parseInt(chrHex,16)
 }
 
-//将Unicode编码的字符串，转换成Ansi编码的字符串
+//灏哢nicode缂栫爜鐨勫瓧绗︿覆锛岃浆鎹㈡垚Ansi缂栫爜鐨勫瓧绗︿覆
 function strUnicode2Ansi(asContents)
 {
     var len1=asContents.length;
@@ -158,7 +158,7 @@ function strUnicode2Ansi(asContents)
     return temp;
 }
 
-/* 将Ansi编码的字符串，转换成Unicode编码的字符串 */
+/* 灏咥nsi缂栫爜鐨勫瓧绗︿覆锛岃浆鎹㈡垚Unicode缂栫爜鐨勫瓧绗︿覆 */
 function strAnsi2Unicode(asContents)
 {
     var len1=asContents.length;

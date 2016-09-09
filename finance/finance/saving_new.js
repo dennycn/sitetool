@@ -1,86 +1,86 @@
 /**
- * ´¢Ğî´æ¿î¼ÆËãÆ÷
+ * å‚¨è“„å­˜æ¬¾è®¡ç®—å™¨
  * Author: xiaohong.liu
  * Date: 2008-9-11 
  */
 
-var intervalDays;   //´æ¿îÌìÊı
-var savingMoney;    //´æ¿î×Ü½ğ¶î
-var interestRate;   //ÄêÀûÂÊ
-var accrualTaxRate  //ÀûÏ¢Ë°ÂÊ
-var savingKind;     //´æ¿îÖÖÀà
-var savingTerm;     //´æ¿îÆÚÏŞ
-var dayScale=1.00;  //ÈÕÆÚ³ß¶È
-var monthScale=12.00;//ÔÂÆÚ³ß¶È
+var intervalDays;   //å­˜æ¬¾å¤©æ•°
+var savingMoney;    //å­˜æ¬¾æ€»é‡‘é¢
+var interestRate;   //å¹´åˆ©ç‡
+var accrualTaxRate  //åˆ©æ¯ç¨ç‡
+var savingKind;     //å­˜æ¬¾ç§ç±»
+var savingTerm;     //å­˜æ¬¾æœŸé™
+var dayScale=1.00;  //æ—¥æœŸå°ºåº¦
+var monthScale=12.00;//æœˆæœŸå°ºåº¦
 
 
-//³õÊ¼»¯¼ÆËãÆ÷
+//åˆå§‹åŒ–è®¡ç®—å™¨
 function initSaving(){
     document.getElementById("saving_startDate").value=getTodayDate();
     document.getElementById("saving_endDate").value=getTodayDate();
 
     document.getElementById("moneyName").innerHTML="";
-    document.getElementById("moneyName").options.add(new Option("--ÇëÑ¡Ôñ--","0"));
+    document.getElementById("moneyName").options.add(new Option("--è¯·é€‰æ‹©--","0"));
     for(var i=0;i<savingMoneyArr.length;i++){
         document.getElementById("moneyName").options.add(new Option(savingMoneyArr[i][1],savingMoneyArr[i][0]));
     }
 }
 
 /**
- * ¼ÆËã´æ¿îÀûÏ¢
+ * è®¡ç®—å­˜æ¬¾åˆ©æ¯
  */
 function calculateSaving(){
     if(document.getElementById("moneyName").value=="0"){
-        alert("ÇëÑ¡Ôñ»õ±ÒÖÖÀà");
+        alert("è¯·é€‰æ‹©è´§å¸ç§ç±»");
         document.getElementById("moneyName").focus();
         return false;
     }
     if(document.getElementById("savingKind").value=="0"){
-        alert("ÇëÑ¡Ôñ´æ¿îÖÖÀà");
+        alert("è¯·é€‰æ‹©å­˜æ¬¾ç§ç±»");
         document.getElementById("savingKind").focus();
         return false;
     }
     if(document.getElementById("savingTerm").value=="0"){
-        alert("ÇëÑ¡Ôñ´æ¿îÆÚÏŞ");
+        alert("è¯·é€‰æ‹©å­˜æ¬¾æœŸé™");
         document.getElementById("savingTerm").focus();
         return false;
     }
     intervalDays=getIntervalDays(document.getElementById("saving_startDate").value,document.getElementById("saving_endDate").value);
     intervalDays=parseInt(intervalDays);
     if(intervalDays<=0){
-        alert("ÇëÕıÈ·ÊäÈëÆğÊ¼ÈÕÆÚºÍÖÕÖ¹ÈÕÆÚ£¡");
+        alert("è¯·æ­£ç¡®è¾“å…¥èµ·å§‹æ—¥æœŸå’Œç»ˆæ­¢æ—¥æœŸï¼");
         return false;
     }
     document.getElementById("savingDays").value=intervalDays;
     savingMoney=getSavingMoney();
     savingMoney=parseFloat(savingMoney);
     if(!savingMoney>0){
-        alert("ÇëÊäÈëÕıÈ·µÄ´æ¿î½ğ¶î£¡");
+        alert("è¯·è¾“å…¥æ­£ç¡®çš„å­˜æ¬¾é‡‘é¢ï¼");
         document.getElementById("savingMoney").focus();
         return false;
     }
     interestRate=getInterestRate();
     interestRate=parseFloat(interestRate);
     if(interestRate==0){
-        alert("ÇëÊäÈëÕıÈ·µÄÄêÀûÂÊ£¡");
+        alert("è¯·è¾“å…¥æ­£ç¡®çš„å¹´åˆ©ç‡ï¼");
         document.getElementById("interestRate").focus();
         return false;
     }
     accrualTaxRate=getAccrualTaxRate();
     if(accrualTaxRate==-1){
-        alert("ÇëÊäÈëÕıÈ·µÄÀûÏ¢Ë°ÂÊ£¡");
+        alert("è¯·è¾“å…¥æ­£ç¡®çš„åˆ©æ¯ç¨ç‡ï¼");
         document.getElementById("accrualTaxRate").focus();
         return false;
     }
     savingKind=document.getElementById("savingKind").options[document.getElementById("savingKind").selectedIndex].innerText;
 
 
-	var totalAccrual;      //ÀûÏ¢×Ü¶î
-    var totalTax;          //ÀûÏ¢Ë°¶î
-    var gainedAccrual;     //ÊµµÃÀûÏ¢
-    var summation;         //±¾Ï¢ºÏ¼Æ
-    var mensalAccrual=0.00;//Ã¿ÔÂÀûÏ¢
-    if(savingKind=="Õû´æÕûÈ¡"){
+	var totalAccrual;      //åˆ©æ¯æ€»é¢
+    var totalTax;          //åˆ©æ¯ç¨é¢
+    var gainedAccrual;     //å®å¾—åˆ©æ¯
+    var summation;         //æœ¬æ¯åˆè®¡
+    var mensalAccrual=0.00;//æ¯æœˆåˆ©æ¯
+    if(savingKind=="æ•´å­˜æ•´å–"){
         totalAccrual = savingMoney*(interestRate/100.00)*dayScale;
         totalAccrual = formatFloat(totalAccrual,2);
         totalTax=totalAccrual*(accrualTaxRate/100.00);
@@ -90,7 +90,7 @@ function calculateSaving(){
         summation=gainedAccrual+savingMoney;
         summation=formatFloat(summation,2);
 
-    }else if(savingKind=="Áã´æÕûÈ¡"){
+    }else if(savingKind=="é›¶å­˜æ•´å–"){
         totalAccrual = savingMoney*(interestRate/(12*100.00))*(1+monthScale)*monthScale/2;
         totalAccrual = formatFloat(totalAccrual,2);
         totalTax=totalAccrual*(accrualTaxRate/100.00);
@@ -99,7 +99,7 @@ function calculateSaving(){
         gainedAccrual=formatFloat(gainedAccrual,2);
         summation=gainedAccrual+savingMoney;
         summation=formatFloat(summation,2);
-    }else if(savingKind=="´æ±¾È¡Ï¢"){
+    }else if(savingKind=="å­˜æœ¬å–æ¯"){
         totalAccrual = savingMoney*(interestRate/100.00);
         totalAccrual = formatFloat(totalAccrual,2);
         totalTax=totalAccrual*(accrualTaxRate/100.00);
@@ -112,7 +112,7 @@ function calculateSaving(){
         mensalAccrual = formatFloat(totalAccrual / monthScale, 2);
     }
     else{
-        totalAccrual = savingMoney*(interestRate/100.00)*intervalDays/365.00;//ÀûÏ¢×Ü¶î
+        totalAccrual = savingMoney*(interestRate/100.00)*intervalDays/365.00;//åˆ©æ¯æ€»é¢
         totalAccrual = formatFloat(totalAccrual,2);
         totalTax=totalAccrual*(accrualTaxRate/100.00);
         totalTax=formatFloat(totalTax,2);
@@ -125,8 +125,8 @@ function calculateSaving(){
 }
 
 /**
- * ·µ»Ø½á¹û´¦Àí
- * @param response £º½á¹û¶ÔÏó
+ * è¿”å›ç»“æœå¤„ç†
+ * @param response ï¼šç»“æœå¯¹è±¡
  */
 function showData_saving(rt){
     var arrRt=rt.split("|");
@@ -138,8 +138,8 @@ function showData_saving(rt){
 }
 
 /**
- * »ñÈ¡´æ¿î×Ü½ğ¶î
- * @return ´æ¿î×Ü½ğ¶î£¬Ê§°Ü·µ»Ø0
+ * è·å–å­˜æ¬¾æ€»é‡‘é¢
+ * @return å­˜æ¬¾æ€»é‡‘é¢ï¼Œå¤±è´¥è¿”å›0
  */
 function getSavingMoney(){
     if(checkNumber(document.getElementById("savingMoney").value)){
@@ -150,8 +150,8 @@ function getSavingMoney(){
 }
 
 /**
- * »ñÈ¡ÄêÀûÂÊ
- * @return ÄêÀûÂÊ£¬Ê§°Ü·µ»Ø0
+ * è·å–å¹´åˆ©ç‡
+ * @return å¹´åˆ©ç‡ï¼Œå¤±è´¥è¿”å›0
  */
 function getInterestRate(){
     if(checkNumber(document.getElementById("interestRate").value)){
@@ -162,8 +162,8 @@ function getInterestRate(){
 }
 
 /**
- * »ñÈ¡ÀûÏ¢Ë°ÂÊ
- * @return ÀûÏ¢Ë°ÂÊ£¬Ê§°Ü·µ»Ø-1
+ * è·å–åˆ©æ¯ç¨ç‡
+ * @return åˆ©æ¯ç¨ç‡ï¼Œå¤±è´¥è¿”å›-1
  */
 function getAccrualTaxRate(){
     if(checkNumber(document.getElementById("accrualTaxRate").value)){
@@ -174,7 +174,7 @@ function getAccrualTaxRate(){
 }
 
 /**
- * Çå¿ÕÊı¾İ
+ * æ¸…ç©ºæ•°æ®
  */
 function resetAll(){
     document.getElementById("moneyName").value="0";
@@ -193,12 +193,12 @@ function resetAll(){
 }
 
 /**
- * µ±Ñ¡Ôñ¡°»õ±ÒÖÖÀà¡±ÏÂÀ­²Ëµ¥Ê±Ö´ĞĞ
+ * å½“é€‰æ‹©â€œè´§å¸ç§ç±»â€ä¸‹æ‹‰èœå•æ—¶æ‰§è¡Œ
  */
 function changeMoneyName(){
     var moneyNameId=document.getElementById("moneyName").value;
     document.getElementById("savingKind").innerHTML="";
-    document.getElementById("savingKind").options.add(new Option("--ÇëÑ¡Ôñ--","0"));
+    document.getElementById("savingKind").options.add(new Option("--è¯·é€‰æ‹©--","0"));
     for(var i=0;i<savingKindArr.length;i++){
         if(moneyNameId==savingKindArr[i][0]){
             document.getElementById("savingKind").options.add(new Option(savingKindArr[i][1],savingKindArr[i][2]));
@@ -207,12 +207,12 @@ function changeMoneyName(){
 }
 
 /**
- * µ±Ñ¡Ôñ¡°´æ¿îÖÖÀà¡±ÏÂÀ­²Ëµ¥Ê±Ö´ĞĞ
+ * å½“é€‰æ‹©â€œå­˜æ¬¾ç§ç±»â€ä¸‹æ‹‰èœå•æ—¶æ‰§è¡Œ
  */
 function changeSavingKind(){
     var savingKindId=document.getElementById("savingKind").value;
     document.getElementById("savingTerm").innerHTML="";
-    document.getElementById("savingTerm").options.add(new Option("--ÇëÑ¡Ôñ--","0"));
+    document.getElementById("savingTerm").options.add(new Option("--è¯·é€‰æ‹©--","0"));
     for(var i=0;i<savingTermArr.length;i++){
         if(savingTermArr[i][1].indexOf(savingKindId)==0){
             document.getElementById("savingTerm").options.add(new Option(savingTermArr[i][2],savingTermArr[i][0]));
@@ -221,7 +221,7 @@ function changeSavingKind(){
 }
 
 /**
- * µ±Ñ¡Ôñ¡°´æ¿îÆÚÏŞ¡±ÏÂÀ­²Ëµ¥Ê±Ö´ĞĞ
+ * å½“é€‰æ‹©â€œå­˜æ¬¾æœŸé™â€ä¸‹æ‹‰èœå•æ—¶æ‰§è¡Œ
  */
 function doChangeSavingTerm(){
     
@@ -236,41 +236,41 @@ function doChangeSavingTerm(){
     savingTerm=document.getElementById("savingTerm").options[document.getElementById("savingTerm").selectedIndex].innerText;
     switch(savingTerm)
     {
-        case "Ò»Ìì":
+        case "ä¸€å¤©":
             AddDays(document.getElementById("saving_startDate").value,7);
             break;
-        case "ÆßÌì":
+        case "ä¸ƒå¤©":
             AddDays(document.getElementById("saving_startDate").value,7);
             break;
-        case "Ò»¸öÔÂ":
+        case "ä¸€ä¸ªæœˆ":
             AddMonths(document.getElementById("saving_startDate").value,1);
             break;
-        case "Èı¸öÔÂ":
+        case "ä¸‰ä¸ªæœˆ":
             dayScale = 0.25;
             AddMonths(document.getElementById("saving_startDate").value,3);
             break;
-        case "Áù¸öÔÂ":
+        case "å…­ä¸ªæœˆ":
             AddMonths(document.getElementById("saving_startDate").value,6);
             break;
-        case "°ëÄê":
+        case "åŠå¹´":
             dayScale = 0.5;
             AddMonths(document.getElementById("saving_startDate").value,6);
             break;
-        case "Ò»Äê":
+        case "ä¸€å¹´":
             dayScale = 1.0;
             monthScale = 12.0;
             AddYears(document.getElementById("saving_startDate").value,1);
             break;
-        case "¶şÄê":
+        case "äºŒå¹´":
             dayScale = 2.0;
             AddYears(document.getElementById("saving_startDate").value,2);
             break;
-        case "ÈıÄê":
+        case "ä¸‰å¹´":
             dayScale = 3.0;
             monthScale = 36.0;
             AddYears(document.getElementById("saving_startDate").value,3);
             break;
-        case "ÎåÄê":
+        case "äº”å¹´":
             dayScale = 5.0;
             monthScale = 60.0;
             AddYears(document.getElementById("saving_startDate").value,5);
@@ -280,7 +280,7 @@ function doChangeSavingTerm(){
     }
 }
 /**
- * Çå¿ÕÊı¾İ
+ * æ¸…ç©ºæ•°æ®
  */
 function resetAll_saving(){
     document.getElementById("moneyName").value="0";

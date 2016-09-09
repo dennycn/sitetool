@@ -1,5 +1,5 @@
 <?php
-header("content-Type: text/html; charset=GB2312");
+header("content-Type: text/html; charset=utf-8");
 define('IN_SEO','IN_SEO');
 include_once('../global.php');
 $action = $_GET['action'];
@@ -7,12 +7,12 @@ $lurl   = $_GET['lurl'];
 $haves  = "http://www.baidu.com/s?wd=%22".$lurl."%22";
 $cnt=0;
 while($cnt < 10 && ($havesa=@file_get_contents($haves))===FALSE){$cnt++;}
-$pp = "/ÕÒµ½Ïà¹ØÍøÒ³(.*)Æª/";
+$pp = "/æ‰¾åˆ°ç›¸å…³ç½‘é¡µ(.*)ç¯‡/";
 if($action == 'a1'){
 	preg_match($pp,$havesa,$ar1);
 	echo "<a href=".$haves." target=_blank>".$ar1[1]."</a>";
 }elseif($action == 'a2'){
-	$baids = "/<font color=\"#008000\">(.*)<\/font> - <a href=\"(.*)\"  target=\"_blank\"  class=\"m\">°Ù¶È¿ìÕÕ<\/a>/Usi";
+	$baids = "/<font color=\"#008000\">(.*)<\/font> - <a href=\"(.*)\"  target=\"_blank\"  class=\"m\">ç™¾åº¦å¿«ç…§<\/a>/Usi";
 	preg_match($baids,$havesa,$kuaizhao);
 	$times = "/\d{4}-\d{1,2}-\d{1,2}/";
 	preg_match($times,$kuaizhao[0],$btime);
@@ -45,7 +45,7 @@ if($action == 'a1'){
 	$jobs[4] = "so163";	
 	$jobs[5] = "vnet";
 	$jobs[6] = "soso";
-	$result = "<table border=1 width=100% bordercolordark=#FFFFFF cellspacing=0 cellpadding=0 bordercolorlight=#BBD7E6>	<tr bgcolor=#D8F0FC><td colspan=9>ÍøÖ·<a href=http://".$lurl." target=_blank>http://".$lurl."</a>ÔÚ¸÷´óËÑË÷ÒıÇæµÄÊÕÂ¼²éÑ¯½á¹û</td></tr><tr><td>ËÑË÷ÒıÇæ</td><td>¹È¸è</td><td>°Ù¶È</td><td>ÑÅ»¢</td><td>ËÑ¹·</td><td>±ØÓ¦</td><td>ÓĞµÀ</td><td>ËÑËÑ</td></tr><tr><td>ÊÕÂ¼ÊıÁ¿</td>";
+	$result = "<table border=1 width=100% bordercolordark=#FFFFFF cellspacing=0 cellpadding=0 bordercolorlight=#BBD7E6>	<tr bgcolor=#D8F0FC><td colspan=9>ç½‘å€<a href=http://".$lurl." target=_blank>http://".$lurl."</a>åœ¨å„å¤§æœç´¢å¼•æ“çš„æ”¶å½•æŸ¥è¯¢ç»“æœ</td></tr><tr><td>æœç´¢å¼•æ“</td><td>è°·æ­Œ</td><td>ç™¾åº¦</td><td>é›…è™</td><td>æœç‹—</td><td>å¿…åº”</td><td>æœ‰é“</td><td>æœæœ</td></tr><tr><td>æ”¶å½•æ•°é‡</td>";
 	for ($i = 0; $i < sizeof($jobs); $i++)	{		
 		eval('$__file__=__FILE__;');
 		define('ROOT_PATH',$__file__ ? dirname($__file__).'/' : './');
@@ -59,7 +59,7 @@ if($action == 'a1'){
 		$site_info2[$i] = $site_info2[$i]?$site_info2[$i]:'--';
 		$result .= '<td><a href="'.$ROBOT[$jobs[$i]]['site_url'].$lurl.'" target="_blank">'.$site_info2[$i].'</a></td>';
 	}
-	$result .= "</tr><tr><td>·´ÏòÁ´½Ó</td>";
+	$result .= "</tr><tr><td>åå‘é“¾æ¥</td>";
 	for ($j = 0; $j < sizeof($jobs); $j++)	{
 		$cnt=0;
 	    while($cnt < 10 && ($content[$j]=@file_get_contents($ROBOT[$jobs[$j]]['link_url'].$lurl))===FALSE){$cnt++;}		

@@ -1,15 +1,15 @@
 <?php
-header("Content-Type:text/html;charset=gb2312");
+header("Content-Type:text/html;charset=utf-8");
 @require_once('prfunction.php');
 @require_once('../global.php');
 $url = $_GET['domain'];
 if($url){
-	$ptr = "<table width=100%><tr><td align=right>ÓòÃû&nbsp;&nbsp;&nbsp;&nbsp;</td><td align=left>&nbsp;&nbsp;&nbsp;&nbsp;PR</td><tr/>";
+	$ptr = "<table width=100%><tr><td align=right>åŸŸå&nbsp;&nbsp;&nbsp;&nbsp;</td><td align=left>&nbsp;&nbsp;&nbsp;&nbsp;PR</td><tr/>";
 	$domain = explode(",",trim($url));
 	for($i=0;$i<sizeof($domain);$i++){
 		if(strlen($domain[$i])>1){
 			$p[$i] = GetPR(trim($domain[$i]));
-			$ptr  .= "<tr><td align=right><a href=http://".$domain[$i]." target=_blank><font color=red>".$domain[$i]."</font></a>£º</td><td align=left><img src=../images/pagerank".$p[$i].".gif>&nbsp;ÕæÊµµÄPR</td></tr>";
+			$ptr  .= "<tr><td align=right><a href=http://".$domain[$i]." target=_blank><font color=red>".$domain[$i]."</font></a>ï¼š</td><td align=left><img src=../images/pagerank".$p[$i].".gif>&nbsp;çœŸå®çš„PR</td></tr>";
 			if($_GET['xz'] == 1){
 				$qw[$i] = str_replace("www.","",$domain[$i]);
 				$cnt=0;
@@ -20,7 +20,7 @@ if($url){
 					if(strpos($arr[1][$j],'.com') === false && strpos($arr[1][$j],'.') === false && strlen($arr[1][$j])>1){
 						$url2[$j] = $arr[1][$j].".".$qw[$i];
 						$pt[$i]   = GetPR(trim($url2[$j]));
-						$ptr .= "<tr><td align=right><a href=http://".$url2[$j]." target=_blank>".$url2[$j]."</a>£º</td><td align=left><img src=../images/pagerank".$pt[$i].".gif>&nbsp;ÕæÊµµÄPR</td></tr>";
+						$ptr .= "<tr><td align=right><a href=http://".$url2[$j]." target=_blank>".$url2[$j]."</a>ï¼š</td><td align=left><img src=../images/pagerank".$pt[$i].".gif>&nbsp;çœŸå®çš„PR</td></tr>";
 					}
 				}
 			}
@@ -28,7 +28,7 @@ if($url){
 	}
 	$ptr .= "</table>";
 }else{
-	$ptr = "ÇëÏÈÊäÈëÕıÈ·µÄÓòÃû£¡ÀıÈç£ºchinaccnet.com,yundns.com";
+	$ptr = "è¯·å…ˆè¾“å…¥æ­£ç¡®çš„åŸŸåï¼ä¾‹å¦‚ï¼šchinaccnet.com,yundns.com";
 }
 echo $ptr;
 ?>

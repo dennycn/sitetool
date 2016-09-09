@@ -4,7 +4,7 @@ $hu = 'ids';
 $result = '';
 if('do' == $_POST['action']){
 	if(false == IDCheck($_POST['idc'])){
-		$result .= "ÇëÊäÈëÕıÈ·µÄ15»ò18Î»Éí·İÖ¤";
+		$result .= "è¯·è¾“å…¥æ­£ç¡®çš„15æˆ–18ä½èº«ä»½è¯";
 	}else{
 		$idc = $_POST['idc'];
 		$idc = substr($idc, 0, 6);
@@ -13,17 +13,17 @@ if('do' == $_POST['action']){
 		foreach ($lines as $line_num => $line) {
 			list($bm,$dq) = explode('|',$line);
 			if($bm == $idc){
-				$result .= "µØÖ·£º".$dq."<br>";
-				$result .= "ĞÔ±ğ£º".chksex($_POST['idc'])."<br>";
-				$result .= "ÉúÈÕ£º".chkbirthday($_POST['idc']);
+				$result .= "åœ°å€ï¼š".$dq."<br>";
+				$result .= "æ€§åˆ«ï¼š".chksex($_POST['idc'])."<br>";
+				$result .= "ç”Ÿæ—¥ï¼š".chkbirthday($_POST['idc']);
 				$get_it = 1;
 				break;
 			}
 		}
 		if(1 <> $get_it){
-			$result .= "µØÖ·£ºÕÒ²»µ½Ïà¹ØĞÅÏ¢£¬Õâ¸öºÅÂë¿ÉÄÜÓĞĞ©ÀÏ<br>";
-			$result .= "ĞÔ±ğ£º".chksex($_POST['idc'])."<br>";
-			$result .= "ÉúÈÕ£º".chkbirthday($_POST['idc']);
+			$result .= "åœ°å€ï¼šæ‰¾ä¸åˆ°ç›¸å…³ä¿¡æ¯ï¼Œè¿™ä¸ªå·ç å¯èƒ½æœ‰äº›è€<br>";
+			$result .= "æ€§åˆ«ï¼š".chksex($_POST['idc'])."<br>";
+			$result .= "ç”Ÿæ—¥ï¼š".chkbirthday($_POST['idc']);
 		}
 	}
 }
@@ -31,15 +31,15 @@ function  chksex($idc){
 	$idclen=strlen($idc);
 	if(15 == $idclen){
  		if(0 <> $idc[$idclen-1]%2){
- 	 		return "ÄĞ";
+ 	 		return "ç”·";
 		}else{
-   			return "Å®";
+   			return "å¥³";
 		}
 	}elseif(18 == $idclen){
  		if(0 <> $idc[$idclen-2]%2){
- 	 		return "ÄĞ";
+ 	 		return "ç”·";
 		}else{
-   			return "Å®";
+   			return "å¥³";
 		}
 	}  	
 }
@@ -49,12 +49,12 @@ function  chkbirthday($idc){
    		$byear  = substr($idc,6,2);
 		$bmonth = substr($idc,8,2);
 		$bday   = substr($idc,10,2);
-		return "19".$byear."Äê".$bmonth."ÔÂ".$bday."ÈÕ";
+		return "19".$byear."å¹´".$bmonth."æœˆ".$bday."æ—¥";
 	}elseif(18 == $idclen){
    		$byear  = substr($idc,6,4);
 		$bmonth = substr($idc,10,2);
 		$bday   = substr($idc,12,2);
-		return $byear."Äê".$bmonth."ÔÂ".$bday."ÈÕ";
+		return $byear."å¹´".$bmonth."æœˆ".$bday."æ—¥";
 	}  	
 }
 function IDCheck($e){
@@ -87,12 +87,12 @@ function IDCheck($e){
 <div class="main">
   <div class="box">
     <div id="c">
-      <h1>Éí·İÖ¤ºÅÂëÖµ²éÑ¯</h1>
+      <h1>èº«ä»½è¯å·ç å€¼æŸ¥è¯¢</h1>
       <div class="box1" style="text-align:center;"> 
       <form action="" method="POST">
-          <span class="info3" > ÇëÊäÈëÒª²éÑ¯µÄÉí·İÖ¤ºÅ£º
+          <span class="info3" > è¯·è¾“å…¥è¦æŸ¥è¯¢çš„èº«ä»½è¯å·ï¼š
            <input name="idc" type="text" id="idc" class="input" size="40" url="true" value="<?php echo $_POST['idc'];?>"/><input name="action" type="hidden" value="do">
-            <input name="btnS" class="but" type="submit" value="²éÑ¯"  id="sub" />
+            <input name="btnS" class="but" type="submit" value="æŸ¥è¯¢"  id="sub" />
             </form>
           </span><div class="t" id="seo_result"><?php echo $result;?></div>
           <div style="width:100%">
@@ -110,10 +110,10 @@ function IDCheck($e){
 </div>
 <div class="box">
   <div id="b_14">
-    <h1>¹¤¾ß¼ò½é</h1>
+    <h1>å·¥å…·ç®€ä»‹</h1>
     <div class="box1">
         <span class="info2">
-         ²éÑ¯Éí·İÖ¤ËùÔÚµØ¡¢ĞÔ±ğ¼°³öÉúÈÕÆÚ¡£
+         æŸ¥è¯¢èº«ä»½è¯æ‰€åœ¨åœ°ã€æ€§åˆ«åŠå‡ºç”Ÿæ—¥æœŸã€‚
         </span>
     </div>
   </div>

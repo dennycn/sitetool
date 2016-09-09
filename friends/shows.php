@@ -1,5 +1,5 @@
 <?php
-header("content-Type: text/html; charset=GB2312");
+header("content-Type: text/html; charset=utf-8");
 eval('$__file__=__FILE__;');
 define('ROOT_PATH',$__file__ ? dirname($__file__).'/' : './');
 $action = $_GET['action'];
@@ -9,20 +9,20 @@ if($action == 'baidushoulu'){
 	$url          = "http://www.baidu.com/s?wd=site%3A".$lurl;	
 	$cnt3=0;
     while($cnt3 < 10 && ($content=@file_get_contents($url))===FALSE){$cnt3++;}
-	$site_pattern = "/ÕÒµ½Ïà¹ØÍøÒ³(.*)Æª/";
+	$site_pattern = "/æ‰¾åˆ°ç›¸å…³ç½‘é¡µ(.*)ç¯‡/";
 	preg_match($site_pattern,$content,$arrs);
 	echo "<a href=\"$url\" target=_blank>".$arrs[1]."</a>";
 }elseif($action == 'prs'){
 	@require_once('../pr/prfunction.php');
 	echo GetPR($lurl);
 }elseif($action == 'baidukuaizhao'){
-	$baids   = "/<font color=\"#008000\">(.*)<\/font> - <a href=\"(.*)\"  target=\"_blank\"  class=\"m\">°Ù¶È¿ìÕÕ<\/a>/Usi";
+	$baids   = "/<font color=\"#008000\">(.*)<\/font> - <a href=\"(.*)\"  target=\"_blank\"  class=\"m\">ç™¾åº¦å¿«ç…§<\/a>/Usi";
 	$times   = "/\d{4}-\d{1,2}-\d{1,2}/";
 	$cnt2=0;
     while($cnt2 < 10 && ($content=@file_get_contents("http://www.baidu.com/s?wd=site%3A".$lurl))===FALSE){$cnt2++;}
 	preg_match($baids,$content,$bs1);
 	preg_match($times,$bs1[0],$bs2);
-	$bs2= $bs2[0]?$bs2[0]:'ÎŞ°Ù¶È¿ìÕÕ';
+	$bs2= $bs2[0]?$bs2[0]:'æ— ç™¾åº¦å¿«ç…§';
 	echo "<a href=\"http://www.baidu.com/s?wd=".$lurl."\" target=_blank>".$bs2."</a>";
 }elseif($action == 'fanlianjie'){	
 	$cnt=0;
@@ -36,7 +36,7 @@ if($action == 'baidushoulu'){
 		$content = $chs->Convert($content);
 	}
 	if(!$content){
-		echo "¶Ô·½Ê×Ò³¿ÉÄÜÎŞ·¨·ÃÎÊ";
+		echo "å¯¹æ–¹é¦–é¡µå¯èƒ½æ— æ³•è®¿é—®";
 	}else{
 		$pat1   = "/<a(.*?)<\/a>/i";
 		preg_match_all($pat1, $content, $array);
@@ -50,16 +50,16 @@ if($action == 'baidushoulu'){
 				}
 				if(strpos($b[1],"http://www.".$domain) !==false ||strpos($b[1],"http://".$domain) !== false){
 					if(strpos($b[2],'img') !== false){
-						$b[2] = 'Í¼Æ¬Á´½Ó';
+						$b[2] = 'å›¾ç‰‡é“¾æ¥';
 					}
-					$name = strlen($b[2])>8 ? substr($b[2],0,8).'¡­¡­' : $b[2];
+					$name = strlen($b[2])>8 ? substr($b[2],0,8).'â€¦â€¦' : $b[2];
 				}
 			}
 		}
 		if($name){
-			echo "ÓĞ·´Á´ Á´½Ó´Ê£º<a href=http://".$domain." target=_blank>".$name."</a>";
+			echo "æœ‰åé“¾ é“¾æ¥è¯ï¼š<a href=http://".$domain." target=_blank>".$name."</a>";
 		}else{
-			echo "ÎŞ·´Á´";
+			echo "æ— åé“¾";
 		}
 	}
 }

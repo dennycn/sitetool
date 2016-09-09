@@ -1,5 +1,5 @@
 <?php
-header("content-Type: text/html; charset=GB2312");
+header("content-Type: text/html; charset=utf-8");
 define('IN_SEO','IN_SEO');
 @include_once('qqwry.php');
 $action = $_GET['action'];

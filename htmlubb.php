@@ -6,20 +6,20 @@ $hu = 'htmlubb';
 <script src="js/Html_Ubb.js" type="text/javascript"></script>
 <div class="box">
     <div id="b_1">
-        <h1><div class="titleft">HTML/UBB´úÂë×ª»»¹¤¾ß</div></h1>
+        <h1><div class="titleft">HTML/UBBä»£ç è½¬æ¢å·¥å…·</div></h1>
         <div class="box1" style="text-align:center">
             <div class="info1"> 
                  <div class="Gbtop">
                     <div class="WStop1">
-                    <div class="WStop2">HTMLÔ´´úÂë×ª»»UBB´úÂë¹¤¾ß</div>
+                    <div class="WStop2">HTMLæºä»£ç è½¬æ¢UBBä»£ç å·¥å…·</div>
                     </div>
                     <div style="padding:5px;"> 
                       <div class="WSIn">
-                        <div class="WSTitle">Çë½« <strong>Html</strong> Ô´´úÂë¿½±´µ½ÏÂÃæ±íµ¥ÖÐ:</div>
+                        <div class="WSTitle">è¯·å°† <strong>Html</strong> æºä»£ç æ‹·è´åˆ°ä¸‹é¢è¡¨å•ä¸­:</div>
                         <div class="WSt">
                             <textarea id="Hsource" onfocus="htmltoubb()" onkeyup="htmltoubb()"style=" border:1px solid #c5e2f2; width:800px; height:150px; overflow:visible;"></textarea>
                         </div>
-                        <span  class="WSTitle">ÏÂÃæ±íµ¥ÖÐÊÇÏàÓ¦µÄ <strong>UBB</strong> ´úÂë: </span> <br />
+                        <span  class="WSTitle">ä¸‹é¢è¡¨å•ä¸­æ˜¯ç›¸åº”çš„ <strong>UBB</strong> ä»£ç : </span> <br />
                         <span  class="WSt">
                             <textarea id="Uresult" style=" border:1px solid #c5e2f2; width:800px; height:150px; overflow:visible;"></textarea>
                        </span>
@@ -28,15 +28,15 @@ $hu = 'htmlubb';
                 </div>
                 <div class="Gbtop">
                    <div class="WStop1">
-                     <div class="WStop2">UBBÔ´´úÂë×ª»»HTML´úÂë¹¤¾ß</div>
+                     <div class="WStop2">UBBæºä»£ç è½¬æ¢HTMLä»£ç å·¥å…·</div>
                    </div>
                    <div style="padding:5px;"> 
                       <div class="WSIn">
-                         <span class="WSTitle">Çë½« <strong>UBB</strong> Ô´´úÂë¿½±´µ½ÏÂÃæ±íµ¥ÖÐ:</span><br />
+                         <span class="WSTitle">è¯·å°† <strong>UBB</strong> æºä»£ç æ‹·è´åˆ°ä¸‹é¢è¡¨å•ä¸­:</span><br />
                          <span class="WSt">
                             <textarea id="Usource" onfocus="ubbtohtml()" onkeyup="ubbtohtml()" style=" border:1px solid #c5e2f2; width:800px; height:150px; overflow:visible;"></textarea>
                          </span>
-                        <span class="WSTitle">ÏÂÃæ±íµ¥ÖÐÊÇÏàÓ¦µÄ <strong>Html</strong> ´úÂë: </span><br />
+                        <span class="WSTitle">ä¸‹é¢è¡¨å•ä¸­æ˜¯ç›¸åº”çš„ <strong>Html</strong> ä»£ç : </span><br />
                         <span class="WSt">
                            <textarea id="Hresult" style=" border:1px solid #c5e2f2; width:800px; height:150px; overflow:visible;"></textarea>
                         </span>
@@ -49,10 +49,10 @@ $hu = 'htmlubb';
 </div>
 <div class="box">
 <div id="b_14">
-<h1>¹¤¾ß¼ò½é</h1>
+<h1>å·¥å…·ç®€ä»‹</h1>
 <div class="box1">
 <span class="info2">
-<p>UBBÔ´´úÂë×ª»»HTML´úÂë</p>
+<p>UBBæºä»£ç è½¬æ¢HTMLä»£ç </p>
 </span>
 </div>
 </div>

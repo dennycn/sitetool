@@ -6,7 +6,7 @@ $hu = 'outpr';
 $outs   = $ali = array();
 $domain = $_POST['domain']?$_POST['domain']:$_GET['domain'];
 if($domain){
-	is_domain($domain) or exit( "<script language=javascript>alert('ÇëÊäÈëÕýÈ·µÄÓòÃû£¡');location.href='outpr.php';</script>");
+	is_domain($domain) or exit( "<script language=javascript>alert('è¯·è¾“å…¥æ­£ç¡®çš„åŸŸåï¼');location.href='outpr.php';</script>");
 	@require_once('../cache.php');
 	if(file_exists("../cache/cache.php")){
 		@require_once("../cache/cache.php");
@@ -70,12 +70,12 @@ function exec() {
 </script>
 <div class="box">
    <div id="b_1">
-     <h1><div class="titleft"><a href="#">PRÊä³öÖµ²éÑ¯</a></div></h1>
+     <h1><div class="titleft"><a href="#">PRè¾“å‡ºå€¼æŸ¥è¯¢</a></div></h1>
      <div class="box1"  style="text-align:center;">
      <form action="" method="POST">
-        <div class="info3">ÇëÊäÈëÒª²éÑ¯µÄÓòÃû£º
+        <div class="info3">è¯·è¾“å…¥è¦æŸ¥è¯¢çš„åŸŸåï¼š
             <font color="green"><b>HTTP://</b></font><input name="domain" id="domain" type="text" url="true" class="input" value="<?php echo $domain;?>" size="50"/>
-            <input type="submit" class="but" value="²é Ñ¯"/></form> <br />ÊÖ¶¯²éÑ¯£º ÍâÁ´Êý£º<input type="text" isget="false" id="linkcount"  style="width:50px;"/> PRÖµ£º<input isget="false" type="text" style="width:25px;" maxlength=2 id="pr" /> <input type="button" isget="false" onclick="exec()" class="but" style="height:25px;" value=" ¼ÆËã " />
+            <input type="submit" class="but" value="æŸ¥ è¯¢"/></form> <br />æ‰‹åŠ¨æŸ¥è¯¢ï¼š å¤–é“¾æ•°ï¼š<input type="text" isget="false" id="linkcount"  style="width:50px;"/> PRå€¼ï¼š<input isget="false" type="text" style="width:25px;" maxlength=2 id="pr" /> <input type="button" isget="false" onclick="exec()" class="but" style="height:25px;" value=" è®¡ç®— " />
         </div>
         <table border=0 cellpadding=0 cellspacing=0 align="center" style="margin-bottom:10px;">
          <tr>
@@ -83,7 +83,7 @@ function exec() {
 				<div id="contenthtml">
 					<div id="diss" style="display:none">
 						<ul>
-						    <li class="head">ÓòÃû</li><li>PRÖµ</li><li>Íâ²¿Á´½ÓÊý</li><li>PRÊä³öÖµ</li>
+						    <li class="head">åŸŸå</li><li>PRå€¼</li><li>å¤–éƒ¨é“¾æŽ¥æ•°</li><li>PRè¾“å‡ºå€¼</li>
 						</ul>
 						<ul>
 							<li class='head'><?php echo $domain;?></li>
@@ -102,7 +102,7 @@ function exec() {
 </div> 
 <br/>
 <div id="b_14">
-<h1>×î½ü²éÑ¯£º</h1>
+<h1>æœ€è¿‘æŸ¥è¯¢ï¼š</h1>
 <div class="box1">
 <span class="info2"> 
 <table>
@@ -119,10 +119,10 @@ foreach ($urls as $key=>$v){
 <input type="hidden" name="q" id="q" />
 <div class="box">
 <div id="b_14">
-<h1>¹¤¾ß¼ò½é</h1>
+<h1>å·¥å…·ç®€ä»‹</h1>
 <div class="box1">
 <span class="info2"> 
-<p >²éÑ¯ÍøÕ¾µÄPRÊä³öÖµ,PRÊä³öÖµ£º´ø¸øÓÑÇéÁ´½ÓµÄPRÖµ¡£¼ÆËã¹«Ê½£º(1 - 0.85) + 0.85 * (PRÖµ / ÍâÁ´Êý)</p>
+<p >æŸ¥è¯¢ç½‘ç«™çš„PRè¾“å‡ºå€¼,PRè¾“å‡ºå€¼ï¼šå¸¦ç»™å‹æƒ…é“¾æŽ¥çš„PRå€¼ã€‚è®¡ç®—å…¬å¼ï¼š(1 - 0.85) + 0.85 * (PRå€¼ / å¤–é“¾æ•°)</p>
 </span>
 </div>
 </div>

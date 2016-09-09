@@ -1,11 +1,11 @@
-//ASCII ◊™ªª Unicode
+//ASCII ËΩ¨Êç¢ Unicode
 function AsciiToUnicode() {
 	if (parseFloat(ScriptEngineMajorVersion() + '.' + ScriptEngineMinorVersion()) < 5.5){ 
-	alert('ƒ˙µƒΩ≈±æ“˝«Ê∞Ê±æπ˝µÕ£¨«Î…˝º∂Œ™5.5“‘…œ'); 
+	alert('ÊÇ®ÁöÑËÑöÊú¨ÂºïÊìéÁâàÊú¨Ëøá‰ΩéÔºåËØ∑ÂçáÁ∫ß‰∏∫5.5‰ª•‰∏ä'); 
 	return; 
 	}
 	if (content.value == '') { 
-	alert('Œƒ±æøÚ÷–√ª”–¥˙¬Î£°'); 
+	alert('ÊñáÊú¨Ê°Ü‰∏≠Ê≤°Êúâ‰ª£Á†ÅÔºÅ'); 
 	return; 
 	}
 	result.value = '';
@@ -14,11 +14,11 @@ function AsciiToUnicode() {
 	document.getElementById('content').focus();
 }
 
-//Unicode ◊™ªª ASCII
+//Unicode ËΩ¨Êç¢ ASCII
 function UnicodeToAscii() { 
 	var code = content.value.match(/&#(\d+);/g);
 	if (code == null) { 
-	alert('Œƒ±æøÚ÷–√ª”–∫œ∑®µƒUnicode¥˙¬Î£°'); document.getElementById('content').focus();
+	alert('ÊñáÊú¨Ê°Ü‰∏≠Ê≤°ÊúâÂêàÊ≥ïÁöÑUnicode‰ª£Á†ÅÔºÅ'); document.getElementById('content').focus();
 	return; 
 	}
 	result.value = '';
@@ -44,6 +44,6 @@ function copy(obj)
   {
   window.clipboardData.setData("Text",Result); 
   document.getElementById(obj).select(); 
-  window.alert('“—∏¥÷∆≥…π¶°£');
+  window.alert('Â∑≤Â§çÂà∂ÊàêÂäü„ÄÇ');
   }
 }

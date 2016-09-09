@@ -4,20 +4,20 @@ $hu = 'shouji';
 if (isset($_POST["action"])){
 	if ("search"==$_POST["action"] ){
 		require ('function.php');
-		$phone  = (isset($_POST["phone"]))?$_POST["phone"]:die ("Çë·µ»Ø");
-		$result = "Äã²éÑ¯µÄÊÖ»úºÅÂë<font color=red>".$phone."</font>ÊôÓÚ<font color=red>".getphone($phone)."</font>";
+		$phone  = (isset($_POST["phone"]))?$_POST["phone"]:die ("è¯·è¿”å›ž");
+		$result = "ä½ æŸ¥è¯¢çš„æ‰‹æœºå·ç <font color=red>".$phone."</font>å±žäºŽ<font color=red>".getphone($phone)."</font>";
 	 }
 }
 ?>
 <div class="main">
   <div class="box">
     <div id="c">
-      <h1>²éÑ¯ÊÖ»úºÅÂë¹éÊôµØ</h1>
+      <h1>æŸ¥è¯¢æ‰‹æœºå·ç å½’å±žåœ°</h1>
       <div class="box1" style="text-align:center;"> 
       <form action="" method="POST">
-          <span class="info3" > ÇëÊäÈëÒª²éÑ¯µÄÊÖ»úºÅ£º
+          <span class="info3" > è¯·è¾“å…¥è¦æŸ¥è¯¢çš„æ‰‹æœºå·ï¼š
            <input name="phone" type="text" id="phone" class="input" size="40" url="true" value="<?php echo $_POST['phone'];?>"/><input name="action" type="hidden" value="search">
-            <input name="btnS" class="but" type="submit" value="¿ªÊ¼²éÑ¯"  id="sub" />
+            <input name="btnS" class="but" type="submit" value="å¼€å§‹æŸ¥è¯¢"  id="sub" />
             </form>
           </span><div class="t" id="seo_result"><?php echo $result;?>
 </div>
@@ -36,10 +36,10 @@ if (isset($_POST["action"])){
   </div>
     <div class="box">
       <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
+        <h1>å·¥å…·ç®€ä»‹</h1>
         <div class="box1">
             <span class="info2">
-            ÊäÈëÊÖ»úºÅÂëÇ°ÆßÎ»Êý»òÕßÈ«²¿ÊäÈë¼´¿É²éÑ¯ÊÖ»úºÅÂë¹éÊôµØ¡£
+            è¾“å…¥æ‰‹æœºå·ç å‰ä¸ƒä½æ•°æˆ–è€…å…¨éƒ¨è¾“å…¥å³å¯æŸ¥è¯¢æ‰‹æœºå·ç å½’å±žåœ°ã€‚
             </span>
         </div>
       </div>

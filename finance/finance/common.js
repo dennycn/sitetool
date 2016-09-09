@@ -1,5 +1,5 @@
 /**
- * ¼ÆËãÆ÷Í¨ÓÃjs
+ * è®¡ç®—å™¨é€šç”¨js
  * Author: xiaohong.liu
  * Date: 2008-9-11
  */
@@ -7,8 +7,8 @@
 var validRegExp= /[<>%#^&~]/;
 
 /**
- * ÑéÖ¤Ò»¸öÖµÊÇ·ñÎªÊı×Ö
- * @param value£ºÖµ
+ * éªŒè¯ä¸€ä¸ªå€¼æ˜¯å¦ä¸ºæ•°å­—
+ * @param valueï¼šå€¼
  */
 function checkNumber(value)
 {
@@ -21,8 +21,8 @@ function checkNumber(value)
 }
 
 /**
- * ÑéÖ¤Ò»¸öÖµÊÇ·ñÎªÕûÊı
- * @param value£ºÖµ
+ * éªŒè¯ä¸€ä¸ªå€¼æ˜¯å¦ä¸ºæ•´æ•°
+ * @param valueï¼šå€¼
  */
 function checkInteger(value)
 {
@@ -35,7 +35,7 @@ function checkInteger(value)
 }
 
 /**
- * ·µ»Ø½ñÈÕÈÕÆÚ£¬¸ñÊ½Èç£º2008-8-8
+ * è¿”å›ä»Šæ—¥æ—¥æœŸï¼Œæ ¼å¼å¦‚ï¼š2008-8-8
  */
 function getTodayDate(){
     var today=new Date();
@@ -46,10 +46,10 @@ function getTodayDate(){
 }
 
 /**
- * ¸ù¾İÆğÊ¼ÈÕÆÚºÍÖÕÖ¹ÈÕÆÚ»ñµÃ¼ä¸ôÌìÊı
- * @param startDate  ÆğÊ¼ÈÕÆÚ£¬¸ñÊ½Èç:2008-8-8
- * @param endDate    ÖÕÖ¹ÈÕÆÚ£¬¸ñÊ½Èç£º2008-8-8
- * @return ¼ä¸ôÌìÊı£¬Ê§°Ü·µ»Ø0
+ * æ ¹æ®èµ·å§‹æ—¥æœŸå’Œç»ˆæ­¢æ—¥æœŸè·å¾—é—´éš”å¤©æ•°
+ * @param startDate  èµ·å§‹æ—¥æœŸï¼Œæ ¼å¼å¦‚:2008-8-8
+ * @param endDate    ç»ˆæ­¢æ—¥æœŸï¼Œæ ¼å¼å¦‚ï¼š2008-8-8
+ * @return é—´éš”å¤©æ•°ï¼Œå¤±è´¥è¿”å›0
  */
 function getIntervalDays(startDate,endDate){
     try{
@@ -72,9 +72,9 @@ function getIntervalDays(startDate,endDate){
 }
 
 /**
- * Ôö¼ÓÄêÊı
- * @param startDate ¸ñÊ½Èç2008-8-8
- * @param num ÄêÊı
+ * å¢åŠ å¹´æ•°
+ * @param startDate æ ¼å¼å¦‚2008-8-8
+ * @param num å¹´æ•°
  */
 function AddYears(startDate,num){
     var arrStartDay=startDate.split("-");
@@ -83,9 +83,9 @@ function AddYears(startDate,num){
 }
 
 /**
- * Ôö¼ÓÔÂÊı
- * @param startDate ¸ñÊ½Èç2008-8-8
- * @param num ÔÂÊı
+ * å¢åŠ æœˆæ•°
+ * @param startDate æ ¼å¼å¦‚2008-8-8
+ * @param num æœˆæ•°
  */
 function AddMonths(startDate,num){
     var arrStartDay=startDate.split("-");
@@ -100,9 +100,9 @@ function AddMonths(startDate,num){
     document.getElementById("saving_endDate").value =arrStartDay[0]+"-"+arrStartDay[1]+"-"+arrStartDay[2];
 }
 /**
- * Ôö¼ÓÈÕÊı
- * @param startDate ¸ñÊ½Èç2008-8-8
- * @param num ÈÕÊı
+ * å¢åŠ æ—¥æ•°
+ * @param startDate æ ¼å¼å¦‚2008-8-8
+ * @param num æ—¥æ•°
  */
 function AddDays(startDate,num){
     var arrStartDay=startDate.split("-");
@@ -110,14 +110,14 @@ function AddDays(startDate,num){
     arrStartDay[1]=parseInt(arrStartDay[1]);
     arrStartDay[2]=parseInt(arrStartDay[2]);
     var monthDaysNum=30;
-    //1,3,5,7,8,10,12 ´óÔÂ31Ìì
+    //1,3,5,7,8,10,12 å¤§æœˆ31å¤©
     if(arrStartDay[1]==1||arrStartDay[1]==3||arrStartDay[1]==5||arrStartDay[1]==7||arrStartDay[1]==8||arrStartDay[1]==10||arrStartDay[1]==12){
         monthDaysNum=31;
     }else if(arrStartDay[1]==2){
         if(0==arrStartDay[0]%4&&((arrStartDay[0]%100!=0)||(arrStartDay[0]%400==0))){
-            monthDaysNum=29;//ÈòÄê29Ìì
+            monthDaysNum=29;//é—°å¹´29å¤©
         }else{
-            monthDaysNum=28;//Æ½Äê28Ìì
+            monthDaysNum=28;//å¹³å¹´28å¤©
         }
     }else{
         monthDaysNum=30;
@@ -138,9 +138,9 @@ function AddDays(startDate,num){
 }
 
 /**
- * È¡Ğ¡ÊıµãºóÁ½Î»²¢ËÄÉáÎåÈë
- * @param value£ºÊı×Ö
- * @return ËÄÉáÎåÈëºóµÄÊı¾İ
+ * å–å°æ•°ç‚¹åä¸¤ä½å¹¶å››èˆäº”å…¥
+ * @param valueï¼šæ•°å­—
+ * @return å››èˆäº”å…¥åçš„æ•°æ®
  */
 function getRound(value)
 {
@@ -148,20 +148,20 @@ function getRound(value)
 }
 
 /**
- *È¥Ç°ºó¿Õ¸ñ
+ *å»å‰åç©ºæ ¼
  */
 String.prototype.trim = function()  {return this.replace(/(^\s*)|(\s*$)/g,"");} 
 
 
 /**
- * Ğ£Ñé×Ö·û´®ÖĞÊÇ·ñ°üº¬·Ç·¨×Ö·û
+ * æ ¡éªŒå­—ç¬¦ä¸²ä¸­æ˜¯å¦åŒ…å«éæ³•å­—ç¬¦
  * @ parm string 
  * @ since 1.0
  */
 function checkLegalChar(string){
 	var isValid=validRegExp.test(string); 
 	if (isValid){
-		alert("ÄúÊäÈëµÄÖµ\""+ string +"\"°üº¬·Ç·¨×Ö·û(<,>,%,#,^,&,~)£¡");	
+		alert("æ‚¨è¾“å…¥çš„å€¼\""+ string +"\"åŒ…å«éæ³•å­—ç¬¦(<,>,%,#,^,&,~)ï¼");	
 		return true; 
 	} 
 	else{
@@ -170,8 +170,8 @@ function checkLegalChar(string){
 }
 
 /**
- * Ğ£Ñé±íµ¥ÖĞµÄËùÓĞÊäÈë¿Ø¼şÖĞÊÇ·ñÓĞ·Ç·¨×Ö·û
- * Èç¹û²»´«²ÎÊı,Ä¬ÈÏÊÇ forms[0]
+ * æ ¡éªŒè¡¨å•ä¸­çš„æ‰€æœ‰è¾“å…¥æ§ä»¶ä¸­æ˜¯å¦æœ‰éæ³•å­—ç¬¦
+ * å¦‚æœä¸ä¼ å‚æ•°,é»˜è®¤æ˜¯ forms[0]
  */
 function checkLegalTextInForm(formName){
 	var formObj;
@@ -187,7 +187,7 @@ function checkLegalTextInForm(formName){
 			if(element.readOnly==true){
 				continue;
 			}else if(checkLegalChar(element.value)){
-				//alert("ÄúÊäÈëµÄÖµ\""+ element.value +"\"°üº¬·Ç·¨×Ö·û(<,>,#,^,&,~)£¡");
+				//alert("æ‚¨è¾“å…¥çš„å€¼\""+ element.value +"\"åŒ…å«éæ³•å­—ç¬¦(<,>,#,^,&,~)ï¼");
 				return true;
 			}
 		}         
@@ -195,7 +195,7 @@ function checkLegalTextInForm(formName){
 			if(element.readOnly==true){
 			continue;
 		}else if(checkLegalChar(element.value)){
-			//alert("ÄúÊäÈëµÄÖµ\""+ element.value +"\"°üº¬·Ç·¨×Ö·û(<,>,#,^,&,~)£¡");
+			//alert("æ‚¨è¾“å…¥çš„å€¼\""+ element.value +"\"åŒ…å«éæ³•å­—ç¬¦(<,>,#,^,&,~)ï¼");
 			return true;
 		}
 		}         
@@ -203,12 +203,12 @@ function checkLegalTextInForm(formName){
 }
 
 /**
- * Ğ£Ñéµç»°ºÅÂë¸ñÊ½ÊÇ·ñÕıÈ·
- * ÒÔÏÂ¸ñÊ½µÄµç»°¿ÉÒÔÊäÈë
- * ÇøºÅ-µç»°£»(ÇøºÅ)µç»°£»ÇøºÅµç»°£»µç»°£»ÊÖ»úºÅ£»0ÊÖ»úºÅ
- * ÆäÖĞ£¬ÇøºÅÊÇ±ØĞëÒÔ0¿ªÍ·£¬¹²ÈıÎ»»òÕßËÄÎ»Êı×ÖµÄºÅÂë
- * µç»°ÊÇ3µ½8Î»Êı×ÖµÄºÅÂë
- * ÊÖ»úºÅÊÇ±ØĞëÒÔ13»òÕß15¿ªÍ·£¬¹²11Î»Êı×ÖµÄºÅÂë
+ * æ ¡éªŒç”µè¯å·ç æ ¼å¼æ˜¯å¦æ­£ç¡®
+ * ä»¥ä¸‹æ ¼å¼çš„ç”µè¯å¯ä»¥è¾“å…¥
+ * åŒºå·-ç”µè¯ï¼›(åŒºå·)ç”µè¯ï¼›åŒºå·ç”µè¯ï¼›ç”µè¯ï¼›æ‰‹æœºå·ï¼›0æ‰‹æœºå·
+ * å…¶ä¸­ï¼ŒåŒºå·æ˜¯å¿…é¡»ä»¥0å¼€å¤´ï¼Œå…±ä¸‰ä½æˆ–è€…å››ä½æ•°å­—çš„å·ç 
+ * ç”µè¯æ˜¯3åˆ°8ä½æ•°å­—çš„å·ç 
+ * æ‰‹æœºå·æ˜¯å¿…é¡»ä»¥13æˆ–è€…15å¼€å¤´ï¼Œå…±11ä½æ•°å­—çš„å·ç 
  * @ parm string 
  * @ since 1.0
  */
@@ -227,8 +227,8 @@ function checkLegalTel(string){
 
 
 /**
- * Çå¿Õform±íµ¥(²»¿ÉÒÔÇå¿Õ¸´Ñ¡¿ò£¬µ¥Ñ¡Å¥)
- * Èç¹û²»´«²ÎÊı,Ä¬ÈÏÇå¿Õforms[0]
+ * æ¸…ç©ºformè¡¨å•(ä¸å¯ä»¥æ¸…ç©ºå¤é€‰æ¡†ï¼Œå•é€‰é’®)
+ * å¦‚æœä¸ä¼ å‚æ•°,é»˜è®¤æ¸…ç©ºforms[0]
  * @ parm string 
  */
 function clearForm(formName) {
@@ -255,8 +255,8 @@ function clearForm(formName) {
    }  
 }
 /**
- * Çå¿Õform±íµ¥(¿ÉÒÔÇå¿Õ¸´Ñ¡¿ò£¬µ¥Ñ¡Å¥)
- * Èç¹û²»´«²ÎÊı,Ä¬ÈÏÇå¿Õforms[0]
+ * æ¸…ç©ºformè¡¨å•(å¯ä»¥æ¸…ç©ºå¤é€‰æ¡†ï¼Œå•é€‰é’®)
+ * å¦‚æœä¸ä¼ å‚æ•°,é»˜è®¤æ¸…ç©ºforms[0]
  * @ parm string 
  */
 function clearForm2(formName) {   
@@ -283,7 +283,7 @@ function clearForm2(formName) {
    }  
 }
 /**
- * ¸ñÊ½»¯floatÀàĞÍ£¬±£ÁôĞ¡ÊıµãÈô¸ÉÎ»
+ * æ ¼å¼åŒ–floatç±»å‹ï¼Œä¿ç•™å°æ•°ç‚¹è‹¥å¹²ä½
  * @param {Object} src
  * @param {Object} pos
  */

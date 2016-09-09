@@ -71,8 +71,8 @@ class QQWry{
 	}
 	function qqwry ($dotip='') {
 		if(!$dotip)return;
-		if(ereg("^(127)",$dotip)){$this->Country='±¾µØÍøÂç';return;}
-		elseif(ereg("^(192)",$dotip)) {$this->Country='¾ÖÓòÍø';return;}
+		if(ereg("^(127)",$dotip)){$this->Country='æœ¬åœ°ç½‘ç»œ';return;}
+		elseif(ereg("^(192)",$dotip)) {$this->Country='å±€åŸŸç½‘';return;}
 		$nRet;
 		$ip=$this->IpToInt ( $dotip );
 		$this->fp= fopen(__QQWRY__, "rb");
@@ -110,15 +110,15 @@ class QQWry{
 		if ( ( $this->StartIp <= $ip ) && ( $this->EndIp >= $ip ) ){
 			$nRet=0 ;
 			$this->getCountry ( ) ;
-			$this->Local=str_replace("£¨½â·ÅÌ¨Íå£¡£¡£¡£©", "", $this->Local);
+			$this->Local=str_replace("ï¼ˆè§£æ”¾å°æ¹¾ï¼ï¼ï¼ï¼‰", "", $this->Local);
 		}else{
 			$nRet=3 ;
-			$this->Country='Î´Öª' ;
+			$this->Country='æœªçŸ¥' ;
 			$this->Local='' ;
 		}
 		fclose ( $this->fp );
-		$this->Country=preg_replace("/(CZ88.NET)|(´¿ÕæÍøÂç)/","",$this->Country);
-		$this->Local=preg_replace("/(CZ88.NET)|(´¿ÕæÍøÂç)/","",$this->Local);
+		$this->Country=preg_replace("/(CZ88.NET)|(çº¯çœŸç½‘ç»œ)/","",$this->Country);
+		$this->Local=preg_replace("/(CZ88.NET)|(çº¯çœŸç½‘ç»œ)/","",$this->Local);
 		return $nRet ;
 	}
 	function IpToInt($Ip) {

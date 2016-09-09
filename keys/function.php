@@ -36,12 +36,12 @@ function get_seo_info($domain,$bot,$pn,$keys,$v,$output,$rn){
 		}
 	}
 	foreach($kw as $key=>$val){
-		$kws .= "µÚ<font color=red> ".($key+1+$pn)." </font>¸ö³öÏÖ<br/>".$val;
+		$kws .= "ç¬¬<font color=red> ".($key+1+$pn)." </font>ä¸ªå‡ºç°<br/>".$val;
 	}
 	if(@preg_match($ROBOT[$bot]['site_pattern'], $content1, $matches)) $site_info = $matches[1];
 	$domain1 = "keys.php?domain=".$domain."&keys=".$output."&val=".$v."&rn=".$rn;
-	$cons = "ÅÅÃû£º<a href=".$domain1."&pn=0>1-".$rn."</a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*1).">".(($rn*1)+1)."-".($rn*2)."</a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*2).">".(($rn*2)+1)."-".($rn*3)."</a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*3).">".(($rn*3)+1)."-".($rn*4)."</a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*4).">".(($rn*4)+1)."-".($rn*5)."</a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*5).">".(($rn*5)+1)."-".($rn*6)."</a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*6).">".(($rn*6)+1)."-".($rn*7)."</a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*7).">".(($rn*7)+1)."-".($rn*8)."</a>";
-	$deta = "<font color=red>¹Ø¼ü×Ö</font> ".$keys." <font color=red>ÔÚÍøÕ¾</font> ".$domain." <font color=red>µÄ</font> ".$bot." <font color=red>ÊÕÂ¼½á¹û</font> ".($pn+1)."-".($pn+$rn)." <font color=red>ÃûÖĞÓĞ</font> ".sizeof($kw)." <font color=red>Ìõ¼ÇÂ¼</font>";
+	$cons = "æ’åï¼š<a href=".$domain1."&pn=0>1-".$rn."</a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*1).">".(($rn*1)+1)."-".($rn*2)."</a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*2).">".(($rn*2)+1)."-".($rn*3)."</a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*3).">".(($rn*3)+1)."-".($rn*4)."</a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*4).">".(($rn*4)+1)."-".($rn*5)."</a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*5).">".(($rn*5)+1)."-".($rn*6)."</a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*6).">".(($rn*6)+1)."-".($rn*7)."</a>&nbsp;&nbsp;<a href=".$domain1."&pn=".($rn*7).">".(($rn*7)+1)."-".($rn*8)."</a>";
+	$deta = "<font color=red>å…³é”®å­—</font> ".$keys." <font color=red>åœ¨ç½‘ç«™</font> ".$domain." <font color=red>çš„</font> ".$bot." <font color=red>æ”¶å½•ç»“æœ</font> ".($pn+1)."-".($pn+$rn)." <font color=red>åä¸­æœ‰</font> ".sizeof($kw)." <font color=red>æ¡è®°å½•</font>";
 	return $text = $cons."<br/>".$deta."<br/>".$kws;	
 }
 ?>

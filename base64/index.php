@@ -10,29 +10,29 @@ $mds2 = strtolower($mds1);
 $mds3 = substr($mds1,8,16);
 $mds4 = strtolower($mds3);
 if($typ == '3'){
-	$results  = "¼ÓÃÜºóµÄ½á¹û£º<input type=text class=input size=40 value=".$mds4.">";
+	$results  = "åŠ å¯†åçš„ç»“æœï¼š<input type=text class=input size=40 value=".$mds4.">";
 }elseif($typ == '1'){
-	$results =  "¼ÓÃÜºóµÄ½á¹û£º<input type=text class=input size=40 value=".$mds2.">";
+	$results =  "åŠ å¯†åçš„ç»“æœï¼š<input type=text class=input size=40 value=".$mds2.">";
 }elseif($typ == '2'){
-	$results = "¼ÓÃÜºóµÄ½á¹û£º<input type=text class=input size=40 value=".$mds3.">";
+	$results = "åŠ å¯†åçš„ç»“æœï¼š<input type=text class=input size=40 value=".$mds3.">";
 }else{
-	$results = "¼ÓÃÜºóµÄ½á¹û£º<input type=text class=input size=40 value=".$mds1.">";
+	$results = "åŠ å¯†åçš„ç»“æœï¼š<input type=text class=input size=40 value=".$mds1.">";
 }
 ?>
 
 <div class="main">
   <div class="box">
     <div id="c">
-      <h1>BASE64¼ÓÃÜ¡¢½âÃÜ</h1>
+      <h1>BASE64åŠ å¯†ã€è§£å¯†</h1>
       <div class="box1" style="text-align:center;"> 
 	<script language="javascript" type="text/javascript" src="../js/base64.js" ></script>   
 		<form onsubmit="return false;">                        
-		<textarea id="the_code" class="inpText" style="WIDTH: 710px; HEIGHT: 250px" onblur="if(this.value==''){this.value='Çë°ÑÄãĞèÒª¼ÓÃÜµÄÄÚÈİÕ³ÌùÔÚÕâÀï£¡';}" onfocus="if(this.value=='Çë°ÑÄãĞèÒª¼ÓÃÜµÄÄÚÈİÕ³ÌùÔÚÕâÀï£¡'){this.value='';}">Çë°ÑÄãĞèÒª¼ÓÃÜµÄÄÚÈİÕ³ÌùÔÚÕâÀï£¡</textarea>                        
+		<textarea id="the_code" class="inpText" style="WIDTH: 710px; HEIGHT: 250px" onblur="if(this.value==''){this.value='è¯·æŠŠä½ éœ€è¦åŠ å¯†çš„å†…å®¹ç²˜è´´åœ¨è¿™é‡Œï¼';}" onfocus="if(this.value=='è¯·æŠŠä½ éœ€è¦åŠ å¯†çš„å†…å®¹ç²˜è´´åœ¨è¿™é‡Œï¼'){this.value='';}">è¯·æŠŠä½ éœ€è¦åŠ å¯†çš„å†…å®¹ç²˜è´´åœ¨è¿™é‡Œï¼</textarea>                        
 		<p style="margin-top:10px;">                        
-		<input type="submit" onclick="the_code.value=encode64(the_code.value);" value="BASE64¼ÓÃÜ">&nbsp;&nbsp;                        
-		<input type="submit" onclick="the_code.value=decode64(the_code.value);" value="BASE64½âÃÜ">&nbsp;&nbsp;   
-		<input type="button" onclick="oCopy(document.getElementById('the_code'))" value="¸´ÖÆ"/>                        
-		<input type="button" onclick="oCopy(document.getElementById('the_code'));the_code.value='';" value="¼ôÌù"/>                                            
+		<input type="submit" onclick="the_code.value=encode64(the_code.value);" value="BASE64åŠ å¯†">&nbsp;&nbsp;                        
+		<input type="submit" onclick="the_code.value=decode64(the_code.value);" value="BASE64è§£å¯†">&nbsp;&nbsp;   
+		<input type="button" onclick="oCopy(document.getElementById('the_code'))" value="å¤åˆ¶"/>                        
+		<input type="button" onclick="oCopy(document.getElementById('the_code'));the_code.value='';" value="å‰ªè´´"/>                                            
 		</p></form>
 
           <div style="width:100%">
@@ -51,10 +51,10 @@ if($typ == '3'){
   </div>
     <div class="box">
       <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
+        <h1>å·¥å…·ç®€ä»‹</h1>
         <div class="box1">
             <span class="info2">
-               <p>½«´úÂëÒÔBASE64·½Ê½¼ÓÃÜ/½âÃÜ
+               <p>å°†ä»£ç ä»¥BASE64æ–¹å¼åŠ å¯†/è§£å¯†
             </p>
             </span>
         </div>

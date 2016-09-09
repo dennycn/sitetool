@@ -1,11 +1,11 @@
 <?php
 eval('$__file__=__FILE__;');
 define('ROOT_PATH',$__file__ ? dirname($__file__).'/' : './');
-header("Content-Type:text/html;charset=gb2312");
+header("Content-Type:text/html;charset=utf-8");
 require_once('../global.php');
 $domain = strtolower($_POST['domain']);
 $val    = $_POST['val'];
-is_domain($domain) or exit('ÇëÊäÈëÕýÈ·µÄÓòÃû£¡');
+is_domain($domain) or exit('è¯·è¾“å…¥æ­£ç¡®çš„åŸŸåï¼');
 if($domain){
 	@require_once('../cache.php');
 	if(file_exists("../cache/cache.php")){
@@ -36,7 +36,7 @@ if($val == '2'){
 		preg_match($pq,$urlsname[$i],$b);
 		if($b[2] && strpos($b[1],'javascript') === false){
 			if(strpos($b[2],'img') !== false){
-				$b[2] = 'Í¼Æ¬Á´½Ó';
+				$b[2] = 'å›¾ç‰‡é“¾æŽ¥';
 			}
 			if(strpos($b[1],'http') === false){
 				$b[1] = $url.'/'.$b[1];
@@ -57,7 +57,7 @@ if($val == '2'){
 		preg_match($pq,$urlsname[$i],$b);
 		if($b[2] && strpos($b[1],'javascript') === false){
 			if(strpos($b[2],'img') !== false){
-				$b[2] = 'Í¼Æ¬Á´½Ó';
+				$b[2] = 'å›¾ç‰‡é“¾æŽ¥';
 			}
 			if(strpos($b[1],'http') === false){
 				$b[1] = $url.'/'.$b[1];
@@ -78,7 +78,7 @@ if($val == '2'){
 		preg_match($pq,$urlsname[$i],$b);
 		if($b[2] && strpos($b[1],'javascript') === false){
 			if(strpos($b[2],'img') !== false){
-				$b[2] = 'Í¼Æ¬Á´½Ó';
+				$b[2] = 'å›¾ç‰‡é“¾æŽ¥';
 			}
 			if(strpos($b[1],'http') === false){
 				$b[1] = $url.'/'.$b[1];
@@ -94,7 +94,7 @@ if($val == '2'){
 	$outslen = sizeof($outs);
 	$inslen  = $counts - $outslen;
 }
-$t = "¹²ËÑÑ°Á´½Ó£º".$counts." ¸ö,Õ¾ÄÚÁ´½Ó£º".$inslen."  ¸ö,³öÕ¾Á´½Ó£º".$outslen."  ¸ö";
+$t = "å…±æœå¯»é“¾æŽ¥ï¼š".$counts." ä¸ª,ç«™å†…é“¾æŽ¥ï¼š".$inslen."  ä¸ª,å‡ºç«™é“¾æŽ¥ï¼š".$outslen."  ä¸ª";
 ?>
 <table border="1" width="100%" bordercolordark="#FFFFFF" cellspacing="0" cellpadding="0" bordercolorlight="#BBD7E6">
 <tr><td colspan="2"><?php echo $t;?></td></tr>

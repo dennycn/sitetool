@@ -34,19 +34,19 @@ if(is_ip($ip)){
 	$ipp2 = $QQWry->Country.$QQWry->Local;
 }else
 {
-	$ipp2 = "ÇëÊäÈëÕýÈ·µÄIP»òÓòÃû.";
+	$ipp2 = "è¯·è¾“å…¥æ­£ç¡®çš„IPæˆ–åŸŸå.";
 }
 $gip=get_real_ip();
 if (($_SERVER["HTTP_CLIENT_IP"]) or ($_SERVER['HTTP_X_FORWARDED_FOR'])){
 	$ifErr=$QQWry->QQWry($gip);
-	$ipp = "ÄúµÄÕæÊµIPÊÇ".$gip."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;À´×Ô".$QQWry->Country.$QQWry->Local."<br/>";
+	$ipp = "æ‚¨çš„çœŸå®žIPæ˜¯".$gip."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;æ¥è‡ª".$QQWry->Country.$QQWry->Local."<br/>";
 	$gip=$_SERVER['REMOTE_ADDR'];
 	$ifErr=$QQWry->QQWry($gip);
-	$ipp = "ÄúµÄ´úÀíIPÊÇ".$gip."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;À´×Ô".$QQWry->Country.$QQWry->Local;
+	$ipp = "æ‚¨çš„ä»£ç†IPæ˜¯".$gip."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;æ¥è‡ª".$QQWry->Country.$QQWry->Local;
 }
 else{
 	$ip=$_SERVER['REMOTE_ADDR'];
 	$ifErr=$QQWry->QQWry($ip);
-	$ips = "ÄúµÄIPÊÇ£º".$ip."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;À´×Ô£º".$QQWry->Country.$QQWry->Local;
+	$ips = "æ‚¨çš„IPæ˜¯ï¼š".$ip."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;æ¥è‡ªï¼š".$QQWry->Country.$QQWry->Local;
 }
 ?>

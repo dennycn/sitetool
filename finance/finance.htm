@@ -1,6 +1,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML><HEAD><TITLE></TITLE>
-<META http-equiv=Content-Type content="text/html; charset=gb2312"><LINK 
+<META http-equiv=Content-Type content="text/html; charset=utf-8"><LINK 
 href="finance/sheet.css" type=text/css rel=stylesheet>
 <STYLE type=text/css>BODY {
 	MARGIN-TOP: 0px
@@ -185,44 +185,44 @@ function MM_swapImage() { //v3.0
                   <TABLE cellSpacing=5 cellPadding=0 width="100%" border=0>
                     <TBODY>
                     <TR>
-                      <TD style="WIDTH: 63px; HEIGHT: 23px">�������ࣺ</TD>
+                      <TD style="WIDTH: 63px; HEIGHT: 23px">货币种类：</TD>
                       <TD style="HEIGHT: 23px"><SELECT id=moneyName 
                         style="WIDTH: 96px" onchange=changeMoneyName(); 
                         name=moneyName><OPTION value=0 
-                          selected>--��ѡ��--</OPTION></SELECT> </TD></TR>
+                          selected>--请选择--</OPTION></SELECT> </TD></TR>
                     <TR>
-                      <TD style="WIDTH: 63px; HEIGHT: 22px">������ࣺ</TD>
+                      <TD style="WIDTH: 63px; HEIGHT: 22px">存款种类：</TD>
                       <TD style="HEIGHT: 22px"><SELECT id=savingKind 
                         style="WIDTH: 96px" onchange=changeSavingKind(); 
                         name=savingKind><OPTION value=0 
-                          selected>--��ѡ��--</OPTION></SELECT> </TD></TR>
+                          selected>--请选择--</OPTION></SELECT> </TD></TR>
                     <TR>
-                      <TD style="WIDTH: 63px">������ޣ�</TD>
+                      <TD style="WIDTH: 63px">存款期限：</TD>
                       <TD><SELECT id=savingTerm style="WIDTH: 96px" 
                         onchange=doChangeSavingTerm(); name=savingTerm><OPTION 
-                          value=0 selected>--��ѡ��--</OPTION></SELECT> </TD></TR>
+                          value=0 selected>--请选择--</OPTION></SELECT> </TD></TR>
                     <TR>
-                      <TD style="WIDTH: 63px">������%��</TD>
+                      <TD style="WIDTH: 63px">年利率%：</TD>
                       <TD><INPUT id=interestRate style="WIDTH: 80px" 
                         value=0.00 name=interestRate></TD></TR>
                     <TR>
                       <TD style="WIDTH: 63px; HEIGHT: 9px"><SPAN 
-                        id=SalePriceTitle>����</SPAN></TD>
-                      <TD style="HEIGHT: 9px"><FONT face=����><INPUT 
+                        id=SalePriceTitle>存款金额：</SPAN></TD>
+                      <TD style="HEIGHT: 9px"><FONT face=宋体><INPUT 
                         id=savingMoney style="WIDTH: 80px" value=0.00 
                         name=savingMoney></FONT></TD></TR>
                     <TR>
                       <TD style="HEIGHT: 1px" colSpan=2 height=1></TD></TR>
                     <TR>
-                      <TD>���������</TD>
+                      <TD>存款天数：</TD>
                       <TD><INPUT id=savingDays style="WIDTH: 80px" readOnly 
                         name=savingDays> </TD></TR>
                     <TR>
-                      <TD style="HEIGHT: 1px">��Ϣ�ܶ</TD>
+                      <TD style="HEIGHT: 1px">利息总额：</TD>
                       <TD style="HEIGHT: 1px"><INPUT id=totalAccrual 
                         style="WIDTH: 80px" readOnly name=totalAccrual> </TD></TR>
                     <TR>
-                      <TD>��Ϣ˰�</TD>
+                      <TD>利息税额：</TD>
                       <TD><INPUT id=totalTax style="WIDTH: 80px" readOnly 
                         name=totalTax> </TD></TR></TBODY></TABLE></TD>
                 <TD style="WIDTH: 5px" width=5>&nbsp;</TD>
@@ -231,32 +231,32 @@ function MM_swapImage() { //v3.0
                   cellPadding=0 width=196 border=0>
                     <TBODY>
                     <TR>
-                      <TD style="WIDTH: 73px; HEIGHT: 23px">������ڣ�</TD>
+                      <TD style="WIDTH: 73px; HEIGHT: 23px">起存日期：</TD>
                       <TD style="HEIGHT: 23px"><INPUT id=saving_startDate 
                         style="WIDTH: 80px"> </TD></TR>
                     <TR>
-                      <TD style="WIDTH: 73px; HEIGHT: 22px">�������ڣ�</TD>
+                      <TD style="WIDTH: 73px; HEIGHT: 22px">结束日期：</TD>
                       <TD style="HEIGHT: 22px"><INPUT id=saving_endDate 
                         style="WIDTH: 80px"> </TD></TR>
                     <TR>
                       <TD style="HEIGHT: 23px" colSpan=2><FONT 
-                        color=#999999>(���ڱ�׼��ʽ��2003-2-6)</FONT></TD></TR>
+                        color=#999999>(日期标准格式：2003-2-6)</FONT></TD></TR>
                     <TR>
-                      <TD style="WIDTH: 73px; HEIGHT: 22px">��Ϣ˰��%��</TD>
+                      <TD style="WIDTH: 73px; HEIGHT: 22px">利息税率%：</TD>
                       <TD style="HEIGHT: 22px"><INPUT id=accrualTaxRate 
                         style="WIDTH: 80px" value=0.00> </TD></TR>
                     <TR>
                       <TD style="HEIGHT: 32px" colSpan=2><FONT 
-                      face=����></FONT></TD></TR>
+                      face=宋体></FONT></TD></TR>
                     <TR>
                       <TD></TD>
                       <TD></TD></TR>
                     <TR>
-                      <TD style="WIDTH: 73px">ʵ����Ϣ��</TD>
+                      <TD style="WIDTH: 73px">实得利息：</TD>
                       <TD><INPUT id=gainedAccrual style="WIDTH: 80px" 
                         readOnly> </TD></TR>
                     <TR>
-                      <TD style="WIDTH: 73px">��Ϣ�ϼƣ�</TD>
+                      <TD style="WIDTH: 73px">本息合计：</TD>
                       <TD><INPUT id=saving_summation style="WIDTH: 80px" 
                         readOnly> </TD></TR></TBODY></TABLE></TD></TR>
               <TR>

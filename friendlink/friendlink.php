@@ -1,5 +1,5 @@
 <?php
-header("content-Type: text/html; charset=GB2312");
+header("content-Type: text/html; charset=utf-8");
 define('IN_SEO', TRUE);
 $hu = 'friendlink';
 @require_once('../header.php');
@@ -8,7 +8,7 @@ require '../global.php';
 $ulink  = $urlsname = $name = $outs = $ali = $pic = $ati = array();
 $domain = $_POST['domain']?$_POST['domain']:trim($_GET['domain']);
 if($domain){
- is_domain($domain) or exit("<script language='javascript'>alert(\"ÇëÊäÈëÕýÈ·µÄÓòÃû,ÀýÈç£ºchinaccnet.com\");setTimeout(\"window.location='friends.php?domain=chinaccnet.com'\",0);</script>");
+ is_domain($domain) or exit("<script language='javascript'>alert(\"è¯·è¾“å…¥æ­£ç¡®çš„åŸŸå,ä¾‹å¦‚ï¼šchinaccnet.com\");setTimeout(\"window.location='friends.php?domain=chinaccnet.com'\",0);</script>");
 }
 $code   = @file_get_contents( 'http://'.$domain);
 $pat1   = "/<a(.*?)<\/a>/i";
@@ -19,7 +19,7 @@ for($i=0;$i<sizeof($urlsname);$i++){
 	preg_match($pq,$urlsname[$i],$b);
 	if($b[2] && strpos($b[1],'javascript') === false){
 		  if(strpos($b[2],'img') !== false){
-			$b[2] = 'Í¼Æ¬Á´½Ó';
+			$b[2] = 'å›¾ç‰‡é“¾æŽ¥';
 		  }
 		  if(strpos($b[1],'http') === false){
 			$b[1] =  'http://'.$domain.'/'.$b[1];
@@ -44,7 +44,7 @@ foreach($ali as $key=>$val){
 }
 for($j=0;$j<sizeof($outs);$j++){
 	if($ali[$j]){
-		if($name[$j] == 'Í¼Æ¬Á´½Ó'){
+		if($name[$j] == 'å›¾ç‰‡é“¾æŽ¥'){
 		array_push($pic,$name[$j]);
 		}
 		array_push($ati,$name[$j]);
@@ -83,8 +83,8 @@ window.onload=function aa(){
 		  var mm = 0;		
 		  for(var k=1;k<=size;k++){
 			  fl = $('fanlianjie'+k).innerHTML;
-			  if(fl.substr(0,3)=='ÓÐ·´Á´'){
-			  	var re = new RegExp('^(.*>Í¼Æ¬Á´½Ó<.*)$');
+			  if(fl.substr(0,3)=='æœ‰åé“¾'){
+			  	var re = new RegExp('^(.*>å›¾ç‰‡é“¾æŽ¥<.*)$');
 			  	if(fl.match(re)){
 				   mm++;
 				   }
@@ -106,21 +106,21 @@ window.onload=function aa(){
 <div class="main">
   <div class="box">
     <div id="c">
-      <h1>ÓÑÇéÁ´½ÓIP²éÑ¯¹¤¾ß</h1>
+      <h1>å‹æƒ…é“¾æŽ¥IPæŸ¥è¯¢å·¥å…·</h1>
       <div class="box1" style="text-align:center;"> 
       <form method="POST" action="">
-          <span class="info3" > ÇëÊäÈëÒª²éÑ¯µÄÓòÃû£º
+          <span class="info3" > è¯·è¾“å…¥è¦æŸ¥è¯¢çš„åŸŸåï¼š
            <font color=green><b>HTTP:// </b></font><input name="domain" type="text" id="domain" class="input" size="40" url="true" value="<?php echo $domain;?>"/>
-            <input name="btnS" class="but" type="submit" value="²éÑ¯"  id="sub"/>
+            <input name="btnS" class="but" type="submit" value="æŸ¥è¯¢"  id="sub"/>
           </span>
           </form>
           <div id="seo_result" style="display:none">
           <table border="1" width="100%" bordercolordark="#FFFFFF" cellspacing="0" cellpadding="0" bordercolorlight="#BBD7E6">
-<tr bgcolor="#ECF5FB"><td align="left">ÄúÊäÈëµÄÍøÖ·Îª:<?php echo "http://".$domain?>&nbsp;&nbsp;&nbsp;<?php echo $wip;?></td></tr>
+<tr bgcolor="#ECF5FB"><td align="left">æ‚¨è¾“å…¥çš„ç½‘å€ä¸º:<?php echo "http://".$domain?>&nbsp;&nbsp;&nbsp;<?php echo $wip;?></td></tr>
 </table>
 <br/>
 <table border="1" width="100%" bordercolordark="#FFFFFF" cellspacing="0" cellpadding="0" bordercolorlight="#BBD7E6">
-<tr bgcolor="#ECF5FB"><td>ÐòºÅ</td><td>Õ¾µã</td><td>Á´½ÓµØÖ·</td><td>IPµØÖ·</td><td>·þÎñÆ÷ÎïÀíµØÖ·</td></tr><input type="hidden" name="sizes" id="sizes" value="<?php echo sizeof($ulink);?>">
+<tr bgcolor="#ECF5FB"><td>åºå·</td><td>ç«™ç‚¹</td><td>é“¾æŽ¥åœ°å€</td><td>IPåœ°å€</td><td>æœåŠ¡å™¨ç‰©ç†åœ°å€</td></tr><input type="hidden" name="sizes" id="sizes" value="<?php echo sizeof($ulink);?>">
 <?php
 for($j=0;$j<sizeof($ulink);$j++){
 ?>
@@ -143,7 +143,7 @@ for($j=0;$j<sizeof($ulink);$j++){
     </div>
   </div>
 <div id="b_14">
-<h1>×î½ü²éÑ¯£º</h1>
+<h1>æœ€è¿‘æŸ¥è¯¢ï¼š</h1>
 <div class="box1">
 <span class="info2"> 
 <table>
@@ -159,10 +159,10 @@ foreach ($urls as $key=>$v){
 </div>
     <div class="box">
       <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
+        <h1>å·¥å…·ç®€ä»‹</h1>
         <div class="box1">
             <span class="info2">
-               <p>Í¨¹ý±¾¹¤¾ß¿ÉÒÔÅúÁ¿²éÑ¯ÍøÕ¾ÓÑÇéÁ´½ÓÕ¾µãµÄIPµØÖ·¡¢·þÎñÆ÷ÎïÀíµØÖ·£¬°ïÖúÕ¾³¤Çå³þÁË½âÓÑÇéÁ´½ÓµÄ·þÎñÆ÷ÎïÀí¶¨Î»¡£</p>
+               <p>é€šè¿‡æœ¬å·¥å…·å¯ä»¥æ‰¹é‡æŸ¥è¯¢ç½‘ç«™å‹æƒ…é“¾æŽ¥ç«™ç‚¹çš„IPåœ°å€ã€æœåŠ¡å™¨ç‰©ç†åœ°å€ï¼Œå¸®åŠ©ç«™é•¿æ¸…æ¥šäº†è§£å‹æƒ…é“¾æŽ¥çš„æœåŠ¡å™¨ç‰©ç†å®šä½ã€‚</p>
             </span>
         </div>
       </div>

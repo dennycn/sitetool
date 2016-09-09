@@ -15,13 +15,13 @@ function get_seo_info($domain,$che){
 	$jobs[5] = "vnet";
 	$jobs[6] = "so163";
 	$jobs[7] = "sogou";
-	$a = '<table border=1 width=100% bordercolordark=#FFFFFF cellspacing=0 cellpadding=0 bordercolorlight=#BBD7E6>	<tr bgcolor=#D8F0FC><td colspan=9>网址<a href=http://'.$domain.' target=_blank>http://'.$domain.'</a>在各大搜索引擎的收录查询结果</td></tr><tr><td>搜索引擎</td>';
+	$a = '<table border=1 width=100% bordercolordark=#FFFFFF cellspacing=0 cellpadding=0 bordercolorlight=#BBD7E6>	<tr bgcolor=#D8F0FC><td colspan=9>缃戝潃<a href=http://'.$domain.' target=_blank>http://'.$domain.'</a>鍦ㄥ悇澶ф悳绱㈠紩鎿庣殑鏀跺綍鏌ヨ缁撴灉</td></tr><tr><td>鎼滅储寮曟搸</td>';
 	for ($i = 1; $i <= sizeof($jobs); $i++) {
 		if($ch[$i]){
 			$a .= "<td>".$ROBOT[$jobs[$i]]['name']."</td>";
 		}
 	}
-	$a .= "</tr><tr><td>收录数量</td>";
+	$a .= "</tr><tr><td>鏀跺綍鏁伴噺</td>";
 	for ($i = 1; $i <= sizeof($jobs); $i++) {
 		if($ch[$i]){
 			eval('$__file__=__FILE__;');
@@ -37,7 +37,7 @@ function get_seo_info($domain,$che){
 			$a .= '<td><a href="'.$ROBOT[$jobs[$i]]['site_url'].$domain.'" target="_blank">'.$site_info[$i].'</a></td>';
 		}
 	}
-	$a .= "</tr><tr><td>相关查询</td><td colspan=7 align=left><a href=../ip/index.php?domain=".$domain." target=_blank>IP地址查询</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=../pr/pr.php?domain=".$domain." target=_blank>PR查询</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=../whois/index.php?domain=".$domain." target=_blank>域名Whois查询</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=http://alexa.chinaccnet.com target=_blank>Alexa排名查询</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=../friends/friends.php?domain=".$domain." target=_blank>友情链接查询</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=../friendlink/friendlink.php?domain=".$domain." target=_blank>友情链接IP查询</a></td></tr></table>";
+	$a .= "</tr><tr><td>鐩稿叧鏌ヨ</td><td colspan=7 align=left><a href=../ip/index.php?domain=".$domain." target=_blank>IP鍦板潃鏌ヨ</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=../pr/pr.php?domain=".$domain." target=_blank>PR鏌ヨ</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=../whois/index.php?domain=".$domain." target=_blank>鍩熷悕Whois鏌ヨ</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=http://alexa.chinaccnet.com target=_blank>Alexa鎺掑悕鏌ヨ</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=../friends/friends.php?domain=".$domain." target=_blank>鍙嬫儏閾炬帴鏌ヨ</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=../friendlink/friendlink.php?domain=".$domain." target=_blank>鍙嬫儏閾炬帴IP鏌ヨ</a></td></tr></table>";
 	return $a;
 }
 ?>

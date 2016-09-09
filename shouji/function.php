@@ -3,12 +3,12 @@ function getphone($phone){
 	$dbpath = "befo/";	
 	$len    = strlen($phone);
 	if ( $len < 7 ){
-	return "ÊÖ»úºÅÂë×îµÍ7Î»";
+	return "æ‰‹æœºå·ç æœ€ä½7ä½";
 	}
 	$par = "[0-9]";
 	for ($i=0;$i<$len;$i++){
 		if(!ereg($par,substr($phone,$i,1) ) ){
-		return "ÊÖ»úºÅÂëÖ»ÄÜÎªÊı×Ö";
+		return "æ‰‹æœºå·ç åªèƒ½ä¸ºæ•°å­—";
 		}
 	}	
 	$sub   = substr($phone,0,3);
@@ -18,9 +18,9 @@ function getphone($phone){
 		$search = file($dbpath.$sub.".txt");		
 		$tmp    = $search[$num];
 		$result = substr($tmp,strpos($tmp,"=")+1,strlen($tmp)-strpos($tmp,"=")-2);
-		return (strlen($result)>1)?$result:"ÎŞÊı¾İ";
+		return (strlen($result)>1)?$result:"æ— æ•°æ®";
 	}else{
-	return "Ôİ²»Ö§³Ö$sub";
+	return "æš‚ä¸æ”¯æŒ$sub";
 	}
 }
 function readover($filename,$method="rb") {	

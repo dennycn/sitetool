@@ -20,21 +20,21 @@ function preview() {
 </script>
    <div class="box">
       <div id="b_1">
-        <h1><div class="titleft">UTF-8±àÂë×ª»»¹¤¾ß</div></h1>
+        <h1><div class="titleft">UTF-8ç¼–ç è½¬æ¢å·¥å…·</div></h1>
            <div class="box1">
              <div class="info1">              
                <div align="center" style="padding-top:10px;">
-                <textarea id="content" name="content" style="width:850px;height:150px;border:1px solid #c5e2f2;overflow:visible;" cols="20" rows="15">Çë½«ÄúÒª×ª»»µÄººÎÄÄÚÈÝÕ³ÌùÔÚÕâÀï¡£[ÓÉÓÚ¼æÈÝÐÔÎÊÌâ£¬´Ë×ª»»¹¦ÄÜÖ»ÄÜÔÚIEÖÐÊ¹ÓÃ£¬FIREFOXÎÞÐ§]</textarea>
+                <textarea id="content" name="content" style="width:850px;height:150px;border:1px solid #c5e2f2;overflow:visible;" cols="20" rows="15">è¯·å°†æ‚¨è¦è½¬æ¢çš„æ±‰æ–‡å†…å®¹ç²˜è´´åœ¨è¿™é‡Œã€‚[ç”±äºŽå…¼å®¹æ€§é—®é¢˜ï¼Œæ­¤è½¬æ¢åŠŸèƒ½åªèƒ½åœ¨IEä¸­ä½¿ç”¨ï¼ŒFIREFOXæ— æ•ˆ]</textarea>
                 </div>
                 <div style="margin-left:2px;padding:2px 0px 0px 0px;">
-                <input class="but2" id="conv" type="button" style="width:150px;" value="ÖÐÎÄ ×ª»» UTF-8 ¡ý" onclick="ConvUtf(content,this);"/>
-                <input class="but2" id="res" type="button" style="width:150px;" value="UTF-8 »¹Ô­ ÖÐÎÄ ¡ü" onclick="ResChinese(result,this);" />
+                <input class="but2" id="conv" type="button" style="width:150px;" value="ä¸­æ–‡ è½¬æ¢ UTF-8 â†“" onclick="ConvUtf(content,this);"/>
+                <input class="but2" id="res" type="button" style="width:150px;" value="UTF-8 è¿˜åŽŸ ä¸­æ–‡ â†‘" onclick="ResChinese(result,this);" />
                </div>
                <div align="center">
                 <textarea id="result" name="result" style="width:850px;height:150px;border:1px solid #c5e2f2;overflow:visible;" rows="15"></textarea>
               </div>
                <div style="margin-left:2px;padding:2px 0px 0px 0px;">
-               <input class="but2" id="pre" type="button" value="Ô¤ÀÀ×ª»»´úÂë" onclick="preview();" />
+               <input class="but2" id="pre" type="button" value="é¢„è§ˆè½¬æ¢ä»£ç " onclick="preview();" />
                </div>      
         </div>
       </div>
@@ -42,10 +42,10 @@ function preview() {
  </div>
 <div class="box">
 <div id="b_14">
-<h1>¹¤¾ß¼ò½é</h1>
+<h1>å·¥å…·ç®€ä»‹</h1>
 <div class="box1">
 <span class="info2"> 
-<p>UTF-8±àÂë×ª»»</p>
+<p>UTF-8ç¼–ç è½¬æ¢</p>
 </span>
 </div>
 </div>

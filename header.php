@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="/sitetool/images/toolsite.css" rel="stylesheet" type="text/css" />
 <script src="/sitetool/images/globals.js" type="text/javascript"></script>
 <script src="/sitetool/images/home.js" type="text/javascript"></script>
@@ -13,65 +13,65 @@
 
  // set title
  if($hu == 'js'){
- 	$uu = 'JS¼ÓÃÜ/½âÃÜ - ';
+ 	$uu = 'JSåŠ å¯†/è§£å¯† - ';
  }elseif($hu == 'utf'){
- 	$uu = 'UTF-8±àÂë×ª»»¹¤¾ß - ';
+ 	$uu = 'UTF-8ç¼–ç è½¬æ¢å·¥å…· - ';
  }elseif($hu == 'unicode'){
- 	$uu = 'Unicode±àÂë×ª»»¹¤¾ß - ';
+ 	$uu = 'Unicodeç¼–ç è½¬æ¢å·¥å…· - ';
  }elseif($hu == 'sharelink'){
- 	$uu = 'ÓÑÇéÁ´½Ó - ';
+ 	$uu = 'å‹æƒ…é“¾æ¥ - ';
  }elseif($hu == 'meta'){
- 	$uu = 'METAĞÅÏ¢¼ì²â - ';
+ 	$uu = 'METAä¿¡æ¯æ£€æµ‹ - ';
  }elseif($hu == 'mds'){
- 	$uu = 'MD5¼ÓÃÜ¹¤¾ß - ';
+ 	$uu = 'MD5åŠ å¯†å·¥å…· - ';
  }elseif($hu == 'ids'){
- 	$uu = 'Éí·İÖ¤ºÅÂëÖµ²éÑ¯ - ';
+ 	$uu = 'èº«ä»½è¯å·ç å€¼æŸ¥è¯¢ - ';
  }elseif($hu == 'htmlubb'){
- 	$uu = 'HTML/UBB´úÂë×ª»»¹¤¾ß - ';
+ 	$uu = 'HTML/UBBä»£ç è½¬æ¢å·¥å…· - ';
  }elseif($hu == 'htmljs'){
- 	$uu = 'HTML/JS»¥×ª - ';
+ 	$uu = 'HTML/JSäº’è½¬ - ';
  }elseif($hu == 'eseach'){
- 	$uu = 'ËÑË÷Ö©Öë¡¢»úÆ÷ÈËÄ£Äâ¹¤¾ß - ';
+ 	$uu = 'æœç´¢èœ˜è››ã€æœºå™¨äººæ¨¡æ‹Ÿå·¥å…· - ';
  }elseif($hu == 'density'){
- 	$uu = '¹Ø¼ü´ÊÃÜ¶È¼ì²â - ';
+ 	$uu = 'å…³é”®è¯å¯†åº¦æ£€æµ‹ - ';
  }elseif($hu == 'countryym'){
- 	$uu = '¹ú¼ÒÓòÃû²é¿´ - ';
+ 	$uu = 'å›½å®¶åŸŸåæŸ¥çœ‹ - ';
  }elseif($hu == 'yb'){
- 	$uu = 'ÓÊ±àÇøºÅ²éÑ¯ - ';
+ 	$uu = 'é‚®ç¼–åŒºå·æŸ¥è¯¢ - ';
  }elseif($hu == 'whois'){
- 	$uu = 'ÓòÃûWhois²éÑ¯¹¤¾ß - ';
+ 	$uu = 'åŸŸåWhoisæŸ¥è¯¢å·¥å…· - ';
  }elseif($hu == 'webs'){
- 	$uu = 'ËÀÁ´½Ó¼ì²â/È«Õ¾PR²éÑ¯ - ';
+ 	$uu = 'æ­»é“¾æ¥æ£€æµ‹/å…¨ç«™PRæŸ¥è¯¢ - ';
  }elseif($hu == 'ssyqsl'){
- 	$uu = 'ËÑË÷ÒıÇæÊÕÂ¼²éÑ¯ - ';
+ 	$uu = 'æœç´¢å¼•æ“æ”¶å½•æŸ¥è¯¢ - ';
  }elseif($hu == 'ssyqfl'){
- 	$uu = 'ËÑË÷ÒıÇæ·´ÏòÁ´½Ó - ';
+ 	$uu = 'æœç´¢å¼•æ“åå‘é“¾æ¥ - ';
  }elseif($hu == 'shouji'){
- 	$uu = '²éÑ¯ÊÖ»úºÅÂë¹éÊôµØ - ';
+ 	$uu = 'æŸ¥è¯¢æ‰‹æœºå·ç å½’å±åœ° - ';
  }elseif($hu == 'seo'){
- 	$uu = 'SEO×ÛºÏ²éÑ¯ - ';
+ 	$uu = 'SEOç»¼åˆæŸ¥è¯¢ - ';
  }elseif($hu == 'pr'){
- 	$uu = 'PRÖµ²éÑ¯ - ';
+ 	$uu = 'PRå€¼æŸ¥è¯¢ - ';
  }elseif($hu == 'keys'){
- 	$uu = '¹Ø¼ü´ÊÅÅÃû²éÑ¯ - ';
+ 	$uu = 'å…³é”®è¯æ’åæŸ¥è¯¢ - ';
  }elseif($hu == 'ip'){
- 	$uu = 'IP²éÑ¯ - ';
+ 	$uu = 'IPæŸ¥è¯¢ - ';
  }elseif($hu == 'google'){
- 	$uu = 'GoogleÊÕÂ¼²éÑ¯ - ';
+ 	$uu = 'Googleæ”¶å½•æŸ¥è¯¢ - ';
  }elseif($hu == 'friends'){
- 	$uu = 'ÓÑÇéÁ´½Ó²éÑ¯¹¤¾ß - ';
+ 	$uu = 'å‹æƒ…é“¾æ¥æŸ¥è¯¢å·¥å…· - ';
  }elseif($hu == 'friendlink'){
- 	$uu = 'ÓÑÇéÁ´½ÓIP²éÑ¯¹¤¾ß - ';
+ 	$uu = 'å‹æƒ…é“¾æ¥IPæŸ¥è¯¢å·¥å…· - ';
  }elseif($hu == 'dels'){
- 	$uu = 'ÓòÃûÉ¾³ı²éÑ¯ - ';
+ 	$uu = 'åŸŸååˆ é™¤æŸ¥è¯¢ - ';
  }elseif($hu == 'baidu'){
- 	$uu = '°Ù¶ÈÊÕÂ¼²éÑ¯ - ';
+ 	$uu = 'ç™¾åº¦æ”¶å½•æŸ¥è¯¢ - ';
  }elseif($hu == 'outpr'){
- 	$uu = 'PRÊä³öÖµ²éÑ¯ - ';
+ 	$uu = 'PRè¾“å‡ºå€¼æŸ¥è¯¢ - ';
  }elseif($hu == 'yuan'){
- 	$uu = '²é¿´ÍøÒ³Ô´´úÂë - ';
+ 	$uu = 'æŸ¥çœ‹ç½‘é¡µæºä»£ç  - ';
  }elseif($hu == 'unix'){
- 	$uu = 'UnixÊ±¼ä´Á(Unix timestamp)×ª»»¹¤¾ß - ';
+ 	$uu = 'Unixæ—¶é—´æˆ³(Unix timestamp)è½¬æ¢å·¥å…· - ';
  }
 ?>
 
@@ -112,36 +112,36 @@ function $(ID) {
 		}
 	}
 
-function copyToClipboard(txt) {   
-     if(window.clipboardData) {   
-         window.clipboardData.clearData();   
-         window.clipboardData.setData("Text", txt);   
-     } else if(navigator.userAgent.indexOf("Opera") != -1) {   
-          window.location = txt;   
-     } else if (window.netscape) {   
-          try {   
-               netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");   
-          } catch (e) {   
-               alert("±»ä¯ÀÀÆ÷¾Ü¾ø£¡\nÇëÔÚä¯ÀÀÆ÷µØÖ·À¸ÊäÈë'about:config'²¢»Ø³µ\nÈ»ºó½«'signed.applets.codebase_principal_support'ÉèÖÃÎª'true'");   
+function copyToClipboard(txt) {
+     if(window.clipboardData) {
+         window.clipboardData.clearData();
+         window.clipboardData.setData("Text", txt);
+     } else if(navigator.userAgent.indexOf("Opera") != -1) {
+          window.location = txt;
+     } else if (window.netscape) {
+          try {
+               netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+          } catch (e) {
+               alert("è¢«æµè§ˆå™¨æ‹’ç»ï¼\nè¯·åœ¨æµè§ˆå™¨åœ°å€æ è¾“å…¥'about:config'å¹¶å›è½¦\nç„¶åå°†'signed.applets.codebase_principal_support'è®¾ç½®ä¸º'true'");
           }
-          var clip = Components.classes['@mozilla.org/widget/clipboard;1'].createInstance(Components.interfaces.nsIClipboard);   
+          var clip = Components.classes['@mozilla.org/widget/clipboard;1'].createInstance(Components.interfaces.nsIClipboard);
           if (!clip)
                return;
-          var trans = Components.classes['@mozilla.org/widget/transferable;1'].createInstance(Components.interfaces.nsITransferable);   
-          if (!trans)   
-               return;   
-          trans.addDataFlavor('text/unicode');   
-          var str = new Object();   
-          var len = new Object();   
-          var str = Components.classes["@mozilla.org/supports-string;1"].createInstance(Components.interfaces.nsISupportsString);   
-          var copytext = txt;   
-          str.data = copytext;   
-          trans.setTransferData("text/unicode",str,copytext.length*2);   
-          var clipid = Components.interfaces.nsIClipboard;   
-          if (!clip)   
-               return false;   
+          var trans = Components.classes['@mozilla.org/widget/transferable;1'].createInstance(Components.interfaces.nsITransferable);
+          if (!trans)
+               return;
+          trans.addDataFlavor('text/unicode');
+          var str = new Object();
+          var len = new Object();
+          var str = Components.classes["@mozilla.org/supports-string;1"].createInstance(Components.interfaces.nsISupportsString);
+          var copytext = txt;
+          str.data = copytext;
+          trans.setTransferData("text/unicode",str,copytext.length*2);
+          var clipid = Components.interfaces.nsIClipboard;
+          if (!clip)
+               return false;
           clip.setData(trans,null,clipid.kGlobalClipboard);
-     }   
+     }
 }
 	function killErrors() {
 		return true;
@@ -150,79 +150,79 @@ window.onerror = killErrors;
 
 </script>
 
-<title><?php echo $domain;?><?php echo $uu;?>Õ¾³¤²éÑ¯Íø - Õ¾³¤µÄ±ã½İ¹¤¾ß,¿É²éÑ¯PR¡¢ÍøÕ¾ÊÕÂ¼£¡ÖĞ¹úÕ¾³¤Íø  Õ¾³¤ÂÛÌ³ Õ¾³¤¹¤¾ß Õ¾³¤²éÑ¯</title>
+<title><?php echo $domain;?><?php echo $uu;?>ç«™é•¿æŸ¥è¯¢ç½‘ - ç«™é•¿çš„ä¾¿æ·å·¥å…·,å¯æŸ¥è¯¢PRã€ç½‘ç«™æ”¶å½•ï¼ä¸­å›½ç«™é•¿ç½‘  ç«™é•¿è®ºå› ç«™é•¿å·¥å…· ç«™é•¿æŸ¥è¯¢</title>
 </head>
 <body>
-<div class="wrap"> 
+<div class="wrap">
 <div class="top-nav">
-Õ¾³¤²éÑ¯ÍøÎªÕ¾³¤Ìá¹©ÁË±ã½İµÄÕ¾³¤¹¤¾ß,¿É²éÑ¯ÍøÕ¾ÊÕÂ¼¡¢·´ÏòÁ´½Ó¡¢PRÖµ¡¢ÊÀ½çÅÅÃû¡¢ÍøÕ¾ËÙ¶ÈµÈ£¬ÓÖ¿É¼ì²âÓÑÇéÁ´½Ó£¬·şÎñÖĞ¹úÕ¾³¤¡£   
+ç«™é•¿æŸ¥è¯¢ç½‘ä¸ºç«™é•¿æä¾›äº†ä¾¿æ·çš„ç«™é•¿å·¥å…·,å¯æŸ¥è¯¢ç½‘ç«™æ”¶å½•ã€åå‘é“¾æ¥ã€PRå€¼ã€ä¸–ç•Œæ’åã€ç½‘ç«™é€Ÿåº¦ç­‰ï¼Œåˆå¯æ£€æµ‹å‹æƒ…é“¾æ¥ï¼ŒæœåŠ¡ä¸­å›½ç«™é•¿ã€‚
 </div>
+<!--  ad image -->
   <div class="top">
     <div class="topbanner"><script type="text/javascript">
     u_a_client="38";
-    u_a_width="468"; 
-    u_a_height="90"; 
-    u_a_zones="572"; 
-    u_a_type="0"; 
-    </script>
-    </div>
-<div style="RIGHT: 3px; POSITION: absolute; TOP: 5px">
-</div>
-  </div>
-  <div class="menu"> <a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/"?> class="select">Õ¾³¤¹¤¾ß</a> 
-   <a onmouseover="mouseover(this, 3)" onmouseout="mouseout()" style="cursor:pointer;">ÍøÕ¾ĞÅÏ¢²éÑ¯</a> 
-   <a onmouseover="mouseover(this, 4)" onmouseout="mouseout()" style="cursor:pointer;">SEOĞÅÏ¢²éÑ¯</a> 
-   <a onmouseover="mouseover(this, 5)" onmouseout="mouseout()" style="cursor:pointer;">ÓòÃû/IPÀà²éÑ¯</a> 
-   <a onmouseover="mouseover(this, 6)" onmouseout="mouseout()" style="cursor:pointer;">´úÂë×ª»»¹¤¾ß</a> 
-   <a onmouseover="mouseover(this, 7)" onmouseout="mouseout()" style="cursor:pointer;">ÆäËû¹¤¾ß</a>
+    u_a_width="468";
+    u_a_height="90";
+    u_a_zones="572";
+    u_a_type="0";
+    </script></div>
+<div style="RIGHT: 3px; POSITION: absolute; TOP: 5px"></div></div>
+
+
+  <div class="menu"> <a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/"?> class="select">ç«™é•¿å·¥å…·</a>
+   <a onmouseover="mouseover(this, 3)" onmouseout="mouseout()" style="cursor:pointer;">ç½‘ç«™ä¿¡æ¯æŸ¥è¯¢</a>
+   <a onmouseover="mouseover(this, 4)" onmouseout="mouseout()" style="cursor:pointer;">SEOä¿¡æ¯æŸ¥è¯¢</a>
+   <a onmouseover="mouseover(this, 5)" onmouseout="mouseout()" style="cursor:pointer;">åŸŸå/IPç±»æŸ¥è¯¢</a>
+   <a onmouseover="mouseover(this, 6)" onmouseout="mouseout()" style="cursor:pointer;">ä»£ç è½¬æ¢å·¥å…·</a>
+   <a onmouseover="mouseover(this, 7)" onmouseout="mouseout()" style="cursor:pointer;">å…¶ä»–å·¥å…·</a>
   </div>
   <!--sub menu-->
   <div id="menu3" class="menu-list" onmouseover="_mouseover()" onmouseout="_mouseout()">
     <ul>
-    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/webs/webs.php"?>>Õ¾ÄÚÁ´½Ó·ÖÎö</a></li>
-    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/density.php"?>>¹Ø¼ü´ÊÃÜ¶È¼ì²â</a></li>
-    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/meta.php"?>>METAĞÅÏ¢¼ì²â</a></li>
-    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/pr/outpr.php"?>>PRÊä³öÖµ²éÑ¯</a></li>
-    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/yuan.php"?>>²é¿´ÍøÒ³Ô´´úÂë</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/webs/webs.php"?>>ç«™å†…é“¾æ¥åˆ†æ</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/density.php"?>>å…³é”®è¯å¯†åº¦æ£€æµ‹</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/meta.php"?>>METAä¿¡æ¯æ£€æµ‹</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/pr/outpr.php"?>>PRè¾“å‡ºå€¼æŸ¥è¯¢</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/yuan.php"?>>æŸ¥çœ‹ç½‘é¡µæºä»£ç </a></li>
     </ul>
   </div>
   <div id="menu4" class="menu-list" onmouseover="_mouseover()" onmouseout="_mouseout()">
     <ul>
-    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/friends/friends.php"?>>ÓÑÇéÁ´½Ó¼ì²â</a></li>
-    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/keys/keys.php"?>>¹Ø¼ü´ÊÅÅÃû²éÑ¯</a></li>
-    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/baidu/baidu.php"?>>°Ù¶È½üÈÕÊÕÂ¼</a></li>
-    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/google/google.php"?>>GoogleÊÕÂ¼</a></li>
-    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/ssyqsl/ssyqsl.php"?>>ÍøÕ¾ÊÕÂ¼²éÑ¯</a></li>
-    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/ssyqfl/ssyqfl.php"?>>·´ÏòÁ´½Ó²éÑ¯</a></li>
-    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/pr/pr.php"?>>PR²éÑ¯</a></li>
-    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/esearch.php"?>>»úÆ÷ÈËÄ£Äâ</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/friends/friends.php"?>>å‹æƒ…é“¾æ¥æ£€æµ‹</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/keys/keys.php"?>>å…³é”®è¯æ’åæŸ¥è¯¢</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/baidu/baidu.php"?>>ç™¾åº¦è¿‘æ—¥æ”¶å½•</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/google/google.php"?>>Googleæ”¶å½•</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/ssyqsl/ssyqsl.php"?>>ç½‘ç«™æ”¶å½•æŸ¥è¯¢</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/ssyqfl/ssyqfl.php"?>>åå‘é“¾æ¥æŸ¥è¯¢</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/pr/pr.php"?>>PRæŸ¥è¯¢</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/esearch.php"?>>æœºå™¨äººæ¨¡æ‹Ÿ</a></li>
     </ul>
   </div>
   <div id="menu5" class="menu-list" onmouseover="_mouseover()" onmouseout="_mouseout()">
     <ul>
-    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/dels/dels.php"?>>ÓòÃûÉ¾³ıÊ±¼ä</a></li>
-    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/ip/"?>>IP²éÑ¯</a></li>
-    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/whois/"?>>WHOIS²éÑ¯</a></li>
-    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/friendlink/friendlink.php"?>>ÓÑÇéÁ´½ÓIP²éÑ¯</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/dels/dels.php"?>>åŸŸååˆ é™¤æ—¶é—´</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/ip/"?>>IPæŸ¥è¯¢</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/whois/"?>>WHOISæŸ¥è¯¢</a></li>
+    <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/friendlink/friendlink.php"?>>å‹æƒ…é“¾æ¥IPæŸ¥è¯¢</a></li>
     </ul>
   </div>
    <div id="menu6" class="menu-list" onmouseover="_mouseover()" onmouseout="_mouseout()">
      <ul>
-      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/mds.php"?>>MD5¼ÓÃÜ</a></li>
-      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/js.php"?>>JS¼ÓÃÜ/½âÃÜ</a></li>
-      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/htmljs.php"?>>HTML/JS»¥×ª</a></li>
-      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/unicode.php"?>>Unicode×ª»»</a></li>
-      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/utf.php"?>>Utf-8±àÂë×ª»»</a></li>
-      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/htmlubb.php"?>>HTML/UBB»¥×ª</a></li>
-      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/unix.php"?>>UnixÊ±¼ä´Á×ª»»</a></li>
-      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/urlencode.php"?>>URL±àÂë/½âÂë</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/mds.php"?>>MD5åŠ å¯†</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/js.php"?>>JSåŠ å¯†/è§£å¯†</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/htmljs.php"?>>HTML/JSäº’è½¬</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/unicode.php"?>>Unicodeè½¬æ¢</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/utf.php"?>>Utf-8ç¼–ç è½¬æ¢</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/htmlubb.php"?>>HTML/UBBäº’è½¬</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/unix.php"?>>Unixæ—¶é—´æˆ³è½¬æ¢</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/urlencode.php"?>>URLç¼–ç /è§£ç </a></li>
     </ul>
    </div>
     <div id="menu7" class="menu-list" onmouseover="_mouseover()" onmouseout="_mouseout()">
      <ul>
-      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/ids.php"?>>Éí·İÖ¤ºÅÂë²éÑ¯</a></li>
-      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/shouji/index.php"?>>ÊÖ»úºÅÂë¹éÊôµØ</a></li>
-      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/yb/yb.php"?>>ÓÊ±àÇøºÅ²éÑ¯</a></li>
-      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/countryym.php"?>>¹ú¼ÒÓòÃû²éÕÒ</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/ids.php"?>>èº«ä»½è¯å·ç æŸ¥è¯¢</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/shouji/index.php"?>>æ‰‹æœºå·ç å½’å±åœ°</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/yb/yb.php"?>>é‚®ç¼–åŒºå·æŸ¥è¯¢</a></li>
+      <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/countryym.php"?>>å›½å®¶åŸŸåæŸ¥æ‰¾</a></li>
      </ul>
    </div>

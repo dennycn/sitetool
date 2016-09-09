@@ -46,7 +46,7 @@
                 if (document.getElementById('content').value != '') {
                     window.clipboardData.setData("Text", Result);
                     document.getElementById('content').select();
-                    window.alert('ÒÑ¸´ÖÆ³É¹¦£¡');
+                    window.alert('å·²å¤åˆ¶æˆåŠŸï¼');
                 }
             }
             function Empty() {
@@ -70,7 +70,7 @@
         <div class="box">
             <h1>
                 <div class="titleft">
-                    Js/Html¸ñÊ½»¯¹¤¾ß
+                    Js/Htmlæ ¼å¼åŒ–å·¥å…·
                 </div>
             </h1>
             <div class="box1" style="text-align:center;">
@@ -84,37 +84,37 @@
                 <div class="WSt1">
                     <select name="tabsize" id="tabsize">
                         <option value="1">
-                            ÖÆ±í·ûËõ½ø
+                            åˆ¶è¡¨ç¬¦ç¼©è¿›
                         </option>
                         <option value="2">
-                            2¸ö¿Õ¸ñËõ½ø
+                            2ä¸ªç©ºæ ¼ç¼©è¿›
                         </option>
                         <option value="4" selected="selected">
-                            4¸ö¿Õ¸ñËõ½ø
+                            4ä¸ªç©ºæ ¼ç¼©è¿›
                         </option>
                         <option value="8">
-                            8¸ö¿Õ¸ñËõ½ø
+                            8ä¸ªç©ºæ ¼ç¼©è¿›
                         </option>
                     </select>
-                    <input class="but2" type="button" value="¸ñÊ½»¯" onclick="return do_js_beautify()"
+                    <input class="but2" type="button" value="æ ¼å¼åŒ–" onclick="return do_js_beautify()"
                     id="beautify" />
-                    <input class="but2" type="button" value="ÆÕÍ¨Ñ¹Ëõ" onclick="pack_js(0)" />
-                    <input class="but2" type="button" value="¼ÓÃÜÑ¹Ëõ" onclick="pack_js(1)" />
-                    <input class="but2" type="button" value="½âÑ¹Ëõ" onclick="decode();" />
-                    <input class="but2" type="button" value=" ¸´ ÖÆ " onclick="copy();" />
-                    <input class="but2" type="button" value="Çå¿Õ½á¹û" onclick="Empty();" />
+                    <input class="but2" type="button" value="æ™®é€šå‹ç¼©" onclick="pack_js(0)" />
+                    <input class="but2" type="button" value="åŠ å¯†å‹ç¼©" onclick="pack_js(1)" />
+                    <input class="but2" type="button" value="è§£å‹ç¼©" onclick="decode();" />
+                    <input class="but2" type="button" value=" å¤ åˆ¶ " onclick="copy();" />
+                    <input class="but2" type="button" value="æ¸…ç©ºç»“æœ" onclick="Empty();" />
                 </div>
             </div>
         </div>
         <div class="box">
             <div id="b_14">
                 <h1>
-                    ¹¤¾ß¼ò½é
+                    å·¥å…·ç®€ä»‹
                 </h1>
                 <div class="box1">
                     <span class="info2">
                         <p>
-                            Js/Html¸ñÊ½»¯£¬ÃÀ»¯
+                            Js/Htmlæ ¼å¼åŒ–ï¼Œç¾åŒ–
                         </p>
                     </span>
                 </div>

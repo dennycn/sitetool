@@ -1,5 +1,5 @@
 <?php
-header("Content-Type:text/html;charset=GB2312");
+header("Content-Type:text/html;charset=utf-8");
 error_reporting(7);
 set_time_limit(300);
 $hu = 'dels';
@@ -26,7 +26,7 @@ if($_POST['btnS']){
 	$result1 = $array1[0][0]?$array1[0][0]:$array11[0][0];
 	$result2 = $array2[0][0];
 	$results = $result.$result1.$result2;
-	$result  = str_replace("Status","����״̬",$result);
+	$result  = str_replace("Status","域名状态",$result);
 	$results = str_replace("-jan","-1",$results);
 	$results = str_replace("-feb","-2",$results);
 	$results = str_replace("-mar","-3",$results);
@@ -60,17 +60,17 @@ if($_POST['btnS']){
 	$dels2   = $dels2-$hour*3600;
 	$minute  = floor($dels2/60);
 	$second1 = $dels2-$minute*60;
-	$dels22  = $day."��".$hour."Сʱ".$minute."��".$second1."��";
+	$dels22  = $day."天".$hour."小时".$minute."分".$second1."秒";
 	$eyear   = floor($exits/3600/24/365);
 	$exits   = $exits-$eyear*365*24*3600;
 	$emonth  = floor($exits/3600/24/30);
 	$exits   = $exits-$emonth*30*24*3600;
 	$eday    = floor($exits/3600/24);
-	$edels22 = $eyear."��".$emonth."��".$eday."��";
+	$edels22 = $eyear."年".$emonth."月".$eday."天";
 	if($create == '1970-01-01'){
-		$result = '<font color=red><b>���ӷ�����ʧ�ܣ����������Ƿ���ȷ��</b></font>';
+		$result = '<font color=red><b>链接服务器失败！请检查域名是否正确！</b></font>';
 	}else{	
-	$result  = $result."�������䣺".$edels22."<br/>��������ʱ�� :".$create.'<br/>��������ʱ�� :'.$over."<br/>����ɾ��ʱ�䣺".$dels."<br/>����ɾ������ʱ:".$dels22;
+	$result  = $result."域名年龄：".$edels22."<br/>域名创建时间 :".$create.'<br/>域名到期时间 :'.$over."<br/>域名删除时间：".$dels."<br/>域名删除倒计时:".$dels22;
 	}
 }
 @require_once('../header.php');
@@ -88,19 +88,19 @@ if($domain){
 <div class="main">
   <div class="box">
     <div id="c">
-      <h1>����ɾ����ѯ</h1>
+      <h1>域名删除查询</h1>
       <div class="box1" style="text-align:center;">
       <form action="" method="POST">
-          <span class="info3" > ������Ҫ��ѯ��������
+          <span class="info3" > 请输入要查询的域名：
             <font color="green"><b>HTTP://</b></font><input name="domain" type="text" id="domain" class="input" size="40" url="true" value="<?php echo $domain;?>"/>
-            <input name="btnS" class="but" type="submit" value="��ѯ"  id="sub">
+            <input name="btnS" class="but" type="submit" value="查询"  id="sub">
           </span>
           </form>
            <div id="more" class="div_whois">
-               ��ز�ѯ:
-<a href="/tool/dels/dels.php?domain=chinaccnet.com">����ɾ��ʱ��</a>
-<a href="/tool/ip/?domain=chinaccnet.com">IP��ѯ</a>
-<a href="/tool/whois/?domain=chinaccnet.com">WHOIS��ѯ</a>
+               相关查询:
+<a href="/tool/dels/dels.php?domain=chinaccnet.com">域名删除时间</a>
+<a href="/tool/ip/?domain=chinaccnet.com">IP查询</a>
+<a href="/tool/whois/?domain=chinaccnet.com">WHOIS查询</a>
             </div>
           <div style="width:100%">
               <div id="detail" class="info1">
@@ -115,7 +115,7 @@ if($domain){
     </div>
   </div>
 <div id="b_14">
-<h1>�����ѯ��</h1>
+<h1>最近查询：</h1>
 <div class="box1">
 <span class="info2"> 
 <table>
@@ -131,12 +131,12 @@ foreach ($urls as $key=>$v){
 </div>
     <div class="box">
       <div id="b_14">
-        <h1>���߼��</h1>
+        <h1>工具简介</h1>
         <div class="box1">
             <span class="info2">
-.com .net .org�ȹ�������ɾ��ʱ�䣬ͨ�����������ں�ĵ�65��75�죬�賿2��30���һ�ɾ��<br />
-����������ɾ��ʱ�䣬ͨ�����������ں�ĵ�15��16�죬�賿4��30��ɾ��<br />
-������ʾ������ɾ��ʱ������ο���лл��<br />
+.com .net .org等国际域名删除时间，通常在域名到期后的第65或75天，凌晨2点30左右会删除<br />
+国内域名的删除时间，通常在域名到期后的第15或16天，凌晨4：30会删除<br />
+友情提示：域名删除时间仅供参考，谢谢！<br />
             </span>
         </div>
       </div>

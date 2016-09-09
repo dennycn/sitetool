@@ -7,7 +7,7 @@ $hu = 'google';
  window.onload=function doseo() {
     if($('domain').value != ""){
 	 	var a= $('selects').value; 
-		$('seo_result').innerHTML = '&nbsp;<img src="../images/loading.gif" width="94" height="15" align="absmiddle" alt="ÕýÔÚ¼ÓÔØ,ÇëÉÔºò...&#10;Èç¹û³¤Ê±¼äÎ´ÏìÓ¦£¬Çë³¢ÊÔÖØÐÂ²éÑ¯"/> Loading...';
+		$('seo_result').innerHTML = '&nbsp;<img src="../images/loading.gif" width="94" height="15" align="absmiddle" alt="æ­£åœ¨åŠ è½½,è¯·ç¨å€™...&#10;å¦‚æžœé•¿æ—¶é—´æœªå“åº”ï¼Œè¯·å°è¯•é‡æ–°æŸ¥è¯¢"/> Loading...';
 		$('seo_result').style.display = '';		
 		makeRequest('domain='+$('domain').value+'&selects='+a+'&start='+$('start').value);
     }
@@ -16,24 +16,24 @@ $hu = 'google';
 <div class="main">
   <div class="box">
     <div id="c">
-      <h1>GoogleÊÕÂ¼²éÑ¯</h1>
+      <h1>Googleæ”¶å½•æŸ¥è¯¢</h1>
       <div class="box1" style="text-align:center;"> 
-          <span class="info3" > ÇëÊäÈëÒª²éÑ¯µÄÓòÃû£º
+          <span class="info3" > è¯·è¾“å…¥è¦æŸ¥è¯¢çš„åŸŸåï¼š
             <font color=green><b>HTTP://</b></font><input name="domain" type="text" id="domain" class="input" size="40" url="true" value="<?php echo $_GET['domain'];?>"/>
             &nbsp;&nbsp;<select name="selects" id="selects" onchange="doseo();">
-            <option <?php if($_GET['tbs']=='qdr:d') echo "selected";?> value="d">×î½ü24Ð¡Ê±ÊÕÂ¼Çé¿ö</option>
-            <option <?php if($_GET['tbs']=='qdr:w') echo "selected";?> value="w">×î½üÒ»ÐÇÆÚÊÕÂ¼Çé¿ö</option>
-            <option <?php if($_GET['tbs']=='qdr:m') echo "selected";?> value="m">×î½üÒ»¸öÔÂÊÕÂ¼Çé¿ö</option>
-            <option <?php if($_GET['tbs']=='qdr:y') echo "selected";?> value="y">×î½üÒ»ÄêÊÕÂ¼Çé¿ö</option>
-            <option <?php if($_GET['tbs']=='qdr:0') echo "selected";?> value="0">×Ü¹²ÊÕÂ¼Çé¿ö</option>
+            <option <?php if($_GET['tbs']=='qdr:d') echo "selected";?> value="d">æœ€è¿‘24å°æ—¶æ”¶å½•æƒ…å†µ</option>
+            <option <?php if($_GET['tbs']=='qdr:w') echo "selected";?> value="w">æœ€è¿‘ä¸€æ˜ŸæœŸæ”¶å½•æƒ…å†µ</option>
+            <option <?php if($_GET['tbs']=='qdr:m') echo "selected";?> value="m">æœ€è¿‘ä¸€ä¸ªæœˆæ”¶å½•æƒ…å†µ</option>
+            <option <?php if($_GET['tbs']=='qdr:y') echo "selected";?> value="y">æœ€è¿‘ä¸€å¹´æ”¶å½•æƒ…å†µ</option>
+            <option <?php if($_GET['tbs']=='qdr:0') echo "selected";?> value="0">æ€»å…±æ”¶å½•æƒ…å†µ</option>
             </select><input type="hidden" name="start" id="start" value="<?php echo $_GET['start'];?>">
-            <input name="btnS" class="but" type="button" value="²éÑ¯"  id="sub" onclick="doseo();"/>
+            <input name="btnS" class="but" type="button" value="æŸ¥è¯¢"  id="sub" onclick="doseo();"/>
           </span>
            <div id="more" class="div_whois">
-               Ïà¹Ø²éÑ¯:
-                 <a href="http://alexa.chinaccnet.com">Alexa²éÑ¯</a> 
-<a href="http://whois.chinaccnet.com">whois²éÑ¯</a> 
-<a href="http://ip.chinaccnet.com">ÓòÃû/IP²éÑ¯</a>
+               ç›¸å…³æŸ¥è¯¢:
+                 <a href="http://alexa.chinaccnet.com">AlexaæŸ¥è¯¢</a> 
+<a href="http://whois.chinaccnet.com">whoisæŸ¥è¯¢</a> 
+<a href="http://ip.chinaccnet.com">åŸŸå/IPæŸ¥è¯¢</a>
             </div>
           <div style="width:100%">
               <div id="detail" class="info1">
@@ -49,7 +49,7 @@ $hu = 'google';
     </div>
   </div>
 <div id="b_14">
-<h1>×î½ü²éÑ¯£º</h1>
+<h1>æœ€è¿‘æŸ¥è¯¢ï¼š</h1>
 <div class="box1">
 <span class="info2"> 
 <table>
@@ -65,10 +65,10 @@ foreach ($urls as $key=>$v){
 </div>
     <div class="box">
       <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
+        <h1>å·¥å…·ç®€ä»‹</h1>
         <div class="box1">
             <span class="info2">
-               <p>±¾¹¤¾ßÎªÕ¾³¤Ìá¹©Ö¸¶¨Ê±¼äÄÚGoogleËÑË÷¶ÔÖ¸¶¨ÍøÕ¾µÄÊÕÂ¼Çé¿ö£¬°üÀ¨ÊÕÂ¼µÄÍøÒ³ÊýÁ¿ºÍÍøÒ³µÄ¾ßÌåÇé¿ö£¬ÈÃÄú¸üºÃµØÕÆÎÕGoogleËÑË÷¶ÔÄúµÄÍøÕ¾ÊÕÂ¼Çé¿ö¡£
+               <p>æœ¬å·¥å…·ä¸ºç«™é•¿æä¾›æŒ‡å®šæ—¶é—´å†…Googleæœç´¢å¯¹æŒ‡å®šç½‘ç«™çš„æ”¶å½•æƒ…å†µï¼ŒåŒ…æ‹¬æ”¶å½•çš„ç½‘é¡µæ•°é‡å’Œç½‘é¡µçš„å…·ä½“æƒ…å†µï¼Œè®©æ‚¨æ›´å¥½åœ°æŽŒæ¡Googleæœç´¢å¯¹æ‚¨çš„ç½‘ç«™æ”¶å½•æƒ…å†µã€‚
 </p>  </span>
         </div>
       </div>

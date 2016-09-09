@@ -27,31 +27,31 @@ if(substr($domain,0,4) == "www.") {
 if($domain){
 	preg_match("/<div class=\"lyTableInfoWrap\">(.+?)<\/div>/is", @file_get_contents('http://www.xinnet.cn/Modules/agent/serv/pages/domain_whois.jsp?domainNameWhois='.$domain.'&noCode=noCode'), $whois);
 	$result = $whois[0];
-	$result = str_replace("Billing Contact","²ÆÎñÁªÏµ",$result);
-	$result = str_replace("Technical Contact","¼¼ÊõÁªÏµ",$result);
-	$result = str_replace("Administrative Contact","¹ÜÀíÈËÁªÏµ",$result);
-	$result = str_replace("Expiration Date","¹ıÆÚÊ±¼ä",$result);
-	$result = str_replace("Updated Date","¸üĞÂÊ±¼ä",$result);
-	$result = str_replace("Creation Date","´´½¨Ê±¼ä",$result);
-	$result = str_replace("Status","×´Ì¬",$result);
-	$result = str_replace("Name Server","DNS·şÎñÆ÷",$result);
-	$result = str_replace("Referral URL","Ïà¹ØÍøÕ¾",$result);
-	$result = str_replace("Registrar:","×¢²áÉÌ:",$result);
-	$result = str_replace("Whois Server:","ÓòÃû·şÎñÆ÷:",$result);
+	$result = str_replace("Billing Contact","è´¢åŠ¡è”ç³»",$result);
+	$result = str_replace("Technical Contact","æŠ€æœ¯è”ç³»",$result);
+	$result = str_replace("Administrative Contact","ç®¡ç†äººè”ç³»",$result);
+	$result = str_replace("Expiration Date","è¿‡æœŸæ—¶é—´",$result);
+	$result = str_replace("Updated Date","æ›´æ–°æ—¶é—´",$result);
+	$result = str_replace("Creation Date","åˆ›å»ºæ—¶é—´",$result);
+	$result = str_replace("Status","çŠ¶æ€",$result);
+	$result = str_replace("Name Server","DNSæœåŠ¡å™¨",$result);
+	$result = str_replace("Referral URL","ç›¸å…³ç½‘ç«™",$result);
+	$result = str_replace("Registrar:","æ³¨å†Œå•†:",$result);
+	$result = str_replace("Whois Server:","åŸŸåæœåŠ¡å™¨:",$result);
 	$result = str_replace("no data found!"," ",$result);
-	$result = str_replace("-jan","-1ÔÂ",$result);
-	$result = str_replace("-feb","-2ÔÂ",$result);
-	$result = str_replace("-mar","-3ÔÂ",$result);
-	$result = str_replace("-apr","-4ÔÂ",$result);
-	$result = str_replace("-may","-5ÔÂ",$result);
-	$result = str_replace("-jun","-6ÔÂ",$result);
-	$result = str_replace("-jul","-7ÔÂ",$result);
-	$result = str_replace("-aug","-8ÔÂ",$result);
-	$result = str_replace("-sep","-9ÔÂ",$result);
-	$result = str_replace("-oct","-10ÔÂ",$result);
-	$result = str_replace("-nov","-11ÔÂ",$result);
-	$result = str_replace("-dec","-12ÔÂ",$result);
-	$resul2 = "·ÃÎÊ´ËÍøÕ¾£º<a href=http://".$domain.">http://".$domain."</a><br/>".$result;
+	$result = str_replace("-jan","-1æœˆ",$result);
+	$result = str_replace("-feb","-2æœˆ",$result);
+	$result = str_replace("-mar","-3æœˆ",$result);
+	$result = str_replace("-apr","-4æœˆ",$result);
+	$result = str_replace("-may","-5æœˆ",$result);
+	$result = str_replace("-jun","-6æœˆ",$result);
+	$result = str_replace("-jul","-7æœˆ",$result);
+	$result = str_replace("-aug","-8æœˆ",$result);
+	$result = str_replace("-sep","-9æœˆ",$result);
+	$result = str_replace("-oct","-10æœˆ",$result);
+	$result = str_replace("-nov","-11æœˆ",$result);
+	$result = str_replace("-dec","-12æœˆ",$result);
+	$resul2 = "è®¿é—®æ­¤ç½‘ç«™ï¼š<a href=http://".$domain.">http://".$domain."</a><br/>".$result;
 }
 ?>
 
@@ -102,18 +102,18 @@ window.onerror = killErrors;
 <div class="main">
   <div class="box">
     <div id="c">
-      <h1><a href="http://whois.chinaccnet.com">ÓòÃûWhois²éÑ¯¹¤¾ß</a></h1>
+      <h1><a href="http://whois.chinaccnet.com">åŸŸåWhoisæŸ¥è¯¢å·¥å…·</a></h1>
       <div class="box1" style="text-align:center;"> 
       <form action="" method="POST">
-          <span class="info3" > ÇëÊäÈëÒª²éÑ¯µÄÓòÃû£º
+          <span class="info3" > è¯·è¾“å…¥è¦æŸ¥è¯¢çš„åŸŸåï¼š
             <font color="green"><b>HTTP://</b></font><input name="domain" type="text" id="domain" class="input" size="40" url="true" value="<?php echo $domain?>" onkeydown="if(event.keyCode==13)startRequest();"/>
-            <input name="btnS" class="but" type="submit" value="²éÑ¯"  id="sub"/>
+            <input name="btnS" class="but" type="submit" value="æŸ¥è¯¢"  id="sub"/>
           </span></form>
            <div id="more" class="div_whois">
-               Ïà¹Ø²éÑ¯:
-<a href="/tool/dels/dels.php?domain=qq.com">ÓòÃûÉ¾³ıÊ±¼ä</a>
-<a href="/tool/ip/?domain=qq.com">IP²éÑ¯</a>
-<a href="/tool/whois/?domain=qq.com">WHOIS²éÑ¯</a>
+               ç›¸å…³æŸ¥è¯¢:
+<a href="/tool/dels/dels.php?domain=qq.com">åŸŸååˆ é™¤æ—¶é—´</a>
+<a href="/tool/ip/?domain=qq.com">IPæŸ¥è¯¢</a>
+<a href="/tool/whois/?domain=qq.com">WHOISæŸ¥è¯¢</a>
             </div>
 
           <div style="width:100%">
@@ -130,7 +130,7 @@ window.onerror = killErrors;
   </div>
 
 <div id="b_14">
-<h1>×î½ü²éÑ¯£º</h1>
+<h1>æœ€è¿‘æŸ¥è¯¢ï¼š</h1>
 <div class="box1">
 <span class="info2"> 
 <table>
@@ -148,26 +148,26 @@ foreach ($urls as $key=>$v){
 
     <div class="box">
       <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
+        <h1>å·¥å…·ç®€ä»‹</h1>
         <div class="box1">
             <span class="info2">
-               <p>Whois ¼òµ¥À´Ëµ£¬¾ÍÊÇÒ»¸öÓÃÀ´²éÑ¯ÓòÃûÊÇ·ñÒÑ¾­±»×¢²á£¬ÒÔ¼°×¢²áÓòÃûµÄÏêÏ¸ĞÅÏ¢µÄÊı¾İ¿â£¨ÈçÓòÃûËùÓĞÈË¡¢ÓòÃû×¢²áÉÌ¡¢ÓòÃû×¢²áÈÕÆÚºÍ¹ıÆÚÈÕÆÚµÈ£©¡£Í¨¹ıÓòÃûWhois²éÑ¯£¬¿ÉÒÔ²éÑ¯ÓòÃû¹éÊôÕßÁªÏµ·½Ê½£¬ÒÔ¼°×¢²áºÍµ½ÆÚÊ±¼ä,¿ÉÒÔÓÃ <b style="color:Red;">whois.chinaccnet.com</b> ·ÃÎÊ£¡</p>
+               <p>Whois ç®€å•æ¥è¯´ï¼Œå°±æ˜¯ä¸€ä¸ªç”¨æ¥æŸ¥è¯¢åŸŸåæ˜¯å¦å·²ç»è¢«æ³¨å†Œï¼Œä»¥åŠæ³¨å†ŒåŸŸåçš„è¯¦ç»†ä¿¡æ¯çš„æ•°æ®åº“ï¼ˆå¦‚åŸŸåæ‰€æœ‰äººã€åŸŸåæ³¨å†Œå•†ã€åŸŸåæ³¨å†Œæ—¥æœŸå’Œè¿‡æœŸæ—¥æœŸç­‰ï¼‰ã€‚é€šè¿‡åŸŸåWhoisæŸ¥è¯¢ï¼Œå¯ä»¥æŸ¥è¯¢åŸŸåå½’å±è€…è”ç³»æ–¹å¼ï¼Œä»¥åŠæ³¨å†Œå’Œåˆ°æœŸæ—¶é—´,å¯ä»¥ç”¨ <b style="color:Red;">whois.chinaccnet.com</b> è®¿é—®ï¼</p>
             
-            <p><b>¹ØÓÚÓòÃûµ½ÆÚÉ¾³ı¹æÔòÊµÊ©µÄ½âÊÍ£º</b></p>
-            <p>¹ú¼ÊÓòÃû£º</p>
-            <p>(1) µ½ÆÚµ±ÌìÔİÍ£½âÎö£¬Èç¹ûÔÚ72Ğ¡Ê±Î´Ğø·Ñ£¬ÔòĞŞ¸ÄÓòÃûDNSÖ¸Ïò¹ã¸æÒ³Ãæ£¨Í£·Å£©¡£38ÌìÄÚ£¬¿ÉÒÔ×Ô¶¯Ğø·Ñ¡£Ğø·Ñºó£¬ÏµÍ³×Ô¶¯
-»Ö¸´Ô­À´µÄDNS£¬Ë¢ĞÂÊ±¼ä´ó¸ÅÊÇ24£­48Ğ¡Ê±¡£</p>
-            <p>&nbsp;(2) 39-70Ìì£¬ÓòÃû´¦ÓÚÊê»ØÆÚ£¨Redemption£©£¬´ËÆÚ¼äÓòÃûÎŞ·¨¹ÜÀí£¬ĞèÊÖ¹¤Êê»Ø£¡
+            <p><b>å…³äºåŸŸååˆ°æœŸåˆ é™¤è§„åˆ™å®æ–½çš„è§£é‡Šï¼š</b></p>
+            <p>å›½é™…åŸŸåï¼š</p>
+            <p>(1) åˆ°æœŸå½“å¤©æš‚åœè§£æï¼Œå¦‚æœåœ¨72å°æ—¶æœªç»­è´¹ï¼Œåˆ™ä¿®æ”¹åŸŸåDNSæŒ‡å‘å¹¿å‘Šé¡µé¢ï¼ˆåœæ”¾ï¼‰ã€‚38å¤©å†…ï¼Œå¯ä»¥è‡ªåŠ¨ç»­è´¹ã€‚ç»­è´¹åï¼Œç³»ç»Ÿè‡ªåŠ¨
+æ¢å¤åŸæ¥çš„DNSï¼Œåˆ·æ–°æ—¶é—´å¤§æ¦‚æ˜¯24ï¼48å°æ—¶ã€‚</p>
+            <p>&nbsp;(2) 39-70å¤©ï¼ŒåŸŸåå¤„äºèµå›æœŸï¼ˆRedemptionï¼‰ï¼Œæ­¤æœŸé—´åŸŸåæ— æ³•ç®¡ç†ï¼Œéœ€æ‰‹å·¥èµå›ï¼
             </p>
-            <p>(3) 75Ìì£¬ÓòÃû±»³¹µ×É¾³ı£¬¿ÉÒÔÖØĞÂ×¢²á¡£</p>
-            <p>¹úÄÚÓòÃû£º</p>
-            <p>(1) µ½ÆÚµ±ÌìÔİÍ£½âÎö£¬Èç¹ûÔÚ72Ğ¡Ê±Î´Ğø·Ñ£¬ÔòĞŞ¸ÄÓòÃûDNSÖ¸Ïò
-      ¹ã¸æÒ³Ãæ£¨Í£·Å£©¡£35ÌìÄÚ£¬¿ÉÒÔ×Ô¶¯Ğø·Ñ¡£
+            <p>(3) 75å¤©ï¼ŒåŸŸåè¢«å½»åº•åˆ é™¤ï¼Œå¯ä»¥é‡æ–°æ³¨å†Œã€‚</p>
+            <p>å›½å†…åŸŸåï¼š</p>
+            <p>(1) åˆ°æœŸå½“å¤©æš‚åœè§£æï¼Œå¦‚æœåœ¨72å°æ—¶æœªç»­è´¹ï¼Œåˆ™ä¿®æ”¹åŸŸåDNSæŒ‡å‘
+      å¹¿å‘Šé¡µé¢ï¼ˆåœæ”¾ï¼‰ã€‚35å¤©å†…ï¼Œå¯ä»¥è‡ªåŠ¨ç»­è´¹ã€‚
             </p>
-            <p>(2) ¹ıÆÚºó36£­48Ìì£¬½«½øÈë13ÌìµÄ¸ß¼ÛÊê»ØÆÚ£¬´ËÆÚ¼äÓòÃûÎŞ·¨¹Ü
-     Àí¡£Êê»Ø¼Û¸ñ£¨ÖĞÎÄ1500Ôª/¸ö£¬Ó¢ÎÄ500Ôª/¸ö£©
+            <p>(2) è¿‡æœŸå36ï¼48å¤©ï¼Œå°†è¿›å…¥13å¤©çš„é«˜ä»·èµå›æœŸï¼Œæ­¤æœŸé—´åŸŸåæ— æ³•ç®¡
+     ç†ã€‚èµå›ä»·æ ¼ï¼ˆä¸­æ–‡1500å…ƒ/ä¸ªï¼Œè‹±æ–‡500å…ƒ/ä¸ªï¼‰
             </p>
-            <p>(3) ¹ıÆÚºó48ÌìºóÈÔÎ´Ğø·ÑµÄ£¬ÓòÃû½«ËæÊ±±»É¾³ı¡£ 
+            <p>(3) è¿‡æœŸå48å¤©åä»æœªç»­è´¹çš„ï¼ŒåŸŸåå°†éšæ—¶è¢«åˆ é™¤ã€‚ 
             </p>
             </span>
         </div>

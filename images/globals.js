@@ -266,8 +266,8 @@ function InputMouseOver(e){
 
 function addInput(e) {
     var obj = e.target ? e.target : e.srcElement;
-    if (obj.value.indexOf('¡£') > 0) {
-        obj.value = obj.value.replace('¡£', '.');
+    if (obj.value.indexOf('ã€‚') > 0) {
+        obj.value = obj.value.replace('ã€‚', '.');
     }
     var tags = document.getElementsByTagName('input');
     for (var i = 0; i < tags.length; i++) {

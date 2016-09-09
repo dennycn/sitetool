@@ -6,21 +6,21 @@ $hu   = 'escape';
 <div class="main">
   <div class="box">
     <div id="c">
-      <h1>Escape¼ÓÃÜ/½âÃÜ</h1>
+      <h1>EscapeåŠ å¯†/è§£å¯†</h1>
       <div class="box1" style="text-align:center;"> 
 		<form onsubmit="return false">
 			<textarea id="escape_string" class="inpText" style="WIDTH: 710px; HEIGHT: 250px"
-			onfocus="if(this.value=='Çë°ÑÄãÐèÒª¼ÓÃÜµÄÄÚÈÝÕ³ÌùÔÚÕâÀï£¡'){this.value='';}" onblur="if(this.value==''){this.value='Çë°ÑÄãÐèÒª¼ÓÃÜµÄÄÚÈÝÕ³ÌùÔÚÕâÀï£¡';}">Çë°ÑÄãÐèÒª¼ÓÃÜµÄÄÚÈÝÕ³ÌùÔÚÕâÀï£¡
+			onfocus="if(this.value=='è¯·æŠŠä½ éœ€è¦åŠ å¯†çš„å†…å®¹ç²˜è´´åœ¨è¿™é‡Œï¼'){this.value='';}" onblur="if(this.value==''){this.value='è¯·æŠŠä½ éœ€è¦åŠ å¯†çš„å†…å®¹ç²˜è´´åœ¨è¿™é‡Œï¼';}">è¯·æŠŠä½ éœ€è¦åŠ å¯†çš„å†…å®¹ç²˜è´´åœ¨è¿™é‡Œï¼
 			</textarea>
 			<p style="margin-top:10px;">
 				<input type="submit" onclick="escape_string.value=escape(escape_string.value);"
-				value="Escape ¼ÓÃÜ">
+				value="Escape åŠ å¯†">
 				<input type="submit" onclick="escape_string.value=unescape(escape_string.value);"
-				value="UnEscape ½âÃÜ">
+				value="UnEscape è§£å¯†">
 				<input type="button" onclick="oCopy(document.getElementById('escape_string'))"
-				value="¸´ÖÆ" />
+				value="å¤åˆ¶" />
 				<input type="button" onclick="oCopy(document.getElementById('escape_string'));escape_string.value='';"
-				value="¼ôÌù" />
+				value="å‰ªè´´" />
 			</p>
 		</form>       
 
@@ -39,10 +39,10 @@ $hu   = 'escape';
   </div>
     <div class="box">
       <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
+        <h1>å·¥å…·ç®€ä»‹</h1>
         <div class="box1">
             <span class="info2">
-               <p>½«´úÂëÒÔEscape¼ÓÃÜ/½âÃÜ
+               <p>å°†ä»£ç ä»¥EscapeåŠ å¯†/è§£å¯†
             </p>
             </span>
         </div>

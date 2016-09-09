@@ -6,7 +6,7 @@ $hu = 'url';
 <div class="main">
           <div class="box">
             <div id="c">
-              <h1>URL±àÂë/½âÂë</h1>
+              <h1>URLç¼–ç /è§£ç </h1>
               <div class="box1" style="text-align:center;"> 
 <script src="images/globals.js?ver=20100621" type="text/javascript"></script>
 <script type="text/javascript">
@@ -30,11 +30,11 @@ function urldecode(obj) {
   <div id="b_1">
     <div class="box1" style="text-align:center;">
     <span class="info3" >
-        <textarea name="content" id="content" onmouseover="this.focus();this.select();" style="width:80%; height:100px;">http://my.unix-center.net/~great_denny/sitetool/¹ú</textarea>
+        <textarea name="content" id="content" onmouseover="this.focus();this.select();" style="width:80%; height:100px;">http://my.unix-center.net/~great_denny/sitetool/å›½</textarea>
     </span>
 	<select name="charsetSelect" id="charsetSelect"><option value="utf-8">utf-8</option><option value="gb2312">gb2312</option></select>&nbsp;&nbsp;&nbsp;&nbsp;
-		 <input type="submit" name="en" value="UrlEncode±àÂë" onclick="urlencode(this)" />
-		 <input type="submit" name="de" value="UrlDecode½âÂë" onclick="urldecode(this)" />
+		 <input type="submit" name="en" value="UrlEncodeç¼–ç " onclick="urlencode(this)" />
+		 <input type="submit" name="de" value="UrlDecodeè§£ç " onclick="urldecode(this)" />
 		</div>
     </div>
   </div>
@@ -56,10 +56,10 @@ function urldecode(obj) {
   </div>
     <div class="box">
       <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
+        <h1>å·¥å…·ç®€ä»‹</h1>
         <div class="box1">
             <span class="info2">
-               <p>ÎªÁËÈÃ°üº¬ÖĞÎÄµÄURL¿ÉÒÔÊ¹ÓÃ£¬Äú¿ÉÒÔÊ¹ÓÃ±¾¹¤¾ß¶ÔÖĞÎÄ½øĞĞUrlEncode±àÂë¡£
+               <p>ä¸ºäº†è®©åŒ…å«ä¸­æ–‡çš„URLå¯ä»¥ä½¿ç”¨ï¼Œæ‚¨å¯ä»¥ä½¿ç”¨æœ¬å·¥å…·å¯¹ä¸­æ–‡è¿›è¡ŒUrlEncodeç¼–ç ã€‚
             </p>
             </span>
         </div>

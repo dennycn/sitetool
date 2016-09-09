@@ -7,7 +7,7 @@ define('ROOT_PATH',$__file__ ? dirname($__file__).'/' : './');
 require('global.php');
 $domain =  $_POST['domain']? $_POST['domain']:$_GET['domain'];
 if($domain){
-	is_domain($domain) or exit( "<script language=javascript>alert('ÇëÊäÈëÕıÈ·µÄÓòÃû£¡');location.href='meta.php';</script>");
+	is_domain($domain) or exit( "<script language=javascript>alert('è¯·è¾“å…¥æ­£ç¡®çš„åŸŸåï¼');location.href='meta.php';</script>");
 	$url      = 'http://'.trim($domain);
 	$content  = @file_get_contents($url);
 	$charset  = "/charset=(.*)/";
@@ -55,27 +55,27 @@ window.onload = function dis(){
 <div class="main">
   <div class="box">
     <div id="c">
-      <h1>METAĞÅÏ¢¼ì²â</h1>
+      <h1>METAä¿¡æ¯æ£€æµ‹</h1>
       <div class="box1" style="text-align:center;"> 
 	  <form action="" method="post"><br />
-          <span class="" > ÇëÊäÈëÒª²éÑ¯µÄÓòÃû£º
+          <span class="" > è¯·è¾“å…¥è¦æŸ¥è¯¢çš„åŸŸåï¼š
             <font color="green"><b>HTTP://</b></font><input name="domain" type="text" id="domain" class="input" size="40" url="true" value="<?php echo $domain;?>"/>
-            <input name="btnS" class="but" type="submit" value="²éÑ¯"  id="sub" />
+            <input name="btnS" class="but" type="submit" value="æŸ¥è¯¢"  id="sub" />
           </span>
 	  </form><br />
 <div id="metaresult" style="display:none">
 		  <table border="0" cellspacing="1" cellpadding="1" width="100%" class="tbox">
-<tr><td width="20%">±êÇ©</td><td width="15%">ÄÚÈİ³¤¶È</td><td width="45%">ÄÚÈİ</td><td width="20%">ÓÅ»¯½¨Òé</td></tr>
-<tr><td>±êÌâ£¨Title£©</td><td><?php echo $t;?>¸ö×Ö·û</td><td>&nbsp;<?php echo $title;?></td><td>Ò»°ã²»³¬¹ı80¸ö×Ö·û</td></tr>
-<tr><td>¹Ø¼ü´Ê£¨KeyWords£©</td><td><?php echo $k;?>¸ö×Ö·û</td><td>&nbsp;<?php echo $keywords;?></td><td>Ò»°ã²»³¬¹ı100¸ö×Ö·û</td></tr>
-<tr><td>ÃèÊö£¨Description£©</td><td><?php echo $d;?>¸ö×Ö·û</td><td>&nbsp;<?php echo $description;?></td><td>Ò»°ã²»³¬¹ı200¸ö×Ö·û</td></tr>
+<tr><td width="20%">æ ‡ç­¾</td><td width="15%">å†…å®¹é•¿åº¦</td><td width="45%">å†…å®¹</td><td width="20%">ä¼˜åŒ–å»ºè®®</td></tr>
+<tr><td>æ ‡é¢˜ï¼ˆTitleï¼‰</td><td><?php echo $t;?>ä¸ªå­—ç¬¦</td><td>&nbsp;<?php echo $title;?></td><td>ä¸€èˆ¬ä¸è¶…è¿‡80ä¸ªå­—ç¬¦</td></tr>
+<tr><td>å…³é”®è¯ï¼ˆKeyWordsï¼‰</td><td><?php echo $k;?>ä¸ªå­—ç¬¦</td><td>&nbsp;<?php echo $keywords;?></td><td>ä¸€èˆ¬ä¸è¶…è¿‡100ä¸ªå­—ç¬¦</td></tr>
+<tr><td>æè¿°ï¼ˆDescriptionï¼‰</td><td><?php echo $d;?>ä¸ªå­—ç¬¦</td><td>&nbsp;<?php echo $description;?></td><td>ä¸€èˆ¬ä¸è¶…è¿‡200ä¸ªå­—ç¬¦</td></tr>
 </table><br />
    </div>       
       </div>
     </div>
   </div>
 <div id="b_14">
-<h1>×î½ü²éÑ¯£º</h1>
+<h1>æœ€è¿‘æŸ¥è¯¢ï¼š</h1>
 <div class="box1">
 <span class="info2"> 
 <table>
@@ -91,10 +91,10 @@ foreach ($urls as $key=>$v){
 </div>
     <div class="box">
       <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
+        <h1>å·¥å…·ç®€ä»‹</h1>
         <div class="box1">
             <span class="info2">
-               Í¨¹ı±¾¹¤¾ß¿ÉÒÔ¿ìËÙ¼ì²âÍøÒ³µÄMETA±êÇ©£¬·ÖÎö±êÌâ¡¢¹Ø¼ü´Ê¡¢ÃèÊöµÈÊÇ·ñÓĞÀûÓÚËÑË÷ÒıÇæÊÕÂ¼
+               é€šè¿‡æœ¬å·¥å…·å¯ä»¥å¿«é€Ÿæ£€æµ‹ç½‘é¡µçš„METAæ ‡ç­¾ï¼Œåˆ†ææ ‡é¢˜ã€å…³é”®è¯ã€æè¿°ç­‰æ˜¯å¦æœ‰åˆ©äºæœç´¢å¼•æ“æ”¶å½•
             </span>
         </div>
  </div>

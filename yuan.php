@@ -4,7 +4,7 @@ $hu = 'yuan';
 @require_once('global.php');
 $domain = $_POST['domain'];
 if($domain){
-	is_domain($domain) or exit( "<script language=javascript>alert('ÇëÊäÈëÕıÈ·µÄÓòÃû£¡');location.href='yuan.php';</script>");
+	is_domain($domain) or exit( "<script language=javascript>alert('è¯·è¾“å…¥æ­£ç¡®çš„åŸŸåï¼');location.href='yuan.php';</script>");
 	$content = @file_get_contents("http://".$domain);
 	@require_once('cache.php');
 	if(file_exists("cache/cache.php")){
@@ -19,11 +19,11 @@ if($domain){
 <div class="main"> 
    <div class="box">
       <div id="b_1">
-        <h1><div class="titleft">²é¿´Ò³ÃæÔ´´úÂë</div></h1>
+        <h1><div class="titleft">æŸ¥çœ‹é¡µé¢æºä»£ç </div></h1>
            <div class="box1">
              <div class="info1">
              <form id="f" action="" method="POST">
-              &nbsp;&nbsp;ÇëÊäÈëÓòÃû£º<font color="green"><b>HTTP://</b></font><input name="domain" type="text" id="domain" class="input" size="40" url="true" value="<?php echo $domain?>"/>&nbsp;&nbsp;&nbsp;&nbsp;<input name="btnS" class="but" type="submit" value="²éÑ¯"  id="sub"/> <div align="center" style="padding-top:10px;"></form>
+              &nbsp;&nbsp;è¯·è¾“å…¥åŸŸåï¼š<font color="green"><b>HTTP://</b></font><input name="domain" type="text" id="domain" class="input" size="40" url="true" value="<?php echo $domain?>"/>&nbsp;&nbsp;&nbsp;&nbsp;<input name="btnS" class="but" type="submit" value="æŸ¥è¯¢"  id="sub"/> <div align="center" style="padding-top:10px;"></form>
                 <textarea id="content" name="content" style="width:850px;height:850px;border:1px solid #c5e2f2;overflow:visible;" cols="20" rows="85"><?php echo $content;?></textarea>
                 </div>
         </div>
@@ -31,7 +31,7 @@ if($domain){
    </div>
  </div>
 <div id="b_14">
-<h1>×î½ü²éÑ¯£º</h1>
+<h1>æœ€è¿‘æŸ¥è¯¢ï¼š</h1>
 <div class="box1">
 <span class="info2"> 
 <table>
@@ -47,10 +47,10 @@ foreach ($urls as $key=>$v){
 </div>
 <div class="box">
 <div id="b_14">
-<h1>¹¤¾ß¼ò½é</h1>
+<h1>å·¥å…·ç®€ä»‹</h1>
 <div class="box1">
 <span class="info2"> 
-<p>²é¿´Ò³ÃæÔ´´úÂë</p>
+<p>æŸ¥çœ‹é¡µé¢æºä»£ç </p>
 </span>
 </div>
 </div>

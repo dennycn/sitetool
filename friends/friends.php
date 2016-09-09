@@ -8,7 +8,7 @@ require '../global.php';
 $ulink  = $urlsname = $name = $outs = $ali = $pic = $ati = array();
 $domain = $_POST['domain']?$_POST['domain']:trim($_GET['domain']);
 if($domain){
-	is_domain($domain) or exit("<script language='javascript'>alert(\"ÇëÊäÈëÕıÈ·µÄÓòÃû,ÀıÈç£ºtan22.com\");setTimeout(\"window.location='friends.php?domain=tan22.com'\",0);</script>");
+	is_domain($domain) or exit("<script language='javascript'>alert(\"è¯·è¾“å…¥æ­£ç¡®çš„åŸŸå,ä¾‹å¦‚ï¼štan22.com\");setTimeout(\"window.location='friends.php?domain=tan22.com'\",0);</script>");
 	$cnt=0;
     while($cnt < 10 && ($code=@file_get_contents('http://'.$domain))===FALSE){$cnt++;}
 	$charset = "/charset=(.*)/";
@@ -27,7 +27,7 @@ if($domain){
 		preg_match($pq,$urlsname[$i],$b);
 		if($b[2] && strpos($b[1],'javascript') === false){
 			  if(strpos($b[2],'img') !== false){
-				$b[2] = 'Í¼Æ¬Á´½Ó';
+				$b[2] = 'å›¾ç‰‡é“¾æ¥';
 			  }
 			  if(strpos($b[1],'http') === false){
 				$b[1] =  'http://'.$domain.'/'.$b[1];
@@ -50,10 +50,10 @@ if($domain){
 	foreach($ali as $key=>$val){
 		$ulink[] = $val;
 	}
-	//°Ù¶ÈÊÕÂ¼
+	//ç™¾åº¦æ”¶å½•
 	$site_url = 'http://www.baidu.com/s?wd=site%3A';
-	$baids    = "/<font color=\"#008000\">(.*)<\/font> - <a href=\"(.*)\"  target=\"_blank\"  class=\"m\">°Ù¶È¿ìÕÕ<\/a>/Usi";
-	$site_pattern = "/ÕÒµ½Ïà¹ØÍøÒ³(.*)Æª/";
+	$baids    = "/<font color=\"#008000\">(.*)<\/font> - <a href=\"(.*)\"  target=\"_blank\"  class=\"m\">ç™¾åº¦å¿«ç…§<\/a>/Usi";
+	$site_pattern = "/æ‰¾åˆ°ç›¸å…³ç½‘é¡µ(.*)ç¯‡/";
 	$baidu = "http://www.baidu.com/s?wd=";
 	$times = "/\d{4}-\d{1,2}-\d{1,2}/";
 	$s0 = $site_url.$domain;
@@ -68,10 +68,10 @@ if($domain){
 	$prs = '&nbsp;&nbsp;<img src="../images/pagerank'.GetPR($domain).'.gif" align="absmiddle" /> ';
 	preg_match($baids,$c0,$kuaizhao);
 	preg_match($times,$kuaizhao[0],$btime);
-	//Í¼Æ¬Á´½Ó¸öÊı
+	//å›¾ç‰‡é“¾æ¥ä¸ªæ•°
 	for($j=0;$j<sizeof($outs);$j++){
 		if($ali[$j]){
-			if($name[$j] == 'Í¼Æ¬Á´½Ó'){
+			if($name[$j] == 'å›¾ç‰‡é“¾æ¥'){
 			array_push($pic,$name[$j]);
 			}
 			array_push($ati,$name[$j]);
@@ -113,8 +113,8 @@ window.onload=function aa(){
 		  var mm = 0;
 		  for(var k=1;k<=size;k++){
 			  fl = $('fanlianjie'+k).innerHTML;
-			  if(fl.substr(0,3)=='ÓĞ·´Á´'){
-			  	var re = new RegExp('^(.*>Í¼Æ¬Á´½Ó<.*)$');
+			  if(fl.substr(0,3)=='æœ‰åé“¾'){
+			  	var re = new RegExp('^(.*>å›¾ç‰‡é“¾æ¥<.*)$');
 			  	if(fl.match(re)){
 				   mm++;
 				   }
@@ -127,7 +127,7 @@ window.onload=function aa(){
 		  var a2 = $('piccount').innerHTML = mm;
 		  var a3 = $('textcount').innerHTML = tt;
 		  var a4 = $('noo').innerHTML = no;
-		  $('bian').innerHTML = "<a href=\"javascript:clicks(1)\">[µã»÷²é¿´]</a>";
+		  $('bian').innerHTML = "<a href=\"javascript:clicks(1)\">[ç‚¹å‡»æŸ¥çœ‹]</a>";
 		}
 	}
 }
@@ -135,9 +135,9 @@ function clicks(id){
 	  var size2 = $('sizes').value;
 	  for(var k=1;k<=size2;k++){
 	  fl = $('fanlianjie'+k).innerHTML;
-	  if(fl.substr(0,3)=='ÓĞ·´Á´'){
+	  if(fl.substr(0,3)=='æœ‰åé“¾'){
 	  	if(id==1){
-	  		$('bian').innerHTML = "<a href=\"javascript:clicks(2)\">[²é¿´È«²¿]</a>";
+	  		$('bian').innerHTML = "<a href=\"javascript:clicks(2)\">[æŸ¥çœ‹å…¨éƒ¨]</a>";
 		  	$('j'+k).style.display="none";
 		  	$('ati'+k).style.display="none";
 		  	$('lin'+k).style.display="none";
@@ -146,7 +146,7 @@ function clicks(id){
 		  	$('baidukuaizhao'+k).style.display="none";
 		  	$('fanlianjie'+k).style.display="none";
 	  	}else{
-	  		$('bian').innerHTML = "<a href=\"javascript:clicks(1)\">[µã»÷²é¿´]</a>";
+	  		$('bian').innerHTML = "<a href=\"javascript:clicks(1)\">[ç‚¹å‡»æŸ¥çœ‹]</a>";
 	  		$('j'+k).style.display="";
 		  	$('ati'+k).style.display="";
 		  	$('lin'+k).style.display="";
@@ -163,23 +163,23 @@ function clicks(id){
 <div class="main">
   <div class="box">
     <div id="c">
-      <h1>ÓÑÇéÁ´½Ó²éÑ¯¹¤¾ß</h1>
+      <h1>å‹æƒ…é“¾æ¥æŸ¥è¯¢å·¥å…·</h1>
       <div class="box1" style="text-align:center;">
       <form method="POST" action="">
-          <span class="info3" > ÇëÊäÈëÒª²éÑ¯µÄÓòÃû£º
+          <span class="info3" > è¯·è¾“å…¥è¦æŸ¥è¯¢çš„åŸŸåï¼š
            <font color="green"><b>HTTP://</b></font><input name="domain" type="text" id="domain" class="input" size="40" url="true" value="<?php echo $domain;?>"/>
-            <input name="btnS" class="but" type="submit" value="²éÑ¯"  id="sub"/>
+            <input name="btnS" class="but" type="submit" value="æŸ¥è¯¢"  id="sub"/>
           </span>
           </form>
           <div id="seo_result" style="display:none">
           <table border="1" width="100%" bordercolordark="#FFFFFF" cellspacing="0" cellpadding="0" bordercolorlight="#BBD7E6">
-<tr><td rowspan="3"><a target="_blank" href="<?php echo "http://".$domain?>"><?php echo $domain?></a></td><td>°Ù¶ÈÊÕÂ¼£º<a target="_blank" href="<?php echo $s0;?>"><?php echo $a0[1];?></a></td><td>°Ù¶È½ñÈÕÊÕÂ¼£º<a target="_blank" href="<?php echo $s1;?>"><?php echo $a1[1];?></a></td><td>°Ù¶ÈÊ×Ò³Î»ÖÃ£º<a target="_blank" href="<?php echo $s0;?>">--</a></td><td><?php echo $prs;?></td></tr>
-<tr><td>³öÕ¾Á´½Ó£º<?php echo sizeof($ali);?>¸ö</td><td>Í¼Æ¬Á´½Ó£º<?php echo sizeof($pic);?>¸ö</td><td>ÎÄ×ÖÁ´½Ó£º<?php echo $text;?>¸ö</td><td>°Ù¶È¿ìÕÕ£º<a target="_blank" href="<?php echo $haves;?>"><?php echo $btime[0];?></a></td></tr>
-<tr><td>·´ÏòÁ´½Ó£º<span id="flcount"><img src="../images/loading2.gif"></span>¸ö</td><td>Í¼Æ¬Á´½Ó£º<span id="piccount"><img src="../images/loading2.gif"></span>¸ö</td><td>ÎÄ×ÖÁ´½Ó£º<span id="textcount"><img src="../images/loading2.gif"></span>¸ö</td><td>³öÕ¾Á´½ÓÖĞÓĞ<span id="noo"><img src="../images/loading2.gif"></span>¸öÃ»ÓĞ±¾Õ¾Á´½Ó<span id="bian"></span></td></tr>
+<tr><td rowspan="3"><a target="_blank" href="<?php echo "http://".$domain?>"><?php echo $domain?></a></td><td>ç™¾åº¦æ”¶å½•ï¼š<a target="_blank" href="<?php echo $s0;?>"><?php echo $a0[1];?></a></td><td>ç™¾åº¦ä»Šæ—¥æ”¶å½•ï¼š<a target="_blank" href="<?php echo $s1;?>"><?php echo $a1[1];?></a></td><td>ç™¾åº¦é¦–é¡µä½ç½®ï¼š<a target="_blank" href="<?php echo $s0;?>">--</a></td><td><?php echo $prs;?></td></tr>
+<tr><td>å‡ºç«™é“¾æ¥ï¼š<?php echo sizeof($ali);?>ä¸ª</td><td>å›¾ç‰‡é“¾æ¥ï¼š<?php echo sizeof($pic);?>ä¸ª</td><td>æ–‡å­—é“¾æ¥ï¼š<?php echo $text;?>ä¸ª</td><td>ç™¾åº¦å¿«ç…§ï¼š<a target="_blank" href="<?php echo $haves;?>"><?php echo $btime[0];?></a></td></tr>
+<tr><td>åå‘é“¾æ¥ï¼š<span id="flcount"><img src="../images/loading2.gif"></span>ä¸ª</td><td>å›¾ç‰‡é“¾æ¥ï¼š<span id="piccount"><img src="../images/loading2.gif"></span>ä¸ª</td><td>æ–‡å­—é“¾æ¥ï¼š<span id="textcount"><img src="../images/loading2.gif"></span>ä¸ª</td><td>å‡ºç«™é“¾æ¥ä¸­æœ‰<span id="noo"><img src="../images/loading2.gif"></span>ä¸ªæ²¡æœ‰æœ¬ç«™é“¾æ¥<span id="bian"></span></td></tr>
 </table>
 <br/>
 <table border="1" width="100%" bordercolordark="#FFFFFF" cellspacing="0" cellpadding="0" bordercolorlight="#BBD7E6">
-<tr><td>ĞòºÅ</td><td>Õ¾µã</td><td>Á´½ÓµØÖ·</td><td>°Ù¶ÈÊÕÂ¼</td><td>PR</td><td>°Ù¶È¿ìÕÕ</td><td>¶Ô·½Á´½ÓÊÇ·ñÓĞ±¾Õ¾µÄÁ´½Ó</td></tr><input type="hidden" name="sizes" id="sizes" value="<?php echo sizeof($ulink);?>">
+<tr><td>åºå·</td><td>ç«™ç‚¹</td><td>é“¾æ¥åœ°å€</td><td>ç™¾åº¦æ”¶å½•</td><td>PR</td><td>ç™¾åº¦å¿«ç…§</td><td>å¯¹æ–¹é“¾æ¥æ˜¯å¦æœ‰æœ¬ç«™çš„é“¾æ¥</td></tr><input type="hidden" name="sizes" id="sizes" value="<?php echo sizeof($ulink);?>">
 <?php
 for($j=0;$j<sizeof($ulink);$j++){
 ?>
@@ -204,7 +204,7 @@ for($j=0;$j<sizeof($ulink);$j++){
 </div>
 </div>
 <div id="b_14">
-<h1>×î½ü²éÑ¯£º</h1>
+<h1>æœ€è¿‘æŸ¥è¯¢ï¼š</h1>
 <div class="box1">
 <span class="info2"> 
 <table>
@@ -220,12 +220,12 @@ foreach ($urls as $key=>$v){
 </div>
 <div class="box">
   <div id="b_14">
-    <h1>¹¤¾ß¼ò½é</h1>
+    <h1>å·¥å…·ç®€ä»‹</h1>
     <div class="box1">
         <span class="info2">
-           <p>Í¨¹ı±¾¹¤¾ß¿ÉÒÔÅúÁ¿²éÑ¯Ö¸¶¨ÍøÕ¾µÄÓÑÇéÁ´½ÓÔÚ°Ù¶ÈµÄÊÕÂ¼¡¢°Ù¶È¿ìÕÕ¡¢PRÒÔ¼°¶Ô·½ÊÇ·ñÁ´½Ó±¾Õ¾£¬¿ÉÒÔÊ¶ÆÆÆ­Á´½Ó¡£</p>
-           <p>1.·´ÏòÁ´½Ó£ºÖ¸¶Ô·½ÍøÕ¾ÉÏÓĞÖ¸Ïòµ±Ç°²éÑ¯Ò³ÃæµÄÁ´½Ó¡£</p>
-           <p>2.½»²æÁ´½ÓËµÃ÷£ºÆ©ÈçÄãÓĞÍøÕ¾AÍ¶·Å±ğÈËµÄÁ´½Ó£¬¶ø±ğÈËÍøÕ¾ÉÏ·ÅµÄÓÑÇéÁ´½ÓÊÇÄãµÄBÕ¾»òÕßCÕ¾¡£ÄÇÃ´ÄãÔÚ²éÑ¯ÍøÕ¾ÖĞÊäÈëÍøÖ·A£¬Í¬Ê±ÔÚ½»²æÁ´½ÓÖĞÊäÈëÍøÖ·BºÍC£¬¹¤¾ß»á×Ô¶¯¼ì²â¶Ô·½ÓĞÃ»ÓĞÍ¶·ÅÄãµÄÕ¾µãB»òÕßC¡£</p>
+           <p>é€šè¿‡æœ¬å·¥å…·å¯ä»¥æ‰¹é‡æŸ¥è¯¢æŒ‡å®šç½‘ç«™çš„å‹æƒ…é“¾æ¥åœ¨ç™¾åº¦çš„æ”¶å½•ã€ç™¾åº¦å¿«ç…§ã€PRä»¥åŠå¯¹æ–¹æ˜¯å¦é“¾æ¥æœ¬ç«™ï¼Œå¯ä»¥è¯†ç ´éª—é“¾æ¥ã€‚</p>
+           <p>1.åå‘é“¾æ¥ï¼šæŒ‡å¯¹æ–¹ç½‘ç«™ä¸Šæœ‰æŒ‡å‘å½“å‰æŸ¥è¯¢é¡µé¢çš„é“¾æ¥ã€‚</p>
+           <p>2.äº¤å‰é“¾æ¥è¯´æ˜ï¼šè­¬å¦‚ä½ æœ‰ç½‘ç«™AæŠ•æ”¾åˆ«äººçš„é“¾æ¥ï¼Œè€Œåˆ«äººç½‘ç«™ä¸Šæ”¾çš„å‹æƒ…é“¾æ¥æ˜¯ä½ çš„Bç«™æˆ–è€…Cç«™ã€‚é‚£ä¹ˆä½ åœ¨æŸ¥è¯¢ç½‘ç«™ä¸­è¾“å…¥ç½‘å€Aï¼ŒåŒæ—¶åœ¨äº¤å‰é“¾æ¥ä¸­è¾“å…¥ç½‘å€Bå’ŒCï¼Œå·¥å…·ä¼šè‡ªåŠ¨æ£€æµ‹å¯¹æ–¹æœ‰æ²¡æœ‰æŠ•æ”¾ä½ çš„ç«™ç‚¹Bæˆ–è€…Cã€‚</p>
         </span>
     </div>
   </div>

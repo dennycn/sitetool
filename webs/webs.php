@@ -8,8 +8,8 @@ $hu = 'webs';
 window.onload=function doseo() {
     if($('domain').value != ""){
 		$('seo_result').style.display = "";
-		$('testlinkstatus').innerHTML="<input class=\"but\" type=\"button\" value=\"¿ªÊ¼²âÊÔ\" onclick=\"javascript:ceshi(0);\" />";
-		$('seo_result').innerHTML = '&nbsp;<img src="../images/loading.gif" width="94" height="15" align="absmiddle" alt="ÕýÔÚ¼ÓÔØ,ÇëÉÔºò...&#10;Èç¹û³¤Ê±¼äÎ´ÏìÓ¦£¬Çë³¢ÊÔÖØÐÂ²éÑ¯"/> Loading...';
+		$('testlinkstatus').innerHTML="<input class=\"but\" type=\"button\" value=\"å¼€å§‹æµ‹è¯•\" onclick=\"javascript:ceshi(0);\" />";
+		$('seo_result').innerHTML = '&nbsp;<img src="../images/loading.gif" width="94" height="15" align="absmiddle" alt="æ­£åœ¨åŠ è½½,è¯·ç¨å€™...&#10;å¦‚æžœé•¿æ—¶é—´æœªå“åº”ï¼Œè¯·å°è¯•é‡æ–°æŸ¥è¯¢"/> Loading...';
 		$('seo_result').style.display = '';
 		makeRequest('domain='+$('domain').value+'&val='+$('selects').value);
     }
@@ -26,12 +26,12 @@ function ceshi(i){
     	var die=0;
     	for(var k=1;k<sizes;k++){
     		fl = $('test'+k).innerHTML;
-    		var re = new RegExp('^(.*> ¡Á <.*)$');
+    		var re = new RegExp('^(.*> Ã— <.*)$');
 			  	if(fl.match(re)){
 				   die++;
 				   }
     	}
-    	var res = "²âÊÔÍê³É£¡¹óÕ¾¹²ÓÐÁ´½Ó£º"+sizes+"¸ö£¬ËÀÁ´½Ó£º"+die+"¸ö¡£";
+    	var res = "æµ‹è¯•å®Œæˆï¼è´µç«™å…±æœ‰é“¾æŽ¥ï¼š"+sizes+"ä¸ªï¼Œæ­»é“¾æŽ¥ï¼š"+die+"ä¸ªã€‚";
     	alert(res);
     	$('testlinkstatus').innerHTML=res;
     	$('testlinkstatus').style.display="";
@@ -41,12 +41,12 @@ function ceshi(i){
 <div class="main">
   <div class="box">
     <div id="c">
-      <h1>ËÀÁ´½Ó¼ì²â/È«Õ¾PR²éÑ¯</h1>
+      <h1>æ­»é“¾æŽ¥æ£€æµ‹/å…¨ç«™PRæŸ¥è¯¢</h1>
       <div class="box1" style="text-align:center;">
-          <span class="info3" > ÇëÊäÈëÒª²éÑ¯µÄÓòÃû£º
-           <font color="green"><b>HTTP://</b></font> <input name="domain" type="text" id="domain" class="input" size="25" url="true" value="<?php echo $_GET['domain'];?>"/>&nbsp;&nbsp;<select onchange="doseo()" id="selects"><option value="1">ËùÓÐÁ´½Ó</option><option value="2">Õ¾ÍâÁ´½Ó</option><option value="3">Õ¾ÄÚÁ´½Ó</option></select>
-            <input name="btnS" class="but" type="submit" value="²éÑ¯"  id="sub" onclick="doseo()"/>&nbsp;&nbsp;
-          <span id="testlinkstatus"> <input class="but" type="button" value="¿ªÊ¼²âÊÔ" onclick="javascript:ceshi(0);" /></span>
+          <span class="info3" > è¯·è¾“å…¥è¦æŸ¥è¯¢çš„åŸŸåï¼š
+           <font color="green"><b>HTTP://</b></font> <input name="domain" type="text" id="domain" class="input" size="25" url="true" value="<?php echo $_GET['domain'];?>"/>&nbsp;&nbsp;<select onchange="doseo()" id="selects"><option value="1">æ‰€æœ‰é“¾æŽ¥</option><option value="2">ç«™å¤–é“¾æŽ¥</option><option value="3">ç«™å†…é“¾æŽ¥</option></select>
+            <input name="btnS" class="but" type="submit" value="æŸ¥è¯¢"  id="sub" onclick="doseo()"/>&nbsp;&nbsp;
+          <span id="testlinkstatus"> <input class="but" type="button" value="å¼€å§‹æµ‹è¯•" onclick="javascript:ceshi(0);" /></span>
 		  <div id="seo_result" style="display:none">
 		  </div>
           <div style="width:100%">
@@ -57,7 +57,7 @@ function ceshi(i){
     </div>
   </div>
 <div id="b_14">
-<h1>×î½ü²éÑ¯£º</h1>
+<h1>æœ€è¿‘æŸ¥è¯¢ï¼š</h1>
 <div class="box1">
 <span class="info2"> 
 <table>
@@ -73,10 +73,10 @@ foreach ($urls as $key=>$v){
 </div>
     <div class="box">
       <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
+        <h1>å·¥å…·ç®€ä»‹</h1>
         <div class="box1">
             <span class="info2">
-               <p>Í¨¹ý±¾¹¤¾ß¿ÉÒÔ¿ìËÙ²âÊÔÍøÕ¾µÄËÀÁ´½Ó¡£ËÀÁ´½Ó - Ò²³ÆÎÞÐ§Á´½Ó£¬¼´ÄÇÐ©²»¿É´ïµ½µÄÁ´½Ó¡£Ò»¸öÍøÕ¾´æÔÚËÀÁ´½Ó²»ÊÇÊ²Ã´ºÃÊÂ£¬Ê×ÏÈÒ»¸öÍøÕ¾Èç¹û´æÔÚ´óÁ¿µÄËÀÁ´½Ó£¬±Ø½«´ó´óËðÉËÍøÕ¾µÄÕûÌåÐÎÏó£¬ÔÙÕßËÑË÷ÒýÇæÖ©ÖëÊÇÍ¨¹ýÁ´½ÓÀ´ÅÀÐÐËÑË÷£¬Èç¹ûÌ«¶àÁ´½ÓÎÞ·¨µ½´ï£¬²»µ«ÊÕÂ¼Ò³ÃæÊýÁ¿»á¼õÉÙ£¬¶øÇÒÄãµÄÍøÕ¾ÔÚËÑË÷ÒýÇæÖÐµÄÈ¨ÖØ»á´ó´ó½µµÍ¡£¸Ã²éÑ¯¿ÉÒÔ±éÀúÖ¸¶¨ÍøÒ³µÄËùÓÐÁ´½Ó£¬²¢·ÖÎöÃ¿¸öÁ´½ÓµÄÓÐÐ§ÐÔ£¬ÕÒ³öËÀÁ´½Ó¡£ </p> </span>
+               <p>é€šè¿‡æœ¬å·¥å…·å¯ä»¥å¿«é€Ÿæµ‹è¯•ç½‘ç«™çš„æ­»é“¾æŽ¥ã€‚æ­»é“¾æŽ¥ - ä¹Ÿç§°æ— æ•ˆé“¾æŽ¥ï¼Œå³é‚£äº›ä¸å¯è¾¾åˆ°çš„é“¾æŽ¥ã€‚ä¸€ä¸ªç½‘ç«™å­˜åœ¨æ­»é“¾æŽ¥ä¸æ˜¯ä»€ä¹ˆå¥½äº‹ï¼Œé¦–å…ˆä¸€ä¸ªç½‘ç«™å¦‚æžœå­˜åœ¨å¤§é‡çš„æ­»é“¾æŽ¥ï¼Œå¿…å°†å¤§å¤§æŸä¼¤ç½‘ç«™çš„æ•´ä½“å½¢è±¡ï¼Œå†è€…æœç´¢å¼•æ“Žèœ˜è››æ˜¯é€šè¿‡é“¾æŽ¥æ¥çˆ¬è¡Œæœç´¢ï¼Œå¦‚æžœå¤ªå¤šé“¾æŽ¥æ— æ³•åˆ°è¾¾ï¼Œä¸ä½†æ”¶å½•é¡µé¢æ•°é‡ä¼šå‡å°‘ï¼Œè€Œä¸”ä½ çš„ç½‘ç«™åœ¨æœç´¢å¼•æ“Žä¸­çš„æƒé‡ä¼šå¤§å¤§é™ä½Žã€‚è¯¥æŸ¥è¯¢å¯ä»¥éåŽ†æŒ‡å®šç½‘é¡µçš„æ‰€æœ‰é“¾æŽ¥ï¼Œå¹¶åˆ†æžæ¯ä¸ªé“¾æŽ¥çš„æœ‰æ•ˆæ€§ï¼Œæ‰¾å‡ºæ­»é“¾æŽ¥ã€‚ </p> </span>
         </div>
       </div>
 </div>

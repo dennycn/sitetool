@@ -1,43 +1,43 @@
 <?php
-$ROBOT['google']['name'] = '¹È¸è';
+$ROBOT['google']['name'] = 'è°·æ­Œ';
 $ROBOT['google']['site_url'] = 'http://www.google.com/search?hl=zh-CN&q=site%3A';
-$ROBOT['google']['site_pattern'] = "/»ñµÃ(.*) Ìõ½á¹û/";
+$ROBOT['google']['site_pattern'] = "/è·å¾—(.*) æ¡ç»“æœ/";
 $ROBOT['google']['link_url'] = 'http://www.google.com/search?hl=zh-CN&q=link%3A';
-$ROBOT['google']['link_pattern'] = "/»ñµÃ(.*) Ìõ½á¹û/";
+$ROBOT['google']['link_pattern'] = "/è·å¾—(.*) æ¡ç»“æœ/";
 
-$ROBOT['baidu']['name'] = '°Ù¶È';
+$ROBOT['baidu']['name'] = 'ç™¾åº¦';
 $ROBOT['baidu']['site_url'] = 'http://www.baidu.com/s?wd=site%3A';
-$ROBOT['baidu']['site_pattern'] = "/ÕÒµ½Ïà¹ØÍøÒ³(.*)Æª/";
+$ROBOT['baidu']['site_pattern'] = "/æ‰¾åˆ°ç›¸å…³ç½‘é¡µ(.*)ç¯‡/";
 $ROBOT['baidu']['link_url'] = 'http://www.baidu.com/s?wd=domain%3A';
-$ROBOT['baidu']['link_pattern'] = "/ÕÒµ½Ïà¹ØÍøÒ³(.*)Æª/";
+$ROBOT['baidu']['link_pattern'] = "/æ‰¾åˆ°ç›¸å…³ç½‘é¡µ(.*)ç¯‡/";
 
-$ROBOT['yahoo']['name'] = 'ÑÅ»¢';
+$ROBOT['yahoo']['name'] = 'é›…è™';
 $ROBOT['yahoo']['site_url'] = 'http://search.cn.yahoo.com/search?p=site%3A';
-$ROBOT['yahoo']['site_pattern'] = "/ÕÒµ½Ïà¹ØÍøÒ³(.*)Ìõ/";
+$ROBOT['yahoo']['site_pattern'] = "/æ‰¾åˆ°ç›¸å…³ç½‘é¡µ(.*)æ¡/";
 $ROBOT['yahoo']['link_url'] = 'http://search.cn.yahoo.com/search?p=linkdomain%3A';
-$ROBOT['yahoo']['link_pattern'] = "/ÕÒµ½Ïà¹ØÍøÒ³(.*)Ìõ/";
+$ROBOT['yahoo']['link_pattern'] = "/æ‰¾åˆ°ç›¸å…³ç½‘é¡µ(.*)æ¡/";
 
-$ROBOT['sogou']['name'] = 'ËÑ¹·';
+$ROBOT['sogou']['name'] = 'æœç‹—';
 $ROBOT['sogou']['site_url'] = 'http://www.sogou.com/web?query=site%3A';
-$ROBOT['sogou']['site_pattern'] = "/ÕÒµ½ (.*) <!--resultbarnum:(.*)-->¸öÍøÒ³/";;
+$ROBOT['sogou']['site_pattern'] = "/æ‰¾åˆ° (.*) <!--resultbarnum:(.*)-->ä¸ªç½‘é¡µ/";;
 $ROBOT['sogou']['link_url'] = 'http://www.sogou.com/web?query=link%3A';
-$ROBOT['sogou']['link_pattern'] = "/ÕÒµ½ (.*) <!--resultbarnum:(.*)-->¸öÍøÒ³/";;
+$ROBOT['sogou']['link_pattern'] = "/æ‰¾åˆ° (.*) <!--resultbarnum:(.*)-->ä¸ªç½‘é¡µ/";;
 
-$ROBOT['so163']['name'] = '±ØÓ¦';
+$ROBOT['so163']['name'] = 'å¿…åº”';
 $ROBOT['so163']['site_url'] = 'http://cn.bing.com/search?q=site%3A';
-$ROBOT['so163']['site_pattern'] = "/¹² (.*) Ìõ½á¹û/";
+$ROBOT['so163']['site_pattern'] = "/å…± (.*) æ¡ç»“æœ/";
 $ROBOT['so163']['link_url'] = 'http://cn.bing.com/search?q=link%3A';
-$ROBOT['so163']['link_pattern'] = "/¹² (.*) Ìõ½á¹û/";
+$ROBOT['so163']['link_pattern'] = "/å…± (.*) æ¡ç»“æœ/";
 
-$ROBOT['vnet']['name'] = 'ÓĞµÀ';
+$ROBOT['vnet']['name'] = 'æœ‰é“';
 $ROBOT['vnet']['site_url'] = 'http://www.youdao.com/search?q=site%3A';
-$ROBOT['vnet']['site_pattern'] = "/¹²(.*)Ìõ½á¹û/";
+$ROBOT['vnet']['site_pattern'] = "/å…±(.*)æ¡ç»“æœ/";
 $ROBOT['vnet']['link_url'] = 'http://www.youdao.com/search?q=link%3A';
-$ROBOT['vnet']['link_pattern'] = "/¹²(.*)Ìõ½á¹û/";
+$ROBOT['vnet']['link_pattern'] = "/å…±(.*)æ¡ç»“æœ/";
 
-$ROBOT['soso']['name'] = 'ËÑËÑ';
+$ROBOT['soso']['name'] = 'æœæœ';
 $ROBOT['soso']['site_url'] = 'http://www.soso.com/q?w=site%3A';
-$ROBOT['soso']['site_pattern'] = "/ËÑË÷µ½(.*)Ïî½á¹û/";
+$ROBOT['soso']['site_pattern'] = "/æœç´¢åˆ°(.*)é¡¹ç»“æœ/";
 $ROBOT['soso']['link_url'] = 'http://www.soso.com/q?w=link%3A';
-$ROBOT['soso']['link_pattern'] = "/ËÑË÷µ½(.*)Ïî½á¹û/";
+$ROBOT['soso']['link_pattern'] = "/æœç´¢åˆ°(.*)é¡¹ç»“æœ/";
 ?>

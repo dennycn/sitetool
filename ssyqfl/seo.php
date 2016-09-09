@@ -4,7 +4,7 @@ error_reporting(E_ERROR);
 set_time_limit(0);
 isset($_SERVER['HTTP_REFERER']) or exit('Invalid Request');
 preg_match("/".$_SERVER['HTTP_HOST']."/i", $_SERVER['HTTP_REFERER']) or exit('Access Denied');
-header("Content-Type:text/html;charset=gb2312");
+header("Content-Type:text/html;charset=utf-8");
 include '../robot.php';
 require 'function.php';
 @extract($_POST);

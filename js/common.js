@@ -8,7 +8,7 @@ function copyToClipboard(txt) {
           try {   
                netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");   
           } catch (e) {   
-               alert("±»ä¯ÀÀÆ÷¾Ü¾ø£¡\nÇëÔÚä¯ÀÀÆ÷µØÖ·À¸ÊäÈë'about:config'²¢»Ø³µ\nÈ»ºó½«'signed.applets.codebase_principal_support'ÉèÖÃÎª'true'");   
+               alert("è¢«æµè§ˆå™¨æ‹’ç»ï¼\nè¯·åœ¨æµè§ˆå™¨åœ°å€æ è¾“å…¥'about:config'å¹¶å›è½¦\nç„¶åå°†'signed.applets.codebase_principal_support'è®¾ç½®ä¸º'true'");   
           }
           var clip = Components.classes['@mozilla.org/widget/clipboard;1'].createInstance(Components.interfaces.nsIClipboard);   
           if (!clip)
@@ -36,9 +36,9 @@ function oCopy(obj) {
         obj.select();
         js = obj.createTextRange();
         js.execCommand("Copy");
-        alert('¸´ÖÆ³É¹¦');
+        alert('å¤åˆ¶æˆåŠŸ');
     } else {
         obj.select();
-        alert('ÄúÊ¹ÓÃµÄfirefoxä¯ÀÀÆ÷Ôİ²»Ö§³Ö×Ô¶¯¸´ÖÆ£¬ÇëÄúÊÖ¹¤¸´ÖÆ');
+        alert('æ‚¨ä½¿ç”¨çš„firefoxæµè§ˆå™¨æš‚ä¸æ”¯æŒè‡ªåŠ¨å¤åˆ¶ï¼Œè¯·æ‚¨æ‰‹å·¥å¤åˆ¶');
     }
 }

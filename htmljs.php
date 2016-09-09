@@ -5,7 +5,7 @@ $hu = 'htmljs';
 <div class="main">
           <div class="box">
             <div id="c">
-              <h1>HTML/JS»¥×ª</h1>
+              <h1>HTML/JSäº’è½¬</h1>
               <div class="box1" style="text-align:center;"> 
 <script src="images/globals.js?ver=20100621" type="text/javascript"></script>
 <script src="js/Html_JS.js" type="text/javascript"></script>
@@ -15,15 +15,15 @@ $hu = 'htmljs';
             <div class="info1"> 
                  <div class="Gbtop">
                     <div class="WStop1">
-                    <div class="WStop2">HTMLÔ´´úÂë×ª»»JavaScript´úÂë¹¤¾ß</div>
+                    <div class="WStop2">HTMLæºä»£ç è½¬æ¢JavaScriptä»£ç å·¥å…·</div>
                     </div>
                     <div style="padding:5px;"> 
                       <div class="WSIn">
-                        <div class="WSTitle">Çë½« <strong>Html</strong> Ô´´úÂë¿½±´µ½ÏÂÃæ±íµ¥ÖÐ:</div>
+                        <div class="WSTitle">è¯·å°† <strong>Html</strong> æºä»£ç æ‹·è´åˆ°ä¸‹é¢è¡¨å•ä¸­:</div>
                         <div class="WSt">
                             <textarea id="osource" style=" border:1px solid #c5e2f2; width:800px; height:150px; overflow:visible;" onfocus="change()"  onkeyup="change()"></textarea>
                         </div>
-                        <span  class="WSTitle">ÏÂÃæ±íµ¥ÖÐÊÇÏàÓ¦µÄ <strong>Js</strong> ´úÂë: </span> <br />
+                        <span  class="WSTitle">ä¸‹é¢è¡¨å•ä¸­æ˜¯ç›¸åº”çš„ <strong>Js</strong> ä»£ç : </span> <br />
                         <span  class="WSt">
                             <textarea id="oresult2" style=" border:1px solid #c5e2f2; width:800px; height:150px; overflow:visible;"></textarea>
                        </span>
@@ -32,15 +32,15 @@ $hu = 'htmljs';
                 </div>
                 <div class="Gbtop">
                    <div class="WStop1">
-                     <div class="WStop2">JavaScriptÔ´´úÂë×ª»»HTML´úÂë¹¤¾ß</div>
+                     <div class="WStop2">JavaScriptæºä»£ç è½¬æ¢HTMLä»£ç å·¥å…·</div>
                    </div>
                    <div style="padding:5px;"> 
                       <div class="WSIn">
-                         <span class="WSTitle">Çë½« <strong>Js</strong> Ô´´úÂë¿½±´µ½ÏÂÃæ±íµ¥ÖÐ:</span><br />
+                         <span class="WSTitle">è¯·å°† <strong>Js</strong> æºä»£ç æ‹·è´åˆ°ä¸‹é¢è¡¨å•ä¸­:</span><br />
                          <span class="WSt">
                             <textarea id="oresult" style=" border:1px solid #c5e2f2; width:800px; height:150px; overflow:visible;" onfocus="rechange()" onkeyup="rechange()"></textarea>
                          </span>
-                        <span class="WSTitle">ÏÂÃæ±íµ¥ÖÐÊÇÏàÓ¦µÄ <strong>Html</strong> ´úÂë: </span><br />
+                        <span class="WSTitle">ä¸‹é¢è¡¨å•ä¸­æ˜¯ç›¸åº”çš„ <strong>Html</strong> ä»£ç : </span><br />
                         <span class="WSt">
                            <textarea id="re" style=" border:1px solid #c5e2f2; width:800px; height:150px; overflow:visible;"></textarea>
                         </span>
@@ -66,10 +66,10 @@ $hu = 'htmljs';
   </div>
     <div class="box">
       <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
+        <h1>å·¥å…·ç®€ä»‹</h1>
         <div class="box1">
             <span class="info2">
-               <p>HTML/JS»¥×ª
+               <p>HTML/JSäº’è½¬
             </p>
             </span>
         </div>

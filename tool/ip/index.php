@@ -1,5 +1,5 @@
 <?php
-header("Content-Type:text/html;charset=GB2312");
+header("Content-Type:text/html;charset=utf-8");
 $hu = 'ip';
 @require_once('../header.php');
 include_once('../friendlink/qqwry.php');
@@ -15,24 +15,24 @@ window.onload=function dis(){
 <div class="main">
   <div class="box">
     <div id="c">
-      <h1>IP²éÑ¯</h1>
+      <h1>IPæŸ¥è¯¢</h1>
 <div class="box1" style="text-align:center;">
 <form method="post" action="" name="ipfrom" onsubmit="return checkIP();">
 <span class="info3" id="ipp"><?php echo $ips?>
-</span>ÇëÊäÈëIP»òÓòÃû£º
+</span>è¯·è¾“å…¥IPæˆ–åŸŸåï¼š
     <input name="ip" type="text" id="url" isget="false" url="true" class="input" size="40" value="<?php echo $inip?>" />
-    <input name="button" isget="false" type="submit"  id="sub" class="but" value="²é Ñ¯" />
+    <input name="button" isget="false" type="submit"  id="sub" class="but" value="æŸ¥ è¯¢" />
 <INPUT TYPE="hidden" name="action" value="2">
            <div id="more" class="div_whois">
-               Ïà¹Ø²éÑ¯:
-<a href="/tool/dels/dels.php?domain=chinaccnet.com">ÓòÃûÉ¾³ýÊ±¼ä</a>
-<a href="/tool/ip/?domain=chinaccnet.com">IP²éÑ¯</a>
-<a href="/tool/whois/?domain=chinaccnet.com">WHOIS²éÑ¯</a>
+               ç›¸å…³æŸ¥è¯¢:
+<a href="/tool/dels/dels.php?domain=chinaccnet.com">åŸŸååˆ é™¤æ—¶é—´</a>
+<a href="/tool/ip/?domain=chinaccnet.com">IPæŸ¥è¯¢</a>
+<a href="/tool/whois/?domain=chinaccnet.com">WHOISæŸ¥è¯¢</a>
             </div>
     <span id="status" style="display:none" class="info1" style="text-align:center;">
         
-        <strong class="red"><?php echo $jieguo?>²éÑ¯½á¹û: <?php echo $inip?> ==>> <?php echo $ipp1?>  ==>> <a href="javascript:showAddress('<?php echo $ipp2?>');"><?php echo $ipp2?></a> </strong><br />        
-         ÉÏÃæÈýÏîÒÀ´ÎÏÔÊ¾µÄÊÇ : Ô­Ê¼ÊäÈëÄÚÈÝ ==>> »ñÈ¡µÄIPµØÖ· ==>>IPµÄÎïÀíÎ»ÖÃ<br />
+        <strong class="red"><?php echo $jieguo?>æŸ¥è¯¢ç»“æžœ: <?php echo $inip?> ==>> <?php echo $ipp1?>  ==>> <a href="javascript:showAddress('<?php echo $ipp2?>');"><?php echo $ipp2?></a> </strong><br />        
+         ä¸Šé¢ä¸‰é¡¹ä¾æ¬¡æ˜¾ç¤ºçš„æ˜¯ : åŽŸå§‹è¾“å…¥å†…å®¹ ==>> èŽ·å–çš„IPåœ°å€ ==>>IPçš„ç‰©ç†ä½ç½®<br />
    </span>
 </FORM>
           <div style="width:100%">
@@ -50,11 +50,11 @@ window.onload=function dis(){
   </div>
     <div class="box">
       <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
+        <h1>å·¥å…·ç®€ä»‹</h1>
         <div class="box1">
             <span class="info2">
-               Í¨¹ý¸Ã¹¤¾ß¿ÉÒÔ²éÑ¯Ö¸¶¨IPµÄÎïÀíµØÖ·»òÓòÃû·þÎñÆ÷µÄIPºÍÎïÀíµØÖ·£¬¼°ËùÔÚ¹ú¼Ò»ò³ÇÊÐ£¬ÉõÖÁ¾«È·µ½Ä³¸öÍø°É£¬»ú·¿»òÑ§Ð£µÈ£»<br />
-			   ²é³öµÄ½á¹û½ö¹©²Î¿¼£¡
+               é€šè¿‡è¯¥å·¥å…·å¯ä»¥æŸ¥è¯¢æŒ‡å®šIPçš„ç‰©ç†åœ°å€æˆ–åŸŸåæœåŠ¡å™¨çš„IPå’Œç‰©ç†åœ°å€ï¼ŒåŠæ‰€åœ¨å›½å®¶æˆ–åŸŽå¸‚ï¼Œç”šè‡³ç²¾ç¡®åˆ°æŸä¸ªç½‘å§ï¼Œæœºæˆ¿æˆ–å­¦æ ¡ç­‰ï¼›<br />
+			   æŸ¥å‡ºçš„ç»“æžœä»…ä¾›å‚è€ƒï¼
             </span>
         </div>
       </div>

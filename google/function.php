@@ -19,6 +19,6 @@ function get_seo_info($domain,$selects,$start){
 	   $con3 = "<a href=google.php?domain=".$domain."&start=0>[1]</a>&nbsp;&nbsp;<a href=google.php?domain=".$domain."&start=10>[2]</a>&nbsp;&nbsp;<a href=google.php?domain=".$domain."&start=20>[3]</a>&nbsp;&nbsp;<a href=google.php?domain=".$domain."&start=30>[4]</a>&nbsp;&nbsp;<a href=google.php?domain=".$domain."&start=40>[5]</a>&nbsp;&nbsp;<a href=google.php?domain=".$domain."&start=50>[6]</a>&nbsp;&nbsp;<a href=google.php?domain=".$domain."&start=60>[7]</a>&nbsp;&nbsp;<a href=google.php?domain=".$domain."&start=70>[8]</a>&nbsp;&nbsp;<a href=google.php?domain=".$domain."&start=80>[9]</a>&nbsp;&nbsp;<a href=google.php?domain=".$domain."&start=90>[10]</a>";
 	}
 	$site_info = $site_info?$site_info:'0';
-	return $con3.'<br/>¹È¸èÕÒµ½: <a href="'.$ROBOT['site_url'].$domain.'" target="_blank">'.$site_info.'</a>Ìõ¼ÇÂ¼<br/><hr/>'.$con.'<br/>'.$con3;
+	return $con3.'<br/>è°·æ­Œæ‰¾åˆ°: <a href="'.$ROBOT['site_url'].$domain.'" target="_blank">'.$site_info.'</a>æ¡è®°å½•<br/><hr/>'.$con.'<br/>'.$con3;
 }
 ?>

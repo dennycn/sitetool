@@ -6,10 +6,10 @@ $hu   = 'huoxing';
 <div class="main">
   <div class="box">
     <div id="c">
-      <h1>»ðÐÇÎÄ£¬¼òÌå£¬·±ÌåÏà»¥×ª»»</h1>
+      <h1>ç«æ˜Ÿæ–‡ï¼Œç®€ä½“ï¼Œç¹ä½“ç›¸äº’è½¬æ¢</h1>
       <div class="box1" style="text-align:center;"> 
 		<script type="text/javascript" src="../js/huoxing.js"></script>
-			<div id="html2js" class="bg" style="padding-left:20px">                        <h5>ÇëÊäÈëÐèÒª×ª»»µÄÎÄ×Ö£º</h5>                                             <textarea style="width:800px; height:80px;" id="txtsource"></textarea>                            <p style="margin-top:10px;">                            <button onclick="convert(2)">×ª»»Îª»ðÐÇÎÄ</button>&nbsp;&nbsp;                            <button onclick="convert(1)">×ª»»Îª·±Ìå×Ö</button>&nbsp;&nbsp;                            <button onclick="convert(0)">×ª»»Îª¼òÌå×Ö</button>&nbsp;&nbsp;                            <button onclick="oCopy(document.getElementById('txtresult'))">µã»÷¸´ÖÆ½á¹û</button>                            </p>                            <h5 style="margin-top:20px;">×ª»»½á¹û£º</h5>                            <textarea style="width:800px; height:80px;" id="txtresult" onclick="oCopy(document.getElementById('txtresult'))"></textarea>
+			<div id="html2js" class="bg" style="padding-left:20px">                        <h5>è¯·è¾“å…¥éœ€è¦è½¬æ¢çš„æ–‡å­—ï¼š</h5>                                             <textarea style="width:800px; height:80px;" id="txtsource"></textarea>                            <p style="margin-top:10px;">                            <button onclick="convert(2)">è½¬æ¢ä¸ºç«æ˜Ÿæ–‡</button>&nbsp;&nbsp;                            <button onclick="convert(1)">è½¬æ¢ä¸ºç¹ä½“å­—</button>&nbsp;&nbsp;                            <button onclick="convert(0)">è½¬æ¢ä¸ºç®€ä½“å­—</button>&nbsp;&nbsp;                            <button onclick="oCopy(document.getElementById('txtresult'))">ç‚¹å‡»å¤åˆ¶ç»“æžœ</button>                            </p>                            <h5 style="margin-top:20px;">è½¬æ¢ç»“æžœï¼š</h5>                            <textarea style="width:800px; height:80px;" id="txtresult" onclick="oCopy(document.getElementById('txtresult'))"></textarea>
 
           <div style="width:100%">
               <div id="detail" class="info1">                     
@@ -26,10 +26,10 @@ $hu   = 'huoxing';
   </div>
     <div class="box">
       <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
+        <h1>å·¥å…·ç®€ä»‹</h1>
         <div class="box1">
             <span class="info2">
-               <p>»ðÐÇÎÄ£¬¼òÌå£¬·±ÌåÏà»¥×ª»»
+               <p>ç«æ˜Ÿæ–‡ï¼Œç®€ä½“ï¼Œç¹ä½“ç›¸äº’è½¬æ¢
             </p>
             </span>
         </div>

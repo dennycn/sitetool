@@ -10,28 +10,28 @@ $mds2 = strtolower($mds1);
 $mds3 = substr($mds1,8,16);
 $mds4 = strtolower($mds3);
 if($typ == '3'){
-	$results  = "¼ÓÃÜºóµÄ½á¹û£º<input type=text class=input size=40 value=".$mds4.">";
+	$results  = "åŠ å¯†åçš„ç»“æœï¼š<input type=text class=input size=40 value=".$mds4.">";
 }elseif($typ == '1'){
-	$results =  "¼ÓÃÜºóµÄ½á¹û£º<input type=text class=input size=40 value=".$mds2.">";
+	$results =  "åŠ å¯†åçš„ç»“æœï¼š<input type=text class=input size=40 value=".$mds2.">";
 }elseif($typ == '2'){
-	$results = "¼ÓÃÜºóµÄ½á¹û£º<input type=text class=input size=40 value=".$mds3.">";
+	$results = "åŠ å¯†åçš„ç»“æœï¼š<input type=text class=input size=40 value=".$mds3.">";
 }else{
-	$results = "¼ÓÃÜºóµÄ½á¹û£º<input type=text class=input size=40 value=".$mds1.">";
+	$results = "åŠ å¯†åçš„ç»“æœï¼š<input type=text class=input size=40 value=".$mds1.">";
 }
 ?>
 
 <div class="main">
   <div class="box">
     <div id="c">
-      <h1>MD5¼ÓÃÜ¹¤¾ß</h1>
+      <h1>MD5åŠ å¯†å·¥å…·</h1>
       <div class="box1" style="text-align:center;"> 
 	  <form action="" method="post">
-          <span class="info3" > ÇëÊäÈëÓû¼ÓÃÜµÄ×Ö·û´®£º
+          <span class="info3" > è¯·è¾“å…¥æ¬²åŠ å¯†çš„å­—ç¬¦ä¸²ï¼š
             <input name="mds" type="text" id="mds" class="input" size="35" url="true" value="<?php echo $mds;?>"/>
-            <input id="md32l" name="Md5Type" value="0" <?php if($typ==0) echo "checked";?> type="radio" /><label for="md32l">32Î»[´ó]</label>
-      <input id="md32s" name="Md5Type" value="1" <?php if($typ==1) echo "checked";?> type="radio" /><label for="md32s">32Î»[Ğ¡]</label>
-      <input id="md16l" name="Md5Type" value="2" <?php if($typ==2) echo "checked";?> type="radio" /><label for="md16l">16Î»[´ó]</label>
-      <input id="md16s" name="Md5Type" value="3" <?php if($typ==3) echo "checked";?> type="radio" /><label for="md16s">16Î»[Ğ¡]</label> <input name="btnS" class="but" type="submit" value="¼ÓÃÜ"  id="sub"/>
+            <input id="md32l" name="Md5Type" value="0" <?php if($typ==0) echo "checked";?> type="radio" /><label for="md32l">32ä½[å¤§]</label>
+      <input id="md32s" name="Md5Type" value="1" <?php if($typ==1) echo "checked";?> type="radio" /><label for="md32s">32ä½[å°]</label>
+      <input id="md16l" name="Md5Type" value="2" <?php if($typ==2) echo "checked";?> type="radio" /><label for="md16l">16ä½[å¤§]</label>
+      <input id="md16s" name="Md5Type" value="3" <?php if($typ==3) echo "checked";?> type="radio" /><label for="md16s">16ä½[å°]</label> <input name="btnS" class="but" type="submit" value="åŠ å¯†"  id="sub"/>
           </span>
 		  </form>
 		  <divs style="text-align:left"><?php echo $results;?></div>         
@@ -52,10 +52,10 @@ if($typ == '3'){
   </div>
     <div class="box">
       <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
+        <h1>å·¥å…·ç®€ä»‹</h1>
         <div class="box1">
             <span class="info2">
-               <p>MD5¼ÓÃÜ
+               <p>MD5åŠ å¯†
             </p>
             </span>
         </div>

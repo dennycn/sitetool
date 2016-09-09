@@ -1,16 +1,16 @@
 function newXMLHTTPRequest(){
     var xmlreq;
-    //ÊÇ·ñÖ§³Ö new XMLHttpRequest´´½¨£¬¼´IE7,IE8¼°·ÇIE
+    //æ˜¯å¦æ”¯æŒ new XMLHttpRequeståˆ›å»ºï¼Œå³IE7,IE8åŠéIE
     if(window.XMLHttpRequest){
         xmlreq = new XMLHttpRequest();
     }
     else{
         try{
-            //IE5.5£¬IE6.O
+            //IE5.5ï¼ŒIE6.O
             xmlreq = new ActiveXObject("Msxml2.XMLHTTP");
         }
         catch(e){
-            //IE5¼ÈÒÔÏÂ
+            //IE5æ—¢ä»¥ä¸‹
             xmlreq = new ActiveXObject("Microsoft.XMLHTTP");
         }
     }

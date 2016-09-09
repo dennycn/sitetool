@@ -47,7 +47,7 @@ function get_content($url){
 			fclose($fp);
 		}
 	}
-	if(empty($content)) $content = '无法打开该链接！';
+	if(empty($content)) $content = '鏃犳硶鎵撳紑璇ラ摼鎺ワ紒';
 	return $content;
 }
 ?>

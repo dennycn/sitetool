@@ -7,29 +7,29 @@ $hu = "unicode";
 <script src="js/Unicode.js" type="text/javascript"></script>
 <div class="box">
 <div id="b_1">
-    <h1><div class="titleft">Unicode±àÂë×ª»»¹¤¾ß</div></h1>
+    <h1><div class="titleft">Unicodeç¼–ç è½¬æ¢å·¥å…·</div></h1>
     <div class="box1">
          <div class="info1">
              <div class="WStop">
                 <div class="WStop1">
-                 <div class="WStop2">Unicode ×ª»» ASCII£¬ASCII ×ª»» Unicode</div>
+                 <div class="WStop2">Unicode è½¬æ¢ ASCIIï¼ŒASCII è½¬æ¢ Unicode</div>
                 </div>
                 <div style="padding:5px;"> 
                  <div class="WSIn">
                     <div class="WSt">
-                        <textarea id="content" name="content" style=" border:1px solid #c5e2f2; width:800px; height:150px; overflow:visible;">Çë°ÑÄãÐèÒª×ª»»µÄÄÚÈÝÕ³ÌùÔÚÕâÀï¡£[ÓÉÓÚ¼æÈÝÐÔÎÊÌâ£¬´Ë×ª»»¹¦ÄÜÖ»ÄÜÔÚIEÖÐÊ¹ÓÃ£¬FIREFOXÎÞÐ§]</textarea>
+                        <textarea id="content" name="content" style=" border:1px solid #c5e2f2; width:800px; height:150px; overflow:visible;">è¯·æŠŠä½ éœ€è¦è½¬æ¢çš„å†…å®¹ç²˜è´´åœ¨è¿™é‡Œã€‚[ç”±äºŽå…¼å®¹æ€§é—®é¢˜ï¼Œæ­¤è½¬æ¢åŠŸèƒ½åªèƒ½åœ¨IEä¸­ä½¿ç”¨ï¼ŒFIREFOXæ— æ•ˆ]</textarea>
                     </div>
 	                <div class="WSt1">
-	                    <input class="but2" type="button" style="width:150px;" value="ASCII ×ª»» Unicode¡ý" onclick="AsciiToUnicode();"/>
-	                    <input class="but2" type="button" style="width:150px;" value="Unicode ×ª»» ASCII¡ý" onclick="UnicodeToAscii();"/>
-	                    <input class="but2" type="button" value=" ¸´ ÖÆ " onclick="copy('result')" />
-	                    <input class="but2" type="button" value="Çå¿Õ½á¹û" onclick="result.value=''" />
+	                    <input class="but2" type="button" style="width:150px;" value="ASCII è½¬æ¢ Unicodeâ†“" onclick="AsciiToUnicode();"/>
+	                    <input class="but2" type="button" style="width:150px;" value="Unicode è½¬æ¢ ASCIIâ†“" onclick="UnicodeToAscii();"/>
+	                    <input class="but2" type="button" value=" å¤ åˆ¶ " onclick="copy('result')" />
+	                    <input class="but2" type="button" value="æ¸…ç©ºç»“æžœ" onclick="result.value=''" />
 		            </div>
                     <div class="WSt">
                         <textarea id="result" name="result" style=" border:1px solid #c5e2f2; width:800px; height:150px; overflow:visible;"></textarea>
                     </div>
                      <div class="WSt1">
-	                    <input type="button" value="Ô¤ÀÀ×ª»»´úÂë" onclick='preview()' class="but2" />
+	                    <input type="button" value="é¢„è§ˆè½¬æ¢ä»£ç " onclick='preview()' class="but2" />
 	                </div>
                  </div>
             </div>
@@ -40,10 +40,10 @@ $hu = "unicode";
 </div>
 <div class="box">
 <div id="b_14">
-<h1>¹¤¾ß¼ò½é</h1>
+<h1>å·¥å…·ç®€ä»‹</h1>
 <div class="box1">
 <span class="info2">
- <p>Unicode±àÂë×ª»»</p> 
+ <p>Unicodeç¼–ç è½¬æ¢</p> 
 </span>
 </div>
 </div>

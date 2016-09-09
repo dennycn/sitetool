@@ -1,17 +1,17 @@
 <?php
 define('IN_SEO', TRUE);
-header("Content-Type:text/html;charset=gb2312");
+header("Content-Type:text/html;charset=utf-8");
 require 'function.php';
 error_reporting(E_ERROR);
 set_time_limit(0);
 isset($_SERVER['HTTP_REFERER']) or exit('Invalid Request');
 preg_match("/".$_SERVER['HTTP_HOST']."/i", $_SERVER['HTTP_REFERER']) or exit('Access Denied');
 $ROBOT['site_url']     = 'http://www.google.com/search?hl=zh-CN&q=site%3A';
-$ROBOT['site_pattern'] = "/»ñµÃ(.*) Ìõ½á¹û/";
+$ROBOT['site_pattern'] = "/èŽ·å¾—(.*) æ¡ç»“æžœ/";
 @extract($_POST);
 $domain = $domain?$domain:'chinaccnet.com';
 $domain = strtolower($domain);
-is_domain($domain) or exit('ÇëÊäÈëÕýÈ·µÄÓòÃû£¡');
+is_domain($domain) or exit('è¯·è¾“å…¥æ­£ç¡®çš„åŸŸåï¼');
 if($domain){
 	@require_once('../cache.php');
 	if(file_exists("../cache/cache.php")){

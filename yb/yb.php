@@ -2,21 +2,21 @@
 $hu = 'yb';
 @require_once('../header.php');
 set_time_limit(0);
-$q    = trim($_GET['q']); //¹Ø¼ü´Ê
-$page = intval($_GET['p']); //Ò³Êý
+$q    = trim($_GET['q']); //å…³é”®è¯
+$page = intval($_GET['p']); //é¡µæ•°
 if($page==0) $page = 1;
-$r_num   = 0; //½á¹û¸öÊý
-$p_num   = 40; //Ã¿Ò³½á¹ûµÄÊý¾ÝÌõÊý
+$r_num   = 0; //ç»“æžœä¸ªæ•°
+$p_num   = 40; //æ¯é¡µç»“æžœçš„æ•°æ®æ¡æ•°
 $result  = "";
 $shengpy = array('B','T','H','S','N','L','J','H','S','J','Z','A','F','J','S','H','H','H','G','G','H','C','S','G','Y','X','S','G','Q','N','X','X','A','T');
-$sheng = array('±±¾©','Ìì½ò','ºÓ±±','É½Î÷','ÄÚÃÉ¹Å','ÁÉÄþ','¼ªÁÖ','ºÚÁú½­','ÉÏº£','½­ËÕ','Õã½­','°²»Õ','¸£½¨','½­Î÷','É½¶«','ºþÄÏ','ºþ±±','ºÓÄÏ','¹ã¶«','¹ãÎ÷','º£ÄÏ','ÖØÇì','ËÄ´¨','¹óÖÝ','ÔÆÄÏ','Î÷²Ø','ÉÂÎ÷','¸ÊËà','Çàº£','ÄþÏÄ','ÐÂ½®','Ïã¸Û','°ÄÃÅ','Ì¨Íå');
+$sheng = array('åŒ—äº¬','å¤©æ´¥','æ²³åŒ—','å±±è¥¿','å†…è’™å¤','è¾½å®','å‰æž—','é»‘é¾™æ±Ÿ','ä¸Šæµ·','æ±Ÿè‹','æµ™æ±Ÿ','å®‰å¾½','ç¦å»º','æ±Ÿè¥¿','å±±ä¸œ','æ¹–å—','æ¹–åŒ—','æ²³å—','å¹¿ä¸œ','å¹¿è¥¿','æµ·å—','é‡åº†','å››å·','è´µå·ž','äº‘å—','è¥¿è—','é™•è¥¿','ç”˜è‚ƒ','é’æµ·','å®å¤','æ–°ç–†','é¦™æ¸¯','æ¾³é—¨','å°æ¹¾');
 if($q){	
 	if (!@file_exists($keydb)){
-		$dreamdb = file("pc.dat");//¶ÁÈ¡ÇøºÅÎÄ¼þ
-		$count   = count($dreamdb);//¼ÆËãÐÐÊý
+		$dreamdb = file("pc.dat");//è¯»å–åŒºå·æ–‡ä»¶
+		$count   = count($dreamdb);//è®¡ç®—è¡Œæ•°
 		for($i=0; $i<$count; $i++) {
-			$keyword    = explode(" ",$q);//²ð·Ö¹Ø¼ü×Ö
-			$dreamcount = count($keyword);//¹Ø¼ü×Ö¸öÊý
+			$keyword    = explode(" ",$q);//æ‹†åˆ†å…³é”®å­—
+			$dreamcount = count($keyword);//å…³é”®å­—ä¸ªæ•°
 			$detail     = explode("\t",$dreamdb[$i]);
 			for ($ai=0; $ai<$dreamcount; $ai++){
 				switch ($_GET['w']){
@@ -45,7 +45,7 @@ if($q){
 					break;
 				}
 			}
-			$p = ceil($r_num/$p_num); //½á¹ûÊµ¼ÊÒ³Êý
+			$p = ceil($r_num/$p_num); //ç»“æžœå®žé™…é¡µæ•°
 		}		
 		$fp = @fopen($keydb,"a");
 		@fwrite($fp,$r_num."\n".$r);
@@ -53,7 +53,7 @@ if($q){
 	}else{
 		$dreamdb=file($keydb);
 		$r_num = trim($dreamdb[0],"\n\r");
-		$p = ceil($r_num/$p_num); //½á¹ûÊµ¼ÊÒ³Êý
+		$p = ceil($r_num/$p_num); //ç»“æžœå®žé™…é¡µæ•°
 		if($page>$p) $page=$p;
 		$result = $dreamdb[$page];
 	}
@@ -66,49 +66,49 @@ if($q){
 			$post_l .= '">['.$i.']</a> ';
 		}
 	}
-	$post_l = '<tr><td align="center" style="font-size:14px;padding:10px;" bgcolor="#F0F0F0">·ÖÒ³£º'.$post_l.' (¹²¼Æ'.$r_num.'¸ö£¬Ã¿Ò³'.$p_num.'¸ö)</td></tr>';
-	$result = '<table width="100%" cellpadding="2" cellspacing="0" style="border:1px solid #98A7B8;"><tr><td style="background:#F0F0F0;padding:0 5px;color:#014198;" height="26" valign="middle"><b>ÕÒµ½'.$r_num.'¸öÓë <a href="./?q='.urlencode($q).'"><font color="#c60a00">'.$q.'</font></a> Ïà¹ØµÄÓÊ±àÇøºÅ</b></td></tr><tr><td><table cellpadding="4" cellspacing="4" width="100%" style="text-align:center"><tr style="text-align:center;font-weight:bold;" height="26" bgcolor="#efefef"><td width="80">Ê¡</td><td>µØÇø</td><td>ÊÐÏØ</td><td>ÏçÕò´å</td><td width="80">ÓÊÕþ±àÂë</td><td width="60">µç»°ÇøºÅ</td></tr>'.$result.'</table></td></tr>'.$post_l.'</table>';
+	$post_l = '<tr><td align="center" style="font-size:14px;padding:10px;" bgcolor="#F0F0F0">åˆ†é¡µï¼š'.$post_l.' (å…±è®¡'.$r_num.'ä¸ªï¼Œæ¯é¡µ'.$p_num.'ä¸ª)</td></tr>';
+	$result = '<table width="100%" cellpadding="2" cellspacing="0" style="border:1px solid #98A7B8;"><tr><td style="background:#F0F0F0;padding:0 5px;color:#014198;" height="26" valign="middle"><b>æ‰¾åˆ°'.$r_num.'ä¸ªä¸Ž <a href="./?q='.urlencode($q).'"><font color="#c60a00">'.$q.'</font></a> ç›¸å…³çš„é‚®ç¼–åŒºå·</b></td></tr><tr><td><table cellpadding="4" cellspacing="4" width="100%" style="text-align:center"><tr style="text-align:center;font-weight:bold;" height="26" bgcolor="#efefef"><td width="80">çœ</td><td>åœ°åŒº</td><td>å¸‚åŽ¿</td><td>ä¹¡é•‡æ‘</td><td width="80">é‚®æ”¿ç¼–ç </td><td width="60">ç”µè¯åŒºå·</td></tr>'.$result.'</table></td></tr>'.$post_l.'</table>';
 }
 switch ($_GET['w']){
 	case "sheng":
-		$qw = "Ê¡·Ý: ";	break;
+		$qw = "çœä»½: ";	break;
 	case "diqu":
-		$qw = "µØÇø: ";	break;
+		$qw = "åœ°åŒº: ";	break;
 	case "shi":
-		$qw = "ÊÐÏØ: ";  break;
+		$qw = "å¸‚åŽ¿: ";  break;
 	case "cun":
-		$qw = "´åÕòÏç: ";break;
+		$qw = "æ‘é•‡ä¹¡: ";break;
 	case "youbian":
-		$qw = "ÓÊ±à: ";  break;
+		$qw = "é‚®ç¼–: ";  break;
 	case "quhao":
-		$qw = "ÇøºÅ: ";  break;
+		$qw = "åŒºå·: ";  break;
 	default:break;
 }
 if($q){
-	echo "<title>".$qw.$q." - ¹úÄÚÓÊÕþ±àÂëÇøºÅ²éÑ¯ 5Glive.com</title>";
-	echo '<meta name="keywords" content="'.$q.','.$q.'ÓÊ±à,'.$q.'ÇøºÅ,'.$q.'ÓÊÕþ±àÂë,'.$q.'µç»°ÇøºÅ,²éÑ¯" />';
-	echo '<meta name="description" content="'.$q.'ÓÊÕþ±àÂëÇøºÅ²éÑ¯www.5glive.com£¬±¾ÓÊ±àÇøºÅ²éÑ¯ÏµÍ³ÓµÓÐ'.$q.'×îÈ«×îÐÂµÄÓÊ±àÇøºÅÊý¾Ý£¨6Íò¶àÌõ£©£¬¿ÉÒÔ²éÑ¯'.$q.'¾«È·µ½'.$q.'µÄ½ÖµÀ´åÕòµÄÓÊ±àÇøºÅ£¬Ö§³ÖÄ£ºý²éÑ¯£¬ÊäÈëÊ¡Ãû¡¢ÊÐÃû¡¢ÏØÃû»ò´åÃû¼´¿É²éµ½'.$q.'Ïà¹ØÓÊ±àÇøºÅ£¬Ò²¿ÉÒÔÓÉÓÊ±à»òÇøºÅ·´²éµØÀíÎ»ÖÃ¡£" />';
+	echo "<title>".$qw.$q." - å›½å†…é‚®æ”¿ç¼–ç åŒºå·æŸ¥è¯¢ 5Glive.com</title>";
+	echo '<meta name="keywords" content="'.$q.','.$q.'é‚®ç¼–,'.$q.'åŒºå·,'.$q.'é‚®æ”¿ç¼–ç ,'.$q.'ç”µè¯åŒºå·,æŸ¥è¯¢" />';
+	echo '<meta name="description" content="'.$q.'é‚®æ”¿ç¼–ç åŒºå·æŸ¥è¯¢www.5glive.comï¼Œæœ¬é‚®ç¼–åŒºå·æŸ¥è¯¢ç³»ç»Ÿæ‹¥æœ‰'.$q.'æœ€å…¨æœ€æ–°çš„é‚®ç¼–åŒºå·æ•°æ®ï¼ˆ6ä¸‡å¤šæ¡ï¼‰ï¼Œå¯ä»¥æŸ¥è¯¢'.$q.'ç²¾ç¡®åˆ°'.$q.'çš„è¡—é“æ‘é•‡çš„é‚®ç¼–åŒºå·ï¼Œæ”¯æŒæ¨¡ç³ŠæŸ¥è¯¢ï¼Œè¾“å…¥çœåã€å¸‚åã€åŽ¿åæˆ–æ‘åå³å¯æŸ¥åˆ°'.$q.'ç›¸å…³é‚®ç¼–åŒºå·ï¼Œä¹Ÿå¯ä»¥ç”±é‚®ç¼–æˆ–åŒºå·åæŸ¥åœ°ç†ä½ç½®ã€‚" />';
 }else{
-	echo "<title>¹úÄÚÓÊÕþ±àÂëÇøºÅ²éÑ¯ 5Glive.com</title>";
-	echo '<meta name="keywords" content="¹úÄÚ,ÓÊ±à,ÓÊÕþ±àÂë,ÇøºÅ,µç»°ÇøºÅ,²éÑ¯" />';
-	echo '<meta name="description" content="¹úÄÚÓÊÕþ±àÂëÇøºÅ²éÑ¯www.5glive.com£¬±¾ÓÊ±àÇøºÅ²éÑ¯ÏµÍ³ÓµÓÐÈ«¹ú×îÈ«×îÐÂµÄÓÊ±àÇøºÅÊý¾Ý£¨6Íò¶àÌõ£©£¬¿ÉÒÔ²éÑ¯¾«È·µ½½ÖµÀ´åÕòµÄÓÊ±àÇøºÅ£¬Ö§³ÖÄ£ºý²éÑ¯£¬ÊäÈëÊ¡Ãû¡¢ÊÐÃû¡¢ÏØÃû»ò´åÃû¼´¿É²éµ½Ïà¹ØÓÊ±àÇøºÅ£¬Ò²¿ÉÒÔÓÉÓÊ±à»òÇøºÅ·´²éµØÀíÎ»ÖÃ¡£" />';
+	echo "<title>å›½å†…é‚®æ”¿ç¼–ç åŒºå·æŸ¥è¯¢ 5Glive.com</title>";
+	echo '<meta name="keywords" content="å›½å†…,é‚®ç¼–,é‚®æ”¿ç¼–ç ,åŒºå·,ç”µè¯åŒºå·,æŸ¥è¯¢" />';
+	echo '<meta name="description" content="å›½å†…é‚®æ”¿ç¼–ç åŒºå·æŸ¥è¯¢www.5glive.comï¼Œæœ¬é‚®ç¼–åŒºå·æŸ¥è¯¢ç³»ç»Ÿæ‹¥æœ‰å…¨å›½æœ€å…¨æœ€æ–°çš„é‚®ç¼–åŒºå·æ•°æ®ï¼ˆ6ä¸‡å¤šæ¡ï¼‰ï¼Œå¯ä»¥æŸ¥è¯¢ç²¾ç¡®åˆ°è¡—é“æ‘é•‡çš„é‚®ç¼–åŒºå·ï¼Œæ”¯æŒæ¨¡ç³ŠæŸ¥è¯¢ï¼Œè¾“å…¥çœåã€å¸‚åã€åŽ¿åæˆ–æ‘åå³å¯æŸ¥åˆ°ç›¸å…³é‚®ç¼–åŒºå·ï¼Œä¹Ÿå¯ä»¥ç”±é‚®ç¼–æˆ–åŒºå·åæŸ¥åœ°ç†ä½ç½®ã€‚" />';
 }
 ?>
 <div class="main">
           <div class="box">
             <div id="c">
-              <h1>ÓÊ±àÇøºÅ²éÑ¯</h1>
+              <h1>é‚®ç¼–åŒºå·æŸ¥è¯¢</h1>
               <div class="box1" style="text-align:center;">             
                   </span><div class="t" id="seo_result">
 <table width="100%" cellpadding="2" cellspacing="0" style="border:1px solid #98A7B8;" id="top"><tr><td align="center" style="font-size:12px;padding:0 0 10px 0;line-height:150%;">     <form action="" method="get" name="f1">
-            <span class="info3" > ÇëÊäÈëÒª²éÑ¯µÄ³ÇÊÐÃû³Æ£º
+            <span class="info3" > è¯·è¾“å…¥è¦æŸ¥è¯¢çš„åŸŽå¸‚åç§°ï¼š
             <input name="q" type="text" id="q" class="input" size="40" url="true" onmouseover="this.select()" value="<?php echo $q ?>"/><input name="a" type="hidden" id="a" value="search">
-            <input name="btnS" class="but" type="submit" value="¿ªÊ¼²éÑ¯"  id="sub" />
-          </form>²éÑ¯Ê¡Ãû¡¢ÊÐÃû¡¢ÏØÃû¡¢´åÃûµÄÊ±ºòÇëÈ¥µô<font color="red">Ê¡ÊÐÏØ´å</font>ºó×º<br>Èç²éÑ¯¡°ºþÄÏÊ¡¡±£¬ÇëÊäÈë¡°ºþÄÏ¡±£¬Ö§³ÖÓÊ±à»òÇøºÅ·´²éµØÀíÎ»ÖÃ<br>Àý£º<a href="?q=%BA%FE%C4%CF&w=sheng">ºþÄÏ</a> <a href="?q=%B3%A4%C9%B3&w=diqu">³¤É³</a> <a href="?q=%B3%A4%C9%B3%CA%D0&w=shi">³¤É³ÊÐ</a> <a href="?q=%D3%EA%BB%A8%CD%A4&w=cun">Óê»¨Í¤</a> <a href="?q=410004&w=youbian">410004</a> <a href="?q=0731&w=quhao">0731</a></td></tr>
-<tr><td style="background:#F0F0F0;padding:0 5px;color:#014198;" height="26" valign="middle" colspan="5"><b>¸ß¼¶²éÑ¯</b></td></tr><tr><td align="center" valign="middle" style="padding:20px;">
+            <input name="btnS" class="but" type="submit" value="å¼€å§‹æŸ¥è¯¢"  id="sub" />
+          </form>æŸ¥è¯¢çœåã€å¸‚åã€åŽ¿åã€æ‘åçš„æ—¶å€™è¯·åŽ»æŽ‰<font color="red">çœå¸‚åŽ¿æ‘</font>åŽç¼€<br>å¦‚æŸ¥è¯¢â€œæ¹–å—çœâ€ï¼Œè¯·è¾“å…¥â€œæ¹–å—â€ï¼Œæ”¯æŒé‚®ç¼–æˆ–åŒºå·åæŸ¥åœ°ç†ä½ç½®<br>ä¾‹ï¼š<a href="?q=%BA%FE%C4%CF&w=sheng">æ¹–å—</a> <a href="?q=%B3%A4%C9%B3&w=diqu">é•¿æ²™</a> <a href="?q=%B3%A4%C9%B3%CA%D0&w=shi">é•¿æ²™å¸‚</a> <a href="?q=%D3%EA%BB%A8%CD%A4&w=cun">é›¨èŠ±äº­</a> <a href="?q=410004&w=youbian">410004</a> <a href="?q=0731&w=quhao">0731</a></td></tr>
+<tr><td style="background:#F0F0F0;padding:0 5px;color:#014198;" height="26" valign="middle" colspan="5"><b>é«˜çº§æŸ¥è¯¢</b></td></tr><tr><td align="center" valign="middle" style="padding:20px;">
 <table style="font-size:14px;" width="100%" align="center">
 <tr>
-<td width="50%"><form action="" method="get" name="f1">¡¡¡¡°´Ê¡Ãû²é£º<select name="q" id="q" style="width:100px">
+<td width="50%"><form action="" method="get" name="f1">ã€€ã€€æŒ‰çœåæŸ¥ï¼š<select name="q" id="q" style="width:100px">
 <?php
 $count = count($sheng);
 for($i=0;$i<$count;$i++){
@@ -117,13 +117,13 @@ for($i=0;$i<$count;$i++){
 	echo '>'.$shengpy[$i].' '.$sheng[$i].'</option>';
 }
 ?>
-</select><input name="w" id="w" type="hidden" value="sheng" /> <input type="submit" value=" ²éÕÒ " /></form></td><td width="50%"><form action="" method="get" name="f1">¡¡°´µØÇøÃû²é£º<input name="q" id="q" type="text" size="18" delay="0" value="<?php if($_GET['w']=="diqu") echo $q; ?>" style="width:100px;height:22px;font-size:16px;font-family: Geneva, Arial, Helvetica, sans-serif;" onmouseover="this.select()" /><input name="w" id="w" type="hidden" value="diqu" /> <input type="submit" value=" ²éÕÒ " /></form></td>
+</select><input name="w" id="w" type="hidden" value="sheng" /> <input type="submit" value=" æŸ¥æ‰¾ " /></form></td><td width="50%"><form action="" method="get" name="f1">ã€€æŒ‰åœ°åŒºåæŸ¥ï¼š<input name="q" id="q" type="text" size="18" delay="0" value="<?php if($_GET['w']=="diqu") echo $q; ?>" style="width:100px;height:22px;font-size:16px;font-family: Geneva, Arial, Helvetica, sans-serif;" onmouseover="this.select()" /><input name="w" id="w" type="hidden" value="diqu" /> <input type="submit" value=" æŸ¥æ‰¾ " /></form></td>
 </tr>
 <tr>
-<td><form action="" method="get" name="f1">¡¡°´ÏØÊÐÃû²é£º<input name="q" id="q" type="text" size="18" delay="0" value="<?php if($_GET['w']=="shi") echo $q; ?>" style="width:100px;height:22px;font-size:16px;font-family: Geneva, Arial, Helvetica, sans-serif;" onmouseover="this.select()" /><input name="w" id="w" type="hidden" value="shi" /> <input type="submit" value=" ²éÕÒ " /></form></td><td><form action="" method="get" name="f1">°´ÏçÕò´åÃû²é£º<input name="q" id="q" type="text" size="18" delay="0" value="<?php if($_GET['w']=="cun") echo $q; ?>" style="width:100px;height:22px;font-size:16px;font-family: Geneva, Arial, Helvetica, sans-serif;" onmouseover="this.select()" /><input name="w" id="w" type="hidden" value="cun" /> <input type="submit" value=" ²éÕÒ " /></form></td>
+<td><form action="" method="get" name="f1">ã€€æŒ‰åŽ¿å¸‚åæŸ¥ï¼š<input name="q" id="q" type="text" size="18" delay="0" value="<?php if($_GET['w']=="shi") echo $q; ?>" style="width:100px;height:22px;font-size:16px;font-family: Geneva, Arial, Helvetica, sans-serif;" onmouseover="this.select()" /><input name="w" id="w" type="hidden" value="shi" /> <input type="submit" value=" æŸ¥æ‰¾ " /></form></td><td><form action="" method="get" name="f1">æŒ‰ä¹¡é•‡æ‘åæŸ¥ï¼š<input name="q" id="q" type="text" size="18" delay="0" value="<?php if($_GET['w']=="cun") echo $q; ?>" style="width:100px;height:22px;font-size:16px;font-family: Geneva, Arial, Helvetica, sans-serif;" onmouseover="this.select()" /><input name="w" id="w" type="hidden" value="cun" /> <input type="submit" value=" æŸ¥æ‰¾ " /></form></td>
 </tr>
 <tr>
-<td><form action="" method="get" name="f1">¡¡¡¡°´ÓÊ±à²é£º<input name="q" id="q" type="text" size="18" delay="0" value="<?php if($_GET['w']=="youbian") echo $q; ?>" style="width:100px;height:22px;font-size:16px;font-family: Geneva, Arial, Helvetica, sans-serif;" onmouseover="this.select()" /><input name="w" id="w" type="hidden" value="youbian" /> <input type="submit" value=" ²éÕÒ " /></form></td><td><form action="" method="get" name="f1">¡¡¡¡°´ÇøºÅ²é£º<input name="q" id="q" type="text" size="18" delay="0" value="<?php if($_GET['w']=="quhao") echo $q; ?>" style="width:100px;height:22px;font-size:16px;font-family: Geneva, Arial, Helvetica, sans-serif;" onmouseover="this.select()" /><input name="w" id="w" type="hidden" value="quhao" /> <input type="submit" value=" ²éÕÒ " /></form></td>
+<td><form action="" method="get" name="f1">ã€€ã€€æŒ‰é‚®ç¼–æŸ¥ï¼š<input name="q" id="q" type="text" size="18" delay="0" value="<?php if($_GET['w']=="youbian") echo $q; ?>" style="width:100px;height:22px;font-size:16px;font-family: Geneva, Arial, Helvetica, sans-serif;" onmouseover="this.select()" /><input name="w" id="w" type="hidden" value="youbian" /> <input type="submit" value=" æŸ¥æ‰¾ " /></form></td><td><form action="" method="get" name="f1">ã€€ã€€æŒ‰åŒºå·æŸ¥ï¼š<input name="q" id="q" type="text" size="18" delay="0" value="<?php if($_GET['w']=="quhao") echo $q; ?>" style="width:100px;height:22px;font-size:16px;font-family: Geneva, Arial, Helvetica, sans-serif;" onmouseover="this.select()" /><input name="w" id="w" type="hidden" value="quhao" /> <input type="submit" value=" æŸ¥æ‰¾ " /></form></td>
 </tr>
 </table>
 </td></tr></table><br />
@@ -133,46 +133,46 @@ if($q!=""){
 }else{	
 	echo $result;
 ?>
-<table width="100%" cellpadding="2" cellspacing="0" style="border:1px solid #98A7B8;"><tr><td style="background:#F0F0F0;padding:0 5px;color:#014198;" height="26" valign="middle"><b>µã»÷Ê¡·ÝÃû³Æ²éÑ¯</b></td></tr><tr><td align="center">
+<table width="100%" cellpadding="2" cellspacing="0" style="border:1px solid #98A7B8;"><tr><td style="background:#F0F0F0;padding:0 5px;color:#014198;" height="26" valign="middle"><b>ç‚¹å‡»çœä»½åç§°æŸ¥è¯¢</b></td></tr><tr><td align="center">
 <div style="font-size:middle;">
 <div style="position:relative; width: 500px; height: 500px;">
-<p><img alt="ÖÐ¹úµØÍ¼" longdesc="../images/map.gif" src="../images/map.gif" width="578" height="478" /></p>
+<p><img alt="ä¸­å›½åœ°å›¾" longdesc="../images/map.gif" src="../images/map.gif" width="578" height="478" /></p>
 <div style="position:absolute; left: 0px; top: 0px; width: 500px; height: 438px;"></div>
-<div style="position:absolute; left:276px; top: 305px; width: 46px; height: 11px;"><a href="?q=ËÄ´¨&w=sheng" title="ËÄ´¨">ËÄ´¨</a></div>
-<div style="position:absolute; left:335px; top: 320px; width: 46px; height: 11px;"><a href="?q=ÖØÇì&w=sheng" title="ÖØÇì">ÖØÇì</a></div>
-<div style="position:absolute; left:418px; top: 174px; width: 46px; height: 11px;"><a href="?q=±±¾©&w=sheng" title="±±¾©">±±¾©</a></div>
-<div style="position:absolute; left:437px; top: 196px; width: 46px; height: 11px;"><a href="?q=Ìì½ò&w=sheng" title="Ìì½ò">Ìì½ò</a></div>
-<div style="position:absolute; left:494px; top: 289px; width: 46px; height: 11px;"><a href="?q=ÉÏº£&w=sheng" title="ÉÏº£">ÉÏº£</a></div>
-<div style="position:absolute; left:123px; top: 285px; width: 46px; height: 11px;"><a href="?q=Î÷²Ø&w=sheng" title="Î÷²Ø">Î÷²Ø</a></div>
-<div style="position:absolute; left:113px; top: 158px; width: 46px; height: 11px;"><a href="?q=ÐÂ½®&w=sheng" title="ÐÂ½®">ÐÂ½®</a></div>
-<div style="position:absolute; left:197px; top: 229px; width: 46px; height: 11px;"><a href="?q=Çàº£&w=sheng" title="Çàº£">Çàº£</a></div>
-<div style="position:absolute; left:394px; top: 263px; width: 46px; height: 11px;"><a href="?q=ºÓÄÏ&w=sheng" title="ºÓÄÏ">ºÓÄÏ</a></div>
-<div style="position:absolute; left:400px; top: 204px; width: 46px; height: 11px;"><a href="?q=ºÓ±±&w=sheng" title="ºÓ±±">ºÓ±±</a></div>
-<div style="position:absolute; left:262px; top: 384px; width: 46px; height: 11px;"><a href="?q=ÔÆÄÏ&w=sheng" title="ÔÆÄÏ">ÔÆÄÏ</a></div>
-<div style="position:absolute; left:327px; top: 360px; width: 46px; height: 11px;"><a href="?q=¹óÖÝ&w=sheng" title="¹óÖÝ">¹óÖÝ</a></div>
-<div style="position:absolute; left:378px; top: 221px; width: 46px; height: 11px;"><a href="?q=É½Î÷&w=sheng" title="É½Î÷">É½Î÷</a></div>
-<div style="position:absolute; left:485px; top: 154px; width: 46px; height: 11px;"><a href="?q=ÁÉÄþ&w=sheng" title="ÁÉÄþ">ÁÉÄþ</a></div>
-<div style="position:absolute; left:509px; top: 124px; width: 46px; height: 11px;"><a href="?q=¼ªÁÖ&w=sheng" title="¼ªÁÖ">¼ªÁÖ</a></div>
-<div style="position:absolute; left:320px; top: 224px; width: 46px; height: 11px;"><a href="?q=ÄþÏÄ&w=sheng" title="ÄþÏÄ">ÄþÏÄ</a></div>
-<div style="position:absolute; left:461px; top: 263px; width: 46px; height: 11px;"><a href="?q=½­ËÕ&w=sheng" title="½­ËÕ">½­ËÕ</a></div>
-<div style="position:absolute; left:479px; top: 321px; width: 46px; height: 11px;"><a href="?q=Õã½­&w=sheng" title="Õã½­">Õã½­</a></div>
-<div style="position:absolute; left:445px; top: 294px; width: 46px; height: 11px;"><a href="?q=°²»Õ&w=sheng" title="°²»Õ">°²»Õ</a></div>
-<div style="position:absolute; left:458px; top: 358px; width: 46px; height: 11px;"><a href="?q=¸£½¨&w=sheng" title="¸£½¨">¸£½¨</a></div>
-<div style="position:absolute; left:429px; top: 335px; width: 46px; height: 11px;"><a href="?q=½­Î÷&w=sheng" title="½­Î÷">½­Î÷</a></div>
-<div style="position:absolute; left:344px; top: 270px; width: 46px; height: 11px;"><a href="?q=ÉÂÎ÷&w=sheng" title="ÉÂÎ÷">ÉÂÎ÷</a></div>
-<div style="position:absolute; left:218px; top: 180px; width: 46px; height: 11px;"><a href="?q=¸ÊËà&w=sheng" title="¸ÊËà">¸ÊËà</a></div>
-<div style="position:absolute; left:336px; top: 178px; width: 50px; height: 11px;"><a href="?q=ÄÚÃÉ¹Å&w=sheng" title="ÄÚÃÉ¹Å">ÄÚÃÉ¹Å</a></div>
-<div style="position:absolute; left:355px; top: 398px; width: 46px; height: 11px;"><a href="?q=¹ãÎ÷&w=sheng" title="¹ãÎ÷">¹ãÎ÷</a></div>
-<div style="position:absolute; left:440px; top: 230px; width: 46px; height: 11px;"><a href="?q=É½¶«&w=sheng" title="É½¶«">É½¶«</a></div>
-<div style="position:absolute; left:388px; top: 303px; width: 46px; height: 11px;"><a href="?q=ºþ±±&w=sheng" title="ºþ±±">ºþ±±</a></div>
-<div style="position:absolute; left:383px; top: 348px; width: 46px; height: 11px;"><a href="?q=ºþÄÏ&w=sheng" title="ºþÄÏ">ºþÄÏ</a></div>
-<div style="position:absolute; left:407px; top: 395px; width: 46px; height: 11px;"><a href="?q=¹ã¶«&w=sheng" title="¹ã¶«">¹ã¶«</a></div>
-<div style="position:absolute; left:363px; top: 456px; width: 46px; height: 11px;"><a href="?q=º£ÄÏ&w=sheng" title="º£ÄÏ">º£ÄÏ</a></div>
-<div style="position:absolute; left:509px; top: 76px; width: 46px; height: 11px;"><a href="?q=ºÚÁú½­&w=sheng" title="ºÚÁú½­">ºÚÁú½­</a></div>
-<div style="position:absolute; left:451px; top: 403px; width: 46px; height: 11px;"><a href="?q=Ïã¸Û&w=sheng" title="Ïã¸Û">Ïã¸Û</a></div>
-<div style="position:absolute; left:420px; top: 415px; width: 46px; height: 11px;"><a href="?q=°ÄÃÅ&w=sheng" title="°ÄÃÅ">°ÄÃÅ</a></div>
-<div style="position:absolute; left:498px; top: 386px; width: 46px; height: 11px;"><a href="?q=Ì¨Íå&w=sheng" title="Ì¨Íå">Ì¨Íå</a></div>
-<div style="position:absolute; left: 254px; top: 93px; width: 120px; height: 20px; color:#669933; font-size: 16px;">Çëµã»÷Ê¡·ÝÃû³Æ½øÈë²éÑ¯</div>
+<div style="position:absolute; left:276px; top: 305px; width: 46px; height: 11px;"><a href="?q=å››å·&w=sheng" title="å››å·">å››å·</a></div>
+<div style="position:absolute; left:335px; top: 320px; width: 46px; height: 11px;"><a href="?q=é‡åº†&w=sheng" title="é‡åº†">é‡åº†</a></div>
+<div style="position:absolute; left:418px; top: 174px; width: 46px; height: 11px;"><a href="?q=åŒ—äº¬&w=sheng" title="åŒ—äº¬">åŒ—äº¬</a></div>
+<div style="position:absolute; left:437px; top: 196px; width: 46px; height: 11px;"><a href="?q=å¤©æ´¥&w=sheng" title="å¤©æ´¥">å¤©æ´¥</a></div>
+<div style="position:absolute; left:494px; top: 289px; width: 46px; height: 11px;"><a href="?q=ä¸Šæµ·&w=sheng" title="ä¸Šæµ·">ä¸Šæµ·</a></div>
+<div style="position:absolute; left:123px; top: 285px; width: 46px; height: 11px;"><a href="?q=è¥¿è—&w=sheng" title="è¥¿è—">è¥¿è—</a></div>
+<div style="position:absolute; left:113px; top: 158px; width: 46px; height: 11px;"><a href="?q=æ–°ç–†&w=sheng" title="æ–°ç–†">æ–°ç–†</a></div>
+<div style="position:absolute; left:197px; top: 229px; width: 46px; height: 11px;"><a href="?q=é’æµ·&w=sheng" title="é’æµ·">é’æµ·</a></div>
+<div style="position:absolute; left:394px; top: 263px; width: 46px; height: 11px;"><a href="?q=æ²³å—&w=sheng" title="æ²³å—">æ²³å—</a></div>
+<div style="position:absolute; left:400px; top: 204px; width: 46px; height: 11px;"><a href="?q=æ²³åŒ—&w=sheng" title="æ²³åŒ—">æ²³åŒ—</a></div>
+<div style="position:absolute; left:262px; top: 384px; width: 46px; height: 11px;"><a href="?q=äº‘å—&w=sheng" title="äº‘å—">äº‘å—</a></div>
+<div style="position:absolute; left:327px; top: 360px; width: 46px; height: 11px;"><a href="?q=è´µå·ž&w=sheng" title="è´µå·ž">è´µå·ž</a></div>
+<div style="position:absolute; left:378px; top: 221px; width: 46px; height: 11px;"><a href="?q=å±±è¥¿&w=sheng" title="å±±è¥¿">å±±è¥¿</a></div>
+<div style="position:absolute; left:485px; top: 154px; width: 46px; height: 11px;"><a href="?q=è¾½å®&w=sheng" title="è¾½å®">è¾½å®</a></div>
+<div style="position:absolute; left:509px; top: 124px; width: 46px; height: 11px;"><a href="?q=å‰æž—&w=sheng" title="å‰æž—">å‰æž—</a></div>
+<div style="position:absolute; left:320px; top: 224px; width: 46px; height: 11px;"><a href="?q=å®å¤&w=sheng" title="å®å¤">å®å¤</a></div>
+<div style="position:absolute; left:461px; top: 263px; width: 46px; height: 11px;"><a href="?q=æ±Ÿè‹&w=sheng" title="æ±Ÿè‹">æ±Ÿè‹</a></div>
+<div style="position:absolute; left:479px; top: 321px; width: 46px; height: 11px;"><a href="?q=æµ™æ±Ÿ&w=sheng" title="æµ™æ±Ÿ">æµ™æ±Ÿ</a></div>
+<div style="position:absolute; left:445px; top: 294px; width: 46px; height: 11px;"><a href="?q=å®‰å¾½&w=sheng" title="å®‰å¾½">å®‰å¾½</a></div>
+<div style="position:absolute; left:458px; top: 358px; width: 46px; height: 11px;"><a href="?q=ç¦å»º&w=sheng" title="ç¦å»º">ç¦å»º</a></div>
+<div style="position:absolute; left:429px; top: 335px; width: 46px; height: 11px;"><a href="?q=æ±Ÿè¥¿&w=sheng" title="æ±Ÿè¥¿">æ±Ÿè¥¿</a></div>
+<div style="position:absolute; left:344px; top: 270px; width: 46px; height: 11px;"><a href="?q=é™•è¥¿&w=sheng" title="é™•è¥¿">é™•è¥¿</a></div>
+<div style="position:absolute; left:218px; top: 180px; width: 46px; height: 11px;"><a href="?q=ç”˜è‚ƒ&w=sheng" title="ç”˜è‚ƒ">ç”˜è‚ƒ</a></div>
+<div style="position:absolute; left:336px; top: 178px; width: 50px; height: 11px;"><a href="?q=å†…è’™å¤&w=sheng" title="å†…è’™å¤">å†…è’™å¤</a></div>
+<div style="position:absolute; left:355px; top: 398px; width: 46px; height: 11px;"><a href="?q=å¹¿è¥¿&w=sheng" title="å¹¿è¥¿">å¹¿è¥¿</a></div>
+<div style="position:absolute; left:440px; top: 230px; width: 46px; height: 11px;"><a href="?q=å±±ä¸œ&w=sheng" title="å±±ä¸œ">å±±ä¸œ</a></div>
+<div style="position:absolute; left:388px; top: 303px; width: 46px; height: 11px;"><a href="?q=æ¹–åŒ—&w=sheng" title="æ¹–åŒ—">æ¹–åŒ—</a></div>
+<div style="position:absolute; left:383px; top: 348px; width: 46px; height: 11px;"><a href="?q=æ¹–å—&w=sheng" title="æ¹–å—">æ¹–å—</a></div>
+<div style="position:absolute; left:407px; top: 395px; width: 46px; height: 11px;"><a href="?q=å¹¿ä¸œ&w=sheng" title="å¹¿ä¸œ">å¹¿ä¸œ</a></div>
+<div style="position:absolute; left:363px; top: 456px; width: 46px; height: 11px;"><a href="?q=æµ·å—&w=sheng" title="æµ·å—">æµ·å—</a></div>
+<div style="position:absolute; left:509px; top: 76px; width: 46px; height: 11px;"><a href="?q=é»‘é¾™æ±Ÿ&w=sheng" title="é»‘é¾™æ±Ÿ">é»‘é¾™æ±Ÿ</a></div>
+<div style="position:absolute; left:451px; top: 403px; width: 46px; height: 11px;"><a href="?q=é¦™æ¸¯&w=sheng" title="é¦™æ¸¯">é¦™æ¸¯</a></div>
+<div style="position:absolute; left:420px; top: 415px; width: 46px; height: 11px;"><a href="?q=æ¾³é—¨&w=sheng" title="æ¾³é—¨">æ¾³é—¨</a></div>
+<div style="position:absolute; left:498px; top: 386px; width: 46px; height: 11px;"><a href="?q=å°æ¹¾&w=sheng" title="å°æ¹¾">å°æ¹¾</a></div>
+<div style="position:absolute; left: 254px; top: 93px; width: 120px; height: 20px; color:#669933; font-size: 16px;">è¯·ç‚¹å‡»çœä»½åç§°è¿›å…¥æŸ¥è¯¢</div>
 </div>
 </div>
 </td></tr></table>
@@ -195,10 +195,10 @@ if($q!=""){
 </div>
 <div class="box">
   <div id="b_14">
-    <h1>¹¤¾ß¼ò½é</h1>
+    <h1>å·¥å…·ç®€ä»‹</h1>
     <div class="box1">
         <span class="info2">
-      <p style="line-height:150%">±¾ÓÊ±àÇøºÅ²éÑ¯ÏµÍ³ÓµÓÐ<strong>È«¹ú×îÈ«×îÐÂµÄÓÊ±àÇøºÅÊý¾Ý</strong>£¨6Íò¶àÌõ£©£¬¿ÉÒÔ²éÑ¯¾«È·µ½½ÖµÀ´åÕòµÄÓÊ±àÇøºÅ£¬Ö§³ÖÄ£ºý²éÑ¯£¬ÊäÈëÊ¡Ãû¡¢ÊÐÃû¡¢ÏØÃû»ò´åÃû¼´¿É²éµ½Ïà¹ØÓÊ±àÇøºÅ£¬Ò²¿ÉÒÔÓÉÓÊ±à»òÇøºÅ·´²éµØÀíÎ»ÖÃ¡£<br>¡¡¡¡ÎÒ¹ú²ÉÓÃËÄ¼¶ÁùÎ»±àÂëÖÆ£¬Ç°Á½Î»±íÊ¾Ê¡¡¢ÊÐ¡¢×ÔÖÎÇø£¬µÚÈýÎ»´ú±íÓÊÇø£¬µÚËÄÎ»´ú±íÏØ¡¢ÊÐ£¬×îºóÁ½Î»´ú±íÍ¶µÝÓÊ¾Ö£¬×îºóÁ½Î»ÊÇ´ú±í´ÓÕâ¸ö³ÇÊÐÄÄ¸öÍ¶µÝÇøÍ¶µÝµÄ£¬¼´Í¶µÝÇøµÄÎ»ÖÃ¡£<br>¡¡¡¡ÀýÈç£ºÓÊÕþ±àÂë¡°410004¡±£¬¡°41¡±´ú±íºþÄÏÊ¡£¬¡°00¡±´ú±íÊ¡»á³¤É³£¬¡°04¡±´ú±íËùÔÚÍ¶µÝÇø¡£ </p>
+      <p style="line-height:150%">æœ¬é‚®ç¼–åŒºå·æŸ¥è¯¢ç³»ç»Ÿæ‹¥æœ‰<strong>å…¨å›½æœ€å…¨æœ€æ–°çš„é‚®ç¼–åŒºå·æ•°æ®</strong>ï¼ˆ6ä¸‡å¤šæ¡ï¼‰ï¼Œå¯ä»¥æŸ¥è¯¢ç²¾ç¡®åˆ°è¡—é“æ‘é•‡çš„é‚®ç¼–åŒºå·ï¼Œæ”¯æŒæ¨¡ç³ŠæŸ¥è¯¢ï¼Œè¾“å…¥çœåã€å¸‚åã€åŽ¿åæˆ–æ‘åå³å¯æŸ¥åˆ°ç›¸å…³é‚®ç¼–åŒºå·ï¼Œä¹Ÿå¯ä»¥ç”±é‚®ç¼–æˆ–åŒºå·åæŸ¥åœ°ç†ä½ç½®ã€‚<br>ã€€ã€€æˆ‘å›½é‡‡ç”¨å››çº§å…­ä½ç¼–ç åˆ¶ï¼Œå‰ä¸¤ä½è¡¨ç¤ºçœã€å¸‚ã€è‡ªæ²»åŒºï¼Œç¬¬ä¸‰ä½ä»£è¡¨é‚®åŒºï¼Œç¬¬å››ä½ä»£è¡¨åŽ¿ã€å¸‚ï¼Œæœ€åŽä¸¤ä½ä»£è¡¨æŠ•é€’é‚®å±€ï¼Œæœ€åŽä¸¤ä½æ˜¯ä»£è¡¨ä»Žè¿™ä¸ªåŸŽå¸‚å“ªä¸ªæŠ•é€’åŒºæŠ•é€’çš„ï¼Œå³æŠ•é€’åŒºçš„ä½ç½®ã€‚<br>ã€€ã€€ä¾‹å¦‚ï¼šé‚®æ”¿ç¼–ç â€œ410004â€ï¼Œâ€œ41â€ä»£è¡¨æ¹–å—çœï¼Œâ€œ00â€ä»£è¡¨çœä¼šé•¿æ²™ï¼Œâ€œ04â€ä»£è¡¨æ‰€åœ¨æŠ•é€’åŒºã€‚ </p>
         </span>
     </div>
   </div>

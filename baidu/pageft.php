@@ -1,7 +1,7 @@
 <?php
 function page_slice($total,$page,$page_size = '',$url = '',$max_length = ''){
-	//$url   :´«µÝµÄµØÖ·,Ä¬ÈÏÎªµ±Ç°Ò³Ãæ
-	//$max_length:·ÖÒ³´úÂëÊ±ºò,ÖÐ¼äµÄ·ÖÒ³ÊýµÄÒ»°ë
+	//$url   :ä¼ é€’çš„åœ°å€,é»˜è®¤ä¸ºå½“å‰é¡µé¢
+	//$max_length:åˆ†é¡µä»£ç æ—¶å€™,ä¸­é—´çš„åˆ†é¡µæ•°çš„ä¸€åŠ
 	$page = ($page < 1) ? 1 : $page ;
 	$page_size = $page_size ? $page_size : 10;
 	$url = $url ? $url :$_SERVER['PHP_SELF'];
@@ -45,10 +45,10 @@ function page_slice($total,$page,$page_size = '',$url = '',$max_length = ''){
 	}
 	if($total_page!=1){
 		if($page == $total_page){
-			$page_table .= '<td class="current_page">Ä©Ò³</td>';
+			$page_table .= '<td class="current_page">æœ«é¡µ</td>';
 		}
 		else{
-			$page_table .= '<td><a href="'.$url.'&page='.$total_page.'">[Ä©Ò³]</a></td>';
+			$page_table .= '<td><a href="'.$url.'&page='.$total_page.'">[æœ«é¡µ]</a></td>';
 		}
 	}
 	return $page_table;

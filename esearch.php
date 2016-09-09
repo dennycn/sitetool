@@ -7,7 +7,7 @@ define('ROOT_PATH',$__file__ ? dirname($__file__).'/' : './');
 require_once("global.php");
 $domain = $_POST['domain']?$_POST['domain']:$_GET['domain'];
 if($domain){
-    is_domain($domain) or exit( "<script language=javascript>alert('ÇëÊäÈëÕıÈ·µÄÓòÃû£¡');location.href='esearch.php';</script>");
+    is_domain($domain) or exit( "<script language=javascript>alert('è¯·è¾“å…¥æ­£ç¡®çš„åŸŸåï¼');location.href='esearch.php';</script>");
 	$url = 'http://'.trim($domain);
 	$content = @file_get_contents($url);
 	$charset = "/charset=(.*)/";
@@ -52,12 +52,12 @@ if($domain){
 <div class="main">
           <div class="box">
             <div id="c">
-              <h1>ËÑË÷Ö©Öë¡¢»úÆ÷ÈËÄ£Äâ¹¤¾ß</h1>
+              <h1>æœç´¢èœ˜è››ã€æœºå™¨äººæ¨¡æ‹Ÿå·¥å…·</h1>
               <div class="box1" style="text-align:left;"> 
 			  <form action="" method="post">
-                  <span class="info3" > ÇëÊäÈëÒª²éÑ¯µÄÓòÃû£º
+                  <span class="info3" > è¯·è¾“å…¥è¦æŸ¥è¯¢çš„åŸŸåï¼š
                    <font color="green"><b>HTTP://</b></font> <input name="domain" type="text" id="domain" class="input" size="40" url="true" value="<?php echo $domain;?>"/>
-                    <input name="btnS" class="but" type="submit" value="²éÑ¯"  id="sub"/>
+                    <input name="btnS" class="but" type="submit" value="æŸ¥è¯¢"  id="sub"/>
                   </span>
 				  </form>
 				  <divs style="text-align:left"><?php echo $results;?></div>
@@ -75,7 +75,7 @@ if($domain){
     </div>
   </div>  
 <div id="b_14">
-<h1>×î½ü²éÑ¯£º</h1>
+<h1>æœ€è¿‘æŸ¥è¯¢ï¼š</h1>
 <div class="box1">
 <span class="info2"> 
 <table>
@@ -91,10 +91,10 @@ foreach ($urls as $key=>$v){
 </div>
     <div class="box">
       <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
+        <h1>å·¥å…·ç®€ä»‹</h1>
         <div class="box1">
             <span class="info2">
-               <p>Í¨¹ı±¾¹¤¾ß¿ÉÒÔ¿ìËÙÄ£ÄâËÑË÷ÒıÇæÖ©Öë·ÃÎÊÒ³ÃæËù×¥È¡µ½µÄÄÚÈİĞÅÏ¢£¡
+               <p>é€šè¿‡æœ¬å·¥å…·å¯ä»¥å¿«é€Ÿæ¨¡æ‹Ÿæœç´¢å¼•æ“èœ˜è››è®¿é—®é¡µé¢æ‰€æŠ“å–åˆ°çš„å†…å®¹ä¿¡æ¯ï¼
             </p>
             </span>
         </div>

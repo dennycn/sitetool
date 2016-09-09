@@ -16,7 +16,7 @@ $hu = 'ssyqsl';
 	if(($('che').value) != j){
 	  $('che').value = j;
 	}
-	$('seo_result').innerHTML = '&nbsp;<img src="../images/loading.gif" width="94" height="15" align="absmiddle" alt="ÕıÔÚ¼ÓÔØ,ÇëÉÔºò...&#10;Èç¹û³¤Ê±¼äÎ´ÏìÓ¦£¬Çë³¢ÊÔÖØĞÂ²éÑ¯"/> Loading...';
+	$('seo_result').innerHTML = '&nbsp;<img src="../images/loading.gif" width="94" height="15" align="absmiddle" alt="æ­£åœ¨åŠ è½½,è¯·ç¨å€™...&#10;å¦‚æœé•¿æ—¶é—´æœªå“åº”ï¼Œè¯·å°è¯•é‡æ–°æŸ¥è¯¢"/> Loading...';
 	$('seo_result').style.display = '';	
 	makeRequest('domain='+$('domain').value+'&che='+$('che').value);
 }
@@ -35,21 +35,21 @@ $hu = 'ssyqsl';
 <div class="main">
   <div class="box">
     <div id="c">
-      <h1>ËÑË÷ÒıÇæÊÕÂ¼²éÑ¯</h1>
+      <h1>æœç´¢å¼•æ“æ”¶å½•æŸ¥è¯¢</h1>
       <div class="box1" style="text-align:center;">
-          <span class="info3" > ÇëÊäÈëÒª²éÑ¯µÄÓòÃû£º
+          <span class="info3" > è¯·è¾“å…¥è¦æŸ¥è¯¢çš„åŸŸåï¼š
             <font color="green"><b>HTTP://</b></font><input name="domain" type="text" id="domain" class="input" size="40" url="true" value="<?php echo $domain = $_POST['dom']?$_POST['dom']:'chinaccnet.com';?>"/>
             <input type="hidden" value="<?php echo $_POST['choosea'];?>" id="che" name="che">
-            <input name="btnS" class="but" type="button" value="²éÑ¯"  id="sub" onclick="doseo();"/>
-          </span>	            <input id="searchtype1" type="checkbox" name="searchtype" value="1"  <?php if(strpos($_POST['choosea'],'1') !== false) echo "checked";?>/><label for="site1">°Ù¶È</label>
+            <input name="btnS" class="but" type="button" value="æŸ¥è¯¢"  id="sub" onclick="doseo();"/>
+          </span>	            <input id="searchtype1" type="checkbox" name="searchtype" value="1"  <?php if(strpos($_POST['choosea'],'1') !== false) echo "checked";?>/><label for="site1">ç™¾åº¦</label>
         <input id="searchtype2" type="checkbox" name="searchtype" value="2"  <?php if(strpos($_POST['choosea'],'2') !== false) echo "checked";?>/><label for="site2">Google</label>
-        <input id="searchtype3" type="checkbox" name="searchtype" value="3"  <?php if(strpos($_POST['choosea'],'3') !== false) echo "checked";?>/><label for="site4">ÑÅ»¢</label>
-        <input id="searchtype4" type="checkbox" name="searchtype" value="4"  <?php if(strpos($_POST['choosea'],'4') !== false) echo "checked";?>/><label for="site8">ËÑËÑ</label>
-        <input id="searchtype5" type="checkbox" name="searchtype" value="5"  <?php if(strpos($_POST['choosea'],'5') !== false) echo "checked";?>/><label for="site16">ÓĞµÀ</label>
-        <input id="searchtype6" type="checkbox" name="searchtype" value="6"  <?php if(strpos($_POST['choosea'],'6') !== false) echo "checked";?>/><label for="site32">±ØÓ¦</label>
-        <input id="searchtype7" type="checkbox" name="searchtype" value="7"  <?php if(strpos($_POST['choosea'],'7') !== false) echo "checked";?>/><label for="site8192">ËÑ¹·</label>
+        <input id="searchtype3" type="checkbox" name="searchtype" value="3"  <?php if(strpos($_POST['choosea'],'3') !== false) echo "checked";?>/><label for="site4">é›…è™</label>
+        <input id="searchtype4" type="checkbox" name="searchtype" value="4"  <?php if(strpos($_POST['choosea'],'4') !== false) echo "checked";?>/><label for="site8">æœæœ</label>
+        <input id="searchtype5" type="checkbox" name="searchtype" value="5"  <?php if(strpos($_POST['choosea'],'5') !== false) echo "checked";?>/><label for="site16">æœ‰é“</label>
+        <input id="searchtype6" type="checkbox" name="searchtype" value="6"  <?php if(strpos($_POST['choosea'],'6') !== false) echo "checked";?>/><label for="site32">å¿…åº”</label>
+        <input id="searchtype7" type="checkbox" name="searchtype" value="7"  <?php if(strpos($_POST['choosea'],'7') !== false) echo "checked";?>/><label for="site8192">æœç‹—</label>
          <input id="chk" name="chk" type="checkbox" checked="checked" onclick="checkEngines(this.checked);" />
-<label for="chk">È«Ñ¡</label>
+<label for="chk">å…¨é€‰</label>
 <div class="t" style="display:none" id="seo_result">
 </div>
           <div style="width:100%">
@@ -66,7 +66,7 @@ $hu = 'ssyqsl';
     </div>
   </div>  
 <div id="b_14">
-<h1>×î½ü²éÑ¯£º</h1>
+<h1>æœ€è¿‘æŸ¥è¯¢ï¼š</h1>
 <div class="box1">
 <span class="info2"> 
 <table>
@@ -82,10 +82,10 @@ foreach ($urls as $key=>$v){
 </div>
     <div class="box">
       <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
+        <h1>å·¥å…·ç®€ä»‹</h1>
         <div class="box1">
             <span class="info2">
-               <p>Í¨¹ı±¾¹¤¾ß¿ÉÒÔ¿ìËÙ²éÑ¯¸÷´óËÑË÷ÒıÇæ¶ÔÍøÕ¾µÄÊÕÂ¼ÊıÁ¿£¡</p>
+               <p>é€šè¿‡æœ¬å·¥å…·å¯ä»¥å¿«é€ŸæŸ¥è¯¢å„å¤§æœç´¢å¼•æ“å¯¹ç½‘ç«™çš„æ”¶å½•æ•°é‡ï¼</p>
             </span>
         </div>
       </div>

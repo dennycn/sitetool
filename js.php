@@ -5,7 +5,7 @@ $hu = 'js';
 <div class="main">
           <div class="box">
             <div id="c">
-              <h1>JS¼ÓÃÜ/½âÃÜ</h1>
+              <h1>JSåŠ å¯†/è§£å¯†</h1>
               <div class="box1" style="text-align:center;"> 
 <script src="images/globals.js?ver=20100621" type="text/javascript"></script>
 <script type="text/javascript">
@@ -33,12 +33,12 @@ function jsdecode(obj) {
   <div id="b_1">
     <div class="box1" style="text-align:center;">
     <span class="info3" >
-      <textarea id="ipt" style=" border:1px solid #c5e2f2; width:800px; height:350px; overflow:visible;">Çë°ÑÄãĞèÒª¼ÓÃÜµÄÄÚÈİÕ³ÌùÔÚÕâÀï£¡</textarea>
+      <textarea id="ipt" style=" border:1px solid #c5e2f2; width:800px; height:350px; overflow:visible;">è¯·æŠŠä½ éœ€è¦åŠ å¯†çš„å†…å®¹ç²˜è´´åœ¨è¿™é‡Œï¼</textarea>
     </span>
     <div id="detail">
-       <input type="button" class=but onclick="if(this.value=='JS¼ÓÃÜ'){getid('ipt').value='<script>'+jsencode(this)+'</script>';this.value='JS½âÃÜ';}else{jsdecode(this);this.value='JS¼ÓÃÜ';}" value="JS¼ÓÃÜ"/>
+       <input type="button" class=but onclick="if(this.value=='JSåŠ å¯†'){getid('ipt').value='<script>'+jsencode(this)+'</script>';this.value='JSè§£å¯†';}else{jsdecode(this);this.value='JSåŠ å¯†';}" value="JSåŠ å¯†"/>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       <input type="button" class=but onclick="test();" value="²âÊÔ" />
+       <input type="button" class=but onclick="test();" value="æµ‹è¯•" />
     </div>
    </div>
   </div>
@@ -59,10 +59,10 @@ function jsdecode(obj) {
   </div>
     <div class="box">
       <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
+        <h1>å·¥å…·ç®€ä»‹</h1>
         <div class="box1">
             <span class="info2">
-               <p>JS¼ÓÃÜ/½âÃÜ
+               <p>JSåŠ å¯†/è§£å¯†
             </p>
             </span>
         </div>

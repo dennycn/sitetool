@@ -24,37 +24,37 @@ if(substr($domain,0,4) == "www.") {
 if($domain){
 	preg_match("/<div class=\"lyTableInfoWrap\">(.+?)<\/div>/is", @file_get_contents('http://www.xinnet.cn/Modules/agent/serv/pages/domain_whois.jsp?domainNameWhois='.$domain.'&noCode=noCode'), $whois);
 	$result = $whois[0];
-	$result = str_replace("Billing Contact","²ÆÎñÁªÏµ",$result);
-	$result = str_replace("Technical Contact","¼¼ÊõÁªÏµ",$result);
-	$result = str_replace("Administrative Contact","¹ÜÀíÈËÁªÏµ",$result);
-	$result = str_replace("Expiration Date","¹ıÆÚÊ±¼ä",$result);
-	$result = str_replace("Updated Date","¸üĞÂÊ±¼ä",$result);
-	$result = str_replace("Creation Date","´´½¨Ê±¼ä",$result);
-	$result = str_replace("Status","×´Ì¬",$result);
-	$result = str_replace("Name Server","DNS·şÎñÆ÷",$result);
-	$result = str_replace("Referral URL","Ïà¹ØÍøÕ¾",$result);
-	$result = str_replace("Registrar:","×¢²áÉÌ:",$result);
-	$result = str_replace("Whois Server:","ÓòÃû·şÎñÆ÷:",$result);
+	$result = str_replace("Billing Contact","è´¢åŠ¡è”ç³»",$result);
+	$result = str_replace("Technical Contact","æŠ€æœ¯è”ç³»",$result);
+	$result = str_replace("Administrative Contact","ç®¡ç†äººè”ç³»",$result);
+	$result = str_replace("Expiration Date","è¿‡æœŸæ—¶é—´",$result);
+	$result = str_replace("Updated Date","æ›´æ–°æ—¶é—´",$result);
+	$result = str_replace("Creation Date","åˆ›å»ºæ—¶é—´",$result);
+	$result = str_replace("Status","çŠ¶æ€",$result);
+	$result = str_replace("Name Server","DNSæœåŠ¡å™¨",$result);
+	$result = str_replace("Referral URL","ç›¸å…³ç½‘ç«™",$result);
+	$result = str_replace("Registrar:","æ³¨å†Œå•†:",$result);
+	$result = str_replace("Whois Server:","åŸŸåæœåŠ¡å™¨:",$result);
 	$result = str_replace("no data found!"," ",$result);
-	$result = str_replace("-jan","-1ÔÂ",$result);
-	$result = str_replace("-feb","-2ÔÂ",$result);
-	$result = str_replace("-mar","-3ÔÂ",$result);
-	$result = str_replace("-apr","-4ÔÂ",$result);
-	$result = str_replace("-may","-5ÔÂ",$result);
-	$result = str_replace("-jun","-6ÔÂ",$result);
-	$result = str_replace("-jul","-7ÔÂ",$result);
-	$result = str_replace("-aug","-8ÔÂ",$result);
-	$result = str_replace("-sep","-9ÔÂ",$result);
-	$result = str_replace("-oct","-10ÔÂ",$result);
-	$result = str_replace("-nov","-11ÔÂ",$result);
-	$result = str_replace("-dec","-12ÔÂ",$result);
-	$resul2 = "·ÃÎÊ´ËÍøÕ¾£º<a href=http://".$domain.">http://".$domain."</a><br/>".$result;
+	$result = str_replace("-jan","-1æœˆ",$result);
+	$result = str_replace("-feb","-2æœˆ",$result);
+	$result = str_replace("-mar","-3æœˆ",$result);
+	$result = str_replace("-apr","-4æœˆ",$result);
+	$result = str_replace("-may","-5æœˆ",$result);
+	$result = str_replace("-jun","-6æœˆ",$result);
+	$result = str_replace("-jul","-7æœˆ",$result);
+	$result = str_replace("-aug","-8æœˆ",$result);
+	$result = str_replace("-sep","-9æœˆ",$result);
+	$result = str_replace("-oct","-10æœˆ",$result);
+	$result = str_replace("-nov","-11æœˆ",$result);
+	$result = str_replace("-dec","-12æœˆ",$result);
+	$resul2 = "è®¿é—®æ­¤ç½‘ç«™ï¼š<a href=http://".$domain.">http://".$domain."</a><br/>".$result;
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="http://tool.zznet.cn/images/toolsite.css" rel="stylesheet" type="text/css" />
 <script src="http://tool.zznet.cn/images/globals.js" type="text/javascript"></script>
 <script src="http://tool.zznet.cn/images/home.js" type="text/javascript"></script>
@@ -106,7 +106,7 @@ function copyToClipboard(txt) {
           try {   
                netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");   
           } catch (e) {   
-               alert("±»ä¯ÀÀÆ÷¾Ü¾ø£¡\nÇëÔÚä¯ÀÀÆ÷µØÖ·À¸ÊäÈë'about:config'²¢»Ø³µ\nÈ»ºó½«'signed.applets.codebase_principal_support'ÉèÖÃÎª'true'");   
+               alert("è¢«æµè§ˆå™¨æ‹’ç»ï¼\nè¯·åœ¨æµè§ˆå™¨åœ°å€æ è¾“å…¥'about:config'å¹¶å›è½¦\nç„¶åå°†'signed.applets.codebase_principal_support'è®¾ç½®ä¸º'true'");   
           }
           var clip = Components.classes['@mozilla.org/widget/clipboard;1'].createInstance(Components.interfaces.nsIClipboard);   
           if (!clip)
@@ -134,13 +134,13 @@ window.onerror = killErrors;
 
 </script>
 </head>
-<title><?php echo $domain;?>µÄWhoisĞÅÏ¢ - Õ¾³¤²éÑ¯Íø</title>
+<title><?php echo $domain;?>çš„Whoisä¿¡æ¯ - ç«™é•¿æŸ¥è¯¢ç½‘</title>
 <body>
 <div class="main">
   <div class="box">
     <div id="c">
 	<div class="wrap"> 
-<div class="top-nav">	Õ¾³¤²éÑ¯ÍøÎªÕ¾³¤Ìá¹©ÁË±ã½İµÄÕ¾³¤¹¤¾ß,¿É²éÑ¯ÍøÕ¾ÊÕÂ¼¡¢·´ÏòÁ´½Ó¡¢PRÖµ¡¢ÊÀ½çÅÅÃû¡¢ÍøÕ¾ËÙ¶ÈµÈ£¬ÓÖ¿É¼ì²âÓÑÇéÁ´½Ó£¬·şÎñÖĞ¹úÕ¾³¤¡£   
+<div class="top-nav">	ç«™é•¿æŸ¥è¯¢ç½‘ä¸ºç«™é•¿æä¾›äº†ä¾¿æ·çš„ç«™é•¿å·¥å…·,å¯æŸ¥è¯¢ç½‘ç«™æ”¶å½•ã€åå‘é“¾æ¥ã€PRå€¼ã€ä¸–ç•Œæ’åã€ç½‘ç«™é€Ÿåº¦ç­‰ï¼Œåˆå¯æ£€æµ‹å‹æƒ…é“¾æ¥ï¼ŒæœåŠ¡ä¸­å›½ç«™é•¿ã€‚   
  </div>
   <div class="top">
     <div class="topbanner"><script type="text/javascript">
@@ -154,7 +154,7 @@ window.onerror = killErrors;
 <div style="RIGHT: 3px; POSITION: absolute; TOP: 5px">
 <script type="text/javascript"><!--
 google_ad_client = "pub-1900737699768525";
-/* 468x60,²éÑ¯ */
+/* 468x60,æŸ¥è¯¢ */
 google_ad_slot = "3952371415";
 google_ad_width = 468;
 google_ad_height = 60;
@@ -165,75 +165,75 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script> 
 </div>
   </div>
-  <div class="menu"> <a href="http://tool.zznet.cn/" class="select">Õ¾³¤¹¤¾ß</a> 
-   <a onmouseover="mouseover(this, 3)" onmouseout="mouseout()" style="cursor:pointer;">ÍøÕ¾ĞÅÏ¢²éÑ¯</a> 
-   <a onmouseover="mouseover(this, 4)" onmouseout="mouseout()" style="cursor:pointer;">SEOĞÅÏ¢²éÑ¯</a> 
-   <a onmouseover="mouseover(this, 5)" onmouseout="mouseout()" style="cursor:pointer;">ÓòÃû/IPÀà²éÑ¯</a> 
-   <a onmouseover="mouseover(this, 6)" onmouseout="mouseout()" style="cursor:pointer;">´úÂë×ª»»¹¤¾ß</a> 
-   <a onmouseover="mouseover(this, 7)" onmouseout="mouseout()" style="cursor:pointer;">ÆäËû¹¤¾ß</a>
+  <div class="menu"> <a href="http://tool.zznet.cn/" class="select">ç«™é•¿å·¥å…·</a> 
+   <a onmouseover="mouseover(this, 3)" onmouseout="mouseout()" style="cursor:pointer;">ç½‘ç«™ä¿¡æ¯æŸ¥è¯¢</a> 
+   <a onmouseover="mouseover(this, 4)" onmouseout="mouseout()" style="cursor:pointer;">SEOä¿¡æ¯æŸ¥è¯¢</a> 
+   <a onmouseover="mouseover(this, 5)" onmouseout="mouseout()" style="cursor:pointer;">åŸŸå/IPç±»æŸ¥è¯¢</a> 
+   <a onmouseover="mouseover(this, 6)" onmouseout="mouseout()" style="cursor:pointer;">ä»£ç è½¬æ¢å·¥å…·</a> 
+   <a onmouseover="mouseover(this, 7)" onmouseout="mouseout()" style="cursor:pointer;">å…¶ä»–å·¥å…·</a>
 	
   </div>
   <!--sub menu-->
   <div id="menu3" class="menu-list" onmouseover="_mouseover()" onmouseout="_mouseout()">
     <ul>
-    <li><a href="http://tool.zznet.cn/webs/webs.php" >Õ¾ÄÚÁ´½Ó·ÖÎö</a></li>
-    <li><a href="http://tool.zznet.cn/density.php">¹Ø¼ü´ÊÃÜ¶È¼ì²â</a></li>
-    <li><a href="http://tool.zznet.cn/meta.php">METAĞÅÏ¢¼ì²â</a></li>
-    <li><a href="http://tool.zznet.cn/pr/outpr.php">PRÊä³öÖµ²éÑ¯</a></li>
-    <li><a href="http://tool.zznet.cn/yuan.php">²é¿´ÍøÒ³Ô´´úÂë</a></li>
+    <li><a href="http://tool.zznet.cn/webs/webs.php" >ç«™å†…é“¾æ¥åˆ†æ</a></li>
+    <li><a href="http://tool.zznet.cn/density.php">å…³é”®è¯å¯†åº¦æ£€æµ‹</a></li>
+    <li><a href="http://tool.zznet.cn/meta.php">METAä¿¡æ¯æ£€æµ‹</a></li>
+    <li><a href="http://tool.zznet.cn/pr/outpr.php">PRè¾“å‡ºå€¼æŸ¥è¯¢</a></li>
+    <li><a href="http://tool.zznet.cn/yuan.php">æŸ¥çœ‹ç½‘é¡µæºä»£ç </a></li>
     </ul>
   </div>
   <div id="menu4" class="menu-list" onmouseover="_mouseover()" onmouseout="_mouseout()">
     <ul>
-    <li><a href="http://tool.zznet.cn/friends/friends.php">ÓÑÇéÁ´½Ó¼ì²â</a></li>
-    <li><a href="http://tool.zznet.cn/keys/keys.php">¹Ø¼ü´ÊÅÅÃû²éÑ¯</a></li>
-    <li><a href="http://tool.zznet.cn/baidu/baidu.php">°Ù¶È½üÈÕÊÕÂ¼</a></li>
-    <li><a href="http://tool.zznet.cn/google/google.php">GoogleÊÕÂ¼</a></li>
-    <li><a href="http://tool.zznet.cn/ssyqsl/ssyqsl.php">ÍøÕ¾ÊÕÂ¼²éÑ¯</a></li>
-    <li><a href="http://tool.zznet.cn/ssyqfl/ssyqfl.php">·´ÏòÁ´½Ó²éÑ¯</a></li>
-    <li><a href="http://tool.zznet.cn/pr/pr.php">PR²éÑ¯</a></li>
-    <li><a href="http://tool.zznet.cn/esearch.php">»úÆ÷ÈËÄ£Äâ</a></li>
+    <li><a href="http://tool.zznet.cn/friends/friends.php">å‹æƒ…é“¾æ¥æ£€æµ‹</a></li>
+    <li><a href="http://tool.zznet.cn/keys/keys.php">å…³é”®è¯æ’åæŸ¥è¯¢</a></li>
+    <li><a href="http://tool.zznet.cn/baidu/baidu.php">ç™¾åº¦è¿‘æ—¥æ”¶å½•</a></li>
+    <li><a href="http://tool.zznet.cn/google/google.php">Googleæ”¶å½•</a></li>
+    <li><a href="http://tool.zznet.cn/ssyqsl/ssyqsl.php">ç½‘ç«™æ”¶å½•æŸ¥è¯¢</a></li>
+    <li><a href="http://tool.zznet.cn/ssyqfl/ssyqfl.php">åå‘é“¾æ¥æŸ¥è¯¢</a></li>
+    <li><a href="http://tool.zznet.cn/pr/pr.php">PRæŸ¥è¯¢</a></li>
+    <li><a href="http://tool.zznet.cn/esearch.php">æœºå™¨äººæ¨¡æ‹Ÿ</a></li>
     </ul>
   </div>
   <div id="menu5" class="menu-list" onmouseover="_mouseover()" onmouseout="_mouseout()">
     <ul>
-    <li><a href="http://tool.zznet.cn/dels/dels.php">ÓòÃûÉ¾³ıÊ±¼ä</a></li>
-    <li><a href="http://tool.zznet.cn/ip/">IP²éÑ¯</a></li>
-    <li><a href="http://tool.zznet.cn/whois/">WHOIS²éÑ¯</a></li>
-    <li><a href="http://tool.zznet.cn/friendlink/friendlink.php">ÓÑÇéÁ´½ÓIP²éÑ¯</a></li>
+    <li><a href="http://tool.zznet.cn/dels/dels.php">åŸŸååˆ é™¤æ—¶é—´</a></li>
+    <li><a href="http://tool.zznet.cn/ip/">IPæŸ¥è¯¢</a></li>
+    <li><a href="http://tool.zznet.cn/whois/">WHOISæŸ¥è¯¢</a></li>
+    <li><a href="http://tool.zznet.cn/friendlink/friendlink.php">å‹æƒ…é“¾æ¥IPæŸ¥è¯¢</a></li>
     </ul>
    </div>
    <div id="menu6" class="menu-list" onmouseover="_mouseover()" onmouseout="_mouseout()">
      <ul>
-      <li><a href="http://tool.zznet.cn/mds.php?mds=md5">MD5¼ÓÃÜ</a></li>
-      <li><a href="http://tool.zznet.cn/js.php">JS¼ÓÃÜ/½âÃÜ</a></li>
-      <li><a href="http://tool.zznet.cn/htmljs.php">HTML/JS»¥×ª</a></li>
-      <li><a href="http://tool.zznet.cn/unicode.php">Unicode×ª»»</a></li>
-      <li><a href="http://tool.zznet.cn/utf.php">Utf-8±àÂë×ª»»</a></li>
-      <li><a href="http://tool.zznet.cn/htmlubb.php">HTML/UBB»¥×ª</a></li>
-      <li><a href="http://tool.zznet.cn/unix.php">UnixÊ±¼ä´Á×ª»»</a></li>
+      <li><a href="http://tool.zznet.cn/mds.php?mds=md5">MD5åŠ å¯†</a></li>
+      <li><a href="http://tool.zznet.cn/js.php">JSåŠ å¯†/è§£å¯†</a></li>
+      <li><a href="http://tool.zznet.cn/htmljs.php">HTML/JSäº’è½¬</a></li>
+      <li><a href="http://tool.zznet.cn/unicode.php">Unicodeè½¬æ¢</a></li>
+      <li><a href="http://tool.zznet.cn/utf.php">Utf-8ç¼–ç è½¬æ¢</a></li>
+      <li><a href="http://tool.zznet.cn/htmlubb.php">HTML/UBBäº’è½¬</a></li>
+      <li><a href="http://tool.zznet.cn/unix.php">Unixæ—¶é—´æˆ³è½¬æ¢</a></li>
      </ul>
    </div>
     <div id="menu7" class="menu-list" onmouseover="_mouseover()" onmouseout="_mouseout()">
      <ul>
-      <li><a href="http://tool.zznet.cn/ids.php">Éí·İÖ¤ºÅÂë²éÑ¯</a></li>
-      <li><a href="http://tool.zznet.cn/shouji/index.php">ÊÖ»úºÅÂë¹éÊôµØ</a></li>
-      <li><a href="http://tool.zznet.cn/yb/yb.php">ÓÊ±àÇøºÅ²éÑ¯</a></li>
-      <li><a href="http://tool.zznet.cn/countryym.php">¹ú¼ÒÓòÃû²éÕÒ</a></li>
+      <li><a href="http://tool.zznet.cn/ids.php">èº«ä»½è¯å·ç æŸ¥è¯¢</a></li>
+      <li><a href="http://tool.zznet.cn/shouji/index.php">æ‰‹æœºå·ç å½’å±åœ°</a></li>
+      <li><a href="http://tool.zznet.cn/yb/yb.php">é‚®ç¼–åŒºå·æŸ¥è¯¢</a></li>
+      <li><a href="http://tool.zznet.cn/countryym.php">å›½å®¶åŸŸåæŸ¥æ‰¾</a></li>
      </ul>
    </div>
-      <h1><a href="http://whois.chinaccnet.com">ÓòÃûWhois²éÑ¯¹¤¾ß</a></h1>
+      <h1><a href="http://whois.chinaccnet.com">åŸŸåWhoisæŸ¥è¯¢å·¥å…·</a></h1>
       <div class="box1" style="text-align:center;"> 
       <form action="" method="POST">
-          <span class="info3" > ÇëÊäÈëÒª²éÑ¯µÄÓòÃû£º
+          <span class="info3" > è¯·è¾“å…¥è¦æŸ¥è¯¢çš„åŸŸåï¼š
             <font color="green"><b>HTTP://</b></font><input name="domain" type="text" id="domain" class="input" size="40" url="true" value="<?php echo $domain?>" onkeydown="if(event.keyCode==13)startRequest();"/>
-            <input name="btnS" class="but" type="submit" value="²éÑ¯"  id="sub"/>
+            <input name="btnS" class="but" type="submit" value="æŸ¥è¯¢"  id="sub"/>
           </span></form>
            <div id="more" class="div_whois">
-               Ïà¹Ø²éÑ¯:
-<a href="/tool/dels/dels.php?domain=qq.com">ÓòÃûÉ¾³ıÊ±¼ä</a>
-<a href="/tool/ip/?domain=qq.com">IP²éÑ¯</a>
-<a href="/tool/whois/?domain=qq.com">WHOIS²éÑ¯</a>
+               ç›¸å…³æŸ¥è¯¢:
+<a href="/tool/dels/dels.php?domain=qq.com">åŸŸååˆ é™¤æ—¶é—´</a>
+<a href="/tool/ip/?domain=qq.com">IPæŸ¥è¯¢</a>
+<a href="/tool/whois/?domain=qq.com">WHOISæŸ¥è¯¢</a>
             </div>
           <div style="width:100%">
               <div id="detail" class="info1">
@@ -248,7 +248,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
     </div>
   </div>
 <div id="b_14">
-<h1>×î½ü²éÑ¯£º</h1>
+<h1>æœ€è¿‘æŸ¥è¯¢ï¼š</h1>
 <div class="box1">
 <span class="info2"> 
 <table>
@@ -264,26 +264,26 @@ foreach ($urls as $key=>$v){
 </div>
     <div class="box">
       <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
+        <h1>å·¥å…·ç®€ä»‹</h1>
         <div class="box1">
             <span class="info2">
-               <p>Whois ¼òµ¥À´Ëµ£¬¾ÍÊÇÒ»¸öÓÃÀ´²éÑ¯ÓòÃûÊÇ·ñÒÑ¾­±»×¢²á£¬ÒÔ¼°×¢²áÓòÃûµÄÏêÏ¸ĞÅÏ¢µÄÊı¾İ¿â£¨ÈçÓòÃûËùÓĞÈË¡¢ÓòÃû×¢²áÉÌ¡¢ÓòÃû×¢²áÈÕÆÚºÍ¹ıÆÚÈÕÆÚµÈ£©¡£Í¨¹ıÓòÃûWhois²éÑ¯£¬¿ÉÒÔ²éÑ¯ÓòÃû¹éÊôÕßÁªÏµ·½Ê½£¬ÒÔ¼°×¢²áºÍµ½ÆÚÊ±¼ä,¿ÉÒÔÓÃ <b style="color:Red;">whois.chinaccnet.com</b> ·ÃÎÊ£¡</p>
+               <p>Whois ç®€å•æ¥è¯´ï¼Œå°±æ˜¯ä¸€ä¸ªç”¨æ¥æŸ¥è¯¢åŸŸåæ˜¯å¦å·²ç»è¢«æ³¨å†Œï¼Œä»¥åŠæ³¨å†ŒåŸŸåçš„è¯¦ç»†ä¿¡æ¯çš„æ•°æ®åº“ï¼ˆå¦‚åŸŸåæ‰€æœ‰äººã€åŸŸåæ³¨å†Œå•†ã€åŸŸåæ³¨å†Œæ—¥æœŸå’Œè¿‡æœŸæ—¥æœŸç­‰ï¼‰ã€‚é€šè¿‡åŸŸåWhoisæŸ¥è¯¢ï¼Œå¯ä»¥æŸ¥è¯¢åŸŸåå½’å±è€…è”ç³»æ–¹å¼ï¼Œä»¥åŠæ³¨å†Œå’Œåˆ°æœŸæ—¶é—´,å¯ä»¥ç”¨ <b style="color:Red;">whois.chinaccnet.com</b> è®¿é—®ï¼</p>
             
-            <p><b>¹ØÓÚÓòÃûµ½ÆÚÉ¾³ı¹æÔòÊµÊ©µÄ½âÊÍ£º</b></p>
-            <p>¹ú¼ÊÓòÃû£º</p>
-            <p>(1) µ½ÆÚµ±ÌìÔİÍ£½âÎö£¬Èç¹ûÔÚ72Ğ¡Ê±Î´Ğø·Ñ£¬ÔòĞŞ¸ÄÓòÃûDNSÖ¸Ïò¹ã¸æÒ³Ãæ£¨Í£·Å£©¡£38ÌìÄÚ£¬¿ÉÒÔ×Ô¶¯Ğø·Ñ¡£Ğø·Ñºó£¬ÏµÍ³×Ô¶¯
-»Ö¸´Ô­À´µÄDNS£¬Ë¢ĞÂÊ±¼ä´ó¸ÅÊÇ24£­48Ğ¡Ê±¡£</p>
-            <p>&nbsp;(2) 39-70Ìì£¬ÓòÃû´¦ÓÚÊê»ØÆÚ£¨Redemption£©£¬´ËÆÚ¼äÓòÃûÎŞ·¨¹ÜÀí£¬ĞèÊÖ¹¤Êê»Ø£¡
+            <p><b>å…³äºåŸŸååˆ°æœŸåˆ é™¤è§„åˆ™å®æ–½çš„è§£é‡Šï¼š</b></p>
+            <p>å›½é™…åŸŸåï¼š</p>
+            <p>(1) åˆ°æœŸå½“å¤©æš‚åœè§£æï¼Œå¦‚æœåœ¨72å°æ—¶æœªç»­è´¹ï¼Œåˆ™ä¿®æ”¹åŸŸåDNSæŒ‡å‘å¹¿å‘Šé¡µé¢ï¼ˆåœæ”¾ï¼‰ã€‚38å¤©å†…ï¼Œå¯ä»¥è‡ªåŠ¨ç»­è´¹ã€‚ç»­è´¹åï¼Œç³»ç»Ÿè‡ªåŠ¨
+æ¢å¤åŸæ¥çš„DNSï¼Œåˆ·æ–°æ—¶é—´å¤§æ¦‚æ˜¯24ï¼48å°æ—¶ã€‚</p>
+            <p>&nbsp;(2) 39-70å¤©ï¼ŒåŸŸåå¤„äºèµå›æœŸï¼ˆRedemptionï¼‰ï¼Œæ­¤æœŸé—´åŸŸåæ— æ³•ç®¡ç†ï¼Œéœ€æ‰‹å·¥èµå›ï¼
             </p>
-            <p>(3) 75Ìì£¬ÓòÃû±»³¹µ×É¾³ı£¬¿ÉÒÔÖØĞÂ×¢²á¡£</p>
-            <p>¹úÄÚÓòÃû£º</p>
-            <p>(1) µ½ÆÚµ±ÌìÔİÍ£½âÎö£¬Èç¹ûÔÚ72Ğ¡Ê±Î´Ğø·Ñ£¬ÔòĞŞ¸ÄÓòÃûDNSÖ¸Ïò
-      ¹ã¸æÒ³Ãæ£¨Í£·Å£©¡£35ÌìÄÚ£¬¿ÉÒÔ×Ô¶¯Ğø·Ñ¡£
+            <p>(3) 75å¤©ï¼ŒåŸŸåè¢«å½»åº•åˆ é™¤ï¼Œå¯ä»¥é‡æ–°æ³¨å†Œã€‚</p>
+            <p>å›½å†…åŸŸåï¼š</p>
+            <p>(1) åˆ°æœŸå½“å¤©æš‚åœè§£æï¼Œå¦‚æœåœ¨72å°æ—¶æœªç»­è´¹ï¼Œåˆ™ä¿®æ”¹åŸŸåDNSæŒ‡å‘
+      å¹¿å‘Šé¡µé¢ï¼ˆåœæ”¾ï¼‰ã€‚35å¤©å†…ï¼Œå¯ä»¥è‡ªåŠ¨ç»­è´¹ã€‚
             </p>
-            <p>(2) ¹ıÆÚºó36£­48Ìì£¬½«½øÈë13ÌìµÄ¸ß¼ÛÊê»ØÆÚ£¬´ËÆÚ¼äÓòÃûÎŞ·¨¹Ü
-     Àí¡£Êê»Ø¼Û¸ñ£¨ÖĞÎÄ1500Ôª/¸ö£¬Ó¢ÎÄ500Ôª/¸ö£©
+            <p>(2) è¿‡æœŸå36ï¼48å¤©ï¼Œå°†è¿›å…¥13å¤©çš„é«˜ä»·èµå›æœŸï¼Œæ­¤æœŸé—´åŸŸåæ— æ³•ç®¡
+     ç†ã€‚èµå›ä»·æ ¼ï¼ˆä¸­æ–‡1500å…ƒ/ä¸ªï¼Œè‹±æ–‡500å…ƒ/ä¸ªï¼‰
             </p>
-            <p>(3) ¹ıÆÚºó48ÌìºóÈÔÎ´Ğø·ÑµÄ£¬ÓòÃû½«ËæÊ±±»É¾³ı¡£ 
+            <p>(3) è¿‡æœŸå48å¤©åä»æœªç»­è´¹çš„ï¼ŒåŸŸåå°†éšæ—¶è¢«åˆ é™¤ã€‚ 
             </p>
             </span>
         </div>

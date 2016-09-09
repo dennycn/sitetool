@@ -28,6 +28,6 @@ function get_seo_info($domain,$selects,$pn){
 	   preg_match_all('/[\d]+/',$art[0],$www);	  
 	   $con3 = page_slice((max($www[0])+20),($pn/10+1),10,'baidu.php?domain='.$domain);
 	}
-	return $con3.'<table><tr><td>°Ù¶È×ÜÊÕÂ¼: <a href="'.$ROBOT['site_url'].$domain.'" target="_blank">'.$site_info.'</a>¸öÒ³Ãæ¾ßÌåÒ³ÃæÈçÏÂ£º<br/><hr/></td></tr><tr><td>'.$con.'</td></tr></table>'.$con3;
+	return $con3.'<table><tr><td>ç™¾åº¦æ€»æ”¶å½•: <a href="'.$ROBOT['site_url'].$domain.'" target="_blank">'.$site_info.'</a>ä¸ªé¡µé¢å…·ä½“é¡µé¢å¦‚ä¸‹ï¼š<br/><hr/></td></tr><tr><td>'.$con.'</td></tr></table>'.$con3;
 }
 ?>

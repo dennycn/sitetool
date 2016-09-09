@@ -2,116 +2,123 @@
 set_time_limit(0);
 
 $hu   = 'meng';
+header("Content-Type:text/html;charset=UTF-8");
 @require_once('../header.php');
 
-$prescription = trim($_GET['q']);
+$query = trim($_GET['q']);
 $id = intval($_GET['id']);
 
-$r_num = 0; //½á¹û¸öÊı
+$r_num = 0; //ç»“æœä¸ªæ•°
 $lan = 3;
 $pf = "";
 $pf_l = "";
 
-if($prescription!=""){
-	$dreamdb=file("data/jm.dat");//¶ÁÈ¡½âÃÎÎÄ¼ş
-	$count=count($dreamdb);//¼ÆËãĞĞÊı
-
-	for($i=0; $i<$count; $i++) {
-		$keyword=explode(" ",$prescription);//²ğ·Ö¹Ø¼ü×Ö
-		$dreamcount=count($keyword);//¹Ø¼ü×Ö¸öÊı
-		for ($ai=0; $ai<$dreamcount; $ai++) {
-			@eval("\$found = eregi(\"$keyword[$ai]\",\"$dreamdb[$i]\");");
-			if(($found)){
-				$detail=explode("\t",$dreamdb[$i]);
-				if(fmod($r_num,$lan)==0) $pf_l .= "<tr>";
-		$pf_l .= '<td width="'.(100/$lan).'%"> <img src="../images/jiantou.gif" />[<a href="./?q='.urlencode($detail[0]).'"class="lan">'.$detail[0].'</a>';
+if($query!="") {
+    $dreamdb=file("data/jm.dat");//è¯»å–è§£æ¢¦æ–‡ä»¶
+    $count=count($dreamdb);//è®¡ç®—è¡Œæ•°
+    for($i=0; $i<$count; $i++) {
+        $keyword=explode(" ", $query);//æ‹†åˆ†å…³é”®å­—
+        $dreamcount=count($keyword);//å…³é”®å­—ä¸ªæ•°
+        for ($ai=0; $ai<$dreamcount; $ai++) {
+            @eval("\$found = eregi(\"$keyword[$ai]\", \"$dreamdb[$i]\");");
+            //print('19-'.$found.$query.$keyword[0]);
+            if(($found)) {
+                $detail=explode("\t", $dreamdb[$i]);
+                if(fmod($r_num,$lan)==0) $pf_l .= "<tr>";
+                $pf_l .= '<td width="'.(100/$lan).'%"> <img src="../images/jiantou.gif" />[<a href="./?q='.urlencode($detail[0]).'"class="lan">'.$detail[0].'</a>';
                 $pf_l .= ']<a href="?id='.($i+1).'">'.$detail[1].'</a>';
-		                if(trim($detail[2],"\r\n")!="") $pf_l .= '</a></td>';
-				if(fmod($r_num,$lan)+1==$lan) $pf_l .= "</tr>";
-				$r_num++;
-				break;
-			}
-		}
-	}
-	$pf_l = '<table width="700" cellpadding="2" cellspacing="0" class="mob_ace" style="border:1px solid #A4C4DC;"><tr><td style="background:url(/img/kuang5.gif);padding:0 5px;color:#014198;" height="26" valign="middle" colspan="5"><b><a href="./">ÖÜ¹«½âÃÎ</a>£ºÕÒµ½ <a href="./?q='.urlencode($prescription).'"><font color="#c60a00">'.$prescription.'</font></a> µÄÏà¹Ø½âÃÎ'.$r_num.'¸ö</b></td></tr><tr><td><table cellpadding="5" cellspacing="10" width="100%">'.$pf_l.'</table></td></tr></table>';
-}elseif($id>0){
-	$dreamdb=file("data/jm.dat");//¶ÁÈ¡½âÃÎÎÄ¼ş
-	$count=count($dreamdb);//¼ÆËãĞĞÊı
+                if(trim($detail[2],"\r\n")!="") $pf_l .= '</a></td>';
+                if(fmod($r_num,$lan)+1==$lan) $pf_l .= "</tr>";
+                $r_num++;
+                break;
+            }
+        }
+    }
+    $pf_l = '<table width="700" cellpadding="2" cellspacing="0" class="mob_ace" style="border:1px solid #A4C4DC;"><tr><td style="background:url(/img/kuang5.gif);padding:0 5px;color:#014198;" height="26" valign="middle" colspan="5"><b><a href="./">å‘¨å…¬è§£æ¢¦</a>ï¼šæ‰¾åˆ° <a href="./?q='.urlencode($query).'"><font color="#c60a00">'.$query.'</font></a> çš„ç›¸å…³è§£æ¢¦'.$r_num.'ä¸ª</b></td></tr><tr><td><table cellpadding="5" cellspacing="10" width="100%">'.$pf_l.'</table></td></tr></table>';
+}
+elseif($id>0) {
+    $dreamdb=file("data/jm.dat");//è¯»å–è§£æ¢¦æ–‡ä»¶
+    $count=count($dreamdb);//è®¡ç®—è¡Œæ•°
 
-	$detail=explode("\t",$dreamdb[$id-1]);
-	$pf = '<table width="700" cellpadding=2 cellspacing=0 class="mob_ace" style="border:1px solid #A4C4DC;"><tr><td style="background:url(/img/kuang5.gif);padding:0 5px;color:#014198;" height="26" valign="middle"><b><a href="./">ÖÜ¹«½âÃÎ</a> / <a href="./?q='.urlencode($detail[0]).'">'.$detail[0].'</a> / '.$detail[1].'</b></td><td style="background:url(/img/kuang5.gif);padding:0 5px;color:#014198;" align="right">';
-	if($id>1 && $id<=$count) $pf .= '<a href="?id='.($id-1).'">ÉÏÒ»¸ö</a> ';
-	$pf .= '<a href="./">²é¿´È«²¿</a>';
-	if($id>=1 && $id<$count) $pf .= ' <a href="?id='.($id+1).'">ÏÂÒ»¸ö</a>';
-	$pf .= '</td></tr><tr><td align="center" colspan="2"><h3>'.$detail[1].'</h3></td></tr><tr><td style="padding:5px;line-height:21px;" colspan="2"><p>'.$detail[2].'</p></td></tr></table>';
-}else{
-	$dreamdb=file("data/jm.dat");//¶ÁÈ¡½âÃÎÎÄ¼ş
-	$count=count($dreamdb);//¼ÆËãĞĞÊı
+    $detail=explode("\t", $dreamdb[$id-1]);
+    $pf = '<table width="700" cellpadding=2 cellspacing=0 class="mob_ace" style="border:1px solid #A4C4DC;"><tr><td style="background:url(/img/kuang5.gif);padding:0 5px;color:#014198;" height="26" valign="middle"><b><a href="./">å‘¨å…¬è§£æ¢¦</a> / <a href="./?q='.urlencode($detail[0]).'">'.$detail[0].'</a> / '.$detail[1].'</b></td><td style="background:url(/img/kuang5.gif);padding:0 5px;color:#014198;" align="right">';
+    if($id>1 && $id<=$count) $pf .= '<a href="?id='.($id-1).'">ä¸Šä¸€ä¸ª</a> ';
+    $pf .= '<a href="./">æŸ¥çœ‹å…¨éƒ¨</a>';
+    if($id>=1 && $id<$count) $pf .= ' <a href="?id='.($id+1).'">ä¸‹ä¸€ä¸ª</a>';
+    $pf .= '</td></tr><tr><td align="center" colspan="2"><h3>'.$detail[1].'</h3></td></tr><tr><td style="padding:5px;line-height:21px;" colspan="2"><p>'.$detail[2].'</p></td></tr></table>';
+}
+else {
+    $dreamdb=file("data/jm.dat");//è¯»å–è§£æ¢¦æ–‡ä»¶
+    $count=count($dreamdb);//è®¡ç®—è¡Œæ•°
 
-	$pfl = rand(0,intval($count/60));
+    $pfl = rand(0,intval($count/60));
 
-	for($i=$pfl*60; $i<$pfl*60+60; $i++) {
-		if($i>=$count-1) break;
-		$detail=explode("\t",$dreamdb[$i]);
-		if(fmod($r_num,$lan)==0) $pf_l .= "<tr>";
-		$pf_l .= '<td width="'.(100/$lan).'%"> <img src="../images/jiantou.gif" />[<a href="./?q='.urlencode($detail[0]).'"class="lan">'.$detail[0].'</a>';
-                $pf_l .= ']<a href="?id='.($i+1).'">'.$detail[1].'</a>';
-		if(trim($detail[2],"\r\n")!="") $pf_l .= '</a></td>';
-		if(fmod($r_num,$lan)+1==$lan) $pf_l .= "</tr>";
-		$r_num++;
-	}
-	$pf_l = '<table width="700" cellpadding="2" cellspacing="0" class="mob_ace" style="border:1px solid #A4C4DC;"><tr><td style="background:url(/img/kuang5.gif);padding:0 5px;color:#014198;" height="26" valign="middle" colspan="5"><b>ÍÆ¼öÖÜ¹«½âÃÎ'.$r_num.'¸ö</b></td></tr><tr><td><table cellpadding="5" cellspacing="10" width="100%">'.$pf_l.'</table></td></tr></table>';
+    for($i=$pfl*60; $i<$pfl*60+60; $i++) {
+        if($i>=$count-1) break;
+        $detail=explode("\t", $dreamdb[$i]);
+        if(fmod($r_num,$lan)==0) $pf_l .= "<tr>";
+        $pf_l .= '<td width="'.(100/$lan).'%"> <img src="../images/jiantou.gif" />[<a href="./?q='.urlencode($detail[0]).'"class="lan">'.$detail[0].'</a>';
+        $pf_l .= ']<a href="?id='.($i+1).'">'.$detail[1].'</a>';
+        if(trim($detail[2],"\r\n")!="") $pf_l .= '</a></td>';
+        if(fmod($r_num,$lan)+1==$lan) $pf_l .= "</tr>";
+        $r_num++;
+    }
+    $pf_l = '<table width="700" cellpadding="2" cellspacing="0" class="mob_ace" style="border:1px solid #A4C4DC;"><tr><td style="background:url(/img/kuang5.gif);padding:0 5px;color:#014198;" height="26" valign="middle" colspan="5"><b>æ¨èå‘¨å…¬è§£æ¢¦'.$r_num.'ä¸ª</b></td></tr><tr><td><table cellpadding="5" cellspacing="10" width="100%">'.$pf_l.'</table></td></tr></table>';
 }
 ?>
 
 <div class="main">
-  <div class="box">
-    <div id="c">
-      <h1>ÖÜ¹«½âÃÎ´óÈ«</h1>
-      <div class="box1" style="text-align:center;"> 
-	  <form action="" method="post">
+               <div class="box">
+                              <div id="c">
+                                      <h1>å‘¨å…¬è§£æ¢¦å¤§å…¨</h1>
+                                      <div class="box1" style="text-align:center;">
+                                                  <form action="" method="post">
 
-<table width="700" cellpadding="2" cellspacing="0" style="border:1px solid #A4C4DC;" id="top"><tr><td align="center" valign="middle" height="60"><form action="./" method="get" name="f1"><b>ËÑË÷½âÃÎ£º<b><input name="q" id="q" type="text" size="18" delay="0" value="" style="width:200px;height:22px;font-size:16px;font-family: Geneva, Arial, Helvetica, sans-serif;" /> <input type="submit" class="mob_copy1" value=" ËÑË÷ " /></td></tr><tr><td align="center" height="30" style="font-size:14px;">½âÃÎ·ÖÀà£º<a href="./?q=%C9%FA%BB%EE%C6%AA">Éú»î</a> <a href="./?q=%CC%EC%CF%F3%C6%AA">ÌìÏó</a> <a href="./?q=%C9%BD%B5%D8%C6%AA">É½µØ</a> <a href="./?q=%C6%F7%CE%EF%C6%AA">Æ÷Îï</a> <a href="./?q=%BD%A8%D6%FE%C6%AA">½¨Öş</a> <a href="./?q=%CE%C4%BB%AF%C6%AA">ÎÄ»¯</a> <a href="./?q=%D6%B2%CE%EF%C6%AA">Ö²Îï</a> <a href="./?q=%B6%AF%CE%EF%C6%AA">¶¯Îï</a> <a href="./?q=%C9%F1%B9%ED%C6%AA">Éñ¹í</a> <a href="./?q=%C8%CB%C9%ED%C6%AA">ÈËÉí</a> <a href="./?q=%C7%E9%B0%AE%C6%AA">Çé°®</a> <a href="./?q=%C6%E4%CB%FC%C6%AA">ÆäËû</a></td></tr></table>
+<table width="700" cellpadding="2" cellspacing="0" style="border:1px solid #A4C4DC;" id="top"><tr><td align="center" valign="middle" height="60"><form action="./" method="get" name="f1"><b>æœç´¢è§£æ¢¦ï¼š<b><input name="q" id="q" type="text" size="18" delay="0" value="" style="width:200px;height:22px;font-size:16px;font-family: Geneva, Arial, Helvetica, sans-serif;" /> <input type="submit" class="mob_copy1" value=" æœç´¢ " /></td></tr><tr><td align="center" height="30" style="font-size:14px;">è§£æ¢¦åˆ†ç±»ï¼š<a href="./?q=ç”Ÿæ´»">ç”Ÿæ´»</a> <a href="./?q=å¤©è±¡">å¤©è±¡</a> <a href="./?q=å±±åœ°">å±±åœ°</a> <a href="./?q=å™¨ç‰©">å™¨ç‰©</a> <a href="./?q=å»ºç­‘">å»ºç­‘</a> <a href="./?q=æ–‡åŒ–">æ–‡åŒ–</a> <a href="./?q=æ¤ç‰©">æ¤ç‰©</a> <a href="./?q=åŠ¨ç‰©">åŠ¨ç‰©</a> <a href="./?q=ç¥é¬¼">ç¥é¬¼</a> <a href="./?q=äººèº«">äººèº«</a> <a href="./?q=æƒ…çˆ±">æƒ…çˆ±</a> <a href="./?q=å…¶ä»–">å…¶ä»–</a></td></tr></table>
 
-<?
-if($prescription!=""){
-	//echo $pf_l.$pf;
-	echo $pf_l;
-}elseif($id>0 && $id<=$count){
-	echo $pf;
-}else{
-	echo '<table width="700" cellpadding="2" cellspacing="0" class="mob_ace" style="border:1px solid #A4C4DC;"><tr><td style="background:url(/img/kuang5.gif);padding:0 5px;color:#014198;" height="26" valign="middle" colspan="5"><b>ÖÜ¹«½âÃÎ´óÈ«</b></td></tr><tr><td><p style="line-height:150%">¡¡¡¡¡¶ÖÜ¹«½âÃÎ´óÈ«²éÑ¯¡·ÊÕÂ¼¹úÄÚ×î¶àµÄÃÎ¾³ÆÆ½â£¬ÊÇ¹úÄÚ×î´óµÄÖÜ¹«½âÃÎÏµÍ³£¬ÒÔÔ­°æÖÜ¹«½âÃÎÎª»ù´¡ÑİÒïÀ©³ä£¬½áºÏÖÜÒ×Õ¼²·Ô­Àí£¬ÎªÄú½â¿ªÄúÃÎ¾³ÖĞµÄÃØÃÜ¡£<br />¡¡¡¡¡¶ÖÜ¹«½âÃÎ¡·ÊÇ¹Å´úÒ»²¿¹ØÓÚÃÎµÄ½âÎöÓëÕ¼²·µÄÊé£¬Ïà´«ÎªÖÜ¹«Ëù×÷£¬Æä½âÃÎÏµ°´¡¶ÖÜÒ×¡·È¡ÏóÍÆÑİ¶øÀ´¡£</p></td></tr></table>
-<br>';
-	echo $pf_l;
+<?php
+if($query!="") {
+//echo $pf_l.$pf;
+echo $pf_l;
+}
+elseif($id>0 && $id<=$count) {
+    echo $pf;
+}
+else {
+    echo '<table width="700" cellpadding="2" cellspacing="0" class="mob_ace" style="border:1px solid #A4C4DC;"><tr><td style="background:url(/img/kuang5.gif);padding:0 5px;color:#014198;" height="26" valign="middle" colspan="5"><b>å‘¨å…¬è§£æ¢¦å¤§å…¨</b></td></tr><tr><td><p style="line-height:150%">ã€€ã€€ã€Šå‘¨å…¬è§£æ¢¦å¤§å…¨æŸ¥è¯¢ã€‹æ”¶å½•å›½å†…æœ€å¤šçš„æ¢¦å¢ƒç ´è§£ï¼Œæ˜¯å›½å†…æœ€å¤§çš„å‘¨å…¬è§£æ¢¦ç³»ç»Ÿï¼Œä»¥åŸç‰ˆå‘¨å…¬è§£æ¢¦ä¸ºåŸºç¡€æ¼”ç»æ‰©å……ï¼Œç»“åˆå‘¨æ˜“å åœåŸç†ï¼Œä¸ºæ‚¨è§£å¼€æ‚¨æ¢¦å¢ƒä¸­çš„ç§˜å¯†ã€‚<br />ã€€ã€€ã€Šå‘¨å…¬è§£æ¢¦ã€‹æ˜¯å¤ä»£ä¸€éƒ¨å…³äºæ¢¦çš„è§£æä¸å åœçš„ä¹¦ï¼Œç›¸ä¼ ä¸ºå‘¨å…¬æ‰€ä½œï¼Œå…¶è§£æ¢¦ç³»æŒ‰ã€Šå‘¨æ˜“ã€‹å–è±¡æ¨æ¼”è€Œæ¥ã€‚</p></td></tr></table>
+    <br>';
+    echo $pf_l;
 }
 ?>
 
 
 <div style="width:100%">
-              <div id="detail" class="info1">                     
+<div id="detail" class="info1">
 <div id="result" class="div_whois">
 <div class="t" style="display:none" id="seo_result">
 </div>
-       </div>
-              </div>
-              <div style="float:right; width:40%; text-align:right; padding-top:9px;">
-              </div>
-          </div>
-      </div>
-    </div>
-  </div>
-    <div class="box">
-      <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
-        <div class="box1">
-            <span class="info2">
-               <p>¡¶ÖÜ¹«½âÃÎ´óÈ«²éÑ¯¡·ÊÕÂ¼¹úÄÚ×î¶àµÄÃÎ¾³ÆÆ½â£¬ÊÇ¹úÄÚ×î´óµÄÖÜ¹«½âÃÎÏµÍ³£¬ÒÔÔ­°æÖÜ¹«½âÃÎÎª»ù´¡ÑİÒïÀ©³ä£¬½áºÏÖÜÒ×Õ¼²·Ô­Àí£¬ÎªÄú½â¿ªÄúÃÎ¾³ÖĞµÄÃØÃÜ¡£
-¡¡¡¡¡¶ÖÜ¹«½âÃÎ¡·ÊÇ¹Å´úÒ»²¿¹ØÓÚÃÎµÄ½âÎöÓëÕ¼²·µÄÊé£¬Ïà´«ÎªÖÜ¹«Ëù×÷£¬Æä½âÃÎÏµ°´¡¶ÖÜÒ×¡·È¡ÏóÍÆÑİ¶øÀ´¡£
-            </p>
-            </span>
-        </div>
-      </div>
+</div>
+</div>
+<div style="float:right; width:40%; text-align:right; padding-top:9px;">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="box">
+<div id="b_14">
+<h1>å·¥å…·ç®€ä»‹</h1>
+<div class="box1">
+<span class="info2">
+<p>ã€Šå‘¨å…¬è§£æ¢¦å¤§å…¨æŸ¥è¯¢ã€‹æ”¶å½•å›½å†…æœ€å¤šçš„æ¢¦å¢ƒç ´è§£ï¼Œæ˜¯å›½å†…æœ€å¤§çš„å‘¨å…¬è§£æ¢¦ç³»ç»Ÿï¼Œä»¥åŸç‰ˆå‘¨å…¬è§£æ¢¦ä¸ºåŸºç¡€æ¼”ç»æ‰©å……ï¼Œç»“åˆå‘¨æ˜“å åœåŸç†ï¼Œä¸ºæ‚¨è§£å¼€æ‚¨æ¢¦å¢ƒä¸­çš„ç§˜å¯†ã€‚
+ã€€ã€€ã€Šå‘¨å…¬è§£æ¢¦ã€‹æ˜¯å¤ä»£ä¸€éƒ¨å…³äºæ¢¦çš„è§£æä¸å åœçš„ä¹¦ï¼Œç›¸ä¼ ä¸ºå‘¨å…¬æ‰€ä½œï¼Œå…¶è§£æ¢¦ç³»æŒ‰ã€Šå‘¨æ˜“ã€‹å–è±¡æ¨æ¼”è€Œæ¥ã€‚
+</p>
+</span>
+</div>
+</div>
 </div>
 
-<?php @require_once('../foot.php');?>
+
+<?php @require_once('../foot.php');
+?>
 

@@ -34,39 +34,39 @@ var chinazTopBarMenu = {
 </script>
    <div class="box">
       <div id="b_1">
-        <h1><div class="titleft">UnixÊ±¼ä´Á(Unix timestamp)×ª»»¹¤¾ß</div></h1>
+        <h1><div class="titleft">Unixæ—¶é—´æˆ³(Unix timestamp)è½¬æ¢å·¥å…·</div></h1>
            <div class="box1">
              <div class="info1">              
               <div style="color:green;font-size:14px;">
-	ÏÖÔÚµÄUnixÊ±¼ä´Á(Unix timestamp)ÊÇ&nbsp;&nbsp;&nbsp;<span class="utspan" id="currentunixtime"></span> &nbsp; 
-    <a href="unix.php"onclick="startTimer();"><img src="images/kaishi.gif" width="16" height="16" alt="¿ªÊ¼"/></a>&nbsp;
-	<a href="unix.php" onclick="stopTimer();"><img src="images/tingzhi.gif" width="16" height="16" alt="Í£Ö¹"/></a>&nbsp;
-	<a href="unix.php" onclick="currentTime();"><img src="images/shuaxin.gif" width="16" height="16" alt="Ë¢ĞÂ"/></a>&nbsp;
+	ç°åœ¨çš„Unixæ—¶é—´æˆ³(Unix timestamp)æ˜¯&nbsp;&nbsp;&nbsp;<span class="utspan" id="currentunixtime"></span> &nbsp; 
+    <a href="unix.php"onclick="startTimer();"><img src="images/kaishi.gif" width="16" height="16" alt="å¼€å§‹"/></a>&nbsp;
+	<a href="unix.php" onclick="stopTimer();"><img src="images/tingzhi.gif" width="16" height="16" alt="åœæ­¢"/></a>&nbsp;
+	<a href="unix.php" onclick="currentTime();"><img src="images/shuaxin.gif" width="16" height="16" alt="åˆ·æ–°"/></a>&nbsp;
 	</div><script type="text/javascript">currentTime();</script>
 	<div > <br/>
-        <div style="color:green;font-size:18px;font-weight:900;">UnixÊ±¼ä´Á(Unix timestamp) ¡ú ±±¾©Ê±¼ä</div>
+        <div style="color:green;font-size:18px;font-weight:900;">Unixæ—¶é—´æˆ³(Unix timestamp) â†’ åŒ—äº¬æ—¶é—´</div>
 			<form name="unix2beijing" action="">
-			    <font color="black">UnixÊ±¼ä´Á(Unix timestamp)</font> 
+			    <font color="black">Unixæ—¶é—´æˆ³(Unix timestamp)</font> 
 			    <input type="text" name="timestamp" id="firstTimestamp" class="input" size="10" />
-                <input type="button" value="×ª»»" onclick="unix2human();"class="but2" />
-                <font color="black">±±¾©Ê±¼ä</font> 
+                <input type="button" value="è½¬æ¢" onclick="unix2human();"class="but2" />
+                <font color="black">åŒ—äº¬æ—¶é—´</font> 
                 <input type="text" name="result" size="21" class="input" readonly="readonly" />
 		     </form>
 		     <br/>
-	   <div style="color:green;font-size:18px;font-weight:900;">±±¾©Ê±¼ä ¡ú UnixÊ±¼ä´Á(Unix timestamp)</div>
+	   <div style="color:green;font-size:18px;font-weight:900;">åŒ—äº¬æ—¶é—´ â†’ Unixæ—¶é—´æˆ³(Unix timestamp)</div>
 			<form name="beijing2unix" action="">
-	            <font color="black">±±¾©Ê±¼ä</font> 
-	            <input type="text" class="input" size="2" name="year" maxlength="4"/> Äê
-				<input type="text" class="input" size="1"  name="month" maxlength="2"/> ÔÂ
-				<input type="text" class="input" size="1"  name="day" maxlength="2"/> ÈÕ
-				<input type="text" class="input" size="1"  name="hour" maxlength="2"/> Ê±
-				<input type="text" class="input" size="1"  name="minute" maxlength="2"/> ·Ö
-				<input type="text" class="input" size="1"  name="second" maxlength="2"/> Ãë<input type="button" value="×ª»»" class="but2" onclick="human2unix();"/>	<br/>
-	            <font color="black">UnixÊ±¼ä´Á</font> 
+	            <font color="black">åŒ—äº¬æ—¶é—´</font> 
+	            <input type="text" class="input" size="2" name="year" maxlength="4"/> å¹´
+				<input type="text" class="input" size="1"  name="month" maxlength="2"/> æœˆ
+				<input type="text" class="input" size="1"  name="day" maxlength="2"/> æ—¥
+				<input type="text" class="input" size="1"  name="hour" maxlength="2"/> æ—¶
+				<input type="text" class="input" size="1"  name="minute" maxlength="2"/> åˆ†
+				<input type="text" class="input" size="1"  name="second" maxlength="2"/> ç§’<input type="button" value="è½¬æ¢" class="but2" onclick="human2unix();"/>	<br/>
+	            <font color="black">Unixæ—¶é—´æˆ³</font> 
 	            <input type="text" name="result" class="input" size="25" readonly="readonly"/>
 			</form>
 			<br/>
-		<div style="color:green;font-size:14px;font-weight:900;">ÈçºÎÔÚ²»Í¬±à³ÌÓïÑÔÖĞ»ñÈ¡ÏÖÔÚµÄUnixÊ±¼ä´Á(Unix timestamp)£¿</div>
+		<div style="color:green;font-size:14px;font-weight:900;">å¦‚ä½•åœ¨ä¸åŒç¼–ç¨‹è¯­è¨€ä¸­è·å–ç°åœ¨çš„Unixæ—¶é—´æˆ³(Unix timestamp)ï¼Ÿ</div>
 		<table>
 			<tr style="height:30px;">
 				<td class="uttd">Java</td>
@@ -76,7 +76,7 @@ var chinazTopBarMenu = {
 				<td class="uttd">JavaScript</td>
 				<td style="width:500px;">
 					Math.round(new Date().getTime()/1000)<br/>
-					<span>getTime()·µ»ØÊıÖµµÄµ¥Î»ÊÇºÁÃë</span>
+					<span>getTime()è¿”å›æ•°å€¼çš„å•ä½æ˜¯æ¯«ç§’</span>
 				</td>
 			</tr>
 			<tr style="height:30px;">
@@ -101,13 +101,13 @@ var chinazTopBarMenu = {
 			</tr>
 			<tr style="height:30px;">
 				<td class="uttd">Python</td>
-				<td style="width:500px;"><span>ÏÈ</span> import time <span>È»ºó</span> time.time()</td>
+				<td style="width:500px;"><span>å…ˆ</span> import time <span>ç„¶å</span> time.time()</td>
 			</tr>
 			<tr style="height:30px;">
 				<td class="uttd">Ruby</td>
 				<td style="width:500px;">
-					<span>»ñÈ¡UnixÊ±¼ä´Á£º</span>Time.now <span>»ò</span> Time.new<br/>
-					<span>ÏÔÊ¾UnixÊ±¼ä´Á£º</span>Time.now.to_i
+					<span>è·å–Unixæ—¶é—´æˆ³ï¼š</span>Time.now <span>æˆ–</span> Time.new<br/>
+					<span>æ˜¾ç¤ºUnixæ—¶é—´æˆ³ï¼š</span>Time.now.to_i
 				</td>
 			</tr>
 			<tr style="height:30px;">
@@ -124,16 +124,16 @@ var chinazTopBarMenu = {
 			</tr>
 			<tr style="height:30px;">
 				<td class="uttd">
-					ÆäËû²Ù×÷ÏµÍ³<br/>
-					<span style="font-weight:normal;font-size:12px;">(Èç¹ûPerl±»°²×°ÔÚÏµÍ³ÖĞ)</span>
+					å…¶ä»–æ“ä½œç³»ç»Ÿ<br/>
+					<span style="font-weight:normal;font-size:12px;">(å¦‚æœPerlè¢«å®‰è£…åœ¨ç³»ç»Ÿä¸­)</span>
 				</td>
 				<td style="width:500px;">
-					<span>ÃüÁîĞĞ×´Ì¬£º</span>perl -e "print time"
+					<span>å‘½ä»¤è¡ŒçŠ¶æ€ï¼š</span>perl -e "print time"
 				</td>
 			</tr>
 		</table>
 		<br/>
-		<div style="color:green;font-size:14px;font-weight:900;">ÈçºÎÔÚ²»Í¬±à³ÌÓïÑÔÖĞÊµÏÖUnixÊ±¼ä´Á(<i>Unix timestamp</i>) ¡ú ÆÕÍ¨Ê±¼ä£¿</div>
+		<div style="color:green;font-size:14px;font-weight:900;">å¦‚ä½•åœ¨ä¸åŒç¼–ç¨‹è¯­è¨€ä¸­å®ç°Unixæ—¶é—´æˆ³(<i>Unix timestamp</i>) â†’ æ™®é€šæ—¶é—´ï¼Ÿ</div>
 		<table class="getcurrentunixtimetable">
 					<tr style="height:30px;">
 						<td class="uttd">Java</td>
@@ -141,7 +141,7 @@ var chinazTopBarMenu = {
 					</tr>
 					<tr style="height:30px;">
 						<td class="uttd">JavaScript</td>
-						<td style="width:500px;"><span>ÏÈ</span> var unixTimestamp = new Date(<u>Unix timestamp</u> * 1000) <span>È»ºó</span>	commonTime = unixTimestamp.toLocaleString()</td>
+						<td style="width:500px;"><span>å…ˆ</span> var unixTimestamp = new Date(<u>Unix timestamp</u> * 1000) <span>ç„¶å</span>	commonTime = unixTimestamp.toLocaleString()</td>
 					</tr>
 					<tr style="height:30px;">
 						<td class="uttd">Linux</td>
@@ -153,7 +153,7 @@ var chinazTopBarMenu = {
 					</tr>
 					<tr style="height:30px;">
 						<td class="uttd">Perl</td>
-						<td style="width:500px;"><span>ÏÈ</span> my $time = <u>Unix timestamp</u> <span>È»ºó</span>	my ($sec, $min, $hour, $day, $month, $year) = (localtime($time))[0,1,2,3,4,5,6]</td>
+						<td style="width:500px;"><span>å…ˆ</span> my $time = <u>Unix timestamp</u> <span>ç„¶å</span>	my ($sec, $min, $hour, $day, $month, $year) = (localtime($time))[0,1,2,3,4,5,6]</td>
 					</tr>
 					<tr style="height:30px;">
 						<td class="uttd">PHP</td>
@@ -165,7 +165,7 @@ var chinazTopBarMenu = {
 					</tr>
 					<tr style="height:30px;">
 						<td class="uttd">Python</td>
-						<td style="width:500px;"><span>ÏÈ</span> import time <span>È»ºó</span> time.gmtime(<u>Unix timestamp</u>)</td>
+						<td style="width:500px;"><span>å…ˆ</span> import time <span>ç„¶å</span> time.gmtime(<u>Unix timestamp</u>)</td>
 					</tr>
 					<tr style="height:30px;">
 						<td class="uttd">Ruby</td>
@@ -181,16 +181,16 @@ var chinazTopBarMenu = {
 					</tr>
 					<tr style="height:30px;">
 						<td class="uttd">
-							ÆäËû²Ù×÷ÏµÍ³<br/>
-							<span style="font-weight:normal;font-size:12px;">(Èç¹ûPerl±»°²×°ÔÚÏµÍ³ÖĞ)</span>
+							å…¶ä»–æ“ä½œç³»ç»Ÿ<br/>
+							<span style="font-weight:normal;font-size:12px;">(å¦‚æœPerlè¢«å®‰è£…åœ¨ç³»ç»Ÿä¸­)</span>
 						</td>
 						<td style="width:500px;">
-							<span>ÃüÁîĞĞ×´Ì¬£º</span>perl -e "print scalar(localtime(<u>Unix timestamp</u>))"
+							<span>å‘½ä»¤è¡ŒçŠ¶æ€ï¼š</span>perl -e "print scalar(localtime(<u>Unix timestamp</u>))"
 						</td>
 					</tr>
 				</table>
 				<br/>
-		<div style="color:green;font-size:14px;font-weight:900;">ÈçºÎÔÚ²»Í¬±à³ÌÓïÑÔÖĞÊµÏÖÆÕÍ¨Ê±¼ä ¡ú UnixÊ±¼ä´Á(<i>Unix timestamp</i>)£¿</div>
+		<div style="color:green;font-size:14px;font-weight:900;">å¦‚ä½•åœ¨ä¸åŒç¼–ç¨‹è¯­è¨€ä¸­å®ç°æ™®é€šæ—¶é—´ â†’ Unixæ—¶é—´æˆ³(<i>Unix timestamp</i>)ï¼Ÿ</div>
 		<table>
 			<tr style="height:30px;">
 				<td class="uttd">Java</td>
@@ -204,12 +204,12 @@ var chinazTopBarMenu = {
 				<td class="uttd">MySQL</td>
 				<td style="width:500px;">
 					SELECT unix_timestamp(<u>time</u>)<br/>
-					<span>Ê±¼ä¸ñÊ½: YYYY-MM-DD HH:MM:SS »ò YYMMDD »ò YYYYMMDD</span>
+					<span>æ—¶é—´æ ¼å¼: YYYY-MM-DD HH:MM:SS æˆ– YYMMDD æˆ– YYYYMMDD</span>
 				</td>
 			</tr>
 			<tr style="height:30px;">
 				<td class="uttd">Perl</td>
-				<td style="width:500px;"><span>ÏÈ</span> use Time::Local <span>È»ºó</span>	my $time = timelocal($sec, $min, $hour, $day, $month, $year);</td>
+				<td style="width:500px;"><span>å…ˆ</span> use Time::Local <span>ç„¶å</span>	my $time = timelocal($sec, $min, $hour, $day, $month, $year);</td>
 			</tr>
 			<tr style="height:30px;">
 				<td class="uttd">PHP</td>
@@ -221,7 +221,7 @@ var chinazTopBarMenu = {
 			</tr>
 			<tr style="height:30px;">
 				<td class="uttd">Python</td>
-				<td style="width:500px;"><span>ÏÈ</span> import time <span>È»ºó</span> int(time.mktime(time.strptime('<u>YYYY-MM-DD HH:MM:SS</u>', '%Y-%m-%d %H:%M:%S')))</td>
+				<td style="width:500px;"><span>å…ˆ</span> import time <span>ç„¶å</span> int(time.mktime(time.strptime('<u>YYYY-MM-DD HH:MM:SS</u>', '%Y-%m-%d %H:%M:%S')))</td>
 			</tr>
 			<tr style="height:30px;">
 				<td class="uttd">Ruby</td>
@@ -248,10 +248,10 @@ var chinazTopBarMenu = {
  </div>
 <div class="box">
 <div id="b_14">
-<h1>¹¤¾ß¼ò½é</h1>
+<h1>å·¥å…·ç®€ä»‹</h1>
 <div class="box1">
 <span class="info2"> 
-<p>Ê²Ã´ÊÇUnixÊ±¼ä´Á(Unix timestamp)£º UnixÊ±¼ä´Á(Unix timestamp)£¬»ò³ÆUnixÊ±¼ä(Unix time)¡¢POSIXÊ±¼ä(POSIX time)£¬ÊÇÒ»ÖÖÊ±¼ä±íÊ¾·½Ê½£¬¶¨ÒåÎª´Ó¸ñÁÖÍşÖÎÊ±¼ä1970Äê01ÔÂ01ÈÕ00Ê±00·Ö00ÃëÆğÖÁÏÖÔÚµÄ×ÜÃëÊı¡£UnixÊ±¼ä´Á²»½ö±»Ê¹ÓÃÔÚUnixÏµÍ³¡¢ÀàUnixÏµÍ³ÖĞ£¬Ò²ÔÚĞí¶àÆäËû²Ù×÷ÏµÍ³ÖĞ±»¹ã¸æ²ÉÓÃ
+<p>ä»€ä¹ˆæ˜¯Unixæ—¶é—´æˆ³(Unix timestamp)ï¼š Unixæ—¶é—´æˆ³(Unix timestamp)ï¼Œæˆ–ç§°Unixæ—¶é—´(Unix time)ã€POSIXæ—¶é—´(POSIX time)ï¼Œæ˜¯ä¸€ç§æ—¶é—´è¡¨ç¤ºæ–¹å¼ï¼Œå®šä¹‰ä¸ºä»æ ¼æ—å¨æ²»æ—¶é—´1970å¹´01æœˆ01æ—¥00æ—¶00åˆ†00ç§’èµ·è‡³ç°åœ¨çš„æ€»ç§’æ•°ã€‚Unixæ—¶é—´æˆ³ä¸ä»…è¢«ä½¿ç”¨åœ¨Unixç³»ç»Ÿã€ç±»Unixç³»ç»Ÿä¸­ï¼Œä¹Ÿåœ¨è®¸å¤šå…¶ä»–æ“ä½œç³»ç»Ÿä¸­è¢«å¹¿å‘Šé‡‡ç”¨
 </p>
 </span>
 </div>

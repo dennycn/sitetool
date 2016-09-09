@@ -5,584 +5,584 @@ $hu = 'countryym';
 <div class="main">
   <div class="box">
     <div id="c">
-      <h1>¹ú¼ÒÓòÃû²é¿´&nbsp;&nbsp;(Äú¿ÉÒÔ°´Ctrl+F½øĞĞ²éÕÒ)</h1>
+      <h1>å›½å®¶åŸŸåæŸ¥çœ‹&nbsp;&nbsp;(æ‚¨å¯ä»¥æŒ‰Ctrl+Fè¿›è¡ŒæŸ¥æ‰¾)</h1>
       <div class="box1" style="text-align:center;">
           </span>
 <div class="t" id="seo_result"> 
 <table border=1 cellspacing="0" cellpadding="7" width="100%" align="center" style="BORDER-COLLAPSE:collapse" bgcolor="#fcfcfc" bordercolor=#98a7b8>
     <tr bgcolor="#f0f0f0">
-      <td>¹ú¼ÊÓòÃûËõĞ´</td>
-      <td>¹ú¼Ò»òµØÇø</td>
-      <td>Ó¢ÎÄÃû</td>
-      <td>µç»°´úÂë</td>
+      <td>å›½é™…åŸŸåç¼©å†™</td>
+      <td>å›½å®¶æˆ–åœ°åŒº</td>
+      <td>è‹±æ–‡å</td>
+      <td>ç”µè¯ä»£ç </td>
     </tr>
     <tr>
       <td>AD</td>
-      <td>°²µÀ¶û¹²ºÍ¹ú</td>
+      <td>å®‰é“å°”å…±å’Œå›½</td>
       <td>Andorra</td>
       <td>376</td>
     </tr>
     <tr>
       <td>AE</td>
-      <td>°¢À­²®ÁªºÏÇõ³¤¹ú</td>
+      <td>é˜¿æ‹‰ä¼¯è”åˆé…‹é•¿å›½</td>
       <td>United Arab Emirates</td>
       <td>971</td>
     </tr>
     <tr>
       <td>AF</td>
-      <td>°¢¸»º¹</td>
+      <td>é˜¿å¯Œæ±—</td>
       <td>Afghanistan</td>
       <td>93</td>
     </tr>
     <tr>
       <td>AG</td>
-      <td>°²Ìá¹ÏºÍ°Í²¼´ï</td>
+      <td>å®‰æç“œå’Œå·´å¸ƒè¾¾</td>
       <td>Antigua and Barbuda</td>
       <td>1268</td>
     </tr>
     <tr>
       <td>AI</td>
-      <td>°²¹çÀ­µº</td>
+      <td>å®‰åœ­æ‹‰å²›</td>
       <td>Anguilla</td>
       <td>1264</td>
     </tr>
     <tr>
       <td>AL</td>
-      <td>°¢¶û°ÍÄáÑÇ</td>
+      <td>é˜¿å°”å·´å°¼äºš</td>
       <td>Albania</td>
       <td>355</td>
     </tr>
     <tr>
       <td>AM</td>
-      <td>ÑÇÃÀÄáÑÇ</td>
+      <td>äºšç¾å°¼äºš</td>
       <td>Armenia</td>
       <td>374</td>
     </tr>
     <tr>
       <td> </td>
-      <td>°¢É­ËÉ</td>
+      <td>é˜¿æ£®æ¾</td>
       <td>Ascension</td>
       <td>247</td>
     </tr>
     <tr>
       <td>AO</td>
-      <td>°²¸çÀ­</td>
+      <td>å®‰å“¥æ‹‰</td>
       <td>Angola</td>
       <td>244</td>
     </tr>
     <tr>
       <td>AR</td>
-      <td>°¢¸ùÍ¢</td>
+      <td>é˜¿æ ¹å»·</td>
       <td>Argentina</td>
       <td>54</td>
     </tr>
     <tr>
       <td>AT</td>
-      <td>°ÂµØÀû</td>
+      <td>å¥¥åœ°åˆ©</td>
       <td>Austria</td>
       <td>43</td>
     </tr>
     <tr>
       <td>AU</td>
-      <td>°Ä´óÀûÑÇ</td>
+      <td>æ¾³å¤§åˆ©äºš</td>
       <td>Australia</td>
       <td>61</td>
     </tr>
     <tr>
       <td>AZ</td>
-      <td>°¢Èû°İ½®</td>
+      <td>é˜¿å¡æ‹œç–†</td>
       <td>Azerbaijan</td>
       <td>994</td>
     </tr>
     <tr>
       <td>BB</td>
-      <td>°Í°Í¶àË¹</td>
+      <td>å·´å·´å¤šæ–¯</td>
       <td>Barbados</td>
       <td>1246</td>
     </tr>
     <tr>
       <td>BD</td>
-      <td>ÃÏ¼ÓÀ­¹ú</td>
+      <td>å­ŸåŠ æ‹‰å›½</td>
       <td>Bangladesh</td>
       <td>880</td>
     </tr>
     <tr>
       <td>BE</td>
-      <td>±ÈÀûÊ±</td>
+      <td>æ¯”åˆ©æ—¶</td>
       <td>Belgium</td>
       <td>32</td>
     </tr>
     <tr>
       <td>BF</td>
-      <td>²¼»ùÄÉ·¨Ë÷</td>
+      <td>å¸ƒåŸºçº³æ³•ç´¢</td>
       <td>Burkina-faso</td>
       <td>226</td>
     </tr>
     <tr>
       <td>BG</td>
-      <td>±£¼ÓÀûÑÇ</td>
+      <td>ä¿åŠ åˆ©äºš</td>
       <td>Bulgaria</td>
       <td>359</td>
     </tr>
     <tr>
       <td>BH</td>
-      <td>°ÍÁÖ</td>
+      <td>å·´æ—</td>
       <td>Bahrain</td>
       <td>973</td>
     </tr>
     <tr>
       <td>BI</td>
-      <td>²¼Â¡µÏ</td>
+      <td>å¸ƒéš†è¿ª</td>
       <td>Burundi</td>
       <td>257</td>
     </tr>
     <tr>
       <td>BJ</td>
-      <td>±´Äş</td>
+      <td>è´å®</td>
       <td>Benin</td>
       <td>229</td>
     </tr>
     <tr>
       <td>BL</td>
-      <td>°ÍÀÕË¹Ì¹</td>
+      <td>å·´å‹’æ–¯å¦</td>
       <td>Palestine</td>
       <td>970</td>
     </tr>
     <tr>
       <td>BM</td>
-      <td>°ÙÄ½´óÈºµº</td>
+      <td>ç™¾æ…•å¤§ç¾¤å²›</td>
       <td>Bermuda Is.</td>
       <td>1441</td>
     </tr>
     <tr>
       <td>BN</td>
-      <td>ÎÄÀ³</td>
+      <td>æ–‡è±</td>
       <td>Brunei</td>
       <td>673</td>
     </tr>
     <tr>
       <td>BO</td>
-      <td>²£ÀûÎ¬ÑÇ</td>
+      <td>ç»åˆ©ç»´äºš</td>
       <td>Bolivia</td>
       <td>591</td>
     </tr>
     <tr>
       <td>BR</td>
-      <td>°ÍÎ÷</td>
+      <td>å·´è¥¿</td>
       <td>Brazil</td>
       <td>55</td>
     </tr>
     <tr>
       <td>BS</td>
-      <td>°Í¹şÂí</td>
+      <td>å·´å“ˆé©¬</td>
       <td>Bahamas</td>
       <td>1242</td>
     </tr>
     <tr>
       <td>BW</td>
-      <td>²©´ÄÍßÄÉ</td>
+      <td>åšèŒ¨ç“¦çº³</td>
       <td>Botswana</td>
       <td>267</td>
     </tr>
     <tr>
       <td>BY</td>
-      <td>°×¶íÂŞË¹</td>
+      <td>ç™½ä¿„ç½—æ–¯</td>
       <td>Belarus</td>
       <td>375</td>
     </tr>
     <tr>
       <td>BZ</td>
-      <td>²®Àû×È</td>
+      <td>ä¼¯åˆ©å…¹</td>
       <td>Belize</td>
       <td>501</td>
     </tr>
     <tr>
       <td>CA</td>
-      <td>¼ÓÄÃ´ó</td>
+      <td>åŠ æ‹¿å¤§</td>
       <td>Canada</td>
       <td>1</td>
     </tr>
     <tr>
       <td> </td>
-      <td>¿ªÂüÈºµº</td>
+      <td>å¼€æ›¼ç¾¤å²›</td>
       <td>Cayman Is.</td>
       <td>1345</td>
     </tr>
     <tr>
       <td>CF</td>
-      <td>ÖĞ·Ç¹²ºÍ¹ú</td>
+      <td>ä¸­éå…±å’Œå›½</td>
       <td>Central African Republic</td>
       <td>236</td>
     </tr>
     <tr>
       <td>CG</td>
-      <td>¸Õ¹û</td>
+      <td>åˆšæœ</td>
       <td>Congo</td>
       <td>242</td>
     </tr>
     <tr>
       <td>CH</td>
-      <td>ÈğÊ¿</td>
+      <td>ç‘å£«</td>
       <td>Switzerland</td>
       <td>41</td>
     </tr>
     <tr>
       <td>CK</td>
-      <td>¿â¿ËÈºµº</td>
+      <td>åº“å…‹ç¾¤å²›</td>
       <td>Cook Is.</td>
       <td>682</td>
     </tr>
     <tr>
       <td>CL</td>
-      <td>ÖÇÀû</td>
+      <td>æ™ºåˆ©</td>
       <td>Chile</td>
       <td>56</td>
     </tr>
     <tr>
       <td>CM</td>
-      <td>¿¦ÂóÂ¡</td>
+      <td>å–€éº¦éš†</td>
       <td>Cameroon</td>
       <td>237</td>
     </tr>
     <tr>
       <td>CN</td>
-      <td>ÖĞ¹ú</td>
+      <td>ä¸­å›½</td>
       <td>China</td>
       <td>86</td>
     </tr>
     <tr>
       <td>CO</td>
-      <td>¸çÂ×±ÈÑÇ</td>
+      <td>å“¥ä¼¦æ¯”äºš</td>
       <td>Colombia</td>
       <td>57</td>
     </tr>
     <tr>
       <td>CR</td>
-      <td>¸çË¹´ïÀè¼Ó</td>
+      <td>å“¥æ–¯è¾¾é»åŠ </td>
       <td>Costa Rica</td>
       <td>506</td>
     </tr>
     <tr>
       <td>CS</td>
-      <td>½İ¿Ë</td>
+      <td>æ·å…‹</td>
       <td>Czech</td>
       <td>420</td>
     </tr>
     <tr>
       <td>CU</td>
-      <td>¹Å°Í</td>
+      <td>å¤å·´</td>
       <td>Cuba</td>
       <td>53</td>
     </tr>
     <tr>
       <td>CY</td>
-      <td>ÈûÆÖÂ·Ë¹</td>
+      <td>å¡æµ¦è·¯æ–¯</td>
       <td>Cyprus</td>
       <td>357</td>
     </tr>
     <tr>
       <td>CZ</td>
-      <td>½İ¿Ë</td>
+      <td>æ·å…‹</td>
       <td>Czech Republic </td>
       <td>420</td>
     </tr>
     <tr>
       <td>DE</td>
-      <td>µÂ¹ú</td>
+      <td>å¾·å›½</td>
       <td>Germany </td>
       <td>49</td>
     </tr>
     <tr>
       <td>DJ</td>
-      <td>¼ª²¼Ìá</td>
+      <td>å‰å¸ƒæ</td>
       <td>Djibouti</td>
       <td>253</td>
     </tr>
     <tr>
       <td>DK</td>
-      <td>µ¤Âó</td>
+      <td>ä¸¹éº¦</td>
       <td>Denmark</td>
       <td>45</td>
     </tr>
     <tr>
       <td>DO</td>
-      <td>¶àÃ×Äá¼Ó¹²ºÍ¹ú</td>
+      <td>å¤šç±³å°¼åŠ å…±å’Œå›½</td>
       <td>Dominica Rep.</td>
       <td>1890</td>
     </tr>
     <tr>
       <td>DZ</td>
-      <td>°¢¶û¼°ÀûÑÇ</td>
+      <td>é˜¿å°”åŠåˆ©äºš</td>
       <td>Algeria</td>
       <td>213</td>
     </tr>
     <tr>
       <td>EC</td>
-      <td>¶ò¹Ï¶à¶û</td>
+      <td>å„ç“œå¤šå°”</td>
       <td>Ecuador</td>
       <td>593</td>
     </tr>
     <tr>
       <td>EE</td>
-      <td>°®É³ÄáÑÇ</td>
+      <td>çˆ±æ²™å°¼äºš</td>
       <td>Estonia</td>
       <td>372</td>
     </tr>
     <tr>
       <td>EG</td>
-      <td>°£¼°</td>
+      <td>åŸƒåŠ</td>
       <td>Egypt</td>
       <td>20</td>
     </tr>
     <tr>
       <td>ES</td>
-      <td>Î÷°àÑÀ</td>
+      <td>è¥¿ç­ç‰™</td>
       <td>Spain</td>
       <td>34</td>
     </tr>
     <tr>
       <td>ET</td>
-      <td>°£Èû¶í±ÈÑÇ</td>
+      <td>åŸƒå¡ä¿„æ¯”äºš</td>
       <td>Ethiopia</td>
       <td>251</td>
     </tr>
     <tr>
       <td>FI</td>
-      <td>·ÒÀ¼</td>
+      <td>èŠ¬å…°</td>
       <td>Finland</td>
       <td>358</td>
     </tr>
     <tr>
       <td>FJ</td>
-      <td>ì³¼Ã</td>
+      <td>æ–æµ</td>
       <td>Fiji</td>
       <td>679</td>
     </tr>
     <tr>
       <td>FR</td>
-      <td>·¨¹ú</td>
+      <td>æ³•å›½</td>
       <td>France</td>
       <td>33</td>
     </tr>
     <tr>
       <td>GA</td>
-      <td>¼ÓÅî</td>
+      <td>åŠ è“¬</td>
       <td>Gabon</td>
       <td>241</td>
     </tr>
     <tr>
       <td>GB</td>
-      <td>Ó¢¹ú</td>
+      <td>è‹±å›½</td>
       <td>United Kiongdom</td>
       <td>44</td>
     </tr>
     <tr>
       <td>GD</td>
-      <td>¸ñÁÖÄÉ´ï</td>
+      <td>æ ¼æ—çº³è¾¾</td>
       <td>Grenada</td>
       <td>1809</td>
     </tr>
     <tr>
       <td>GE</td>
-      <td>¸ñÂ³¼ªÑÇ</td>
+      <td>æ ¼é²å‰äºš</td>
       <td>Georgia </td>
       <td>995</td>
     </tr>
     <tr>
       <td>GF</td>
-      <td>·¨Êô¹çÑÇÄÇ</td>
+      <td>æ³•å±åœ­äºšé‚£</td>
       <td>French Guiana</td>
       <td>594</td>
     </tr>
     <tr>
       <td>GH</td>
-      <td>¼ÓÄÉ</td>
+      <td>åŠ çº³</td>
       <td>Ghana</td>
       <td>233</td>
     </tr>
     <tr>
       <td>GI</td>
-      <td>Ö±²¼ÂŞÍÓ</td>
+      <td>ç›´å¸ƒç½—é™€</td>
       <td>Gibraltar</td>
       <td>350</td>
     </tr>
     <tr>
       <td>GM</td>
-      <td>¸Ô±ÈÑÇ</td>
+      <td>å†ˆæ¯”äºš</td>
       <td>Gambia</td>
       <td>220</td>
     </tr>
     <tr>
       <td>GN</td>
-      <td>¼¸ÄÚÑÇ</td>
+      <td>å‡ å†…äºš</td>
       <td>Guinea</td>
       <td>224</td>
     </tr>
     <tr>
       <td>GR</td>
-      <td>Ï£À°</td>
+      <td>å¸Œè…Š</td>
       <td>Greece</td>
       <td>30</td>
     </tr>
     <tr>
       <td>GT</td>
-      <td>Î£µØÂíÀ­</td>
+      <td>å±åœ°é©¬æ‹‰</td>
       <td>Guatemala</td>
       <td>502</td>
     </tr>
     <tr>
       <td>GU</td>
-      <td>¹Øµº</td>
+      <td>å…³å²›</td>
       <td>Guam</td>
       <td>1671</td>
     </tr>
     <tr>
       <td>GY</td>
-      <td>¹çÑÇÄÇ</td>
+      <td>åœ­äºšé‚£</td>
       <td>Guyana</td>
       <td>592</td>
     </tr>
     <tr>
       <td>HK</td>
-      <td>Ïã¸ÛÌØ±ğĞĞÕşÇø</td>
+      <td>é¦™æ¸¯ç‰¹åˆ«è¡Œæ”¿åŒº</td>
       <td>Hongkong</td>
       <td>852</td>
     </tr>
     <tr>
       <td>HN</td>
-      <td>ºé¶¼À­Ë¹</td>
+      <td>æ´ªéƒ½æ‹‰æ–¯</td>
       <td>Honduras</td>
       <td>504</td>
     </tr>
     <tr>
       <td>HT</td>
-      <td>º£µØ</td>
+      <td>æµ·åœ°</td>
       <td>Haiti</td>
       <td>509</td>
     </tr>
     <tr>
       <td>HU</td>
-      <td>ĞÙÑÀÀû</td>
+      <td>åŒˆç‰™åˆ©</td>
       <td>Hungary</td>
       <td>36</td>
     </tr>
     <tr>
       <td>ID</td>
-      <td>Ó¡¶ÈÄáÎ÷ÑÇ</td>
+      <td>å°åº¦å°¼è¥¿äºš</td>
       <td>Indonesia</td>
       <td>62</td>
     </tr>
     <tr>
       <td>IE</td>
-      <td>°®¶ûÀ¼</td>
+      <td>çˆ±å°”å…°</td>
       <td>Ireland</td>
       <td>353</td>
     </tr>
     <tr>
       <td>IL</td>
-      <td>ÒÔÉ«ÁĞ</td>
+      <td>ä»¥è‰²åˆ—</td>
       <td>Israel</td>
       <td>972</td>
     </tr>
     <tr>
       <td>IN</td>
-      <td>Ó¡¶È</td>
+      <td>å°åº¦</td>
       <td>India</td>
       <td>91</td>
     </tr>
     <tr>
       <td>IQ</td>
-      <td>ÒÁÀ­¿Ë</td>
+      <td>ä¼Šæ‹‰å…‹</td>
       <td>Iraq</td>
       <td>964</td>
     </tr>
     <tr>
       <td>IR</td>
-      <td>ÒÁÀÊ</td>
+      <td>ä¼Šæœ—</td>
       <td>Iran</td>
       <td>98</td>
     </tr>
     <tr>
       <td>IS</td>
-      <td>±ùµº</td>
+      <td>å†°å²›</td>
       <td>Iceland</td>
       <td>354</td>
     </tr>
     <tr>
       <td>IT</td>
-      <td>Òâ´óÀû</td>
+      <td>æ„å¤§åˆ©</td>
       <td>Italy</td>
       <td>39</td>
     </tr>
     <tr>
       <td> </td>
-      <td>¿ÆÌØµÏÍß</td>
+      <td>ç§‘ç‰¹è¿ªç“¦</td>
       <td>Ivory Coast</td>
       <td>225</td>
     </tr>
     <tr>
       <td>JM</td>
-      <td>ÑÀÂò¼Ó</td>
+      <td>ç‰™ä¹°åŠ </td>
       <td>Jamaica</td>
       <td>1876</td>
     </tr>
     <tr>
       <td>JO</td>
-      <td>Ô¼µ©</td>
+      <td>çº¦æ—¦</td>
       <td>Jordan</td>
       <td>962</td>
     </tr>
     <tr>
       <td>JP</td>
-      <td>ÈÕ±¾</td>
+      <td>æ—¥æœ¬</td>
       <td>Japan</td>
       <td>81</td>
     </tr>
     <tr>
       <td>KE</td>
-      <td>¿ÏÄáÑÇ</td>
+      <td>è‚¯å°¼äºš</td>
       <td>Kenya</td>
       <td>254</td>
     </tr>
     <tr>
       <td>KG</td>
-      <td>¼ª¶û¼ªË¹Ì¹</td>
+      <td>å‰å°”å‰æ–¯å¦</td>
       <td>Kyrgyzstan </td>
       <td>331</td>
     </tr>
     <tr>
       <td>KH</td>
-      <td>¼íÆÒÕ¯</td>
+      <td>æŸ¬åŸ”å¯¨</td>
       <td>Kampuchea (Cambodia )</td>
       <td>855</td>
     </tr>
     <tr>
       <td>KP</td>
-      <td>³¯ÏÊ</td>
+      <td>æœé²œ</td>
       <td>North Korea</td>
       <td>850</td>
     </tr>
     <tr>
       <td>KR</td>
-      <td>º«¹ú</td>
+      <td>éŸ©å›½</td>
       <td>Korea</td>
       <td>82</td>
     </tr>
     <tr>
       <td>KT</td>
-      <td>¿ÆÌØµÏÍß¹²ºÍ¹ú</td>
+      <td>ç§‘ç‰¹è¿ªç“¦å…±å’Œå›½</td>
       <td>Republic of Ivory Coast</td>
       <td>225</td>
     </tr>
     <tr>
       <td>KW</td>
-      <td>¿ÆÍşÌØ</td>
+      <td>ç§‘å¨ç‰¹</td>
       <td>Kuwait</td>
       <td>965</td>
     </tr>
     <tr>
       <td>KZ</td>
-      <td>¹şÈø¿ËË¹Ì¹</td>
+      <td>å“ˆè¨å…‹æ–¯å¦</td>
       <td>
         <p>Kazakstan</p>
       </td>
@@ -590,589 +590,589 @@ $hu = 'countryym';
     </tr>
     <tr>
       <td>LA</td>
-      <td>ÀÏÎÎ</td>
+      <td>è€æŒ</td>
       <td>Laos</td>
       <td>856</td>
     </tr>
     <tr>
       <td>LB</td>
-      <td>Àè°ÍÄÛ</td>
+      <td>é»å·´å«©</td>
       <td>Lebanon</td>
       <td>961</td>
     </tr>
     <tr>
       <td>LC</td>
-      <td>Ê¥Â¬Î÷ÑÇ</td>
+      <td>åœ£å¢è¥¿äºš</td>
       <td>St.Lucia</td>
       <td>1758</td>
     </tr>
     <tr>
       <td>LI</td>
-      <td>ÁĞÖ§¶ØÊ¿µÇ</td>
+      <td>åˆ—æ”¯æ•¦å£«ç™»</td>
       <td>Liechtenstein</td>
       <td>423</td>
     </tr>
     <tr>
       <td>LK</td>
-      <td>Ë¹ÀïÀ¼¿¨</td>
+      <td>æ–¯é‡Œå…°å¡</td>
       <td>Sri Lanka</td>
       <td>94</td>
     </tr>
     <tr>
       <td>LR</td>
-      <td>Àû±ÈÀïÑÇ</td>
+      <td>åˆ©æ¯”é‡Œäºš</td>
       <td>Liberia</td>
       <td>231</td>
     </tr>
     <tr>
       <td>LS</td>
-      <td>À³Ë÷ÍĞ</td>
+      <td>è±ç´¢æ‰˜</td>
       <td>Lesotho</td>
       <td>266</td>
     </tr>
     <tr>
       <td>LT</td>
-      <td>Á¢ÌÕÍğ</td>
+      <td>ç«‹é™¶å®›</td>
       <td>Lithuania</td>
       <td>370</td>
     </tr>
     <tr>
       <td>LU</td>
-      <td>Â¬É­±¤</td>
+      <td>å¢æ£®å ¡</td>
       <td>Luxembourg</td>
       <td>352</td>
     </tr>
     <tr>
       <td>LV</td>
-      <td>À­ÍÑÎ¬ÑÇ</td>
+      <td>æ‹‰è„±ç»´äºš</td>
       <td>Latvia </td>
       <td>371</td>
     </tr>
     <tr>
       <td>LY</td>
-      <td>Àû±ÈÑÇ</td>
+      <td>åˆ©æ¯”äºš</td>
       <td>Libya</td>
       <td>218</td>
     </tr>
     <tr>
       <td>MA</td>
-      <td>Ä¦Âå¸ç</td>
+      <td>æ‘©æ´›å“¥</td>
       <td>Morocco</td>
       <td>212</td>
     </tr>
     <tr>
       <td>MC</td>
-      <td>Ä¦ÄÉ¸ç</td>
+      <td>æ‘©çº³å“¥</td>
       <td>Monaco</td>
       <td>377</td>
     </tr>
     <tr>
       <td>MD</td>
-      <td>Ä¦¶û¶àÍß</td>
+      <td>æ‘©å°”å¤šç“¦</td>
       <td>Moldova, Republic of </td>
       <td>373</td>
     </tr>
     <tr>
       <td>MG</td>
-      <td>Âí´ï¼ÓË¹¼Ó</td>
+      <td>é©¬è¾¾åŠ æ–¯åŠ </td>
       <td>Madagascar</td>
       <td>261</td>
     </tr>
     <tr>
       <td>ML</td>
-      <td>ÂíÀï</td>
+      <td>é©¬é‡Œ</td>
       <td>Mali</td>
       <td>223</td>
     </tr>
     <tr>
       <td>MM</td>
-      <td>Ãåµé</td>
+      <td>ç¼…ç”¸</td>
       <td>Burma</td>
       <td>95</td>
     </tr>
     <tr>
       <td>MN</td>
-      <td>ÃÉ¹Å</td>
+      <td>è’™å¤</td>
       <td>Mongolia </td>
       <td>976</td>
     </tr>
     <tr>
       <td>MO</td>
-      <td>°ÄÃÅ</td>
+      <td>æ¾³é—¨</td>
       <td>Macao</td>
       <td>853</td>
     </tr>
     <tr>
       <td>MS</td>
-      <td>ÃÉÌØÈûÀ­ÌØµº</td>
+      <td>è’™ç‰¹å¡æ‹‰ç‰¹å²›</td>
       <td>Montserrat Is</td>
       <td>1664</td>
     </tr>
     <tr>
       <td>MT</td>
-      <td>Âí¶úËû</td>
+      <td>é©¬è€³ä»–</td>
       <td>Malta</td>
       <td>356</td>
     </tr>
     <tr>
       <td> </td>
-      <td>ÂíÀïÑÇÄÇÈºµº</td>
+      <td>é©¬é‡Œäºšé‚£ç¾¤å²›</td>
       <td>Mariana Is</td>
       <td>1670</td>
     </tr>
     <tr>
       <td> </td>
-      <td>ÂíÌáÄá¿Ë</td>
+      <td>é©¬æå°¼å…‹</td>
       <td>Martinique</td>
       <td>596</td>
     </tr>
     <tr>
       <td>MU</td>
-      <td>Ã«ÀïÇóË¹</td>
+      <td>æ¯›é‡Œæ±‚æ–¯</td>
       <td>Mauritius</td>
       <td>230</td>
     </tr>
     <tr>
       <td>MV</td>
-      <td>Âí¶û´ú·ò</td>
+      <td>é©¬å°”ä»£å¤«</td>
       <td>Maldives</td>
       <td>960</td>
     </tr>
     <tr>
       <td>MW</td>
-      <td>ÂíÀ­Î¬</td>
+      <td>é©¬æ‹‰ç»´</td>
       <td>Malawi</td>
       <td>265</td>
     </tr>
     <tr>
       <td>MX</td>
-      <td>Ä«Î÷¸ç</td>
+      <td>å¢¨è¥¿å“¥</td>
       <td>Mexico</td>
       <td>52</td>
     </tr>
     <tr>
       <td>MY</td>
-      <td>ÂíÀ´Î÷ÑÇ</td>
+      <td>é©¬æ¥è¥¿äºš</td>
       <td>Malaysia</td>
       <td>60</td>
     </tr>
     <tr>
       <td>MZ</td>
-      <td>ÄªÉ£±È¿Ë</td>
+      <td>è«æ¡‘æ¯”å…‹</td>
       <td>Mozambique</td>
       <td>258</td>
     </tr>
     <tr>
       <td>NA</td>
-      <td>ÄÉÃ×±ÈÑÇ</td>
+      <td>çº³ç±³æ¯”äºš</td>
       <td>Namibia </td>
       <td>264</td>
     </tr>
     <tr>
       <td>NE</td>
-      <td>ÄáÈÕ¶û</td>
+      <td>å°¼æ—¥å°”</td>
       <td>Niger</td>
       <td>977</td>
     </tr>
     <tr>
       <td>NG</td>
-      <td>ÄáÈÕÀûÑÇ</td>
+      <td>å°¼æ—¥åˆ©äºš</td>
       <td>Nigeria</td>
       <td>234</td>
     </tr>
     <tr>
       <td>NI</td>
-      <td>Äá¼ÓÀ­¹Ï</td>
+      <td>å°¼åŠ æ‹‰ç“œ</td>
       <td>Nicaragua</td>
       <td>505</td>
     </tr>
     <tr>
       <td>NL</td>
-      <td>ºÉÀ¼</td>
+      <td>è·å…°</td>
       <td>Netherlands</td>
       <td>31</td>
     </tr>
     <tr>
       <td>NO</td>
-      <td>Å²Íş</td>
+      <td>æŒªå¨</td>
       <td>Norway</td>
       <td>47</td>
     </tr>
     <tr>
       <td>NP</td>
-      <td>Äá²´¶û</td>
+      <td>å°¼æ³Šå°”</td>
       <td>Nepal</td>
       <td>977</td>
     </tr>
     <tr>
       <td> </td>
-      <td>ºÉÊô°²µÄÁĞË¹</td>
+      <td>è·å±å®‰çš„åˆ—æ–¯</td>
       <td>Netheriands Antilles</td>
       <td>599</td>
     </tr>
     <tr>
       <td>NR</td>
-      <td>è§Â³</td>
+      <td>ç‘™é²</td>
       <td>Nauru</td>
       <td>674</td>
     </tr>
     <tr>
       <td>NZ</td>
-      <td>ĞÂÎ÷À¼</td>
+      <td>æ–°è¥¿å…°</td>
       <td>New Zealand</td>
       <td>64</td>
     </tr>
     <tr>
       <td>OM</td>
-      <td>°¢Âü</td>
+      <td>é˜¿æ›¼</td>
       <td>Oman</td>
       <td>968</td>
     </tr>
     <tr>
       <td>PA</td>
-      <td>°ÍÄÃÂí</td>
+      <td>å·´æ‹¿é©¬</td>
       <td>Panama</td>
       <td>507</td>
     </tr>
     <tr>
       <td>PE</td>
-      <td>ÃØÂ³</td>
+      <td>ç§˜é²</td>
       <td>Peru</td>
       <td>51</td>
     </tr>
     <tr>
       <td>PF</td>
-      <td>·¨Êô²£ÀûÄáÎ÷ÑÇ</td>
+      <td>æ³•å±ç»åˆ©å°¼è¥¿äºš</td>
       <td>French Polynesia</td>
       <td>689</td>
     </tr>
     <tr>
       <td>PG</td>
-      <td>°Í²¼ÑÇĞÂ¼¸ÄÚÑÇ</td>
+      <td>å·´å¸ƒäºšæ–°å‡ å†…äºš</td>
       <td>Papua New Cuinea</td>
       <td>675</td>
     </tr>
     <tr>
       <td>PH</td>
-      <td>·ÆÂÉ±ö</td>
+      <td>è²å¾‹å®¾</td>
       <td>Philippines</td>
       <td>63</td>
     </tr>
     <tr>
       <td>PK</td>
-      <td>°Í»ùË¹Ì¹</td>
+      <td>å·´åŸºæ–¯å¦</td>
       <td>Pakistan</td>
       <td>92</td>
     </tr>
     <tr>
       <td>PL</td>
-      <td>²¨À¼</td>
+      <td>æ³¢å…°</td>
       <td>Poland</td>
       <td>48</td>
     </tr>
     <tr>
       <td>PR</td>
-      <td>²¨¶àÀè¸÷</td>
+      <td>æ³¢å¤šé»å„</td>
       <td>Puerto Rico</td>
       <td>1787</td>
     </tr>
     <tr>
       <td>PT</td>
-      <td>ÆÏÌÑÑÀ</td>
+      <td>è‘¡è„ç‰™</td>
       <td>Portugal</td>
       <td>351</td>
     </tr>
     <tr>
       <td>PY</td>
-      <td>°ÍÀ­¹ç</td>
+      <td>å·´æ‹‰åœ­</td>
       <td>Paraguay</td>
       <td>595</td>
     </tr>
     <tr>
       <td>QA</td>
-      <td>¿¨Ëş¶û</td>
+      <td>å¡å¡”å°”</td>
       <td>Qatar</td>
       <td>974</td>
     </tr>
     <tr>
       <td> </td>
-      <td>ÁôÄáÍú</td>
+      <td>ç•™å°¼æ—º</td>
       <td>Reunion</td>
       <td>262</td>
     </tr>
     <tr>
       <td>RO</td>
-      <td>ÂŞÂíÄáÑÇ</td>
+      <td>ç½—é©¬å°¼äºš</td>
       <td>Romania</td>
       <td>40</td>
     </tr>
     <tr>
       <td>RU</td>
-      <td>¶íÂŞË¹</td>
+      <td>ä¿„ç½—æ–¯</td>
       <td>Russia</td>
       <td>7</td>
     </tr>
     <tr>
       <td>SA</td>
-      <td>É³ÌØ°¢À­²®</td>
+      <td>æ²™ç‰¹é˜¿æ‹‰ä¼¯</td>
       <td>Saudi Arabia</td>
       <td>966</td>
     </tr>
     <tr>
       <td>SB</td>
-      <td>ËùÂŞÃÅÈºµº</td>
+      <td>æ‰€ç½—é—¨ç¾¤å²›</td>
       <td>Solomon Is</td>
       <td>677</td>
     </tr>
     <tr>
       <td>SC</td>
-      <td>ÈûÉà¶û</td>
+      <td>å¡èˆŒå°”</td>
       <td>Seychelles</td>
       <td>248</td>
     </tr>
     <tr>
       <td>SD</td>
-      <td>ËÕµ¤</td>
+      <td>è‹ä¸¹</td>
       <td>Sudan</td>
       <td>249</td>
     </tr>
     <tr>
       <td>SE</td>
-      <td>Èğµä</td>
+      <td>ç‘å…¸</td>
       <td>Sweden</td>
       <td>46</td>
     </tr>
     <tr>
       <td>SG</td>
-      <td>ĞÂ¼ÓÆÂ</td>
+      <td>æ–°åŠ å¡</td>
       <td>Singapore</td>
       <td>65</td>
     </tr>
     <tr>
       <td>SI</td>
-      <td>Ë¹ÂåÎÄÄáÑÇ</td>
+      <td>æ–¯æ´›æ–‡å°¼äºš</td>
       <td>Slovenia</td>
       <td>386</td>
     </tr>
     <tr>
       <td>SK</td>
-      <td>Ë¹Âå·¥¿Ë</td>
+      <td>æ–¯æ´›ä¼å…‹</td>
       <td>Slovakia</td>
       <td>421</td>
     </tr>
     <tr>
       <td>SL</td>
-      <td>ÈûÀ­Àû°º</td>
+      <td>å¡æ‹‰åˆ©æ˜‚</td>
       <td>Sierra Leone</td>
       <td>232</td>
     </tr>
     <tr>
       <td>SM</td>
-      <td>Ê¥ÂíÁ¦Åµ</td>
+      <td>åœ£é©¬åŠ›è¯º</td>
       <td>San Marino</td>
       <td>378</td>
     </tr>
     <tr>
       <td> </td>
-      <td>¶«ÈøÄ¦ÑÇ(ÃÀ)</td>
+      <td>ä¸œè¨æ‘©äºš(ç¾)</td>
       <td>Samoa Eastern</td>
       <td>684</td>
     </tr>
     <tr>
       <td> </td>
-      <td>Î÷ÈøÄ¦ÑÇ</td>
+      <td>è¥¿è¨æ‘©äºš</td>
       <td>San Marino</td>
       <td>685</td>
     </tr>
     <tr>
       <td>SN</td>
-      <td>ÈûÄÚ¼Ó¶û</td>
+      <td>å¡å†…åŠ å°”</td>
       <td>Senegal</td>
       <td>221</td>
     </tr>
     <tr>
       <td>SO</td>
-      <td>Ë÷ÂíÀï</td>
+      <td>ç´¢é©¬é‡Œ</td>
       <td>Somali</td>
       <td>252</td>
     </tr>
     <tr>
       <td>SR</td>
-      <td>ËÕÀïÄÏ</td>
+      <td>è‹é‡Œå—</td>
       <td>Suriname</td>
       <td>597</td>
     </tr>
     <tr>
       <td>ST</td>
-      <td>Ê¥¶àÃÀºÍÆÕÁÖÎ÷±È</td>
+      <td>åœ£å¤šç¾å’Œæ™®æ—è¥¿æ¯”</td>
       <td>Sao Tome and Principe</td>
       <td>239</td>
     </tr>
     <tr>
       <td>SV</td>
-      <td>Èø¶ûÍß¶à</td>
+      <td>è¨å°”ç“¦å¤š</td>
       <td>EI Salvador</td>
       <td>503</td>
     </tr>
     <tr>
       <td>SY</td>
-      <td>ĞğÀûÑÇ</td>
+      <td>å™åˆ©äºš</td>
       <td>Syria</td>
       <td>963</td>
     </tr>
     <tr>
       <td>SZ</td>
-      <td>Ë¹ÍşÊ¿À¼</td>
+      <td>æ–¯å¨å£«å…°</td>
       <td>Swaziland</td>
       <td>268</td>
     </tr>
     <tr>
       <td>TD</td>
-      <td>Õ§µÃ</td>
+      <td>ä¹å¾—</td>
       <td>Chad</td>
       <td>235</td>
     </tr>
     <tr>
       <td>TG</td>
-      <td>¶à¸ç</td>
+      <td>å¤šå“¥</td>
       <td>Togo</td>
       <td>228</td>
     </tr>
     <tr>
       <td>TH</td>
-      <td>Ì©¹ú</td>
+      <td>æ³°å›½</td>
       <td>Thailand</td>
       <td>66</td>
     </tr>
     <tr>
       <td>TJ</td>
-      <td>Ëş¼ª¿ËË¹Ì¹</td>
+      <td>å¡”å‰å…‹æ–¯å¦</td>
       <td>Tajikstan</td>
       <td>992</td>
     </tr>
     <tr>
       <td>TM</td>
-      <td>ÍÁ¿âÂüË¹Ì¹</td>
+      <td>åœŸåº“æ›¼æ–¯å¦</td>
       <td>Turkmenistan </td>
       <td>993</td>
     </tr>
     <tr>
       <td>TN</td>
-      <td>Í»ÄáË¹</td>
+      <td>çªå°¼æ–¯</td>
       <td>Tunisia</td>
       <td>216</td>
     </tr>
     <tr>
       <td>TO</td>
-      <td>ÌÀ¼Ó</td>
+      <td>æ±¤åŠ </td>
       <td>Tonga</td>
       <td>676</td>
     </tr>
     <tr>
       <td>TR</td>
-      <td>ÍÁ¶úÆä</td>
+      <td>åœŸè€³å…¶</td>
       <td>Turkey</td>
       <td>90</td>
     </tr>
     <tr>
       <td>TT</td>
-      <td>ÌØÁ¢Äá´ïºÍ¶à°Í¸ç</td>
+      <td>ç‰¹ç«‹å°¼è¾¾å’Œå¤šå·´å“¥</td>
       <td>Trinidad and Tobago</td>
       <td>1809</td>
     </tr>
     <tr>
       <td>TW</td>
-      <td>Ì¨ÍåÊ¡</td>
+      <td>å°æ¹¾çœ</td>
       <td>Taiwan</td>
       <td>886</td>
     </tr>
     <tr>
       <td>TZ</td>
-      <td>Ì¹É£ÄáÑÇ</td>
+      <td>å¦æ¡‘å°¼äºš</td>
       <td>Tanzania</td>
       <td>255</td>
     </tr>
     <tr>
       <td>UA</td>
-      <td>ÎÚ¿ËÀ¼</td>
+      <td>ä¹Œå…‹å…°</td>
       <td>Ukraine</td>
       <td>380</td>
     </tr>
     <tr>
       <td>UG</td>
-      <td>ÎÚ¸É´ï</td>
+      <td>ä¹Œå¹²è¾¾</td>
       <td>Uganda</td>
       <td>256</td>
     </tr>
     <tr>
       <td>US</td>
-      <td>ÃÀ¹ú</td>
+      <td>ç¾å›½</td>
       <td>United States of America</td>
       <td>1</td>
     </tr>
     <tr>
       <td>UY</td>
-      <td>ÎÚÀ­¹ç</td>
+      <td>ä¹Œæ‹‰åœ­</td>
       <td>Uruguay</td>
       <td>598</td>
     </tr>
     <tr>
       <td>UZ</td>
-      <td>ÎÚ×È±ğ¿ËË¹Ì¹</td>
+      <td>ä¹Œå…¹åˆ«å…‹æ–¯å¦</td>
       <td>Uzbekistan</td>
       <td>233</td>
     </tr>
     <tr>
       <td>VC</td>
-      <td>Ê¥ÎÄÉ­ÌØµº</td>
+      <td>åœ£æ–‡æ£®ç‰¹å²›</td>
       <td>Saint Vincent</td>
       <td>1784</td>
     </tr>
     <tr>
       <td>VE</td>
-      <td>Î¯ÄÚÈğÀ­</td>
+      <td>å§”å†…ç‘æ‹‰</td>
       <td>Venezuela</td>
       <td>58</td>
     </tr>
     <tr>
       <td>VN</td>
-      <td>Ô½ÄÏ</td>
+      <td>è¶Šå—</td>
       <td>Vietnam</td>
       <td>84</td>
     </tr>
     <tr>
       <td>YE</td>
-      <td>Ò²ÃÅ</td>
+      <td>ä¹Ÿé—¨</td>
       <td>Yemen</td>
       <td>967</td>
     </tr>
     <tr>
       <td>YU</td>
-      <td>ÄÏË¹À­·ò</td>
+      <td>å—æ–¯æ‹‰å¤«</td>
       <td>Yugoslavia</td>
       <td>381</td>
     </tr>
     <tr>
       <td>ZA</td>
-      <td>ÄÏ·Ç</td>
+      <td>å—é</td>
       <td>South Africa</td>
       <td>27</td>
     </tr>
     <tr>
       <td>ZM</td>
-      <td>ÔŞ±ÈÑÇ</td>
+      <td>èµæ¯”äºš</td>
       <td>Zambia</td>
       <td>260</td>
     </tr>
     <tr>
       <td>ZR</td>
-      <td>ÔúÒÁ¶û</td>
+      <td>æ‰ä¼Šå°”</td>
       <td>Zaire</td>
       <td>243</td>
     </tr>
     <tr>
       <td>ZW</td>
-      <td>½ò°Í²¼Î¤</td>
+      <td>æ´¥å·´å¸ƒéŸ¦</td>
       <td>Zimbabwe</td>
       <td>263</td>
     </tr>
@@ -1183,10 +1183,10 @@ $hu = 'countryym';
   </div>
     <div class="box">
       <div id="b_14">
-        <h1>¹¤¾ß¼ò½é</h1>
+        <h1>å·¥å…·ç®€ä»‹</h1>
         <div class="box1">
             <span class="info2">
-            ²é¿´ËùÓĞ¹ú¼ÒÓòÃû
+            æŸ¥çœ‹æ‰€æœ‰å›½å®¶åŸŸå
             </span>
         </div>
       </div>
