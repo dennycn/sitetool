@@ -26,20 +26,28 @@
 <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/ip/" ?> target="_self"  class="imt">IP查询</a></li><li>-</li>
 <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/friendlink/friendlink.php"?> target="_self" >友情链接IP查询</a></li></ul>
 <ul class="toolist">
-<li>编码转换相关：
-<li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/unicode.php"?> target="_self"  style="color:Green">Unicode编码转换</a></li><li>-</li>
+<li>编码转换：
+<li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/unicode.php"?> target="_self" class="imt"">Unicode编码转换</a></li><li>-</li>
 <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/utf.php"?> target="_self"  class="imt"">UTF-8编码转换</a></li><li>-</li>
-<li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/base64/" ?> target="_self"  class="imr"">BASE64编/解码</a></li><li>-</li>
-<li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/escape/" ?> target="_self"  class="imr"">Escape加/解密</a></li><li>-</li>
+<li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/base64/" ?> target="_self"  class="imt"">BASE64编/解码</a></li><li>-</li>
+<li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/escape/" ?> target="_self"  class="imt"">Escape加/解密</a></li><li>-</li>
 <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/mds.php?mds=md5"?> target="_self"  class="imt">MD5加密</a></li><li>-</li>
-<li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/urlencode.php"?> target="_self"  style="color:red">URLEncode/URLDecode</a></li></ul>
+<li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/urlencode.php"?> target="_self" class="imt">URLEncode/URLDecode</a></li></ul>
+<ul class="toolist">
+<ul class="toolist">
+<li>编码格式化：
+<li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/format/jsformat.php"?> target="_self"  class="imt">HTML/JS格式化</a></li><li>-</li>
+<li><a href= target="_self"  class="imr">JSON格式化</a></li><li>-</li>
+<li><a href= target="_self"  class="imr">PHP格式化</a></li><li>-</li>
+<li><a href= target="_self"  class="imr">Python格式化</a></li><li>-</li>
+<li><a href= target="_self"  class="imr">Java格式化</a></li><li>-</li>
+<li><a href= target="_self"  class="imr">C++格式化</a></li></ul>
 <ul class="toolist">
 <li>HTML/JS相关：
 <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/js.php"?> target="_self"  class="imt">JS加/解密</a></li><li>-</li>
 <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/htmlubb.php"?> target="_self" >HTML/UBB代码转换</a></li><li>-</li>
 <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/htmljs.php"?> target="_self"  class="imt">HTML/JS互转</a></li><li>-</li>
-<li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/jsformat.php"?> target="_self"  class="imr">HTML/JS格式化</a></li><li>-</li>
-<li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/color/"?> target="_blank"  class="imr">网页颜色代码选择器</a></li><li>-</li>
+<li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/color/"?> target="_blank"  class="imt">网页颜色代码选择器</a></li><li>-</li>
 <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/unix.php"?> target="_self"  >Unix时间戳转换</a></li></ul>
 <ul class="toolist">
 <li>生活实用查询：
@@ -47,8 +55,8 @@
 <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/shouji/index.php"?> target="_self"  class="imt">手机号码归属地</a></li><li>-</li>
 <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/yb/yb.php"?> target="_self"  class="imt">邮编区号查询</a></li><li>-</li>
 <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/countryym.php"?> target="_self" >国家域名查找</a></li><li>-</li>
-<li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/meng/"?> target="_self" class="imr">周公解梦</a></li><li>-</li>
-<li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/search/"?> target="_blank"  style="color:red">实用查询</a></li></ul>
+<li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/meng/"?> target="_self" class="imt">周公解梦</a></li><li>-</li>
+<li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/search/"?> target="_blank" class="imr" >实用查询</a></li></ul>
 <ul class="toolist">
 <li>在线实时查询：
 <li><a href=<?php echo "http://".$_SERVER['SERVER_NAME']."/sitetool/stock"?> target="_blank" class="imr">股市行情查询</a></li><li>-</li>
